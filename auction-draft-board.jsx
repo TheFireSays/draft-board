@@ -891,6 +891,30 @@ export default function AuctionDraftBoard() {
         </div>
       )}
 
+      <a
+        href="https://github.com/TheFireSays"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Brought to you by TheFireSays on GitHub"
+        style={{
+          position: "fixed",
+          right: wide ? "max(12px, calc((100vw - 1180px) / 2 + 12px))" : 10,
+          bottom: wide ? 10 : 72,
+          zIndex: 25,
+          border: "1px solid rgba(200,205,198,0.9)",
+          borderRadius: 999,
+          padding: "5px 10px",
+          background: "rgba(255,255,255,0.9)",
+          color: "#526158",
+          fontSize: 11,
+          fontWeight: 700,
+          textDecoration: "none",
+          boxShadow: "0 2px 8px rgba(0,0,0,0.12)",
+        }}
+      >
+        Brought to you by: TheFireSays
+      </a>
+
       {/* Bottom tabs */}
       <div style={S.tabBar}>
         <button style={S.tabBtn(tab === "draft")} onClick={() => setTab("draft")}>Draft</button>

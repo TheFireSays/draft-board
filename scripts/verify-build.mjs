@@ -17,6 +17,7 @@ requireText("Personal note", "personal notes");
 requireText("LATEST NEWS", "player news card");
 requireText("Current roster", "laptop roster sidebar");
 requireText("Recent picks ticker", "recent-picks setting");
+requireText("Brought to you by: TheFireSays", "TheFireSays credit");
 requireText("window.storage", "storage shim");
 
 if (!source.includes('import playerNewsSnapshot from "./player-news.json"')) failures.push("source does not import the news snapshot");
