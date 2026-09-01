@@ -39,10 +39,10 @@ Your draft saves itself. You can close the app and come back to it.
 On a laptop, **Load's Draft-o-matic** appears in the top scoreboard, the main
 navigation stays near the top while you scroll, and your current roster stays
 visible beside the player list. On a phone, use the bottom **My Team** tab as
-before. The laptop scoreboard plays a short, original football snap animation
-for about 15 seconds. It fades smoothly from snap to collision and back between
-cycles, then holds on the collision frame. If the laptop has reduced-motion mode
-enabled, it shows the final still image immediately.
+before. The laptop scoreboard plays four short football collision passes—about
+seven seconds total. It fades smoothly from snap to collision and back between
+passes, then holds on the fourth collision. If the laptop has reduced-motion
+mode enabled, it shows the final still image immediately.
 
 Useful extras:
 

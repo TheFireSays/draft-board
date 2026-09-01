@@ -144,9 +144,10 @@ near the bottom of the component.
 **Responsive layout:** `wide` is driven by `(min-width: 900px)`. At laptop width,
 the scoreboard includes the centered app title over an original, logo-free
 football snap animation. Its two-second snap-to-contact-to-snap cycle has a
-seamless boundary; the app replaces it with the static contact PNG after 15
-seconds. `prefers-reduced-motion: reduce` uses that PNG immediately. The phone
-scoreboard remains solid green. Navigation is
+seamless boundary; the app freezes on the fourth collision pass after about
+seven seconds by replacing it with the static contact PNG.
+`prefers-reduced-motion: reduce` uses that PNG immediately. The phone scoreboard
+remains solid green. Navigation is
 rendered immediately below the scoreboard/ticker and sticks at the top while
 scrolling, and a 360px live roster sidebar appears on the Draft tab. Below
 900px, navigation is fixed at the bottom and the roster remains on the My Team
@@ -222,7 +223,7 @@ The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
-banner animation. The current checkpoint is `draft-build-14-smooth-banner`.
+banner animation. The current checkpoint is `draft-build-15-four-pass-banner`.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

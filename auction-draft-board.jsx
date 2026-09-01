@@ -69,7 +69,8 @@ const STORE_KEY = "auction-draft-v1";
 const AUTO_BACKUP_KEY = "auction-draft-auto-backups-v1";
 const AUTO_BACKUP_INTERVAL = 5 * 60 * 1000;
 const MAX_AUTO_BACKUPS = 12;
-const BANNER_ANIMATION_MS = 15 * 1000;
+const BANNER_COLLISION_PASSES = 4;
+const BANNER_ANIMATION_MS = (BANNER_COLLISION_PASSES * 2 - 1) * 1000;
 const SYNC_HELP_PROMPT = "Help me connect Load's Draft-o-matic to Google Sheets. Use the draft-sync.gs file in https://github.com/TheFireSays/draft-board. Walk me through opening Apps Script from my Google Sheet, pasting the code, deploying it as a web app with access set to Anyone, and tell me which web app URL to paste into the app's Sheet sync field.";
 
 export default function AuctionDraftBoard() {

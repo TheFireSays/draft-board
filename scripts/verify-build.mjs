@@ -28,7 +28,7 @@ if (!source.includes("<h1 style") || !source.includes("Load's Draft-o-matic")) f
 if (!source.includes('./assets/banner/football-snap.gif')) failures.push("source is missing the animated football banner");
 if (!source.includes('./assets/banner/football-contact-frame.png')) failures.push("source is missing the reduced-motion banner fallback");
 if (!source.includes('(prefers-reduced-motion: reduce)')) failures.push("source does not honor reduced-motion mode");
-if (!source.includes('const BANNER_ANIMATION_MS = 15 * 1000')) failures.push("football banner is not capped at 15 seconds");
+if (!source.includes('const BANNER_COLLISION_PASSES = 4')) failures.push("football banner is not capped at four collision passes");
 if (!source.includes('bannerAnimationFinished')) failures.push("football banner does not switch to its final still");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
 if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
