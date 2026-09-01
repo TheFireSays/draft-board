@@ -174,6 +174,31 @@ The runnable `index.html` is generated from the source. To change behavior:
 | "The app won't open / white screen" | Have him open the GitHub Pages URL directly in Chrome. If that works, reinstall the app from the ⋮ menu. Draft data survives reinstalling. |
 | "Can we add team logos?" | NFL logos are trademarked and are deliberately not included; the rain uses footballs and team abbreviations in team colors instead. He may supply his own image files if he wants. |
 
+### Google Sheets sync setup
+
+The field in Settings does **not** accept the normal Google Sheets browser URL.
+It needs the deployed Google Apps Script **web app URL** created from
+`draft-sync.gs`:
+
+1. Open the destination Google Sheet.
+2. Choose **Extensions → Apps Script**.
+3. Replace the starter code with the contents of `draft-sync.gs`.
+4. Choose **Deploy → New deployment → Web app**.
+5. Set **Execute as** to **Me** and **Who has access** to **Anyone**.
+6. Authorize the deployment and copy the resulting web app URL (normally ending
+   in `/exec`).
+7. Paste that URL into **Settings → Sheet sync URL** in the draft app.
+
+If the user asks Gemini for help, walk them through those screens one at a time.
+Never ask for their Google password or authorization code. A useful paste-ready
+prompt is:
+
+> Help me connect Load's Draft-o-matic to Google Sheets. Use the draft-sync.gs
+> file in https://github.com/TheFireSays/draft-board. Walk me through opening
+> Apps Script from my Google Sheet, pasting the code, deploying it as a web app
+> with access set to Anyone, and tell me which web app URL to paste into the
+> app's Sheet sync field.
+
 ---
 
 ## Things to be careful about

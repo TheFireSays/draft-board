@@ -92,6 +92,7 @@ function MatrixRain({ enabled }) {
 
 const DEFAULT_SETTINGS = { budget: 100, rosterSize: 15, rain: true, syncUrl: "" };
 const STORE_KEY = "auction-draft-v1";
+const SYNC_HELP_PROMPT = "Help me connect Load's Draft-o-matic to Google Sheets. Use the draft-sync.gs file in https://github.com/TheFireSays/draft-board. Walk me through opening Apps Script from my Google Sheet, pasting the code, deploying it as a web app with access set to Anyone, and tell me which web app URL to paste into the app's Sheet sync field.";
 
 export default function AuctionDraftBoard() {
   const [picks, setPicks] = useState([]); // {playerId, price, mine, ts}
@@ -105,6 +106,7 @@ export default function AuctionDraftBoard() {
   const [customPlayers, setCustomPlayers] = useState([]);
   const [addPos, setAddPos] = useState("RB");
   const [addTeam, setAddTeam] = useState("");
+  const [syncPromptCopied, setSyncPromptCopied] = useState(false);
   const searchRef = useRef(null);
 
   // ---------- Load / save persistent state ----------
@@ -209,6 +211,16 @@ export default function AuctionDraftBoard() {
   };
 
   const undo = () => setPicks(prev => prev.slice(0, -1));
+
+  const copySyncHelpPrompt = async () => {
+    try {
+      await navigator.clipboard.writeText(SYNC_HELP_PROMPT);
+      setSyncPromptCopied(true);
+      setTimeout(() => setSyncPromptCopied(false), 2000);
+    } catch {
+      window.prompt("Copy this prompt into Gemini:", SYNC_HELP_PROMPT);
+    }
+  };
 
   const removePick = (ts, name) => {
     if (window.confirm(`Remove ${name} from the draft?`)) {
@@ -499,7 +511,7 @@ export default function AuctionDraftBoard() {
           <label style={{ display: "block", fontSize: 17, fontWeight: 600, margin: "22px 0 6px" }}>Sheet sync URL (optional)</label>
           <input
             type="url"
-            placeholder="Paste your Apps Script web app URL"
+            placeholder="Paste your Google Sheets link"
             value={settings.syncUrl}
             onChange={e => setSettings(s => ({ ...s, syncUrl: e.target.value.trim() }))}
             style={{ ...S.search, fontSize: 15 }}
@@ -507,8 +519,36 @@ export default function AuctionDraftBoard() {
           <p style={{ color: "#7C857A", fontSize: 14, margin: "8px 0 0", lineHeight: 1.5 }}>
             {settings.syncUrl
               ? "Every pick pushes the full draft log to your Google Sheet."
-              : "Leave blank to keep the draft on this device only."}
+              : "Use the special sync link for your Google Sheet, not its normal browser address."}
           </p>
+          {!settings.syncUrl && (
+            <div style={{ marginTop: 12, padding: 14, background: "#EAF2ED", border: "1px solid #C9D8CF", borderRadius: 12 }}>
+              <div style={{ fontSize: 16, fontWeight: 800, color: "#123524" }}>Need the special sync link?</div>
+              <p style={{ margin: "6px 0 10px", color: "#41493F", fontSize: 14, lineHeight: 1.45 }}>
+                Copy this setup prompt, open Gemini, paste it, and follow the steps.
+              </p>
+              <div style={{ padding: 10, background: "#fff", borderRadius: 9, color: "#41493F", fontSize: 13, lineHeight: 1.4 }}>
+                “Help me connect Load's Draft-o-matic to Google Sheets using the draft-sync.gs file…”
+              </div>
+              <div style={{ display: "flex", gap: 8, marginTop: 10, flexWrap: "wrap" }}>
+                <button
+                  type="button"
+                  onClick={copySyncHelpPrompt}
+                  style={{ border: "none", borderRadius: 9, padding: "10px 14px", background: "#123524", color: "#fff", fontSize: 14, fontWeight: 800, cursor: "pointer" }}
+                >
+                  {syncPromptCopied ? "Copied!" : "Copy Gemini prompt"}
+                </button>
+                <a
+                  href="https://gemini.google.com/app"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ border: "1px solid #AFC1B6", borderRadius: 9, padding: "9px 14px", background: "#fff", color: "#123524", fontSize: 14, fontWeight: 800, textDecoration: "none" }}
+                >
+                  Open Gemini
+                </a>
+              </div>
+            </div>
+          )}
 
           <button onClick={exportCsv} style={S.bigBtn("#1D4E89", picks.length === 0)} disabled={picks.length === 0}>
             Download draft as CSV
