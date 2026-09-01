@@ -55,11 +55,10 @@ Useful extras:
   and the downloaded spreadsheet includes the same My Pick Order column.
 - Add a private personal note to any player. Notes save with the draft and its
   backup files.
-- When a recent draft-relevant headline is available, the player card shows its
-  publisher and date with a link to the source. Headlines must focus on that one
-  player; roundup, rankings-list, and multi-player articles are excluded. These
-  are checked for the September 5 draft and refreshed before draft day; players
-  without a useful focused headline simply have no news box.
+- Each player card includes a compact **ESPN 2026 PPR summary**: overall PPR
+  rank, projected fantasy points, and average draft position (ADP), plus a link
+  to ESPN's projections page. It is a draft-day reference, not a replacement for
+  the app's Max bid. If ESPN has no current projection, the card says so plainly.
 - If you already own a kicker or defense, the app gives a quick warning before
   adding another. It is only a reminder and never blocks the pick.
 - The recent-picks ticker can be hidden from the ticker itself or turned back on

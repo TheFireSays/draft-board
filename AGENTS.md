@@ -33,9 +33,9 @@ that spreadsheet.
 | `index.html` | **The app that actually runs.** Self-contained: React and all app code are bundled and minified inside this one file. This is what GitHub Pages serves. Do not hand-edit unless there is no alternative. |
 | `auction-draft-board.jsx` | **The readable source code.** All logic and UI live here. Make changes here, then rebuild `index.html`. |
 | `entry.jsx` | React mount plus the required `window.storage` to `localStorage` shim. |
-| `player-news.json` | Build-time snapshot of audited player headlines and source links. Missing players intentionally show no news card. |
+| `player-projections.json` | Build-time snapshot of ESPN's 2026 PPR rank, projected points, and ADP for the board. Every built-in player has an explicit projected/not-projected status. |
 | `assets/banner/` | Original, logo-free football snap/contact frames plus the generated seamless-loop laptop banner GIF. |
-| `scripts/` | Deterministic app/banner builds, bundle verification, news refresh, and September 5 relevance audit. |
+| `scripts/` | Deterministic app/banner builds, bundle verification, ESPN projection refresh, and projection coverage audit. |
 | `package.json` | Pinned React/esbuild versions and the supported build/test commands. |
 | `package-lock.json` | Exact dependency lock used by `npm ci`. Commit changes to it when dependencies change. |
 | `draft-sync.gs` | Optional Google Apps Script for pushing draft results to a Google Sheet. Setup instructions are in the file's comments. Not required for the app to work. |
@@ -106,11 +106,12 @@ Point him at these before proposing anything technical:
   × button hides it; Settings turns it back on. It honors reduced-motion mode.
 - **Duplicate-position reminder.** Drafting a second K or DEF shows an advisory
   warning but is intentionally allowed.
-- **Player news.** When `player-news.json` has a qualifying entry for that exact
-  player ID, the player card shows headline, publisher, date, and source link.
-  `isPlayerFocusedHeadline` rejects roundups, list articles, multiple named
-  players, and late incidental mentions. No match means no card; do not
-  substitute generic news.
+- **ESPN fantasy summary.** Each built-in player's card reads its status from
+  `player-projections.json`. Projected players show 2026 overall PPR rank,
+  projected fantasy points, and ADP with a visible ESPN source link. Players
+  without a positive ESPN season projection explicitly say no projection is
+  listed. Do not substitute NFL prospect grades or present ESPN data as the
+  user's Max bid.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
   or Excel). Also "Save a backup file" for the full restorable state.
 - **Track acquisition order.** My Team shows a compact `#1`, `#2`, and so on
@@ -213,33 +214,35 @@ The runnable `index.html` is generated from the source. To change behavior:
 (an async key-value API). The bundle's entry file defines that on top of
 `localStorage`. If you rebuild without the shim, saving silently stops working.
 
-### Draft-day player news
+### Draft-day ESPN projections
 
-News is a static snapshot, not a live in-app feed. Headlines must name and focus
-on the exact player, include publisher/date/link metadata, pass both the
-draft-relevance and single-player-focus classifiers, and be at most 21 days old
-on September 5, 2026. Roundups, rankings lists, multi-player titles, generic
-personality stories, and team-news headlines are omitted. Within 24 hours of the
-draft, run:
+ESPN data is a static build-time snapshot, not a live in-app dependency. The
+updater reads ESPN's 2026 fantasy projections and matches names without
+reordering the board's positional IDs. It stores only factual summary fields:
+PPR rank, projected points, ADP, match status, and source metadata. It does not
+copy ESPN outlook prose. Shortly before the September 5, 2026 draft, run:
 
 ```bash
 npm run draft-day-refresh
 ```
 
-That refreshes the snapshot, audits it against `DRAFT_DAY=2026-09-05`, rebuilds
-`index.html`, and verifies the bundle. If a player has no qualifying headline,
-the app simply hides the news card. Never hand-write a headline or copy article
-bodies into the repo.
+That refreshes the ESPN snapshot, requires at least 95% name coverage and 175
+positive projections, rebuilds `index.html`, and verifies the bundle. A player
+without a positive projection remains in the board with an explicit
+"No 2026 ESPN projection" message. Do not invent missing values.
 
 ### Reversible build checkpoints
 
 The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
-notes, audited news, laptop layout, build verification, credit, clean background,
+notes, the former news experiment, laptop layout, build verification, credit,
+clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
 banner animation, Target priority sorting, non-negative bid enforcement, My Team
-acquisition order, and player-focused news. The current checkpoint is
-`draft-build-19-player-focused-news`.
+acquisition order, and the player-focused-news checkpoint. The current
+checkpoint is `draft-build-20-espn-projections`, which removes the news feature
+and replaces it with sourced ESPN fantasy summaries. Build 19 is the immediate
+rollback point for restoring the news experiment.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

@@ -1,0 +1,1605 @@
+{
+  "updatedAt": "2026-09-01T08:14:39.423Z",
+  "provider": "ESPN",
+  "season": 2026,
+  "scoringFormat": "PPR",
+  "sourceUrl": "https://fantasy.espn.com/football/players/projections",
+  "checkedPlayers": 241,
+  "matchedPlayers": 240,
+  "projectedPlayers": 210,
+  "players": {
+    "QB-0": {
+      "espnPlayerId": 3918298,
+      "hasProjection": true,
+      "pprRank": 26,
+      "projectedPoints": 370.5,
+      "adp": 19.6
+    },
+    "QB-1": {
+      "espnPlayerId": 3916387,
+      "hasProjection": true,
+      "pprRank": 49,
+      "projectedPoints": 322.5,
+      "adp": 35.4
+    },
+    "QB-2": {
+      "espnPlayerId": 4426348,
+      "hasProjection": true,
+      "pprRank": 60,
+      "projectedPoints": 317.5,
+      "adp": 52.7
+    },
+    "QB-3": {
+      "espnPlayerId": 4040715,
+      "hasProjection": true,
+      "pprRank": 76,
+      "projectedPoints": 319.8,
+      "adp": 54.1
+    },
+    "QB-4": {
+      "espnPlayerId": 3915511,
+      "hasProjection": true,
+      "pprRank": 70,
+      "projectedPoints": 304.3,
+      "adp": 54.4
+    },
+    "QB-5": {
+      "espnPlayerId": 4431452,
+      "hasProjection": true,
+      "pprRank": 62,
+      "projectedPoints": 320.2,
+      "adp": 47.4
+    },
+    "QB-6": {
+      "espnPlayerId": 3139477,
+      "hasProjection": true,
+      "pprRank": 132,
+      "projectedPoints": 291,
+      "adp": 108
+    },
+    "QB-7": {
+      "espnPlayerId": 4432577,
+      "hasProjection": true,
+      "pprRank": 280,
+      "projectedPoints": 246.1,
+      "adp": 165.3
+    },
+    "QB-8": {
+      "espnPlayerId": 4036378,
+      "hasProjection": true,
+      "pprRank": 203,
+      "projectedPoints": 263.4,
+      "adp": 155.7
+    },
+    "QB-9": {
+      "espnPlayerId": 3917315,
+      "hasProjection": true,
+      "pprRank": 143,
+      "projectedPoints": 283.4,
+      "adp": 139.3
+    },
+    "QB-10": {
+      "espnPlayerId": 4361741,
+      "hasProjection": true,
+      "pprRank": 124,
+      "projectedPoints": 292,
+      "adp": 109.3
+    },
+    "QB-11": {
+      "espnPlayerId": 4360310,
+      "hasProjection": true,
+      "pprRank": 120,
+      "projectedPoints": 289.5,
+      "adp": 98.5
+    },
+    "QB-12": {
+      "espnPlayerId": 14880,
+      "hasProjection": true,
+      "pprRank": 430,
+      "projectedPoints": 45.8,
+      "adp": 170
+    },
+    "QB-13": {
+      "espnPlayerId": 3046779,
+      "hasProjection": true,
+      "pprRank": 159,
+      "projectedPoints": 269.1,
+      "adp": 136.2
+    },
+    "QB-14": {
+      "espnPlayerId": 12483,
+      "hasProjection": true,
+      "pprRank": 141,
+      "projectedPoints": 292.8,
+      "adp": 91.1
+    },
+    "QB-15": {
+      "espnPlayerId": 2577417,
+      "hasProjection": true,
+      "pprRank": 80,
+      "projectedPoints": 286.1,
+      "adp": 73.8
+    },
+    "QB-16": {
+      "espnPlayerId": 4431611,
+      "hasProjection": true,
+      "pprRank": 107,
+      "projectedPoints": 281.9,
+      "adp": 91.7
+    },
+    "QB-17": {
+      "espnPlayerId": 4038941,
+      "hasProjection": true,
+      "pprRank": 102,
+      "projectedPoints": 283.6,
+      "adp": 89.2
+    },
+    "QB-18": {
+      "espnPlayerId": 3917792,
+      "hasProjection": true,
+      "pprRank": 177,
+      "projectedPoints": 266.6,
+      "adp": 159.5
+    },
+    "QB-19": {
+      "espnPlayerId": 8439,
+      "hasProjection": true,
+      "pprRank": 385,
+      "projectedPoints": 218.8,
+      "adp": 169.2
+    },
+    "QB-20": {
+      "espnPlayerId": 4688380,
+      "hasProjection": true,
+      "pprRank": 315,
+      "projectedPoints": 219.6,
+      "adp": 169.2
+    },
+    "QB-21": {
+      "espnPlayerId": 4689114,
+      "hasProjection": true,
+      "pprRank": 100,
+      "projectedPoints": 299.5,
+      "adp": 82.5
+    },
+    "QB-22": {
+      "espnPlayerId": 3052587,
+      "hasProjection": true,
+      "pprRank": 175,
+      "projectedPoints": 264.7,
+      "adp": 146.1
+    },
+    "QB-23": {
+      "espnPlayerId": 15864,
+      "hasProjection": true,
+      "pprRank": 379,
+      "projectedPoints": 233.2,
+      "adp": 170.1
+    },
+    "QB-24": {
+      "espnPlayerId": 4426338,
+      "hasProjection": true,
+      "pprRank": 139,
+      "projectedPoints": 295.7,
+      "adp": 100.1
+    },
+    "QB-25": {
+      "espnPlayerId": 4837248,
+      "hasProjection": true,
+      "pprRank": 383,
+      "projectedPoints": 187.5,
+      "adp": 168.4
+    },
+    "QB-26": {
+      "espnPlayerId": 4685720,
+      "hasProjection": true,
+      "pprRank": 313,
+      "projectedPoints": 238.1,
+      "adp": 168.9
+    },
+    "QB-27": {
+      "espnPlayerId": 4360689,
+      "hasProjection": true,
+      "pprRank": 158,
+      "projectedPoints": 265.6,
+      "adp": 152.9
+    },
+    "QB-28": {
+      "espnPlayerId": 3912547,
+      "hasProjection": true,
+      "pprRank": 283,
+      "projectedPoints": 242.5,
+      "adp": 162.3
+    },
+    "QB-29": {
+      "espnPlayerId": 4361418,
+      "hasProjection": false
+    },
+    "QB-30": {
+      "espnPlayerId": 3122840,
+      "hasProjection": true,
+      "pprRank": 387,
+      "projectedPoints": 78.2,
+      "adp": 170.1
+    },
+    "QB-31": {
+      "espnPlayerId": 4429084,
+      "hasProjection": false
+    },
+    "RB-0": {
+      "espnPlayerId": 4429795,
+      "hasProjection": true,
+      "pprRank": 1,
+      "projectedPoints": 297.1,
+      "adp": 1.4
+    },
+    "RB-1": {
+      "espnPlayerId": 4430807,
+      "hasProjection": true,
+      "pprRank": 2,
+      "projectedPoints": 277,
+      "adp": 2.4
+    },
+    "RB-2": {
+      "espnPlayerId": 4242335,
+      "hasProjection": true,
+      "pprRank": 5,
+      "projectedPoints": 265.9,
+      "adp": 6.4
+    },
+    "RB-3": {
+      "espnPlayerId": 3117251,
+      "hasProjection": true,
+      "pprRank": 7,
+      "projectedPoints": 263,
+      "adp": 7.7
+    },
+    "RB-4": {
+      "espnPlayerId": 4379399,
+      "hasProjection": true,
+      "pprRank": 9,
+      "projectedPoints": 244.4,
+      "adp": 10.5
+    },
+    "RB-5": {
+      "espnPlayerId": 4429160,
+      "hasProjection": true,
+      "pprRank": 10,
+      "projectedPoints": 229,
+      "adp": 12.1
+    },
+    "RB-6": {
+      "espnPlayerId": 4362238,
+      "hasProjection": true,
+      "pprRank": 14,
+      "projectedPoints": 207.3,
+      "adp": 17.6
+    },
+    "RB-7": {
+      "espnPlayerId": 4685382,
+      "hasProjection": true,
+      "pprRank": 13,
+      "projectedPoints": 210.1,
+      "adp": 19.6
+    },
+    "RB-8": {
+      "espnPlayerId": 3929630,
+      "hasProjection": true,
+      "pprRank": 15,
+      "projectedPoints": 230.1,
+      "adp": 14.2
+    },
+    "RB-9": {
+      "espnPlayerId": 4890973,
+      "hasProjection": true,
+      "pprRank": 18,
+      "projectedPoints": 214.3,
+      "adp": 21.4
+    },
+    "RB-10": {
+      "espnPlayerId": 3043078,
+      "hasProjection": true,
+      "pprRank": 16,
+      "projectedPoints": 256.4,
+      "adp": 16.9
+    },
+    "RB-11": {
+      "espnPlayerId": 4870808,
+      "hasProjection": true,
+      "pprRank": 21,
+      "projectedPoints": 211.7,
+      "adp": 25.8
+    },
+    "RB-12": {
+      "espnPlayerId": 4567048,
+      "hasProjection": true,
+      "pprRank": 25,
+      "projectedPoints": 224.8,
+      "adp": 24.8
+    },
+    "RB-13": {
+      "espnPlayerId": 4427366,
+      "hasProjection": true,
+      "pprRank": 30,
+      "projectedPoints": 222.2,
+      "adp": 35.8
+    },
+    "RB-14": {
+      "espnPlayerId": 4047365,
+      "hasProjection": true,
+      "pprRank": 93,
+      "projectedPoints": 140.7,
+      "adp": 57.8
+    },
+    "RB-15": {
+      "espnPlayerId": 4361579,
+      "hasProjection": true,
+      "pprRank": 31,
+      "projectedPoints": 222.6,
+      "adp": 33.4
+    },
+    "RB-16": {
+      "espnPlayerId": 4430737,
+      "hasProjection": true,
+      "pprRank": 32,
+      "projectedPoints": 198.6,
+      "adp": 36.5
+    },
+    "RB-17": {
+      "espnPlayerId": 4239996,
+      "hasProjection": true,
+      "pprRank": 34,
+      "projectedPoints": 201.5,
+      "adp": 42
+    },
+    "RB-18": {
+      "espnPlayerId": 4685702,
+      "hasProjection": true,
+      "pprRank": 40,
+      "projectedPoints": 194.6,
+      "adp": 50
+    },
+    "RB-19": {
+      "espnPlayerId": 4696981,
+      "hasProjection": true,
+      "pprRank": 42,
+      "projectedPoints": 182.8,
+      "adp": 45.3
+    },
+    "RB-20": {
+      "espnPlayerId": 4259545,
+      "hasProjection": true,
+      "pprRank": 47,
+      "projectedPoints": 179.8,
+      "adp": 54.2
+    },
+    "RB-21": {
+      "espnPlayerId": 4882093,
+      "hasProjection": true,
+      "pprRank": 48,
+      "projectedPoints": 171.8,
+      "adp": 63.3
+    },
+    "RB-22": {
+      "espnPlayerId": 4596448,
+      "hasProjection": true,
+      "pprRank": 50,
+      "projectedPoints": 170.3,
+      "adp": 56.8
+    },
+    "RB-23": {
+      "espnPlayerId": 4035538,
+      "hasProjection": true,
+      "pprRank": 51,
+      "projectedPoints": 168.1,
+      "adp": 63.2
+    },
+    "RB-24": {
+      "espnPlayerId": 4685512,
+      "hasProjection": true,
+      "pprRank": 54,
+      "projectedPoints": 167,
+      "adp": 69.3
+    },
+    "RB-25": {
+      "espnPlayerId": 4432710,
+      "hasProjection": true,
+      "pprRank": 64,
+      "projectedPoints": 159.1,
+      "adp": 79.1
+    },
+    "RB-26": {
+      "espnPlayerId": 4569173,
+      "hasProjection": true,
+      "pprRank": 69,
+      "projectedPoints": 160.9,
+      "adp": 80.2
+    },
+    "RB-27": {
+      "espnPlayerId": 3916148,
+      "hasProjection": true,
+      "pprRank": 74,
+      "projectedPoints": 155.8,
+      "adp": 91.6
+    },
+    "RB-28": {
+      "espnPlayerId": 4569987,
+      "hasProjection": true,
+      "pprRank": 81,
+      "projectedPoints": 147.9,
+      "adp": 89.6
+    },
+    "RB-29": {
+      "espnPlayerId": 4371733,
+      "hasProjection": true,
+      "pprRank": 88,
+      "projectedPoints": 125.8,
+      "adp": 103.7
+    },
+    "RB-30": {
+      "espnPlayerId": 4038815,
+      "hasProjection": true,
+      "pprRank": 95,
+      "projectedPoints": 159.1,
+      "adp": 96.3
+    },
+    "RB-31": {
+      "espnPlayerId": 4241416,
+      "hasProjection": true,
+      "pprRank": 108,
+      "projectedPoints": 134.7,
+      "adp": 109.3
+    },
+    "RB-32": {
+      "espnPlayerId": 3042519,
+      "hasProjection": true,
+      "pprRank": 110,
+      "projectedPoints": 130.7,
+      "adp": 116.4
+    },
+    "RB-33": {
+      "espnPlayerId": 4678008,
+      "hasProjection": true,
+      "pprRank": 104,
+      "projectedPoints": 147.8,
+      "adp": 106.5
+    },
+    "RB-34": {
+      "espnPlayerId": 4697815,
+      "hasProjection": true,
+      "pprRank": 121,
+      "projectedPoints": 124,
+      "adp": 126.3
+    },
+    "RB-35": {
+      "espnPlayerId": 4608686,
+      "hasProjection": true,
+      "pprRank": 125,
+      "projectedPoints": 149.3,
+      "adp": 124.3
+    },
+    "RB-36": {
+      "espnPlayerId": 4241985,
+      "hasProjection": true,
+      "pprRank": 122,
+      "projectedPoints": 153.4,
+      "adp": 112.9
+    },
+    "RB-37": {
+      "espnPlayerId": 4568490,
+      "hasProjection": true,
+      "pprRank": 133,
+      "projectedPoints": 100.7,
+      "adp": 127.3
+    },
+    "RB-38": {
+      "espnPlayerId": 4429096,
+      "hasProjection": true,
+      "pprRank": 138,
+      "projectedPoints": 142.6,
+      "adp": 127.4
+    },
+    "RB-39": {
+      "espnPlayerId": 4428557,
+      "hasProjection": true,
+      "pprRank": 160,
+      "projectedPoints": 104.8,
+      "adp": 147.2
+    },
+    "RB-40": {
+      "espnPlayerId": 4575131,
+      "hasProjection": true,
+      "pprRank": 145,
+      "projectedPoints": 143,
+      "adp": 135.8
+    },
+    "RB-41": {
+      "espnPlayerId": 4373626,
+      "hasProjection": true,
+      "pprRank": 195,
+      "projectedPoints": 74.3,
+      "adp": 162.8
+    },
+    "RB-42": {
+      "espnPlayerId": 4596334,
+      "hasProjection": true,
+      "pprRank": 228,
+      "projectedPoints": 73.8,
+      "adp": 169.4
+    },
+    "RB-43": {
+      "espnPlayerId": 4702555,
+      "hasProjection": true,
+      "pprRank": 173,
+      "projectedPoints": 57,
+      "adp": 168.4
+    },
+    "RB-44": {
+      "espnPlayerId": 4429059,
+      "hasProjection": true,
+      "pprRank": 167,
+      "projectedPoints": 107.6,
+      "adp": 151.5
+    },
+    "RB-45": {
+      "espnPlayerId": 4362619,
+      "hasProjection": true,
+      "pprRank": 183,
+      "projectedPoints": 67.4,
+      "adp": 164.8
+    },
+    "RB-46": {
+      "espnPlayerId": 4426385,
+      "hasProjection": true,
+      "pprRank": 165,
+      "projectedPoints": 113.7,
+      "adp": 153.2
+    },
+    "RB-47": {
+      "espnPlayerId": 4241474,
+      "hasProjection": true,
+      "pprRank": 207,
+      "projectedPoints": 85.2,
+      "adp": 167.5
+    },
+    "RB-48": {
+      "espnPlayerId": 4685555,
+      "hasProjection": true,
+      "pprRank": 355,
+      "projectedPoints": 15.5,
+      "adp": 170.4
+    },
+    "RB-49": {
+      "espnPlayerId": 5081397,
+      "hasProjection": true,
+      "pprRank": 206,
+      "projectedPoints": 58.3,
+      "adp": 169.2
+    },
+    "WR-0": {
+      "espnPlayerId": 4362628,
+      "hasProjection": true,
+      "pprRank": 3,
+      "projectedPoints": 217.1,
+      "adp": 4.3
+    },
+    "WR-1": {
+      "espnPlayerId": 4426515,
+      "hasProjection": true,
+      "pprRank": 4,
+      "projectedPoints": 230.5,
+      "adp": 5.3
+    },
+    "WR-2": {
+      "espnPlayerId": 4374302,
+      "hasProjection": true,
+      "pprRank": 8,
+      "projectedPoints": 206.1,
+      "adp": 8.3
+    },
+    "WR-3": {
+      "espnPlayerId": 4241389,
+      "hasProjection": true,
+      "pprRank": 11,
+      "projectedPoints": 190.1,
+      "adp": 11.7
+    },
+    "WR-4": {
+      "espnPlayerId": 4262921,
+      "hasProjection": true,
+      "pprRank": 12,
+      "projectedPoints": 183.2,
+      "adp": 12.6
+    },
+    "WR-5": {
+      "espnPlayerId": 4047646,
+      "hasProjection": true,
+      "pprRank": 19,
+      "projectedPoints": 163.8,
+      "adp": 21.8
+    },
+    "WR-6": {
+      "espnPlayerId": 4426502,
+      "hasProjection": true,
+      "pprRank": 17,
+      "projectedPoints": 167.7,
+      "adp": 19.9
+    },
+    "WR-7": {
+      "espnPlayerId": 4258173,
+      "hasProjection": true,
+      "pprRank": 23,
+      "projectedPoints": 161.5,
+      "adp": 25.9
+    },
+    "WR-8": {
+      "espnPlayerId": 4428331,
+      "hasProjection": true,
+      "pprRank": 27,
+      "projectedPoints": 166.8,
+      "adp": 28.3
+    },
+    "WR-9": {
+      "espnPlayerId": 4426354,
+      "hasProjection": true,
+      "pprRank": 28,
+      "projectedPoints": 159.4,
+      "adp": 28.6
+    },
+    "WR-10": {
+      "espnPlayerId": 4361370,
+      "hasProjection": true,
+      "pprRank": 24,
+      "projectedPoints": 158.6,
+      "adp": 29.8
+    },
+    "WR-11": {
+      "espnPlayerId": 4239993,
+      "hasProjection": true,
+      "pprRank": 44,
+      "projectedPoints": 145.6,
+      "adp": 51.2
+    },
+    "WR-12": {
+      "espnPlayerId": 4429615,
+      "hasProjection": true,
+      "pprRank": 38,
+      "projectedPoints": 156.8,
+      "adp": 44
+    },
+    "WR-13": {
+      "espnPlayerId": 4612826,
+      "hasProjection": true,
+      "pprRank": 41,
+      "projectedPoints": 141.4,
+      "adp": 46.6
+    },
+    "WR-14": {
+      "espnPlayerId": 4241478,
+      "hasProjection": true,
+      "pprRank": 35,
+      "projectedPoints": 148.6,
+      "adp": 37.2
+    },
+    "WR-15": {
+      "espnPlayerId": 4372016,
+      "hasProjection": true,
+      "pprRank": 46,
+      "projectedPoints": 136.5,
+      "adp": 52.7
+    },
+    "WR-16": {
+      "espnPlayerId": 4569618,
+      "hasProjection": true,
+      "pprRank": 29,
+      "projectedPoints": 150,
+      "adp": 37.2
+    },
+    "WR-17": {
+      "espnPlayerId": 16737,
+      "hasProjection": true,
+      "pprRank": 68,
+      "projectedPoints": 123.5,
+      "adp": 86.1
+    },
+    "WR-18": {
+      "espnPlayerId": 16800,
+      "hasProjection": true,
+      "pprRank": 45,
+      "projectedPoints": 164.6,
+      "adp": 46.3
+    },
+    "WR-19": {
+      "espnPlayerId": 3915416,
+      "hasProjection": true,
+      "pprRank": 53,
+      "projectedPoints": 142.6,
+      "adp": 61.9
+    },
+    "WR-20": {
+      "espnPlayerId": 15818,
+      "hasProjection": true,
+      "pprRank": 201,
+      "projectedPoints": 69.4,
+      "adp": 165.7
+    },
+    "WR-21": {
+      "espnPlayerId": 4035687,
+      "hasProjection": true,
+      "pprRank": 73,
+      "projectedPoints": 108.7,
+      "adp": 90
+    },
+    "WR-22": {
+      "espnPlayerId": 4366031,
+      "hasProjection": false
+    },
+    "WR-23": {
+      "espnPlayerId": 2976212,
+      "hasProjection": true,
+      "pprRank": 106,
+      "projectedPoints": 98.3,
+      "adp": 105.6
+    },
+    "WR-24": {
+      "espnPlayerId": 3121422,
+      "hasProjection": true,
+      "pprRank": 52,
+      "projectedPoints": 141.4,
+      "adp": 61
+    },
+    "WR-25": {
+      "espnPlayerId": 4362249,
+      "hasProjection": true,
+      "pprRank": 150,
+      "projectedPoints": 109.1,
+      "adp": 137.9
+    },
+    "WR-26": {
+      "espnPlayerId": 3895856,
+      "hasProjection": false
+    },
+    "WR-27": {
+      "espnPlayerId": 4432773,
+      "hasProjection": true,
+      "pprRank": 114,
+      "projectedPoints": 119.6,
+      "adp": 112.9
+    },
+    "WR-28": {
+      "espnPlayerId": 3925357,
+      "hasProjection": true,
+      "pprRank": 205,
+      "projectedPoints": 91.9,
+      "adp": 168.3
+    },
+    "WR-29": {
+      "espnPlayerId": 3932905,
+      "hasProjection": false
+    },
+    "WR-30": {
+      "espnPlayerId": 3126486,
+      "hasProjection": true,
+      "pprRank": 163,
+      "projectedPoints": 101.9,
+      "adp": 141.2
+    },
+    "WR-31": {
+      "espnPlayerId": 4360438,
+      "hasProjection": false
+    },
+    "WR-32": {
+      "espnPlayerId": 4430878,
+      "hasProjection": true,
+      "pprRank": 6,
+      "projectedPoints": 210,
+      "adp": 6.2
+    },
+    "WR-33": {
+      "espnPlayerId": 3128429,
+      "hasProjection": true,
+      "pprRank": 78,
+      "projectedPoints": 134.9,
+      "adp": 81.2
+    },
+    "WR-34": {
+      "espnPlayerId": 4373678,
+      "hasProjection": true,
+      "pprRank": 130,
+      "projectedPoints": 101.2,
+      "adp": 139.3
+    },
+    "WR-35": {
+      "espnPlayerId": 4241372,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 21.7,
+      "adp": 170
+    },
+    "WR-36": {
+      "espnPlayerId": 4683062,
+      "hasProjection": true,
+      "pprRank": 151,
+      "projectedPoints": 117.4,
+      "adp": 129.3
+    },
+    "WR-37": {
+      "espnPlayerId": 4361432,
+      "hasProjection": true,
+      "pprRank": 154,
+      "projectedPoints": 98.2,
+      "adp": 148.1
+    },
+    "WR-38": {
+      "espnPlayerId": 4248528,
+      "hasProjection": true,
+      "pprRank": 85,
+      "projectedPoints": 132.8,
+      "adp": 90.5
+    },
+    "WR-39": {
+      "espnPlayerId": 3116165,
+      "hasProjection": true,
+      "pprRank": 118,
+      "projectedPoints": 97,
+      "adp": 125.1
+    },
+    "WR-40": {
+      "espnPlayerId": 4871023,
+      "hasProjection": true,
+      "pprRank": 67,
+      "projectedPoints": 127.7,
+      "adp": 76.8
+    },
+    "WR-41": {
+      "espnPlayerId": 4870795,
+      "hasProjection": true,
+      "pprRank": 137,
+      "projectedPoints": 103,
+      "adp": 133
+    },
+    "WR-42": {
+      "espnPlayerId": 4710714,
+      "hasProjection": true,
+      "pprRank": 152,
+      "projectedPoints": 108,
+      "adp": 141.5
+    },
+    "WR-43": {
+      "espnPlayerId": 4880281,
+      "hasProjection": true,
+      "pprRank": 223,
+      "projectedPoints": 64.2,
+      "adp": 168
+    },
+    "WR-44": {
+      "espnPlayerId": 4870653,
+      "hasProjection": true,
+      "pprRank": 164,
+      "projectedPoints": 97.4,
+      "adp": 146.6
+    },
+    "WR-45": {
+      "espnPlayerId": 4832800,
+      "hasProjection": true,
+      "pprRank": 215,
+      "projectedPoints": 86.9,
+      "adp": 168.8
+    },
+    "WR-46": {
+      "espnPlayerId": 3916433,
+      "hasProjection": true,
+      "pprRank": 112,
+      "projectedPoints": 112.1,
+      "adp": 122.1
+    },
+    "WR-47": {
+      "espnPlayerId": 4241463,
+      "hasProjection": true,
+      "pprRank": 216,
+      "projectedPoints": 87.9,
+      "adp": 168.3
+    },
+    "WR-48": {
+      "espnPlayerId": 4249417,
+      "hasProjection": true,
+      "pprRank": 330,
+      "projectedPoints": 54.2,
+      "adp": 170.6
+    },
+    "WR-49": {
+      "espnPlayerId": 16731,
+      "hasProjection": false
+    },
+    "WR-50": {
+      "espnPlayerId": 4569382,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 14.3,
+      "adp": 170
+    },
+    "WR-51": {
+      "espnPlayerId": 3043116,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 12.4,
+      "adp": 170
+    },
+    "WR-52": {
+      "espnPlayerId": 4360797,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 21.2,
+      "adp": 170.1
+    },
+    "WR-53": {
+      "espnPlayerId": 4360761,
+      "hasProjection": true,
+      "pprRank": 97,
+      "projectedPoints": 105.8,
+      "adp": 102.2
+    },
+    "WR-54": {
+      "espnPlayerId": 4037235,
+      "hasProjection": false
+    },
+    "WR-55": {
+      "espnPlayerId": 4360939,
+      "hasProjection": true,
+      "pprRank": 232,
+      "projectedPoints": 84.7,
+      "adp": 171.4
+    },
+    "WR-56": {
+      "espnPlayerId": 4040655,
+      "hasProjection": true,
+      "pprRank": 419,
+      "projectedPoints": 42.2,
+      "adp": 170.4
+    },
+    "WR-57": {
+      "espnPlayerId": 4426407,
+      "hasProjection": false
+    },
+    "WR-58": {
+      "espnPlayerId": 4430834,
+      "hasProjection": true,
+      "pprRank": 171,
+      "projectedPoints": 85.6,
+      "adp": 164.9
+    },
+    "WR-59": {
+      "espnPlayerId": 4686472,
+      "hasProjection": true,
+      "pprRank": 372,
+      "projectedPoints": 45.9,
+      "adp": 170.2
+    },
+    "WR-60": {
+      "espnPlayerId": 4431280,
+      "hasProjection": true,
+      "pprRank": 980,
+      "projectedPoints": 33.7,
+      "adp": 170.1
+    },
+    "WR-61": {
+      "espnPlayerId": 4428209,
+      "hasProjection": false
+    },
+    "WR-62": {
+      "espnPlayerId": 3886598,
+      "hasProjection": true,
+      "pprRank": 285,
+      "projectedPoints": 68.2,
+      "adp": 171.1
+    },
+    "WR-63": {
+      "espnPlayerId": 4372414,
+      "hasProjection": false
+    },
+    "WR-64": {
+      "espnPlayerId": 4369863,
+      "hasProjection": false
+    },
+    "WR-65": {
+      "espnPlayerId": 4431492,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 17.1,
+      "adp": 170
+    },
+    "WR-66": {
+      "espnPlayerId": 3930066,
+      "hasProjection": false
+    },
+    "WR-67": {
+      "espnPlayerId": 4360078,
+      "hasProjection": true,
+      "pprRank": 111,
+      "projectedPoints": 125.5,
+      "adp": 108.1
+    },
+    "WR-68": {
+      "espnPlayerId": 4428718,
+      "hasProjection": true,
+      "pprRank": 226,
+      "projectedPoints": 89.6,
+      "adp": 169.1
+    },
+    "WR-69": {
+      "espnPlayerId": 4692022,
+      "hasProjection": false
+    },
+    "WR-70": {
+      "espnPlayerId": 3128390,
+      "hasProjection": false
+    },
+    "WR-71": {
+      "espnPlayerId": 4567096,
+      "hasProjection": false
+    },
+    "WR-72": {
+      "espnPlayerId": 4569559,
+      "hasProjection": true,
+      "pprRank": 236,
+      "projectedPoints": 74,
+      "adp": 171.7
+    },
+    "WR-73": {
+      "espnPlayerId": 3121409,
+      "hasProjection": false
+    },
+    "WR-74": {
+      "espnPlayerId": 4426948,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 11.7,
+      "adp": 169.9
+    },
+    "WR-75": {
+      "espnPlayerId": 4361409,
+      "hasProjection": true,
+      "pprRank": 328,
+      "projectedPoints": 57.6,
+      "adp": 170.7
+    },
+    "WR-76": {
+      "espnPlayerId": 4695883,
+      "hasProjection": true,
+      "pprRank": 156,
+      "projectedPoints": 85.9,
+      "adp": 155.6
+    },
+    "WR-77": {
+      "espnPlayerId": 2577327,
+      "hasProjection": false
+    },
+    "WR-78": {
+      "espnPlayerId": 3045144,
+      "hasProjection": false
+    },
+    "WR-79": {
+      "espnPlayerId": 4613104,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 10.2,
+      "adp": 170
+    },
+    "WR-80": {
+      "espnPlayerId": 4429022,
+      "hasProjection": true,
+      "pprRank": 305,
+      "projectedPoints": 87.9,
+      "adp": 170.6
+    },
+    "WR-81": {
+      "hasProjection": false
+    },
+    "WR-82": {
+      "espnPlayerId": 4688813,
+      "hasProjection": true,
+      "pprRank": 127,
+      "projectedPoints": 87.6,
+      "adp": 137.1
+    },
+    "WR-83": {
+      "espnPlayerId": 4243537,
+      "hasProjection": false
+    },
+    "WR-84": {
+      "espnPlayerId": 4597500,
+      "hasProjection": true,
+      "pprRank": 220,
+      "projectedPoints": 85.9,
+      "adp": 171.1
+    },
+    "WR-85": {
+      "espnPlayerId": 4431299,
+      "hasProjection": true,
+      "pprRank": 58,
+      "projectedPoints": 153.7,
+      "adp": 64.9
+    },
+    "WR-86": {
+      "espnPlayerId": 4569587,
+      "hasProjection": true,
+      "pprRank": 91,
+      "projectedPoints": 96,
+      "adp": 114.8
+    },
+    "WR-87": {
+      "espnPlayerId": 3916945,
+      "hasProjection": true,
+      "pprRank": 333,
+      "projectedPoints": 51.7,
+      "adp": 170.6
+    },
+    "WR-88": {
+      "espnPlayerId": 4692590,
+      "hasProjection": false
+    },
+    "WR-89": {
+      "espnPlayerId": 3121410,
+      "hasProjection": false
+    },
+    "WR-90": {
+      "espnPlayerId": 4686104,
+      "hasProjection": false
+    },
+    "WR-91": {
+      "espnPlayerId": 4429025,
+      "hasProjection": true,
+      "pprRank": 148,
+      "projectedPoints": 112.6,
+      "adp": 130.4
+    },
+    "WR-92": {
+      "espnPlayerId": 4242433,
+      "hasProjection": true,
+      "pprRank": 981,
+      "projectedPoints": 31.4,
+      "adp": 170
+    },
+    "WR-93": {
+      "espnPlayerId": 3115394,
+      "hasProjection": false
+    },
+    "TE-0": {
+      "espnPlayerId": 4432665,
+      "hasProjection": true,
+      "pprRank": 22,
+      "projectedPoints": 142.2,
+      "adp": 24
+    },
+    "TE-1": {
+      "espnPlayerId": 4361307,
+      "hasProjection": true,
+      "pprRank": 20,
+      "projectedPoints": 133.9,
+      "adp": 22.4
+    },
+    "TE-2": {
+      "espnPlayerId": 4723086,
+      "hasProjection": true,
+      "pprRank": 43,
+      "projectedPoints": 126,
+      "adp": 42.8
+    },
+    "TE-3": {
+      "espnPlayerId": 4431459,
+      "hasProjection": true,
+      "pprRank": 56,
+      "projectedPoints": 126.1,
+      "adp": 52
+    },
+    "TE-4": {
+      "espnPlayerId": 5083076,
+      "hasProjection": true,
+      "pprRank": 77,
+      "projectedPoints": 105,
+      "adp": 71.3
+    },
+    "TE-5": {
+      "espnPlayerId": 4430027,
+      "hasProjection": true,
+      "pprRank": 92,
+      "projectedPoints": 110.4,
+      "adp": 73.1
+    },
+    "TE-6": {
+      "espnPlayerId": 4360248,
+      "hasProjection": true,
+      "pprRank": 79,
+      "projectedPoints": 104.7,
+      "adp": 68
+    },
+    "TE-7": {
+      "espnPlayerId": 3040151,
+      "hasProjection": true,
+      "pprRank": 89,
+      "projectedPoints": 116.9,
+      "adp": 77.3
+    },
+    "TE-8": {
+      "espnPlayerId": 4572680,
+      "hasProjection": true,
+      "pprRank": 126,
+      "projectedPoints": 104.2,
+      "adp": 91.1
+    },
+    "TE-9": {
+      "espnPlayerId": 4242355,
+      "hasProjection": true,
+      "pprRank": 140,
+      "projectedPoints": 93.7,
+      "adp": 109.5
+    },
+    "TE-10": {
+      "espnPlayerId": 3121023,
+      "hasProjection": true,
+      "pprRank": 134,
+      "projectedPoints": 106.3,
+      "adp": 103.8
+    },
+    "TE-11": {
+      "espnPlayerId": 3116365,
+      "hasProjection": true,
+      "pprRank": 153,
+      "projectedPoints": 111.1,
+      "adp": 125.8
+    },
+    "TE-12": {
+      "espnPlayerId": 4385690,
+      "hasProjection": true,
+      "pprRank": 157,
+      "projectedPoints": 96.3,
+      "adp": 130.9
+    },
+    "TE-13": {
+      "espnPlayerId": 3051876,
+      "hasProjection": true,
+      "pprRank": 412,
+      "projectedPoints": 59.2,
+      "adp": 170
+    },
+    "TE-14": {
+      "espnPlayerId": 3123076,
+      "hasProjection": true,
+      "pprRank": 414,
+      "projectedPoints": 64.5,
+      "adp": 169.7
+    },
+    "TE-15": {
+      "espnPlayerId": 4361050,
+      "hasProjection": true,
+      "pprRank": 147,
+      "projectedPoints": 92.1,
+      "adp": 123.2
+    },
+    "TE-16": {
+      "espnPlayerId": 4361411,
+      "hasProjection": true,
+      "pprRank": 296,
+      "projectedPoints": 76.3,
+      "adp": 169.6
+    },
+    "TE-17": {
+      "espnPlayerId": 3117256,
+      "hasProjection": true,
+      "pprRank": 297,
+      "projectedPoints": 73.3,
+      "adp": 168.7
+    },
+    "TE-18": {
+      "espnPlayerId": 4036133,
+      "hasProjection": true,
+      "pprRank": 199,
+      "projectedPoints": 80.8,
+      "adp": 148.6
+    },
+    "TE-19": {
+      "espnPlayerId": 4428085,
+      "hasProjection": false
+    },
+    "TE-20": {
+      "espnPlayerId": 3046439,
+      "hasProjection": true,
+      "pprRank": 192,
+      "projectedPoints": 94.6,
+      "adp": 151.5
+    },
+    "TE-21": {
+      "espnPlayerId": 3915486,
+      "hasProjection": false
+    },
+    "TE-22": {
+      "espnPlayerId": 4243331,
+      "hasProjection": true,
+      "pprRank": 368,
+      "projectedPoints": 57.6,
+      "adp": 170.4
+    },
+    "TE-23": {
+      "espnPlayerId": 4360635,
+      "hasProjection": true,
+      "pprRank": 311,
+      "projectedPoints": 69.8,
+      "adp": 170.2
+    },
+    "TE-24": {
+      "espnPlayerId": 4690923,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 15.5,
+      "adp": 170
+    },
+    "K-0": {
+      "espnPlayerId": 3953687,
+      "hasProjection": true,
+      "pprRank": 146,
+      "projectedPoints": 171.5,
+      "adp": 85.9
+    },
+    "K-1": {
+      "espnPlayerId": 3055899,
+      "hasProjection": true,
+      "pprRank": 256,
+      "projectedPoints": 148.8,
+      "adp": 143.9
+    },
+    "K-2": {
+      "espnPlayerId": 3050478,
+      "hasProjection": true,
+      "pprRank": 488,
+      "projectedPoints": 135.7,
+      "adp": 169
+    },
+    "K-3": {
+      "espnPlayerId": 2971573,
+      "hasProjection": true,
+      "pprRank": 190,
+      "projectedPoints": 157.8,
+      "adp": 126
+    },
+    "K-4": {
+      "espnPlayerId": 3049899,
+      "hasProjection": false
+    },
+    "K-5": {
+      "espnPlayerId": 4372066,
+      "hasProjection": false
+    },
+    "K-6": {
+      "espnPlayerId": 4360234,
+      "hasProjection": true,
+      "pprRank": 363,
+      "projectedPoints": 141.8,
+      "adp": 169.3
+    },
+    "K-7": {
+      "espnPlayerId": 4362081,
+      "hasProjection": true,
+      "pprRank": 181,
+      "projectedPoints": 161.9,
+      "adp": 112.3
+    },
+    "K-8": {
+      "espnPlayerId": 3124679,
+      "hasProjection": false
+    },
+    "K-9": {
+      "espnPlayerId": 3917232,
+      "hasProjection": true,
+      "pprRank": 491,
+      "projectedPoints": 137,
+      "adp": 169.6
+    },
+    "K-10": {
+      "espnPlayerId": 4249087,
+      "hasProjection": true,
+      "pprRank": 497,
+      "projectedPoints": 125.1,
+      "adp": 169.6
+    },
+    "K-11": {
+      "espnPlayerId": 2473037,
+      "hasProjection": true,
+      "pprRank": 187,
+      "projectedPoints": 158.5,
+      "adp": 116.3
+    },
+    "K-12": {
+      "espnPlayerId": 3150744,
+      "hasProjection": true,
+      "pprRank": 339,
+      "projectedPoints": 142.2,
+      "adp": 170.2
+    },
+    "K-13": {
+      "espnPlayerId": 17427,
+      "hasProjection": true,
+      "pprRank": 265,
+      "projectedPoints": 144.3,
+      "adp": 169
+    },
+    "K-14": {
+      "espnPlayerId": 14993,
+      "hasProjection": false
+    },
+    "K-15": {
+      "espnPlayerId": 17372,
+      "hasProjection": true,
+      "pprRank": 338,
+      "projectedPoints": 142.8,
+      "adp": 164.6
+    },
+    "K-16": {
+      "espnPlayerId": 4259619,
+      "hasProjection": true,
+      "pprRank": null,
+      "projectedPoints": 119.9,
+      "adp": 170
+    },
+    "K-17": {
+      "espnPlayerId": 4258620,
+      "hasProjection": true,
+      "pprRank": 503,
+      "projectedPoints": 121.6,
+      "adp": 169.9
+    },
+    "K-18": {
+      "espnPlayerId": 4697745,
+      "hasProjection": true,
+      "pprRank": 263,
+      "projectedPoints": 145.9,
+      "adp": 165.3
+    },
+    "K-19": {
+      "espnPlayerId": 3051909,
+      "hasProjection": true,
+      "pprRank": 489,
+      "projectedPoints": 137.8,
+      "adp": 170.2
+    },
+    "DEF-0": {
+      "espnPlayerId": -16025,
+      "hasProjection": true,
+      "pprRank": 409,
+      "projectedPoints": 83.1,
+      "adp": 169
+    },
+    "DEF-1": {
+      "espnPlayerId": -16033,
+      "hasProjection": true,
+      "pprRank": 242,
+      "projectedPoints": 120,
+      "adp": 133.9
+    },
+    "DEF-2": {
+      "espnPlayerId": -16006,
+      "hasProjection": true,
+      "pprRank": 424,
+      "projectedPoints": 78.1,
+      "adp": 167.2
+    },
+    "DEF-3": {
+      "espnPlayerId": -16020,
+      "hasProjection": true,
+      "pprRank": 408,
+      "projectedPoints": 82.6,
+      "adp": 170.2
+    },
+    "DEF-4": {
+      "espnPlayerId": -16005,
+      "hasProjection": true,
+      "pprRank": 246,
+      "projectedPoints": 103.9,
+      "adp": 157.8
+    },
+    "DEF-5": {
+      "espnPlayerId": -16002,
+      "hasProjection": true,
+      "pprRank": 516,
+      "projectedPoints": 59,
+      "adp": 169
+    },
+    "DEF-6": {
+      "espnPlayerId": -16012,
+      "hasProjection": true,
+      "pprRank": 250,
+      "projectedPoints": 100.4,
+      "adp": 165.9
+    },
+    "DEF-7": {
+      "espnPlayerId": -16021,
+      "hasProjection": true,
+      "pprRank": 243,
+      "projectedPoints": 107.1,
+      "adp": 137.7
+    },
+    "DEF-8": {
+      "espnPlayerId": -16015,
+      "hasProjection": true,
+      "pprRank": 519,
+      "projectedPoints": 45.1,
+      "adp": 169.7
+    },
+    "DEF-9": {
+      "espnPlayerId": -16034,
+      "hasProjection": true,
+      "pprRank": 179,
+      "projectedPoints": 129.2,
+      "adp": 91.6
+    },
+    "DEF-10": {
+      "espnPlayerId": -16008,
+      "hasProjection": true,
+      "pprRank": 249,
+      "projectedPoints": 108,
+      "adp": 154.6
+    },
+    "DEF-11": {
+      "espnPlayerId": -16023,
+      "hasProjection": true,
+      "pprRank": 239,
+      "projectedPoints": 123.1,
+      "adp": 121.4
+    },
+    "DEF-12": {
+      "espnPlayerId": -16009,
+      "hasProjection": true,
+      "pprRank": 337,
+      "projectedPoints": 90.3,
+      "adp": 169.3
+    },
+    "DEF-13": {
+      "espnPlayerId": -16026,
+      "hasProjection": true,
+      "pprRank": 240,
+      "projectedPoints": 122.2,
+      "adp": 112.1
+    },
+    "DEF-14": {
+      "espnPlayerId": -16018,
+      "hasProjection": true,
+      "pprRank": 361,
+      "projectedPoints": 89,
+      "adp": 170.5
+    },
+    "DEF-15": {
+      "espnPlayerId": -16030,
+      "hasProjection": true,
+      "pprRank": 359,
+      "projectedPoints": 78.5,
+      "adp": 168
+    },
+    "DEF-16": {
+      "espnPlayerId": -16027,
+      "hasProjection": true,
+      "pprRank": 336,
+      "projectedPoints": 93,
+      "adp": 170.4
+    },
+    "DEF-17": {
+      "espnPlayerId": -16016,
+      "hasProjection": true,
+      "pprRank": 426,
+      "projectedPoints": 74.4,
+      "adp": 169
+    },
+    "DEF-18": {
+      "espnPlayerId": -16003,
+      "hasProjection": true,
+      "pprRank": 506,
+      "projectedPoints": 71.4,
+      "adp": 169.6
+    },
+    "DEF-19": {
+      "espnPlayerId": -16004,
+      "hasProjection": true,
+      "pprRank": 427,
+      "projectedPoints": 72.4,
+      "adp": 169.7
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useRef } from "react";
-import playerNewsSnapshot from "./player-news.json";
+import playerProjectionsSnapshot from "./player-projections.json";
 
 // ---------- Player data (from the 2026 auction sheet) ----------
 const RAW = {
@@ -395,7 +395,7 @@ export default function AuctionDraftBoard() {
   const overMax = selected && priceNum > maxBid;
   const duplicateSpecialPosition = selected && ["K", "DEF"].includes(selected.pos)
     && myPicks.some(pk => findP(pk.playerId).pos === selected.pos);
-  const selectedNews = selected ? playerNewsSnapshot.players?.[selected.id] : null;
+  const selectedProjection = selected ? playerProjectionsSnapshot.players?.[selected.id] : null;
 
   // ---------- Styles ----------
   const S = {
@@ -821,17 +821,35 @@ export default function AuctionDraftBoard() {
               {targetIdSet.has(selected.id) ? "★ In Targets — tap to remove" : "☆ Add to Targets"}
             </button>
 
-            {selectedNews && (
-              <div style={{ margin: "0 0 12px", padding: "12px 13px", border: "1px solid #C7D8E8", borderRadius: 11, background: "#F2F7FB" }}>
-                <div style={{ color: "#1D4E89", fontSize: 12, fontWeight: 900, letterSpacing: ".04em", marginBottom: 5 }}>LATEST NEWS</div>
-                <a href={selectedNews.url} target="_blank" rel="noreferrer" style={{ color: "#173E6A", fontSize: 15, fontWeight: 750, lineHeight: 1.35, textDecoration: "underline" }}>
-                  {selectedNews.headline}
+            <div style={{ margin: "0 0 12px", padding: "12px 13px", border: "1px solid #C7D8E8", borderRadius: 11, background: "#F2F7FB" }}>
+              <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 10, marginBottom: selectedProjection?.hasProjection ? 9 : 5 }}>
+                <div style={{ color: "#1D4E89", fontSize: 12, fontWeight: 900, letterSpacing: ".04em" }}>ESPN 2026 PPR PROJECTION</div>
+                <a href={playerProjectionsSnapshot.sourceUrl} target="_blank" rel="noreferrer" style={{ color: "#376488", fontSize: 11, fontWeight: 750, whiteSpace: "nowrap" }}>
+                  ESPN source ↗
                 </a>
-                <div style={{ marginTop: 5, color: "#687686", fontSize: 12 }}>
-                  {selectedNews.publisher || "News source"} · {new Date(selectedNews.publishedAt).toLocaleDateString()} · opens source
-                </div>
               </div>
-            )}
+              {selectedProjection?.hasProjection ? (
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8 }}>
+                  {[
+                    [selectedProjection.pprRank ? `#${selectedProjection.pprRank}` : "—", "PPR rank"],
+                    [selectedProjection.projectedPoints.toFixed(1), "projected pts"],
+                    [selectedProjection.adp.toFixed(1), "ADP"],
+                  ].map(([value, label]) => (
+                    <div key={label} style={{ padding: "8px 5px", border: "1px solid #D6E2ED", borderRadius: 9, background: "#fff", textAlign: "center" }}>
+                      <div style={{ color: "#173E6A", fontSize: 19, fontWeight: 850, fontVariantNumeric: "tabular-nums" }}>{value}</div>
+                      <div style={{ marginTop: 2, color: "#687686", fontSize: 10, fontWeight: 750, textTransform: "uppercase", letterSpacing: ".025em" }}>{label}</div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div style={{ color: "#5D6C78", fontSize: 13, lineHeight: 1.4 }}>
+                  ESPN does not currently list a 2026 projection for this player.
+                </div>
+              )}
+              <div style={{ marginTop: selectedProjection?.hasProjection ? 7 : 4, color: "#7A8791", fontSize: 10.5 }}>
+                Snapshot updated {new Date(playerProjectionsSnapshot.updatedAt).toLocaleDateString()} · ESPN values are reference data, not your max bid.
+              </div>
+            </div>
 
             <label style={{ display: "block", fontSize: 15, fontWeight: 800, color: "#41493F", margin: "0 0 6px" }}>
               Personal note <span style={{ fontWeight: 500, color: "#7C857A" }}>(optional)</span>

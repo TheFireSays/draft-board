@@ -7,10 +7,10 @@
     "build": "npm run build-banner && node scripts/build.mjs",
     "build-banner": "node scripts/build-banner.mjs",
     "verify": "node scripts/verify-build.mjs",
-    "audit-news": "node scripts/audit-player-news.mjs",
-    "update-news": "node scripts/update-player-news.mjs",
-    "test": "npm run verify && npm run audit-news",
-    "draft-day-refresh": "npm run update-news && npm run audit-news && npm run build && npm run verify"
+    "audit-projections": "node scripts/audit-player-projections.mjs",
+    "update-projections": "node scripts/update-player-projections.mjs",
+    "test": "npm run verify && npm run audit-projections",
+    "draft-day-refresh": "npm run update-projections && npm run audit-projections && npm run build && npm run verify"
   },
   "dependencies": {
     "react": "18.3.1",
