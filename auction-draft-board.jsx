@@ -420,6 +420,11 @@ export default function AuctionDraftBoard() {
           <div style={S.money}>${remaining}</div>
           <div style={S.moneyLabel}>left to spend</div>
         </div>
+        {wide && (
+          <h1 style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)", margin: 0, fontSize: 30, lineHeight: 1.1, fontWeight: 850, letterSpacing: "-0.02em", color: "#F2F7EF", whiteSpace: "nowrap" }}>
+            Load's Draft-o-matic
+          </h1>
+        )}
         <div style={{ display: "flex", gap: 22 }}>
           <div style={S.statCol}>
             <div style={S.stat}>${maxBid}</div>
