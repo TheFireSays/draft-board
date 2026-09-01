@@ -632,10 +632,10 @@ export default function AuctionDraftBoard() {
                 key={pk.ts}
                 style={{ ...S.row, cursor: "default", boxSizing: "border-box", border: "1px solid #DDE1DA", borderRadius: 14, marginBottom: 10, padding: "14px 16px" }}
               >
+                <span aria-label={`My pick ${myPickIndex + 1}`} title={`My pick ${myPickIndex + 1}`} style={{ minWidth: 28, color: "#687269", fontSize: 14, fontWeight: 850, textAlign: "center", fontVariantNumeric: "tabular-nums" }}>#{myPickIndex + 1}</span>
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
                 <span style={{ flex: 1, minWidth: 0 }}>
                   <span style={{ display: "block", fontSize: 19, fontWeight: 600 }}>{p.name}</span>
-                  <span style={{ display: "block", marginTop: 2, color: "#687269", fontSize: 13, fontWeight: 750 }}>My pick #{myPickIndex + 1}</span>
                   {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#687269", fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
                 </span>
                 <span style={{ fontSize: 19, fontWeight: 800, fontVariantNumeric: "tabular-nums", flexShrink: 0 }}>${pk.price}</span>

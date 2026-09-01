@@ -1,31 +1,25 @@
 {
-  "updatedAt": "2026-09-01T06:32:45.155Z",
+  "updatedAt": "2026-09-01T07:48:05.224Z",
   "provider": "Google News RSS",
   "lookbackDays": 21,
   "draftDay": "2026-09-05",
   "maxAgeOnDraftDayDays": 21,
+  "focusPolicy": "single-player headline",
   "checkedPlayers": 241,
-  "matchedPlayers": 225,
+  "matchedPlayers": 215,
   "players": {
+    "QB-0": {
+      "headline": "Josh Allen Fantasy Football 2026: Should You Draft Him At His ADP?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-30T10:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTJqSXF1ZjFUZ1RVYlh1RE01YU43UjRmamFyS21xN2VacHN2SXpnWmIzZEd0cVZCLTBUdXdsNzg2VG1XMUlLUmtkUGFCdThjbnpsX25VZDJuWEgxdmF4ekxXQTY1bEVZbkRBa2cwVm1PaXNtSzlWYURtdEV4Wkc1S3NNM2FiZGFj?oc=5",
+      "category": "Fantasy / draft"
+    },
     "QB-1": {
       "headline": "Lamar Jackson Fantasy Football Outlook (2026)",
       "publisher": "FantasyPros",
       "publishedAt": "2026-08-29T22:45:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkFzZ0o3X1ZqaDRtN25kTHlaMmlTZWFOR2pMLWN5eEFSWUVPMWVjRGJUZzdRRjExc25MNVJURkw4R2F5YnZUNXdudWxaekVxVFBOaC1QN01RcThEWklldV8zY2pLa09xUDhreU8xQzNEZHpNekk2M1Q3YnlFakRNMNIBhgFBVV95cUxOTFB5US1OLUMzUW13elZTQ0pBV294NHo5UkdkWnRtQTRpNXEtVllCclE2TFlONU9OZnh6YmJLM3NQM19OOU8zbHg3ZGNwbGJyN3EtM29aSlRBcGQtRW9sUnFVVnlpWTJxa1d1Q2E4dFRrUk9tTWNraEViR3dOZmo4TzdsTUVCZw?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "QB-0": {
-      "headline": "Josh Allen Fantasy Football 2026: Should You Draft Him At His ADP?",
-      "publisher": "forbes.com",
-      "publishedAt": "2026-08-30T10:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT19tNUhkdmRhd1d6UENnUGQ3LVlLYzBxeDBCV2RqZzZzQXlmLVY5Qy00ZHhXUUpLeDNmcXJNeUUyclU2VE0zUnlrTGZFVlU3OFo5dWJMay1mRTNwQjNjaFg1MnFtSzUtQXJpTzViTWYza281MGEwa0ktemhwb2xlbGNXcmdNb29qcUpJbHREd1NCU1lQY0UtVWgtbk85SDg4TmljWkczenhNb3E2REl0YnM5QUROMWUyakZF?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "QB-3": {
-      "headline": "Jalen Hurts Fantasy Projection 2026: Eagles QB Looking to Return to Elite Form",
-      "publisher": "PFSN",
-      "publishedAt": "2026-08-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT2wzMGRfdG1HWEtFS0hOMnEtNlRoNWdmWFdCUW91c2V0NEU0dzN1ck9DRTR1cmM0OGVBcklOcmhCZXJRTFlJTUVaa1kxZ0NOcWJvRExJNFhZT3hsYkViLUdJRGt0SzhDM2xCMVVsOHFmejlkS2lKYmVIQjhkZVhaeExPU1JIU19KMExGMmktSHdzZw?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-2": {
@@ -35,39 +29,53 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQck8tUVJMR3N3UlJlZjdDankweGsyNXFBdVYxcG5qWVhCRWY3bGZZNzM1QUFGcmFMZ0c5WXVFVWZ0dTNKOVp5M01tamNvZU4wZ0ZvZnVJS3U3WDItOVZhZnplOTkyNWhfTlJPUDlhcHhxaTA5bnJyNjU1bHM1dzZJM2Y5RVFKemgwTDFTR25sODU?oc=5",
       "category": "Fantasy / draft"
     },
+    "QB-3": {
+      "headline": "Jalen Hurts Fantasy Projection 2026: Eagles QB Looking to Return to Elite Form",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT2wzMGRfdG1HWEtFS0hOMnEtNlRoNWdmWFdCUW91c2V0NEU0dzN1ck9DRTR1cmM0OGVBcklOcmhCZXJRTFlJTUVaa1kxZ0NOcWJvRExJNFhZT3hsYkViLUdJRGt0SzhDM2xCMVVsOHFmejlkS2lKYmVIQjhkZVhaeExPU1JIU19KMExGMmktSHdzZw?oc=5",
+      "category": "Fantasy / draft"
+    },
     "QB-5": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Trevor Lawrence, Jalen Hurts, Jayden Daniels, Drake Maye, Joe Burrow, Justin Herbert, Jaxson Dart, Kyler Murray, Brock Purdy, Jordan Love",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T13:05:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNRnBQVHVCdy1MQk5vd083RDRYZGwxenlpLUJJMVFGZ2lQQ2tqZjhxcm5XNEZIb1lHcGxhWnJ2M2ExMjV0czFOUHdCNUd3Q1lOaEZTdXBSU2xaSW4tOVpwSTdxd1hReFJacDROdnVEMUhIQVdKUnZYOTJld0dvNjVEc01GTjV5WEYtV2pBU1V5TUpHYm90aDdwang0NzN2NlNwNWpZQkFyZExFYlFZaW1uOWFJSlV1MU9TY3hjTnpNeVQxdVVHVEVOcEFsTnpoRVo3WEdORS1zZUl0Skc1dU5kbGFtUWpwSlNqb2RkVGI2UEhHQ3Q1Rmx1YU11TExDZ3EwZ0wyMWZTWXhRN3JRTnFQZV9ic2w1NWVkNzNSelQ0akRZZmpKNkZKSFZST1NfdUIyYllBVVlnOHhNRnct?oc=5",
+      "headline": "Drake Maye Fantasy Projection 2026: Where Should You Draft the Patriots QB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T11:02:49.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOUVWUkZmRWl3TWV2REQ2eHBnMmFWaVpaeXB3NnhLUTFJUk11ZnR4RlRsTmlUa0RDY29NaWhySTR2ejhBLXJPYUo2REdoWkpvVV9VYWJjN29zRWNydHNtSG9tVEQyRk56S1NTYldoRXlvQlBhUHhFVnQ2ZEFka3ViZGtrakhhUTU2SUEwbzNjZHU?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-4": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Trevor Lawrence, Jalen Hurts, Jayden Daniels, Drake Maye, Joe Burrow, Justin Herbert, Jaxson Dart, Kyler Murray, Brock Purdy, Jordan Love",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T13:05:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNRnBQVHVCdy1MQk5vd083RDRYZGwxenlpLUJJMVFGZ2lQQ2tqZjhxcm5XNEZIb1lHcGxhWnJ2M2ExMjV0czFOUHdCNUd3Q1lOaEZTdXBSU2xaSW4tOVpwSTdxd1hReFJacDROdnVEMUhIQVdKUnZYOTJld0dvNjVEc01GTjV5WEYtV2pBU1V5TUpHYm90aDdwang0NzN2NlNwNWpZQkFyZExFYlFZaW1uOWFJSlV1MU9TY3hjTnpNeVQxdVVHVEVOcEFsTnpoRVo3WEdORS1zZUl0Skc1dU5kbGFtUWpwSlNqb2RkVGI2UEhHQ3Q1Rmx1YU11TExDZ3EwZ0wyMWZTWXhRN3JRTnFQZV9ic2w1NWVkNzNSelQ0akRZZmpKNkZKSFZST1NfdUIyYllBVVlnOHhNRnct?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "QB-7": {
-      "headline": "Jayden Higgins injury: How torn ACL impacts C.J. Stroud, Nico Collins, Texans in fantasy football",
-      "publisher": "ClutchPoints",
-      "publishedAt": "2026-08-19T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd242SXBNQ1pZZmNDY0ZzcEw1VGh5dzdxUHUyMnV6RHVkQW1pa0Fmdjhxa3djdWh6QW44bnRRaFgwVWNONGNiRnZvZ0hUUWdCeGsxX1hOd1M0dGhibW5TdWZuanRzNm4xeGc4djJUQ1UzU0tNQU8wdF93MjFwMEl3SzRHUFc4MWZWc3p0Z1FuWDNtVGgwZVB5Y1JINVVteGNodW40VHhjck9hcDdYeW9lVXJVcnNxcjA1NDlNYlMxd2NzdjVy?oc=5",
+      "headline": "Can fantasy managers count on Joe Burrow staying healthy?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-27T22:44:13.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTGRVU0ZObEV5X3V5eUpQazZxQXM2NFczOGw5U215MkpQdl91YloxNzRBTXREYzVfT0pVM1BrTUt4eV9MRDBWUGxEby1CdXMzMk1uYmhSQ3dnZ3EyRGp1eHpmU1VXV1JyMjhHYkljRFBKMDRHQmkxMHF2N1lXUmxWZC1ObEZuZw?oc=5",
       "category": "Injury / availability"
     },
     "QB-8": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Trevor Lawrence, Jalen Hurts, Jayden Daniels, Drake Maye, Joe Burrow, Justin Herbert, Jaxson Dart, Kyler Murray, Brock Purdy, Jordan Love",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T13:05:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNRnBQVHVCdy1MQk5vd083RDRYZGwxenlpLUJJMVFGZ2lQQ2tqZjhxcm5XNEZIb1lHcGxhWnJ2M2ExMjV0czFOUHdCNUd3Q1lOaEZTdXBSU2xaSW4tOVpwSTdxd1hReFJacDROdnVEMUhIQVdKUnZYOTJld0dvNjVEc01GTjV5WEYtV2pBU1V5TUpHYm90aDdwang0NzN2NlNwNWpZQkFyZExFYlFZaW1uOWFJSlV1MU9TY3hjTnpNeVQxdVVHVEVOcEFsTnpoRVo3WEdORS1zZUl0Skc1dU5kbGFtUWpwSlNqb2RkVGI2UEhHQ3Q1Rmx1YU11TExDZ3EwZ0wyMWZTWXhRN3JRTnFQZV9ic2w1NWVkNzNSelQ0akRZZmpKNkZKSFZST1NfdUIyYllBVVlnOHhNRnct?oc=5",
+      "headline": "Updated Jordan Love Fantasy Outlook 2026: Packers QB Competitive in a Wide Open NFC",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T16:12:19.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON2JfeXRmTTVxd2Npb0ZCcVRUb05WQXVFakVJUVVZaXFLMzZ6T0JPYzJBR0N6Szc5YjVBeXJITWtlN09oRll5azU4LVA0eUtMZERDa1Fud1VTdHZoUzBnQXJuNG9IWHJ6dDRNWEtTTDVzX1JPT3paZmhoQ2ppTnZ0eGlycU1EaDBhWFYwVA?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "QB-7": {
+      "headline": "C.J. Stroud Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T23:03:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1ZFdNUEo4RWEtWS1ZX2dLblQydXA2X2dfMVBtekppZk9pOGkxOXVJMVM4QU1hbGFaMUVQS1hIZWtCbXlZQ3UxbnR2YURvVk85VXhkTjhSc0loU2JSOWtMYjg3UjVWX2J5Y2tOTXBDZ1oxYmJlMG91YmNpNNIBgAFBVV95cUxNX0IxbW5WZkxmQUdYSnhhM0h3S1VwNVhvVXdnYkZ4VUhORXdzREZGa1o3eWk5ZVM5NS1Vajg2WjRRQWFfeXRzWUJCVTZPS19ZdzdHaHYzSmlhQUdoNVphX3hjaEFDMmU3ZXNROFB4T3drZjJCRjNzS3RXU2RDMmNOdA?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "QB-9": {
+      "headline": "Updated Kyler Murray Fantasy Outlook 2026: New Vikings QB Looking to Make Some Noise",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T16:57:21.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVhHdEpPbTdUbFFFY3ZTMkRVaUp3WTRjbXZubXVsNTBMZ29ac1JZeTFhWnVzX1BGTl84U0s3cThRV1RqbTYybXRjR1ZkV3lPRl82SEZDUFhtMmJYYXlJaG1qV2VmeXBJQjV3alNnYllEYTFaNnZoM1RPVWY4NEdpNlV1MUg5QVE4LV9vQ29R?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-6": {
       "headline": "Should you draft Patrick Mahomes in fantasy? Injury update, outlook for Chiefs QB",
-      "publisher": "USA Today",
-      "publishedAt": "2026-08-29T10:06:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONUNwM0FuNG9vTUM5ZkJVa19obmNYSGJ5aUpzUEJqTnU0ak5jM2xTSGN6Q1FxellrWmR1eGdpNnpnMzhKS0ZIR1RCN1o2eVUtczgwamJzazl0MUxibEVfdjUwNWU4UENpRG5VclVvTHkwMDVpSWRXTXNYTWQ3UGVXMjBvNkU1LWhsanNBSlVGYzR0alBaX0stTHZxVHRIaThJQ2ozdnJPajVlX1JVejJIV19VM3Q4S0V5X1BOVnNHbS1fZTVfUnRCc3g3QklxSlRqbWYzdEdn?oc=5",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T10:06:20.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeGVYN3lsbHBzSHpDWXJzZEdPdGtWWkIzemRnV0NSczRRU0Fpc2Z1RGpQWlZpbjMxbFhaSzM0VWd3cnh2b2NBUmJsNnFFMU14WmhtSWxqTVZrcE5iY21qUFFoaGItSDBZM0o3VkJTRVRIcV9VblNjQWl4V2IwTFFVYUhvbVRHR0pDNXZRM0FR?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-10": {
@@ -77,25 +85,11 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWRWSWdyRnB0QW52YW1ZVjMyOGsxRWNVQXJVeG9oOWNLZGtsSllTZU1PREFVNDUxSDRpSkJ5QnZJSHh2VTc0c2R3bGIzVXFxSnZhbjg0LU5Ra1RHYm1Fdm45ckxaUm1jLXVLV1ZnMmtxWEZacTJXNFBnTGlxT25qQzR0Ri0?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-9": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Trevor Lawrence, Jalen Hurts, Jayden Daniels, Drake Maye, Joe Burrow, Justin Herbert, Jaxson Dart, Kyler Murray, Brock Purdy, Jordan Love",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T13:05:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNRnBQVHVCdy1MQk5vd083RDRYZGwxenlpLUJJMVFGZ2lQQ2tqZjhxcm5XNEZIb1lHcGxhWnJ2M2ExMjV0czFOUHdCNUd3Q1lOaEZTdXBSU2xaSW4tOVpwSTdxd1hReFJacDROdnVEMUhIQVdKUnZYOTJld0dvNjVEc01GTjV5WEYtV2pBU1V5TUpHYm90aDdwang0NzN2NlNwNWpZQkFyZExFYlFZaW1uOWFJSlV1MU9TY3hjTnpNeVQxdVVHVEVOcEFsTnpoRVo3WEdORS1zZUl0Skc1dU5kbGFtUWpwSlNqb2RkVGI2UEhHQ3Q1Rmx1YU11TExDZ3EwZ0wyMWZTWXhRN3JRTnFQZV9ic2w1NWVkNzNSelQ0akRZZmpKNkZKSFZST1NfdUIyYllBVVlnOHhNRnct?oc=5",
-      "category": "Fantasy / draft"
-    },
     "QB-11": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Trevor Lawrence, Jalen Hurts, Jayden Daniels, Drake Maye, Joe Burrow, Justin Herbert, Jaxson Dart, Kyler Murray, Brock Purdy, Jordan Love",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T13:05:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNRnBQVHVCdy1MQk5vd083RDRYZGwxenlpLUJJMVFGZ2lQQ2tqZjhxcm5XNEZIb1lHcGxhWnJ2M2ExMjV0czFOUHdCNUd3Q1lOaEZTdXBSU2xaSW4tOVpwSTdxd1hReFJacDROdnVEMUhIQVdKUnZYOTJld0dvNjVEc01GTjV5WEYtV2pBU1V5TUpHYm90aDdwang0NzN2NlNwNWpZQkFyZExFYlFZaW1uOWFJSlV1MU9TY3hjTnpNeVQxdVVHVEVOcEFsTnpoRVo3WEdORS1zZUl0Skc1dU5kbGFtUWpwSlNqb2RkVGI2UEhHQ3Q1Rmx1YU11TExDZ3EwZ0wyMWZTWXhRN3JRTnFQZV9ic2w1NWVkNzNSelQ0akRZZmpKNkZKSFZST1NfdUIyYllBVVlnOHhNRnct?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "QB-12": {
-      "headline": "Kirk Cousins Fantasy Outlook & Stats",
-      "publisher": "FantasySP",
-      "publishedAt": "2026-08-29T22:19:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzYnNtbDBkbmxBcVEwcnVvb2FleWhEVU9aMGJQR0hoem50X1Vwc1JOZlR4bmd0NmxFdDN6dURXeWY2enJzOG5ZUGZiejBGZDNYS1RVb08wWC1JaHluLVVJWkhZUl94UQ?oc=5",
+      "headline": "Trevor Lawrence Fantasy Projection 2026: Should You Draft the Jaguars QB in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T11:03:44.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGxVQVhiTzBjQTI3dEhKQ1JmT2cydVVROEM1ODdKSVpCekNTUXRNV0lQcTdvOG1OUk9zUjJZbkVEQndFUWk3WEE4bmpCZlFoUGJoTzJqRS1KOWZveExqaDJ2UlVsT3d2bFBuLXB1XzZfdEgya29pWUZ3QXBlcU5sQjBIdDJsbzY2aV9PbjhZcnM5UVpySDFN?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-13": {
@@ -105,18 +99,18 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zaVdicGtNSkRXWmlNYmpqSG1jMzIwbGxuWXNmaEpBVmVzMmJGVmE3ZlRxbEJmdjNLVGdsNVBlaDlzSk9lWEZ1TUZUVXZIX2ZEWG5CLVkwLXhXLTdkU0d2NEhWX09DQl9udk9zcUtzaTl1T0h5NGcwN1RINjnSAYIBQVVfeXFMUDZvbVNJY0lOcVgybWRBX1dyMXpaMUp6MFc1UkotaXpoQlRxOEFDLWszMXJmNkMzVHJKYklVSU8xaklDZkxnelMxREtIME9DMW10ZTFMNThyYVVnRUdKeXZUQjBKMGE4YXhVTC1wakkxeXFJT3RmRmFKTkRfYW02dFBNdw?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-14": {
-      "headline": "Dynasty Fantasy Football Rankings Update: Where To Place Matthew Stafford?",
-      "publisher": "FantasyLife",
-      "publishedAt": "2026-08-31T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRFBPNDZDeVR0dWVBTDVFOHpIUmE1X2g3TDU3RXMwUmxPRXU4TDVLNTBhWVFKT2VNM19yLS1xcE0wdkRMZkh1VU1ucmxtRno5VUZMeHJLaEQxT2JHQU5JV2Y1U1FHNUc2U1ZvV2E5djVtcFA5bVZ5aGNWZDBPRnJEWERoT0JFQU1EZG41UEszeTVLRDVKblhnVEZLXzdKVWN6cHBOQzJ3LUgtUHF0NHFiMGE1bUJqd3pV?oc=5",
+    "QB-12": {
+      "headline": "Kirk Cousins Fantasy Outlook & Stats",
+      "publisher": "FantasySP",
+      "publishedAt": "2026-08-29T22:19:28.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzYnNtbDBkbmxBcVEwcnVvb2FleWhEVU9aMGJQR0hoem50X1Vwc1JOZlR4bmd0NmxFdDN6dURXeWY2enJzOG5ZUGZiejBGZDNYS1RVb08wWC1JaHluLVVJWkhZUl94UQ?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-15": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Dak Prescott, Josh Allen, Lamar Jackson, Baker Mayfield, Bo Nix, Caleb Williams, Patrick Mahomes, Tyler Shough, Matthew Stafford",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:05:07.000Z",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPT1lrYk9hem84ako2M09WOWlhQko4Q3VMOXd6QWlJY3gwRkNIc0NQcGp2QjRJai11bHpCODZhb2ZLWVZkc2FwNkFZMmRrZHlHUjJWbjNoczVpNzAwbXFxVlRuODNSOGJNQ0l0WVZoWU1GWkRQZlMyaFdjcWFBR1BVWDZ3SXJSckpzTWxlRVFBNE1fZHJOS1IxR29vTnF5WEpOQ3JLdmJ2ZzJfLTNLY0pKRk94UGljUkRkWlZ1NldfdlpNVGVUNF8xTTJ1YnN1TWFRX19VTzVQaVVOak1hQ2h3eWNXbmNHZFJicmlJakF3b05fVEIzcHRySlhmbjFCRVlYMl9pSzF5bVRTY2dlYWNuSkxrb29sazdGb0JGNEVFQlJtTzVEamxFX01DUEl0bThCNWc?oc=5",
+    "QB-17": {
+      "headline": "Justin Herbert Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-31T16:52:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNempGcWZLQzhsUkZIZklETGNKamkzMjRLVHdKNGwtZUx4ZHcwenc0bGlyNVFkd0laaXFaVjV6MFNCTUNJNnl6bTNBOGtvcWhlVjdUV3hxcmF4emg5VWhmcGlYSHVNdU5FeVpVdWNEZ1Vsd3BXOHdFTW9XcnVfNlc4ZTl30gGHAUFVX3lxTE45UTBTWnRQVFllRWNrT0VVbXJ2MkJjbkVERmN1azRrS004LXhOQ0lmTnZJekdIRXdUOWtQZzRScFVKZnhKOGZYWlhwOGpXNUE2OU1naTZkZUdwZkxfSFlhZlRaUzE0ZGtTWF9FR1BZLUVyQWdVZFRweEtLM1RsazZZeS0yOUlaZw?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-16": {
@@ -126,19 +120,19 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM05tVl9WVEtCdGppS2o0cmI2NkZ2V1hodHg2UktLNUlMY0hFd0lDUFp1NVkzY0JNMU9FQWs3Ql9Rb2tuSmhQdWVmLUk5RlZ5aEctWjRoRUFSTXQyQkxqWldYVlBHV0tUWU0tY3RoNHNja19IYzdvYWZFeldRbjBsUnVHZWlxLWpkQ29HVXdCcHNfaUVNSFZrZzhWWHU?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-17": {
-      "headline": "Why drafting Justin Herbert in fantasy football is a must despite offensive injuries piling up",
-      "publisher": "ClutchPoints",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQlZDS2tOX2Ric1FfV3J0LXBCMklVelE1MjFrZjdHQmR6amFaNG1zd2VxXzBCUldlLTRmZzhNUVlrZVZTVGh5a0h4ZGdZUV9HY2Jtc1RNSzl0YUFpRE1YcFp4U2tiX1ZvTFRZT2x3N2dpc1p4ZHZoQVJqLXRPTnYyeFBpdl9wNnd0clp1QjUxNENWZ2ZqNWVMYl96cDBhMWFndkY1TmdQSzBmLUU?oc=5",
+    "QB-14": {
+      "headline": "Updated Matthew Stafford Fantasy Outlook 2026: Rams QB Aiming for the Super Bowl",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T17:02:04.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOGNYcVhWWnlkSy1JUUVoZlJfYk9id190X09NV3ZVQ3ZnSHEwMFM2d2lKSmQtYlZCZFByQ1JYUjd6dDZ5RjluWWlDRzl0UDBLUDRtaVNUX0J4elFtNlVOQk5Tc0VlWkhpTHQzcVZhMzhEenR1Rms3RHprVE8xUlUyQmxTeEJNd3NBN3B6TW5MTVgxYWs?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-18": {
-      "headline": "Fantasy football rankings 2026: Top sleepers, breakouts, busts by model that hit Daniel Jones' surprise year",
-      "publisher": "cbssports.com",
-      "publishedAt": "2026-08-29T22:05:58.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ1NjTHZXY1dxMWpnckVwamE4T0wzUFR5aEF1WUZva3lfb2V4VGFTQTVCUnVUeC1NMnZLcWNmQVhnSnJpWVBEQ0ZxRUJqTlkwbDlEMXZaMG5uamhnOUdiSVFwTFZ0N1NvM3E5OUM1OFJLRjFyN2NPY2ppZGdDT3c0RDFvakNvUUNtamNEeDRGSzdTb3dvdmpMeHJWQ0IzMkd2RklnaFI1RWhrQXFxUVVXaDRXcDlEX2ZnVDhFNEtYT0p1MHVjM0swdEJON3J3TTE0a1NrZVdqWWQ0OFFlS0wzNHVFNnlKTUNw?oc=5",
-      "category": "Fantasy / draft"
+    "QB-15": {
+      "headline": "Cowboys Fans Hold Their Breath as Dak Prescott Suffers Injury Scare During Practice",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-26T02:39:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMllIcUt3cmJiY2VpekdydDZJMDNTUFhUOTJvTmFYNEVQN0hOQ3h5aUNZVk5Pbm5sLWE2cEwxbXRDYUhUQ2IwZEptZDZTWFNrSjAtRTg1T3VlYTRzYVFZN2Ziamw2ZGNUb2lvUEpYamJ2T2dOdkFoMGlWZkdCVGV0MllxUQ?oc=5",
+      "category": "Injury / availability"
     },
     "QB-19": {
       "headline": "Aaron Rodgers' Fantasy Projection 2026: Will the Steelers QB Find Success On His Retirement Tour?",
@@ -147,11 +141,18 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdUhuZGxkM19mSnRKbWstQjVNbjFuaUQ0SU5xcGp3UnJIVndLM0VkX0xhMDdYbTVwcXpNSkZwYkVZODVidzZBOE1vRGlsb294d0hRMmRrbzhfbXlIdU0wWHRKVExHVXhBN182aDQ4eHphM0xUdzU2cWNTLUZIV3dLU0RBWkpKZl9VdHlxY1RfaUFiVGZ3?oc=5",
       "category": "Fantasy / draft"
     },
+    "QB-18": {
+      "headline": "Updated Daniel Jones Fantasy Outlook 2026: Can the Colts QB Come Back From Injury to Win it All?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T16:55:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN3haMmpkRHNOa09BMTBhOFhwY1RTMkpCUWV6SnA0LXIyOWozNERBbndYSndNTE1kMFZEN2N1ZDRacXhlYUs5WGVJNS1JS0VuVjlYZ0tzWjRqYWJ3TXUwa3cwYV9Wa0dMd2E2WVBxUTNQXzVpdWRNSExKUHpJa0YzcHVNS2JOcXJrYTlnVTBn?oc=5",
+      "category": "Fantasy / draft"
+    },
     "QB-20": {
-      "headline": "NFL preseason Week 1 overreactions: Shedeur Sanders done, Cam Ward a bust, Jaxson Dart can't stay healthy & more",
+      "headline": "Cam Ward Rebounds From Rough Preseason Debut With a Five-Touchdown Practice",
       "publisher": "Yahoo Sports",
       "publishedAt": "2026-08-16T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcHctT0NnLUhjc3dqY2dsLVR4S1N2dTZBYXRPbXNtOHRSUllKWVBqX2FSek56WklqY08wMi1USGEwdS13MGNQRm9Bdzg1NWFwMzVTU3pBbmJDMTJaczIwT0lMckJXdXRBekFtMlFabHhzb0RIYllfa1VVbl9OQ1Baai0wQkYzaGtxZlM4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdXdqRzBTSlM5emY4VW9KRUp0NmRCcEJsd3NVLVoyZUdTeFJBeko5NDNOQjRhd2xRdXVlM19zS0p5QmN0UHZqU3pKa0dhWlgwQ0NyYndzRkFmaFcwakwyQ1BYdzdqTEhuLTVZeXRIUzFhNkUzMV9xdFlaMkZIQmEybFBkN0NPdzBJZmc?oc=5",
       "category": "Injury / availability"
     },
     "QB-21": {
@@ -162,10 +163,10 @@
       "category": "Fantasy / draft"
     },
     "QB-22": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Dak Prescott, Josh Allen, Lamar Jackson, Baker Mayfield, Bo Nix, Caleb Williams, Patrick Mahomes, Tyler Shough, Matthew Stafford",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:05:07.000Z",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPT1lrYk9hem84ako2M09WOWlhQko4Q3VMOXd6QWlJY3gwRkNIc0NQcGp2QjRJai11bHpCODZhb2ZLWVZkc2FwNkFZMmRrZHlHUjJWbjNoczVpNzAwbXFxVlRuODNSOGJNQ0l0WVZoWU1GWkRQZlMyaFdjcWFBR1BVWDZ3SXJSckpzTWxlRVFBNE1fZHJOS1IxR29vTnF5WEpOQ3JLdmJ2ZzJfLTNLY0pKRk94UGljUkRkWlZ1NldfdlpNVGVUNF8xTTJ1YnN1TWFRX19VTzVQaVVOak1hQ2h3eWNXbmNHZFJicmlJakF3b05fVEIzcHRySlhmbjFCRVlYMl9pSzF5bVRTY2dlYWNuSkxrb29sazdGb0JGNEVFQlJtTzVEamxFX01DUEl0bThCNWc?oc=5",
+      "headline": "Baker Mayfield Fantasy Projection 2026: Buccaneers QB Set to Dominate During Contract Year",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T11:05:44.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUlpkaGh1Rm1MQWJtN1lwUFZEdVRCUnZhTjBmVUFhVUN1MkpGQldBVmNCbjQ4eDhtUzdaOEZCa09WMUJBLU8yZUNqT0UwMTNwWDlmM2RvVVNKM2NhZDFQNXgyS0V0VEFNZlpYckRpUjNwSHlCc3lVcW11dHR2UW5WcmxJYnI3MUh4dUFETlZkUk5ST1p0Nnc?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-23": {
@@ -182,6 +183,13 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcHJMck1uWXJLZDJCUmw4dW9LX2J3WGt5NjkzeVZsUGotcUNYMUtGOFduaFhrYlB5ZXpvWjRpR0l5SUN4YXBSd1NwTjJGeE8wNlVHdXItUXNBekZrNGRRd0hjNG1nSXhWanluN0I0aThraHdieWZhdVdUUmNkZVgxTWI0RExoa01jMDFB?oc=5",
       "category": "Injury / availability"
     },
+    "QB-27": {
+      "headline": "Tyler Shough Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T20:23:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FMktnV2IzVXJ3bWx0VzI1bGRrX1R0QVJwZ2wtdW1wMUNOZXFTT1pKakFqUjUzMjRxSkd6a0VzcC1HODJkbGhHNmJzSy1EZERpakp0eFVZelVZVlVHQmE5aUdqcnFUeWJwYzdyWEV0aXVvZGVDa1RnQTNiNjdQUkXSAYQBQVVfeXFMTjZfaXZDQzlPdklTWGpoVDBGRndKYWUxWE1yYmhFZ0NEeGkydEh5ZThJM2s3T2w1ZnoyeURLRngtcnB5V3k0enFqbUJuM1J0X1NIY19TVXdGYVNVTGdRby1OWVpYYUFtR0tJMkNOSVNndnc2Y2xDRUJvYi0taXB3ZmE3aHJs?oc=5",
+      "category": "Fantasy / draft"
+    },
     "QB-26": {
       "headline": "Updated Bryce Young Fantasy Outlook 2026: Panthers QB Looking to Make a Statement in Contract Year",
       "publisher": "PFSN",
@@ -196,12 +204,12 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWjZ6eFU1LTdVYkZnenEzNlJXSHg3TU1TaGNoT0lnQi1XWENlTExxT2pOaWtzeVVQN0pWbTVhOGxCWnVCdnJNQU5tT1VmRUFDVERhN2tDNmRpZGlfcFNGcDBvbk1QWFVRRXlrUmlnaFRVQ0ZpaEtEbm9TV1FDT0JjZS1uOW00OEg4Y204X3dHQkRGdjZGNXVmODk3ZERJRUdobmlMN3dRTUtNeHZwZU5kRzJXeXh3QkpJ?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-27": {
-      "headline": "2026 Fantasy football deep sleepers: Projections say Tyler Shough and Tre Tucker are steals",
-      "publisher": "thepress.net",
-      "publishedAt": "2026-08-26T13:22:16.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPOXB0UXh0XzdvRjBkdGZIVHRzYWlFRFBsSWlITHd2Y0VNbHNSVnR3TEx5cTVSZ2MwRHdBRllwbTN3Szgxb2Yxdkx0NW5RUjVfNGprTFBPS1dfazJMZXB3UjQxeFR6WnJ0cHBpT0dTcTgyeWw1d191TExubTVldmFZX2FmQW1acU15YTh3dzdUbTJEUHZOelVlQU9jZkJsLVJNMFNOZjgzbnBXWk42VDRWdUxYanR2Sjd0ZWVHX28tNzk4bk5uU3Rmbkt1dmx5dXU0ZzFqREpjR3E1MjIyLTZ2R3NiWWxaQ2pZWEpsSU5BVWU4dVQxOWpVeUhtT2IxXzVldmxWWjFzcEhqS3ZwY3c?oc=5",
-      "category": "Fantasy / draft"
+    "QB-29": {
+      "headline": "7 Will Levis Practice Squad Landing Spots After Being Unclaimed on Waivers",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-31T19:55:14.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVktwd0dkcTVpR2RJM3RpV1FzNHl2SFBHUG5sU2lHZEJfUDZSUWV4Y3NkZGQwYUhYUHhuWHNkOS1VazFwTnlOT2RrZTB1OU5RVWJRUUN3T0NVTVR3RnpPT2tqdVNINnlIWEo3T3F5cDZ5M28wZE45YjVpbVFlTEhmM0prNHhTZw?oc=5",
+      "category": "Injury / availability"
     },
     "QB-28": {
       "headline": "Sam Darnold Fantasy Football Outlook (2026)",
@@ -210,88 +218,81 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5neXlWMXE3U1ZXb2Q4dGlOb3JKUmc3SUwxZHJRYlNhWVRidnlwbFV3Y1AwTkNsWWpBbGYzNE1jZnpwYUNiUFIycmhWWkJwRFlyWXpyN0swVm83bXZiUmdNZkJvaGZMbVhzTzRNQnVfY1RkUWU2ZThMbjZPZlpiUdIBgwFBVV95cUxNOWl2dmF0eENWTzVHOC1qRFJSeHBxb2hkSVg2MVppejBMU0ZoYW9hU1BzVkt0NDRueFlXVzhNYkJZNW9IeGVQTHZIbHNJdExvNXkwRmZKbTQ2V1oycnVhLTVYTzkybU9BRTRXQkw2Y0xTaHB6MDRNSHYxZG9tUFl2LTNRYw?oc=5",
       "category": "Fantasy / draft"
     },
-    "QB-29": {
-      "headline": "7 Will Levis Practice Squad Landing Spots After Being Unclaimed on Waivers",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-31T19:55:14.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVktwd0dkcTVpR2RJM3RpV1FzNHl2SFBHUG5sU2lHZEJfUDZSUWV4Y3NkZGQwYUhYUHhuWHNkOS1VazFwTnlOT2RrZTB1OU5RVWJRUUN3T0NVTVR3RnpPT2tqdVNINnlIWEo3T3F5cDZ5M28wZE45YjVpbVFlTEhmM0prNHhTZw?oc=5",
-      "category": "Injury / availability"
+    "RB-0": {
+      "headline": "Updated Jahmyr Gibbs Fantasy Outlook 2026: Lions RB Is a Locked-In Top-2 Pick",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T14:07:53.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnk5UldxOXhJSkEwQ0tfUHN0ZU5TUEZMSGdBRmdBeG1RY1huSGhQTzZaZU5DVklpT3NlYll6RkNXQ1l6eVpEMXJFUjdVNlJwaFJkY0JOQ0h5d3JzVVhGbm90eXhmWVNHZjIwMFRWSjhzRTdualZfWTlnakkta0c1WHAxZlhRWTR0WDA1b2V4SENhR3NSa056NHRR?oc=5",
+      "category": "Fantasy / draft"
     },
     "QB-30": {
-      "headline": "Deshaun Watson 2026 Fantasy Football Outlook: Named Cleveland's Starting QB",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T09:55:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc2VLUndYUXQxSnpCdWhCZzZpU0JoZm9yTmFmX2pGQWd2M0NfZGNESkRkbVVJdE5mR2dvcG1OdXFZb29SVjZWbnROMmZzWmFWT3pHbG5LcUd6dkNDWGVVQXBPRjI4el9Eb0JrdU5XemFwZkNiNDhDOTNlNmgzRWRBRUlRak1SY3JWLTMxa0FfdDVhMnhodHdUMjk4bDhYVmJRNXNWcEpmM3MwZTZOdFlVUzkyZ3c5SmxtUEZaS1UzODM4cDRKeU1UbmFGeHhDSG1RSk9scnRYbUdpSUtTekZ5c21hdlV0QVVMN2Z3dHdleDJaYkdQVjRmRG1MNVEzVkVXNEE?oc=5",
+      "headline": "Deshaun Watson Named Browns Starting Quarterback: Fantasy Outlook, WR and TE Depth Chart",
+      "publisher": "Fantasy Alarm",
+      "publishedAt": "2026-08-24T14:07:25.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZlEzT2k1S1BXNFpIU1B3MHp1Z1JfV3UwUWFMN0xWQmV5MVRWd1hrMXY2Z3ViWl9aU2hlLUtwZ1RZa2FNc3RHRnh3Z0FCelRoUXhvSW9NZ0xLNlVKNzdpV0RvUUFlNF92ejRBenNseTg4eXlTMEQyaGk0dmZIUXFaeUprcFh1NUgwZ3JDdnM4NmluY3VCcGJrSVBya2JjMGdORVctZEViZEtkWWJLOExNYl84Mk5sNmZMRGZnblBxa3hTejB0M1JMVXZSU1Z3cms?oc=5",
       "category": "Fantasy / draft"
     },
     "QB-31": {
-      "headline": "J.J. McCarthy, Anthony Richardson and 4 former first-round picks who need to be cut or traded",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-26T23:44:18.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2dyZUN4ajhCNV90T01LSV9udzAxLVowQWRzUTRIS1h1NHRiVnNCd3BVWXBpTDdwUm1OQTZaR2FKSnp0SENmUjZqWHdaU1FucWtTRmIwN2lMSkpuekFQMV84ZlBseElLdDkyUWJvU18xbjJtYlFvT3BSbjl4X3JlSVh2dk9LMzQ?oc=5",
-      "category": "Transaction / discipline"
-    },
-    "RB-0": {
-      "headline": "Updated Fantasy Football PPR Rankings 2026: Bijan Robinson Leads the Way, Jahmyr Gibbs Not Far Behind",
-      "publisher": "PFSN",
-      "publishedAt": "2026-08-29T21:30:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYzJpTVFIam83ZXBtclhYa1FGaHlZNXNWRmstTUF3VW9uNVZUWHFjSVNNU2xUV3F3X0FYUEt1d0p4VWhQeDRRWl9WM1RkSDdFejBvZXhFR3FicHpLZG9jUjZuYjFFQkNHUjRxdzRaX2t0QVlMYXVMbUd1cmZ2eEVDRXk1RWZOWUZHb01UZnFuWTNhcFFEbWdBRjFHZw?oc=5",
+      "headline": "Anthony Richardson Sr. Fantasy Outlook & Stats",
+      "publisher": "FantasySP",
+      "publishedAt": "2026-08-25T16:06:02.000Z",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pRWhQdlY4NmxNWUVfTWxoczJHRWI2Vi1YUHhObnllOHItT3I4cjRqUGxGYzNIU25BSmpmTFYwWmpQb29oM0JiOUJUWHh2VmV1cTNVSGZ4QS1xczhtNDFyR25hb1EtZjVwRGE1WllPWGdpY2s?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-2": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Saquon Barkley, James Cook III, Ladd McConkey, Jonathan Taylor, Chris Olave, Chase Brown, DeVonta Smith, D'Andre Swift, Ashton Jeanty, Derrick Henry",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T12:45:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPUEZBT2ZTMlNRS0JsaG9Qc0F6dWVZX3dnaUNSY0RQdFRsanJ3c1JrZENmQ3o4c1QzVE41dW9HeHR4YXBodVB4UTFsMTVIQnZSRG1oV1p2MzI5cDllNmpXY2NiUnAyMU4wNmEwcjBhZXdHdHpBTGhFcXhJWk8xYnRwaDdrZ3VhUmwycWxLaTdpdUxKWk1Za1NCR3BIUlVNOHFRSGE5NHc1b2dqc2tJUXRhXzZwMVZpbWFzUlVrUHJBdmtUV0ZqRDB3amZJZENUWUVHTVRsbExXc2NQR0cyMHVuVy12U04yTzJNZ3lhN3NCQ1ZHNGJKY2pWNXNDblhvdmlJM0hzUkNHLWwzeFptQ0tWUmE5QUwtTGk3cWFhbTJ3V0xDckVXVHFmamVOdUotNGtoY1dvaXR4aVZFYkZVMTFUMWVHNnNsR0E?oc=5",
+      "headline": "Jonathan Taylor Fantasy Projection 2026: Should You Draft the Colts RB in Round 1?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLXJuZ2YxbXU0eWpqYWNjVjRobk5nZkRjUkctVnZNdkZFaHA0eWdaUngtMElDSjBvdS1JN0J6My1xYThyZTJ1QmJrRG1PVlBEblM5NGVaa2w5ajdYdnpnbkVMOHh1WlE1QlphczdvYUtXaWxJUGpld1hha0NiV1RFaFd4S0x1SDBYZ2U0Y2hpenNrNFRzMXV3?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-1": {
-      "headline": "Updated Fantasy Football PPR Rankings 2026: Bijan Robinson Leads the Way, Jahmyr Gibbs Not Far Behind",
+      "headline": "Updated Bijan Robinson Fantasy Outlook 2026: Why the Falcons RB Is Worth the First Pick",
       "publisher": "PFSN",
-      "publishedAt": "2026-08-29T21:30:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYzJpTVFIam83ZXBtclhYa1FGaHlZNXNWRmstTUF3VW9uNVZUWHFjSVNNU2xUV3F3X0FYUEt1d0p4VWhQeDRRWl9WM1RkSDdFejBvZXhFR3FicHpLZG9jUjZuYjFFQkNHUjRxdzRaX2t0QVlMYXVMbUd1cmZ2eEVDRXk1RWZOWUZHb01UZnFuWTNhcFFEbWdBRjFHZw?oc=5",
+      "publishedAt": "2026-08-29T14:45:52.000Z",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWFvZl9sTGlQNWZSZHFiU3l4VUU4RjBRWU5MNlp0STFmTWdYUzdfLWszUzVlUWtKSUd4dGhYWklXRFFUSDNSWldrbmgxYnpoQVIxb1p0SmR5d2VWeTJ5UlR1RHNYM0paTTRsV0NfU2hPWUE4YTZEb0xXTTI0bFhIRlY2SGhIclBGWkZNUmoxYjBkbDlMdHRnT3oxVlY?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-3": {
-      "headline": "New Christian McCaffrey Rumors on Injury, Contract Talks Ahead of 49ers' Season, Fantasy Drafts",
-      "publisher": "Bleacher Report",
+      "headline": "Christian McCaffrey Fantasy Football Injury Update: Could There Be More To This Than Just \"Tightness\"",
+      "publisher": "Sports Illustrated",
       "publishedAt": "2026-08-17T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUmdvZm1TYkRVd1cyeHpHYndLdUVfNENyT1BsT2xwWWZkVnFkLUhJVnlWM0RqVTFGYUNfcEp1UDFFYnROVm1HWF9qbVU0cTg0ejVkYWw5ZWNEMmN2U01GODkwdmNoMmtTWFNtUTcweFlsRUltNlRZZFdyd09yNjdTcHZKTlVOWFc0T19vRHJLTXdBcmk0MzhUQTZpZmY0STQ3RUt4TmMtZnJHVGFwVk1MZlZyMllvSzM0Q2Y2eE0tby0wdlhHa0lOQnY1Zw?oc=5",
-      "category": "Fantasy / draft"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNzZuSEx3RXR5ejZSNnZiRWxKMXlDUjJHTm9Tc1hndG0waHB2M1F1SzZOYVVvWHZRdjVNcm1UWThVczFmSmowQkVLWTVhaEtXRU1oMGhJUWpTNmhqcUxtcmd5Y2tMVTJZSDA4S1hSVzdwTllRT0cyNEdLNDhCLVo1V01OMFZVX3ZrQ2d2R2FFM1hsTS1UMDBKbFlRU0NnMUJHMWpIcEhQdWJvWW1YYW1jT3FqSkJ0dXFyVnhlN2IxUVFVZHRUNDd3ZmdYMlB1ZXhMdmlYUnNR?oc=5",
+      "category": "Injury / availability"
     },
     "RB-4": {
-      "headline": "Fantasy Football Mock Draft on Yahoo Using Matthew Berry's Rankings: James Cook & Derrick Henry Lead A Robust RB Team",
-      "publisher": "FantasyLife",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOUExZzZwbV9pNDlsb1FkYVloUEpHM3dMTTYtcmdkZ3k1WEZoMHlVUTBjMHBuNjUydHdzMTVGXzVkXzF4NUtBc3VsaThISDBMbHEtRWxsR0RMQkhaelNscElNeXd4dmhRYUJ2aGVGR0l6Yjc4X21taHdEWXItd0VHclJrNUV2cnhLWjRBN0lScGtqVnlmY1FFVU05WVJwNnJPNTdoaWRLOS11RnJ0?oc=5",
+      "headline": "James Cook Fantasy Projection 2026: Should You Draft the Bills RB in Round 1?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQmpZd2Y5cmtZemR4cER6VGxVSEd1ZGt6eUxsYl83X2ZiaHRSVHdiNE9Xamh4ODRISXhNdDRsWVZvMFpFSkNNZVBDT3RuZnVTTzA1aEtPZlVwVi1fSDFmUDJ6V0hiY0lud3JsakFySTd3d1k3bWJTY0tWV3MtajZwSjZ1ZmpjR0drR2llNVc0YXc?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-5": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-8": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-7": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
+      "headline": "De'Von Achane Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T20:23:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51UzUtelNBTVFUblExYUtWNTRaY3c0ZGFQdFYwSm9GY2tOU254X3ByLWFsNlJSb29kWGRDRzJvVFVSRHJqekNvS3Q0NDNoX2JsVk9jZ2RMZzRoV0JWLV80TUJtTUJ2azl3Q0RzaU82SjVFa3dzcGNFRjFUS3RFUGvSAYQBQVVfeXFMT3hJWU5UbjFuOGxSQXQ1VUVpRGdHRnNfUmt5ZExEYVkxU09qb09OLUprelRBcFdRQUZvVGp0dy05M1dnMkpId3JZdC1jb0dVS0IzMnZ1el9uYjlrek83VkZBQ09zN1JUSDJBdGhJNkhzMTFxQXJxVG8tUHVONU5NUldTZGdt?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-6": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
+      "headline": "Updated Chase Brown Fantasy Outlook 2026: Why Bengals RB Leads a Loaded Tier",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T14:05:47.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzNCSko2MXFYeloyQmZiV3gxOWZtcGRjdjJPMTBONTI1T0czcGd2ZXBUOGgyOF8tX1NaVE5UcmhOYWY1RU9nWUx5Wks5dUFTX1hvY1VUS1N5X0RJd3Fic1lJbmJ2aVJEaTlQdUZ6UGI1dUExazUtTzI1cDVZMWR2c1VLaF9KWVNpNHQ1WA?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "RB-7": {
+      "headline": "Omarion Hampton is the ultimate 'boom-or-bust' fantasy RB",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-31T23:26:47.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcm9ySlFCTU45WGFRU2UyUl8yOXVOQ3Z6eURscHhmb1g3NF8wdVpNNXY4bmw2Tkp6V3hnOThmalIzWFdkOVlpa2tJbFF4Qkp0UFd0Tld3dDlBOEU1M2lmRTNJS2hIcnUySXJaNjNiOERGVDF4YjNtdXNpamhLaDJqX0UxdnlMV3JrdUoybGhDaWJZN1FSZUJwU25oc084TEJNMFdn?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "RB-8": {
+      "headline": "Saquon Barkley Fantasy Projection 2026: Should You Draft the Eagles RB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZzhVN1hRbzE3RnRwdXBtUFp3UTFDb19PZDAtVzhoRGhvLThORzBQeUtTSkhYX1ZySGYyd2xpX2lyWUwzS29YWjVnVzNDeDlkTEZuc1A1Sy1hT3Q4MkI1ZFlNZEVFRktQQ1NBNDJHWFlCd05BbWhQbjNRTmRQYjJuRGRHU3dvYTBSczBlTG5jcWNFR01hTlE?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-9": {
@@ -301,19 +302,12 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTI5WUNCY096MkQ3dkhvd0t3YlVZaXE1S0VzUURMQzBJVEJmN3JzT0ZvZ1hhVVZ1WGg4Um1mV056c3RCSTR0THJyVlZWczZFeVpQVmhnT1ZxLUxYbzRrcUVKZUhKeG1aN1J5aUVjVHI1ZEp3eTFDMndPQk1VbHp3Y292cU8yS0lGaTFOeTktQWgzbE8tSDhfQnU2aVNTNG5CRm5iMW9RaDMzVDJ0NHpsNjhUTnZ5QVJDYTdtWVdfZldtLWctcEFvVw?oc=5",
       "category": "Injury / availability"
     },
-    "RB-10": {
-      "headline": "Fantasy Football Mock Draft on Yahoo Using Matthew Berry's Rankings: James Cook & Derrick Henry Lead A Robust RB Team",
-      "publisher": "FantasyLife",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOUExZzZwbV9pNDlsb1FkYVloUEpHM3dMTTYtcmdkZ3k1WEZoMHlVUTBjMHBuNjUydHdzMTVGXzVkXzF4NUtBc3VsaThISDBMbHEtRWxsR0RMQkhaelNscElNeXd4dmhRYUJ2aGVGR0l6Yjc4X21taHdEWXItd0VHclJrNUV2cnhLWjRBN0lScGtqVnlmY1FFVU05WVJwNnJPNTdoaWRLOS11RnJ0?oc=5",
-      "category": "Fantasy / draft"
-    },
     "RB-11": {
-      "headline": "Re-Ranking RBs You Should Target in Fantasy Drafts After Jeremiyah Love Injury",
-      "publisher": "Bleacher Report",
-      "publishedAt": "2026-08-18T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2xpVGtiOHc4cHN3X1A2WGlrY3hiLWRkaUFqNXZ1TnVBcDFKVlhBakRQMXdPR0pGUnVjM3pfUXJ3SUxtb3RrQkplT1RWUzdSZF9SVHg0VHpOU19jeUY0MjYzRFQzWFp5MWxWVkRITURHX19RZGtZbnFldTRNc0NzZ2RHV25oSElJZ1hwM0I4WU5hcGxyWUZhTGJiUlBwWThTdzJST3ZMR2QzUmk3cTktVVVqVm1OXzA4MUJxVA?oc=5",
-      "category": "Fantasy / draft"
+      "headline": "Jeremiyah Love injury update has positive signs for return",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-30T18:21:30.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMXNFQ0d4UjlMellvRUxZRlZrdk4zeXdLbmJ0QVAyT2FmRWVWZlQtaG9xamhfZ3pqNkV5U1pMMzc5YmE2cXd5VGpZbUhMSU0yeFB2SGo2ampsNTBtTzVodHRwMzNrSmcxV3NBTGx3RUxGaFpHaENHeTZzWmM2cmpPTGFmRzhhV240dElaS3JB?oc=5",
+      "category": "Injury / availability"
     },
     "RB-13": {
       "headline": "Breece Hall Injury Update Throws Cold Water On Jets Fantasy Football Sleeper",
@@ -322,58 +316,23 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT2ZfYjRqd1I4VmVQU3FvdVBReUR1T2dZS2hVaTNlY28zRjNNMkVfZEpXWDlGQl9ETlViY1dPRjNpZDAzdmJuWFVYTzdBdXZwbjJ0U1VXUjUzMWdfVDZsUzdIdUhycExmQWR0bktPbG0xdGc3Q1lYZmRpSEJJeVBmZzU1S0RJcDJZZGdQblc4ZG96Mjd1VjJLb3gxRnpnWFdnZUZ3cnJfZ3M5VFZXVm9ydWQzUUR5dkR3?oc=5",
       "category": "Fantasy / draft"
     },
-    "RB-15": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Javonte Williams, Luther Burden III, Bucky Irving, Cam Skattebo, Josh Downs, KC Concepcion, David Montgomery, Stefon Diggs, Jaylen Waddle",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:45:33.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOZWFVbl9CZlNmanVBdTA3ZDI5WVY0UFgwWHNsUXU3NVpCZlJNZ0ltZHRoYjlPZjdWQzFzWnJJR2RWTzBYNU50VjFVdmJOU1ZXanZJQVVjakFQV05pSi1WdHYtM1NFblFXZ1lCdXRFRDN1Y2w3MVJ3UzZpSDc0TWQ4TkxRai1mSXRwTUlPMlNhd1R1dFFJcE8tTWpVY3lTQVZrbUZiV21zZFJWT1lzM1IzX1lpUTVFTEYyMFRtZUhXWVpNZHVMa3dyeFVGbTJWdHYzU3E5ejRZTkNGVldyOXlZVVJ2YURRTURIeVotRmg3dEt0YkFiMXZlTHdpQnhFTFUzb3VpX3phbmRpa1lCNHdQSjRmQmY3VmlWdEtHZlFsb2JfOGJDUUFBRHBYaFQ1ZHJUWm1DQWpOemkzbzUxV0E?oc=5",
-      "category": "Fantasy / draft"
-    },
     "RB-14": {
-      "headline": "Josh Jacobs out indefinitely: How Fantasy Football rankings, drafts should approach Packers' RBs, passing game",
-      "publisher": "cbssports.com",
-      "publishedAt": "2026-08-31T16:17:16.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdURIcFh3QWRBbjBsT2cwUXdqYlVobll1YkFvMHpLRk1xUTEyNWNHUWlMZ2RzUzFTNXFVcEpEOUs4UVYxbXp1YzBNTk1JdkY3b21NNlZQelR0bHRSLUZNQUNTV3BWaUI1aTZobFl4TGIyM18tYkt3VFg2VkRSeElGYjdVbjN1RHc4Si1GQjgtRVp3d19DOVNFVEFORFJuckJpendVdTVpR05XNlVCN1YzUmNFbjZuNHhiU1E?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-16": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-12": {
-      "headline": "Kenneth Walker III's Foot Injury Makes A Rookie Sleeper Running Back A Must-Add Fantasy Football Handcuff",
-      "publisher": "Sports Illustrated",
-      "publishedAt": "2026-08-25T22:08:21.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb3ZDZnVia1U1VEY3NFFZUmxXS1RkR0E3WGVuTS1mZjVXeTE1WjVBdTJmY3RhMUxHLUVIWUtGei1rV1A2RTRrRFZVdmEzWC1EZTdTaHQ1cERXS2RHQ3dBZHR4SEpoSGhiWEE5cDJFeUxUWmwyQmJRWC1Pdm9uSG5OSmRoTUo4WEhURVRMZDM0RWw0Q09FV1Qxb2c2bENCXzU5SFlwcktTbVFoZlIxek9JV3ZVeDhYSjlGam93ZEwweFlzQ21BS0kwNzdraXRHOWRKQldGS1h5UmMtNUNWVnlF?oc=5",
+      "headline": "Should you draft Josh Jacobs in fantasy? Suspension update, outlook for Packers RB",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-30T10:16:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHlubTVCR1FtbzBHUVdVUjhRZ3E5UnJBVWZWUHREcUpMRlcya3k0Nmg1TXdXbmdxTHF0UlZNUTBPZmhoeVljUVF3RFFRaldib0duekoyN2x3MEREVUtGbVZjcl9qZ2hqTThmWnRaWW1GTnZhc1hKcTY3UVZCbkpDbFRraXRTQk1VVWZlUWxR?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-17": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Kenneth Walker III, Travis Etienne Jr., Kyren Williams, George Pickens, Parker Washington, Omarion Hampton, Malik Nabers, Jonathon Brooks, Mike Evans, De'Zhaun Stribling",
+      "headline": "Travis Etienne Jr.'s Stock Following Backfield Injury in New Orleans - NFL News | Fantasy Football",
       "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T12:25:35.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOYk11T0duMGpIWDMtYXdmSV8tYlF2SkhHQmRmOXRGaEpQQXRSVlBadEF4Njc5M1JLcjJYRTdndzBPYmRVaGU4dllHYlhXV3Y0bWk3c0stT3lHWHpra1hNQXlPZUNiRkV3R3VKQ1dvdEdvVmE4dWQ4akdqSVoxU2R2NWFtdTY3YnhyQzVaaThDNzZvQ0IxWWpCUE15MXRiOWhzWlJfR2FHZDRJZ09aWHlsNWs2a3pMdFBoN2tIVHV2V3VRVTB1d01VY2FpdWc0bnBBdk4wd1lmZ3dHdkVrSzhKaHpvRkZ6bU9wLUdPVC1ldGZ1WXEzZ3laaVMwMzcta2ZERW9BSWQ2QU1MVEFDNFZOb016V2pLS1dlUldaaUhSTkIwSHFvWXU1d0xmclVLZjFOUTRoOHFzRDE3WlROclF2REJpMG15V3lU?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-20": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-19": {
-      "headline": "Cam Skattebo Fantasy Projection 2026: Is the Giants RB Worth the Injury Risk?",
-      "publisher": "PFSN",
-      "publishedAt": "2026-08-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObE1wbHYwLUg2VWRPTXFNSmpTQXNJVnZfcFd2WG1uN2xfZndaQm5STFAwNEk0T0xGNEZBc1lvVE54UzhVWDhzdDBRQi1pcUdvVi12d2pIbmY1VnYwT1JxakVxRFBLQnQwbDhObUJoSFM4U1dwTG1sT3hENmRaMFRrMkx1bHVRYkpBN0xvc2JVdmdkTmM?oc=5",
-      "category": "Fantasy / draft"
+      "publishedAt": "2026-08-27T20:09:12.000Z",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVDR5VDFuVlp4NlI5S3k3Q25BR1Q4Qkl0Vk9lNFpSTUJqUlNKeFU1OUpBeDRpVjRTS3BsT1ZiaUFQOG1lSThXcksxSHNmc09oZHBtVWt6Yy00Nmp0VnpQZXByNHB6ajRrOWtWUnpXWDFpakJnZG9zLWo0WUZ4Sy1jd3dYZG5DT0JrbnlyMlNjUHBqTU9mTkNncDRQWVBmN1FpbDd4RjZ3ZGxTLUxmMlBndWtPQTI?oc=5",
+      "category": "Injury / availability"
     },
     "RB-21": {
       "headline": "Bhayshul Tuten, Fantasy sleeper? Jaguars RB proves in joint practice why he's worth the Round 5 risk",
-      "publisher": "cbssports.com",
+      "publisher": "CBS Sports",
       "publishedAt": "2026-08-25T20:15:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUThGRzZLUlFKSl9aY0dSbFpaVWRHNVhidVV0RUFfS1BtRHhjckE0clNFTVo1Slp0aWE5QzZVNzBCb0JHWjFqSUxhVXdjbnM4Z0djT3E3M2pQbkxNNE1oblB1eHNSMXBFWjZ6cmdmN1JEckdnYjdWSjZnRU1nZnQyZHBhUlFSclgyNzNWcnFzaVZnNHRyZEo5YVU5Uk52TDVHaEFjTGFn?oc=5",
       "category": "Fantasy / draft"
@@ -392,67 +351,60 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRFFtck1ieGVfcDI0aXBUOWI1cHRIdTZBYzhNYkJTaHFYa2RkcnBxOEU5aUo4SVJiMmplbnV5cEROR3A4ZzRFR3ltczNFdFNmV0FzUThyakhkX1ZsR2s4UTRwVHNDaU15ei1abzFfYnBvbkZnMVBqTE1USElSeGdSZHp4SDNYMVJ6NzkxNWM1TXVfenM3RnNucQ?oc=5",
       "category": "Fantasy / draft"
     },
-    "RB-18": {
-      "headline": "Quinshon Judkins Injury: Returns to practice Monday",
-      "publisher": "RotoWire",
-      "publishedAt": "2026-08-24T17:42:53.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjJwYTVob1ljaU42Vk0zWlJKQTN0Q29WekZqQTFLc0lpMXpNaHRXbUQ3SXZlS2JqeUFoZ3BwRlUybWZ3VlNiSXE1czI5UjZyc0EzRDRDbkd6MVRjT0RrZV90ZjV0SURzb01qbEJOYzBsWGR0VTZ0MWJKZEUwNGlyeXpWaktzaUN5NGtMVDQyd29SUEVKTHo5dWoyUTFYd1QzczRJ?oc=5",
-      "category": "Injury / availability"
-    },
     "RB-24": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Chase Brown, Saquon Barkley, Kyren Williams, D'Andre Swift, Omarion Hampton, De'Von Achane, Derrick Henry, Bhayshul Tuten, Jadarian Price",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-31T13:00:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQcHhraXZBWVg4VllXZm0wZUs3bllJZlpqMDBjN3pab0RwRTkwZWdoNkFGUzhwbGZuV2hYRFdmQjM5Wnp0Q0VsUHhEWmJwUFZXVDRBVzJyVWtmMnIxWEtqVmU1Y3FFUF9DeWUxcEtWa25kRkY1cHc3R2p1U2staVZ5dTJNazVYUV9wRENCODAzd1JiLVFuX2lQMDdOdDBoS0U3OThGVEZqeGNMT0YtdlBvamp4NmhhcGIzWTYtUG9OdG8xa1JpX2g1TkxPX2FpWklXSWNjSGM4RHFjeFdGQmVnSUROSFg4cFRvenZIODBMTGl1YkVBYUJ3NmYxN2hISDUxejF0OHlzdUN0RndScTJSVHl6aXNlV3ZwaHlLT3E4aGhZX1laMTU1YkI3TFJ3UUx6VEQ5UU0yTTliMTg?oc=5",
+      "headline": "Jadarian Price Fantasy Projection 2026: Should You Draft the Seahawks Rookie?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMENQZlRIZmt5dTg0RUctSW5LRVNHS0dtenRHOGNiTVJpaTJCZjlvRldfbWlzdE5ZQldmeTJDMW9YeWV1WnV6VkJJQlhkcFplS2J5blZ3ak9jeVRqYkxjZEdlbUY3MVlvYlZsRXZ0TGFqaGlkdXQ2QUxfY2V0OEdaRVVSOXBfTnN2Q2ppT053ZEVDTWFveUE?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-25": {
-      "headline": "TreVeyon Henderson Injury Could Move Rhamondre Stevenson Up Fantasy Rankings And Open The Door For A Sleeper",
-      "publisher": "Sports Illustrated",
-      "publishedAt": "2026-08-24T17:13:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUkNWQnJDZ01pMWZ3UENYZmFsX2x0T19wZHJ0ZENyLUwxaFdaczJQR0FYSFpTUmxBdWVwQjhZS20xTU9VaXZxUy0xVHF2WGIxY0MtRUdfd3JtMlB2LUszMFBkTFpJcm1VSTZQYzVlLW5VNmJQLThqRUN5MUJ0ci1qY0E5eTN1Z29wcDhteUI3eGxURTZucUhoU0xHckFCQmN1aWZoWFh6UFRQRm4wMkttMUk5TXAyZURSSWltVENkUlp6WXM0U3hleTV0alY3YnZSSEJldEhCbVNmR29ucTk2Vi01OA?oc=5",
-      "category": "Fantasy / draft"
+      "headline": "TreVeyon Henderson Departs Practice Early With Potential Injury - NFL News | Fantasy Football",
+      "publisher": "RotoBaller",
+      "publishedAt": "2026-08-24T16:26:12.000Z",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONFV5NTlyTF9TQy1ZSUYybm5FREUycW5zOHZrbGpoUms3WUJZYUFIWlRsRk9rVzFiSGt2QWh1SUNLc2NUM1lqakNqdC1aLU9kdTlwQVViX3Bvdzhhak5fVVNOVkxQemR3T2lVSWFJTEQ5M2lmdkhYSklkX2o0MkU1eTdSOVdJWGxKNHA4YlUtMWhwM2IwUTRVU2pWczEwQmt5ekdtRmVNYW1Qc05qTjd3?oc=5",
+      "category": "Injury / availability"
     },
     "RB-26": {
-      "headline": "TreVeyon Henderson Injury Could Move Rhamondre Stevenson Up Fantasy Rankings And Open The Door For A Sleeper",
-      "publisher": "Sports Illustrated",
-      "publishedAt": "2026-08-24T17:13:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUkNWQnJDZ01pMWZ3UENYZmFsX2x0T19wZHJ0ZENyLUwxaFdaczJQR0FYSFpTUmxBdWVwQjhZS20xTU9VaXZxUy0xVHF2WGIxY0MtRUdfd3JtMlB2LUszMFBkTFpJcm1VSTZQYzVlLW5VNmJQLThqRUN5MUJ0ci1qY0E5eTN1Z29wcDhteUI3eGxURTZucUhoU0xHckFCQmN1aWZoWFh6UFRQRm4wMkttMUk5TXAyZURSSWltVENkUlp6WXM0U3hleTV0alY3YnZSSEJldEhCbVNmR29ucTk2Vi01OA?oc=5",
-      "category": "Fantasy / draft"
+      "headline": "Rhamondre Stevenson’s Fantasy Stock Rises on Henderson Injury Scare",
+      "publisher": "Gridiron Experts",
+      "publishedAt": "2026-08-25T22:16:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEI5SDdCb3g3amtYMHhEVldRZmNPWHRNRHI3blNPekxCeWxZZlBWYTFsMC1tNjdhUUd2eng1azFoZVlYd3hxT3haTVdPNHZyOGg2U1JrVVlfZnVYd3N5NGZxa3N3eE5oOGlhaktsVnR6bmdNVl9kRXNSaVdtdnlKZFpOcFJsZDRFWENFZWdfVTZMNURsc3J0SDltaw?oc=5",
+      "category": "Injury / availability"
     },
     "RB-29": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Marvin Harrison Jr., Wan'Dale Robinson, Bijan Robinson, Jaxon Smith-Njigba, Davante Adams, Ja'Kobi Lane, Kenny Gainwell, DK Metcalf, Tyler Allgeier",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:45:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPZlZqV2NSUkh2bVdnYVNsZEppenhKRXVwNEFjYlVqTFJkM000c3p1SGdabXVmM01MS1FjZUUxRDZBTFFKcXU2LUs2ZEVkMlRPakdMNWVLTFNvZVFhUVljOUY3ZnduWDBFUUFNU3M0TDdmbElwX3hpTjRmaGtDN2w2TlpWYmJ3cnhveFh6d2s4azRDYkRXcGw1eUF6WWZsTnZtdldxMXFMeTc2Szd6N3l5clFNUXc1aEpSSE40eHptdFhIc1BqbDZvMW81YkZLblVhQ1VseGhJbnpVakxBVTJZQVROU2JraTh5VFFETmVLX3ZDc0kzV3Z4M2xnb1JoREtqQmVOM2ppRzVmenZZN2s2a0RMeS04eWlVN3NjLW9GNXcyNEp0NVg3bmhEUUprN3hPMzlIaUVNX1hfaWd0ZGJ5b0h3Z3VtZw?oc=5",
+      "headline": "Kenny Gainwell Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-29T00:57:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUFlaV0stYXg5QzJNVUUzOTRCUW0yMHF6NzN3VHFRS0oxSHVNVVMxZEFHeFJvVDBvRFJ5bDZWYjB4Nlc3c2dYOGpuaWFCUFVNS1BtaWVhaXp0T1o3ekRZSGdlcHJuSEZCdzU1bTRScDZIYURudWVpeDZ2X3VyYUFYcmpaSTPSAYoBQVVfeXFMTXM2RjFFaTF3bTdUNmo3b0ZBVnF4MnFjM3FSdmw3b3FkYlpNMGg1TW5HencyOF8wdjZxNUhjQ25tNFNSMk9MeGw4QnItT1V3aFVfWTNzV1lvTkc0UkJLczhtbnpJRl9PTEJLY2tIVnhqT1dKYXllc0hfamVfSkhXeFJpMERqcXZWQnlR?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-27": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tee Higgins, J.K. Dobbins, Jeremiyah Love, Rome Odunze, Jaylen Warren, Caleb Douglas, Matthew Golden, Denzel Boston, Cyrus Allen, Tony Pollard",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:45:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZWpWWDhXRWFNOV9SV25PRVFMdldHaDZpcGZ0Y2RhVFc2dldncG9tTC0wekJIbFJBMmVGOVdiT3BORVhwdlhDNGhQdl91RjlvTVNZR25IQVFDSGdhdkVQWVdKVkFLM0VHLTQyempLdkNWdWRMd0g0Z2Z1UmI4WVViekNpTFNBMFFrbGMzRlhVWGthXzlDTkxUbGFXODREZy03RU9VYXlTTmo5akJBaDdYTVB1NEJQMlM0YmFDN2ZMSjZCTVYtc19EMmpjQkkxV1RiQ0w4ejFZYV85cEg2UTZ2SHJod0VyQUVVQU9jUU0xdk5HU2paX0FEM2p1b05mQkIyWGpEV29idmR3amx1TDF1WXdCZXlZS2VyQ09TbGpmQkVPYm9RNGxuRjMweWV2Z0dMN1o0aWZyZXR3VHpFSXRGSVdR?oc=5",
+      "headline": "Tony Pollard Fantasy Projection 2026: Should You Draft the Titans RB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T16:38:38.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMC1USWJvQXRuR3FFQTY0QWpUYjVWc19jZFdyYk1POWpUekxZT0d2MnRKYlltZFU4cnZ4MXdjZTdPckFTa3Q1WENkaWt5NUd3dUFITkx6Zm1hRTZwbjhQNW5Jcm5uYkN0MF9jbGc1NW16dmtBNFJQLWVsQ2FjV0NocEtSLU15OHBiZlU2RE11TGM1S2s?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-28": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tee Higgins, J.K. Dobbins, Jeremiyah Love, Rome Odunze, Jaylen Warren, Caleb Douglas, Matthew Golden, Denzel Boston, Cyrus Allen, Tony Pollard",
+      "headline": "Jaylen Warren Makes Preseason Debut as Steelers' Starter - NFL News | Fantasy Football",
       "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:45:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZWpWWDhXRWFNOV9SV25PRVFMdldHaDZpcGZ0Y2RhVFc2dldncG9tTC0wekJIbFJBMmVGOVdiT3BORVhwdlhDNGhQdl91RjlvTVNZR25IQVFDSGdhdkVQWVdKVkFLM0VHLTQyempLdkNWdWRMd0g0Z2Z1UmI4WVViekNpTFNBMFFrbGMzRlhVWGthXzlDTkxUbGFXODREZy03RU9VYXlTTmo5akJBaDdYTVB1NEJQMlM0YmFDN2ZMSjZCTVYtc19EMmpjQkkxV1RiQ0w4ejFZYV85cEg2UTZ2SHJod0VyQUVVQU9jUU0xdk5HU2paX0FEM2p1b05mQkIyWGpEV29idmR3amx1TDF1WXdCZXlZS2VyQ09TbGpmQkVPYm9RNGxuRjMweWV2Z0dMN1o0aWZyZXR3VHpFSXRGSVdR?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-31": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Puka Nacua, Quinshon Judkins, Christian Watson, Tetairoa McMillan, Jacory Croskey-Merritt, Jakobi Meyers, Chuba Hubbard, Kyle Monangai, Jonah Coleman, Romeo Doubs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:25:43.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdmNCQVhkZkJxa0hCTnJySjBaTmZZNkotSUx2d28zSXd2b3NzS25fRmZQc0ZlbjVDZ1hoNlpyQ3hqMkc4Tm5rVWNZbGtQSjJEYTRMZm1Xa0owUHZjNWhaR291WnFwTXJwY1QtWXk0QndFNXZuRV8xNm1PSUJpaWpCMWxBanoyZ1ZLa0Nrb0k4dHhHcFVsaGFYYTRVZ0Y0Mm5SM1hyeGhpRXctLVZqWGV3WWp0c18yQ2JwRVluWk5FcTBIcW96RlpWU2xwX3pWNFcwM1RzTTkwTVdUUl9OODlrMkt1dDMtNmkxN0xEdElBOUJZU0JzazZqMk5CZ091bV9uamtwQjVoNmhOazYwOUdrX25IbmxNOHYxTzF6cEtjVG5tUnYzckZ0NkFiY3pXSFd5eG43eHlkZVk1NF9IREhOT1JmYUpuNWxyWXc?oc=5",
+      "publishedAt": "2026-08-22T05:49:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaVFLSjlsaXRvaDVDekR5UFhtM2s0dzJZX2FGM2dkeG1PdFk3NktNbU5KUTNiOU9LUUJTSnAzUzdyM2JMa1VKMlRFTm5FUjFnVGdjQlN4RDBkRjZCMjZRaER5a3JuUzI1bUN4ZGI5VHJoWUNuMUd4UkpKSEF2U3NHdHFybnBGLXBRRkl3eHpSb24ycXlOOXp6aXpmbkVxOURJbWVhNA?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-30": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Breece Hall, Rhamondre Stevenson, Jordan Addison, Nico Collins, Drake London, CeeDee Lamb, DJ Moore, Justin Jefferson, Rico Dowdle, Terry McLaurin",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:25:35.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOLWh5ZzdTRjhQekltSFlCcTZuc0dCTU9JN1RxWTRVN1pheEtjaV9SYnA0c0dDTjNuWVppZUlLVlFxSDB1X2xtZ1ktQUdHelBDcmdGS1FrZXB2Ti1LSlhVYWZUMU8yUzhNS215VUYwclNyZUxsTWVRNUx3Si1QdkhyNXFneFhOT0pSZm9hYjhFOEstSmhMdVpOdEp1d2Y3WDk3UzNEWUlTVmp1SXVwRVpIY0h1anBMUXdNQzBNMHFUN2lKQk0zUUgwZmQtZEVGVE5ud2hjYUM1MEpwTEpkM2hqX0FBR1lWREV5WnNaeWE4TjhwVFU4TkxfUVFOMURDeXdmME51M0xpZjh2Q3VqenhOVjRZd0RpVzVFeWtrM0tLTVFxdElGVXhObFVtSnVxa3V3NjFWam5JcHdIMTZIWTdUa1JRaC1OaFFN?oc=5",
+      "headline": "Rico Dowdle Fantasy Projection 2026: Should You Draft the Steelers RB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T16:32:19.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDNVSHRxYkViX1BIQVlfeEZ3U3FxVENDYkZmaFdtRk02aVNtNnlmdHh4RUxSc3RQb3Rjc0dRbTFubV9oYVRRejR0SEMtMnk4NWFVcFBRNndfWFk1SlVPTlh3SHAwT2hMbUx0S3JJM0pNQ3M2Q3ZBMnNwQUkzMGZMLUFmY3hGOTY2eTJMYjBnZVo5dw?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "RB-31": {
+      "headline": "Chuba Hubbard Fantasy Projection 2026: Should You Draft the Panthers RB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcm9NQ2oyNzV3SW13Ymk2RFRXbnpEOUI5VVoxLWgwVGMwZWhxUzFxRXo2a2gxVHVHUnJ0ZjBVaFphWFVIdjJ0SlpWNFFNdVFTUUd5dDByQVhaZlA5NjlDSFpLTi12Xzc3M2NfVWNCTW1QR3dFWGdDVVcxcU5udjNuWjJZeVlhWmltU1VOOTBIMzFKaGdK?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-32": {
@@ -463,10 +415,10 @@
       "category": "Fantasy / draft"
     },
     "RB-33": {
-      "headline": "8 Must-Draft Fantasy Football Sleepers: Jonathon Brooks Continues To Push Up The Rankings",
-      "publisher": "Sports Illustrated",
-      "publishedAt": "2026-08-25T19:17:59.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRTVlZmdiZ0ExS0hqaVl2YUpoMTJ1Wk0wV1gzb01HdXMxbjhsUmVzNldhTlpIeWFaMDFmYkhWY2x0WXdrbHRScE15dkhCTUtzc1J3Zk5DaDdXenc0dzZxbUt1UzBjMEpWNk1RYzIyaFpCRS1QVlB2Y2t6OVpkdkEySHgwVi1ZWno1X2c5eTV3U19nYzFlQ2RZb3JlTnRydWxOc0d4c0NFMTZQUUtUNEVvczdPdjJmRnpoLUluOFNpOFZRUQ?oc=5",
+      "headline": "Jonathon Brooks Fantasy Projection 2026: Should You Draft the Panthers RB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd2poS21SdEdvMC04N2gxbklXSlFabVdvS2VwZWZzdjIzOHZpSVlHTUxVZTcwVTAzQkhDQ3ZRcXFJUmdBcHlNRG9rLTlZNkdWVm9qOFBpSE1BSkpMYkRDWDEyUW1tWHJ4UVR3SnBqQWhveF9EeDhwS21Uc3ZvcGlRenExbzZ0Qk83dUV4cHFQbHZYNkV2VVpN?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-34": {
@@ -490,19 +442,26 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTEk0QXlqenNOR1VzVDVaaHJNU21ZbEhMMEx0TVJxaU1tOUNDU3lxTWV2TUpBLUhOMDBjTndqRDBhV2NoaWtpMUdfcnJ4WnpXUU13MkZKUTZMaHpuMzV2SHpxTlRfUnBSWjlGT1NGNFd1bThjV0FtQWVUMmhwR0RJS0lTMVVjQnJaeUFrdHZ3Zw?oc=5",
       "category": "Fantasy / draft"
     },
+    "RB-36": {
+      "headline": "J.K. Dobbins Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T20:23:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96X3lsSWtiVWxsVXFveEZMQzhaRnZFQ3RpN2habDROSUJqTndOM251bUdDOENDdEZJVy1aYVJyeFM3MUpWZ2tWZlV4MFg5RGFzWU5QZzNhZFZkUlFaNDM5ci01TGRfX2tJcmo2WHYxVHA0OWREbzcwLTNSd3fSAYIBQVVfeXFMUDBIcTI5V1RUY1ZlbkhkaVJLR0FGMkNYRkR2NXF0ekpKenRHV0taVWhuRk4yaU1sSnhoTW5sQ2tYTGRYa0FCTjh5MWJQd0YzREJROW9hZ09SeGZYSm9vMFhFbzk3TGNFTE5mYlFlNEpjdkRiOTBSSGxVcGVHdHJxV3BPUQ?oc=5",
+      "category": "Fantasy / draft"
+    },
     "RB-38": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Emeka Egbuka, A.J. Brown, Jayden Reed, Josh Jacobs, Blake Corum, Quentin Johnston, Jalen Coker, Rashee Rice, Jordan Mason, Makai Lemon",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:05:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOR0ZQMm93eGdzcHRMUll0M2c3S29xVjdVUXNLSVBGY1M0WmhYT3hKUFFCY1RSYlAxVlZCUEM2QnNIcUhNVTBDSGptRjVzZi1lR1Ayd0lDMVFwckRZd3llR011NWdHdmtpcVEtSHJrX2E2NnVFTXFRbU0yNkJjSGJwdjRDLXZiVGp1TFA3OUs4SDhUUktRRnpVemdacFFxbXJ6d0t3dWVNaGtJbWZpV2ZTUlRmdUN2VHRZYkk2RWh1dENralI5RTJRbHJPLXpjN3RZY19mbUVtcFdobkRMdklXWGNFMG93aExka2hvSEt5UFJxZHAyeWwzZ2R2YlhCdUxHM1hPOGRERTd2SVVIUkp0UWZtTzhIS2ZCaFBZeUJMQThtejhfMkdzdHZMTk0yOFJlV1FtYWdGUQ?oc=5",
+      "headline": "Blake Corum Fantasy Projection 2026: Should You Draft the Rams RB?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWWhhbi1hVC1SNDlkRnRFdzZtMm5weXVHd2xuRGtQaWVTVTVlRjdBYld0LVVnRGJfbmFOZE8wY2RwbEVYR3hqRkdDcFpRdEZRcWJGb2dFeHgtSWhzRFVESEg4SWNFNVF6ZGYyMFdKejVaNVo3MUFScml4ZzBpZW1tRnd5czh2cFN0NFl1NHhYS3doUQ?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-40": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Puka Nacua, Quinshon Judkins, Christian Watson, Tetairoa McMillan, Jacory Croskey-Merritt, Jakobi Meyers, Chuba Hubbard, Kyle Monangai, Jonah Coleman, Romeo Doubs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:25:43.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdmNCQVhkZkJxa0hCTnJySjBaTmZZNkotSUx2d28zSXd2b3NzS25fRmZQc0ZlbjVDZ1hoNlpyQ3hqMkc4Tm5rVWNZbGtQSjJEYTRMZm1Xa0owUHZjNWhaR291WnFwTXJwY1QtWXk0QndFNXZuRV8xNm1PSUJpaWpCMWxBanoyZ1ZLa0Nrb0k4dHhHcFVsaGFYYTRVZ0Y0Mm5SM1hyeGhpRXctLVZqWGV3WWp0c18yQ2JwRVluWk5FcTBIcW96RlpWU2xwX3pWNFcwM1RzTTkwTVdUUl9OODlrMkt1dDMtNmkxN0xEdElBOUJZU0JzazZqMk5CZ091bV9uamtwQjVoNmhOazYwOUdrX25IbmxNOHYxTzF6cEtjVG5tUnYzckZ0NkFiY3pXSFd5eG43eHlkZVk1NF9IREhOT1JmYUpuNWxyWXc?oc=5",
-      "category": "Fantasy / draft"
+      "headline": "Jacory Croskey-Merritt Injury: Set to practice next week",
+      "publisher": "RotoWire",
+      "publishedAt": "2026-08-31T21:11:49.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbWN6WDd6NEZlc3JUTm5ycTEtMU9IZk5wOFNNTWZicm1aY0RtN3BaLUFKVlc2a1dIbjYwVEdHLWtVZ0t3VVJoZ0dsaGFkdEN0akhzNVFoUGZ0TFpGeEVwaDNYMExWTFExc3lvT1V3WkZPZ1hud1JzMzZZS0RzQkxiWnM0QWRpdl9uYzZSZkNYTkc1UzA1QkZWS2k3bXdBTllOVVZ3dkRwTzJDUQ?oc=5",
+      "category": "Injury / availability"
     },
     "RB-41": {
       "headline": "Tyler Allgeier Fantasy Projection 2026: Should You Draft the Cardinals RB?",
@@ -512,17 +471,10 @@
       "category": "Fantasy / draft"
     },
     "RB-39": {
-      "headline": "Tyjae Spears Fantasy: 2026 Outlook, Projections, Stats, Points & ADP",
-      "publisher": "Bleacher Nation",
-      "publishedAt": "2026-08-18T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQTZaMWl4bGVaeEJ4eHAzSURoaWR1SzVSb2l1YU8weWd5RzR4R2FZM0w5bWdFZWZHd1BvazJkeHBTdmtveC0yYWJuWWFEc2x3VHlQVXBTdTBVT0c2RDV3X0dpN0owNWlBaThLMUh2TXB0MU5Nc2ZfUnF0MDdzZGJYaUlJNUx6Rmotc0hibm9JLUxXQl9MU0swTWN5dm84RmJWVnNoekhJZmE5eGgyUk84NXJuVzdWaDY3WDhtUA?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-36": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tee Higgins, J.K. Dobbins, Jeremiyah Love, Rome Odunze, Jaylen Warren, Caleb Douglas, Matthew Golden, Denzel Boston, Cyrus Allen, Tony Pollard",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:45:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZWpWWDhXRWFNOV9SV25PRVFMdldHaDZpcGZ0Y2RhVFc2dldncG9tTC0wekJIbFJBMmVGOVdiT3BORVhwdlhDNGhQdl91RjlvTVNZR25IQVFDSGdhdkVQWVdKVkFLM0VHLTQyempLdkNWdWRMd0g0Z2Z1UmI4WVViekNpTFNBMFFrbGMzRlhVWGthXzlDTkxUbGFXODREZy03RU9VYXlTTmo5akJBaDdYTVB1NEJQMlM0YmFDN2ZMSjZCTVYtc19EMmpjQkkxV1RiQ0w4ejFZYV85cEg2UTZ2SHJod0VyQUVVQU9jUU0xdk5HU2paX0FEM2p1b05mQkIyWGpEV29idmR3amx1TDF1WXdCZXlZS2VyQ09TbGpmQkVPYm9RNGxuRjMweWV2Z0dMN1o0aWZyZXR3VHpFSXRGSVdR?oc=5",
+      "headline": "Updated Tyjae Spears Fantasy Outlook 2026: Titans RB Doesn’t Have Much Upside",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T14:24:49.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc0FkNWhVYUdYdGozNi1lZzZSejBXblkzcno3ZV9RWjU0ek1jX1dvOWcydHhsb19KbDJJMDJzR09uQmlLbU0wZlU1S3pLS3ctTWxWM3Ftak1rUy1KUlQ0ZS1sVnBkODBNSlRLenFIZ3VndW56VkFaazNuVl9Gd0YwZEt2dDhjejdYTDNrWTJR?oc=5",
       "category": "Fantasy / draft"
     },
     "RB-42": {
@@ -540,18 +492,11 @@
       "category": "Fantasy / draft"
     },
     "RB-44": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Rashid Shaheed, Brian Thomas Jr., Deebo Samuel Sr., MarShawn Lloyd, Emmett Johnson, Jauan Jennings, Malachi Fields, Jalen McMillan, Woody Marks",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:25:01.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOZGN1eGZ3TjViWWZhbGhoYjU1bl9DeUFnd2kxWlBMSUJKa3BLeFlobWlHMXdUbEVoaGl6S3JPUGN2c1hTQWUwMVBhYkRsOVNUU1BHZHdHQldfR3JEcERlU05zaFg3RE5wUnZEWGFkeWRWcEY0WTllUWZrWldCMTFFSlg3MDg3NUpXVVU3WEUyYWRNeFh6S2sxT0owNE5Lb2s0RXAyZzhUaEJmVFIzMVgzUjFGeDBQYzdZcHdtY1hYOWMzd3UyNFQzUlBGdjhPTG9ucEduN0xfUzhJOXRWem5RQlA1WXJ2X1ZnUEViOUNKRDVVVHNXYlFYaDg1YjRrU3VyOUFPVGlEeUZiOE1SSVZELXZBbHNyOGJEZTRfWnFFazBySWc1WkRLa0VSc3ZWYVkwQWQySjZUczRZNlJoWkQwRFczNA?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "RB-46": {
-      "headline": "Updated Zach Charbonnet Fantasy Outlook 2026: Seahawks RB Aiming Return After Major Injury",
+      "headline": "Woody Marks Fantasy Projection 2026: Should You Draft the Texans RB?",
       "publisher": "PFSN",
-      "publishedAt": "2026-08-29T14:54:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdlo3UW9QdlJ6eTFJTVcwaW1IdTZVeW10cWtmeHU2bjZKeHJwcE04UWg1N2VhNHhORTVzMjFSekRiTktBRDZpVTBKQWZRSFBJcFVILWtpOVR6Y3p6QWRoXzhxN0JQeXRpUURzVy1KN0hkNU1ESk1CYWtoMHhmXzJEX3lCOHB1SlZDdGo0ZC1fS3d6YTFhX2pqQ3RRYkhLUQ?oc=5",
-      "category": "Injury / availability"
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMmFnR3RDTlVsSl8wWEdOZ2Z4WURnSlBpQk5EQXNDTDVWTHdqUGk2d2NteHFmRXZPVXRjTmIxeHZ6VG9IWDVCek5XM2REV1dSVGpsUUhmWmMtTmpjMXRxQ3U3MmR5d1ZaX1MzQWE4OWxiaWFJYVdSYUp6ZElXRTBTS2VNbVVqR1pxWjFFemdhdWV4Zw?oc=5",
+      "category": "Fantasy / draft"
     },
     "RB-45": {
       "headline": "Chris Rodriguez Fantasy Projection 2026: Should You Draft the Jaguars RB?",
@@ -574,12 +519,12 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSVRhUElKeDByNWZNYWhNajRaY0pIajA3STVIa3ZjUjFVemtXSHpvdnctQUVHa1NRLTV4N3M5d3VfZ0dzb2M3MF9ERXRxUEczX2ZEeER0LTlPUnRCR1ZnTUotUDB3OGstLTNvazd5UHJIUUx0ZWEzbi1fV3FuOGN4SlJIRG9Zc2ExSUZ5TUhuRTNKWUZ1M290OUM5SjI?oc=5",
       "category": "Injury / availability"
     },
-    "WR-1": {
-      "headline": "Updated Puka Nacua Fantasy Outlook 2026: How Early Should the Rams Superstar Be Drafted?",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-29T11:21:50.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTWVkd3hzVUhpd2Jib3hMcndIcEI4TGxfclUxekpGa05nUnZHWmlsZVQ3R0pyTzdETlQxZWY4WFQ2R3lmanp6ZmVkMVZsblVQaDBEMEFaZkFpWHh5MjRxZ0pxM0gxNDE5aEV1Vk8tUWRzNE83OUlITGxUX2E0T2NfV2prYV9GYndCYVI0?oc=5",
-      "category": "Fantasy / draft"
+    "RB-46": {
+      "headline": "Updated Zach Charbonnet Fantasy Outlook 2026: Seahawks RB Aiming Return After Major Injury",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T14:54:38.000Z",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdlo3UW9QdlJ6eTFJTVcwaW1IdTZVeW10cWtmeHU2bjZKeHJwcE04UWg1N2VhNHhORTVzMjFSekRiTktBRDZpVTBKQWZRSFBJcFVILWtpOVR6Y3p6QWRoXzhxN0JQeXRpUURzVy1KN0hkNU1ESk1CYWtoMHhmXzJEX3lCOHB1SlZDdGo0ZC1fS3d6YTFhX2pqQ3RRYkhLUQ?oc=5",
+      "category": "Injury / availability"
     },
     "RB-49": {
       "headline": "Updated Dylan Sampson Fantasy Outlook 2026: Why the Browns RB Isn’t Draftable",
@@ -596,17 +541,10 @@
       "category": "Fantasy / draft"
     },
     "WR-2": {
-      "headline": "Fantasy Football Mock Draft On ESPN: Starting Amon-Ra St. Brown At 1.07",
-      "publisher": "FantasyLife",
-      "publishedAt": "2026-08-25T08:01:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmVKTzNyUmRzZllVX1BhNkhyU2xXeFktcUJSZGRoWmVkaW5NMmVoUFB2MVRUa1lidTFoZlkwWjFmVmVETE9sejJMU2l5LXMtWllFWGRYRzJTTGpNWmdrV1FmSHhCNnNzdzJ0b1ZSY2lqRVUtOHBJWFpMb3ozTjVJR1dZOU1wWFJXOHI0MWhIQ3ZDd09aOVpqYlI0WUNMa29KeXRJZkphMVpEUndHOXc?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-3": {
-      "headline": "Fantasy Football Mock Draft Using Matthew Berry's Sleeper Rankings: CeeDee Lamb At 1.10",
-      "publisher": "FantasyLife",
-      "publishedAt": "2026-08-27T08:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3lLQkNIemxGX19LcnBzaVQ4VXJQbU5XSVZWbzlGWnZmcGpCNEY0bzFUckVpdDN1Mko3ZU5uR2ZScUdMRFhJZm1kbUxoaTVhb0pKWVZMYXljWTNGcDNYcTdXb2tDRDRnZXU4RllPQ2otT2RsSmt3aWs3c3VQRm4ycU9RODBUcVR1a1I5akYxZW9sd1ZETlE2Q1gtNW5zeVRmcmJrbVY5TU5LaWc1Qm41M3lmR2RTZTRHUTRNV1hLaGJ1MmZBQ3N1ag?oc=5",
+      "headline": "Updated Amon-Ra St. Brown Fantasy Outlook 2026: Lions Star Is the Epitome of a Safe Pick",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T11:06:34.000Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaEdKT2gyX1g3SjlHM0F6djFkY29yV3RoQUExSkI3RzdYbF94VWoxRU9pMWlhRmtZRlIzZ3ZuUm4td21qUXlSY3h2dE5wWmNnTkFFSXZYSnNnc3g1a2x1azlNYVdfVWNlS1A3YnliVWVFVERYMWExZk8yRHdwdmV6cV9UbV9sQnVxRG5Lc3Bwb2F1OHgwekZUeFM0SFlkMm8?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-4": {
@@ -614,6 +552,20 @@
       "publisher": "FantasyPros",
       "publishedAt": "2026-08-31T16:52:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPclI0MHppNTBTZXhSVUVQLW9oU1hYM0pSWkRacjVmRWlSVmNETVdhNVRZb1Nnd2VzaDgxaU5KVGNFS05rLUhFVWR2RmUweXYwRVl2Qk40VHNUekZMUEZ4ZDVNRjJKZk1aTzRocVl5NFp4M2Vvc0pMY3d4SjMxeTVMNzhFY1XSAYoBQVVfeXFMTUJyMl9LQngxOXVUT25BTUplRjFPWFNhVEZwZzlNd0RvQm1kVnJudWhVZzhXSW5uSFFIS05EbURvZ0NhcS1ZZExwTFpsdUFSbERMSlBzblltY1FQdGl0TVg4cC1GdnNYUzJqblUyNkdSQjhMLURjMmJfRmFDMm9fTHBBeDZlM0JYcWZ3?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-3": {
+      "headline": "CeeDee Lamb Fantasy Projection 2026: Should You Draft the Cowboys WR In Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ1lrWktnanV3cXlSRUktQWJnU0pmdmFaSS1CekczVkg1dEtHZkNkUE9UbEFRNngtMm1TU2JmRk8tNlpaVnZlbmN1YkpXLV95c0FrVXFMYzZzUFY1ejZCWUVHWGRVMlVfSTFveTNLNl9mdXBxdUowbkRzdkRpekU2Q1lQNU5zTEg0LUpCU1ZBckRuZw?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-1": {
+      "headline": "Updated Puka Nacua Fantasy Outlook 2026: How Early Should the Rams Superstar Be Drafted?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T11:21:50.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTWVkd3hzVUhpd2Jib3hMcndIcEI4TGxfclUxekpGa05nUnZHWmlsZVQ3R0pyTzdETlQxZWY4WFQ2R3lmanp6ZmVkMVZsblVQaDBEMEFaZkFpWHh5MjRxZ0pxM0gxNDE5aEV1Vk8tUWRzNE83OUlITGxUX2E0T2NfV2prYV9GYndCYVI0?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-5": {
@@ -624,24 +576,24 @@
       "category": "Fantasy / draft"
     },
     "WR-6": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Breece Hall, Rhamondre Stevenson, Jordan Addison, Nico Collins, Drake London, CeeDee Lamb, DJ Moore, Justin Jefferson, Rico Dowdle, Terry McLaurin",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:25:35.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOLWh5ZzdTRjhQekltSFlCcTZuc0dCTU9JN1RxWTRVN1pheEtjaV9SYnA0c0dDTjNuWVppZUlLVlFxSDB1X2xtZ1ktQUdHelBDcmdGS1FrZXB2Ti1LSlhVYWZUMU8yUzhNS215VUYwclNyZUxsTWVRNUx3Si1QdkhyNXFneFhOT0pSZm9hYjhFOEstSmhMdVpOdEp1d2Y3WDk3UzNEWUlTVmp1SXVwRVpIY0h1anBMUXdNQzBNMHFUN2lKQk0zUUgwZmQtZEVGVE5ud2hjYUM1MEpwTEpkM2hqX0FBR1lWREV5WnNaeWE4TjhwVFU4TkxfUVFOMURDeXdmME51M0xpZjh2Q3VqenhOVjRZd0RpVzVFeWtrM0tLTVFxdElGVXhObFVtSnVxa3V3NjFWam5JcHdIMTZIWTdUa1JRaC1OaFFN?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-7": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Breece Hall, Rhamondre Stevenson, Jordan Addison, Nico Collins, Drake London, CeeDee Lamb, DJ Moore, Justin Jefferson, Rico Dowdle, Terry McLaurin",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:25:35.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOLWh5ZzdTRjhQekltSFlCcTZuc0dCTU9JN1RxWTRVN1pheEtjaV9SYnA0c0dDTjNuWVppZUlLVlFxSDB1X2xtZ1ktQUdHelBDcmdGS1FrZXB2Ti1LSlhVYWZUMU8yUzhNS215VUYwclNyZUxsTWVRNUx3Si1QdkhyNXFneFhOT0pSZm9hYjhFOEstSmhMdVpOdEp1d2Y3WDk3UzNEWUlTVmp1SXVwRVpIY0h1anBMUXdNQzBNMHFUN2lKQk0zUUgwZmQtZEVGVE5ud2hjYUM1MEpwTEpkM2hqX0FBR1lWREV5WnNaeWE4TjhwVFU4TkxfUVFOMURDeXdmME51M0xpZjh2Q3VqenhOVjRZd0RpVzVFeWtrM0tLTVFxdElGVXhObFVtSnVxa3V3NjFWam5JcHdIMTZIWTdUa1JRaC1OaFFN?oc=5",
+      "headline": "Drake London Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T05:07:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxNGJTM051UjdyT19iV3B1QS14VXRBd1BhMWVfTmpjbFNQYXlzSkljd1F4YXpzZjdjOFdMOVVtMWtRN1MtZVppdk9ZeF9ZT3RRa0R5RFJrU1JBN3VORm1odDNhcFdWclJWWkl5eW42T0FoZmdqdkE5X3hJOFFvdXPSAYQBQVVfeXFMUFczMm9MOWFBQ0hHWDBHRkgyakpXUjRnTm8zTl9ZSmZvSWEyOEl2d05QMVBZZzZJMUE4X1NIMlRON0o3OEMtZUwzc0F2dHB1d21ORGRiS3BVQ2NpbnZNTTZ2QWFZWjd0TnNHVGlzTFJBVnREQlo4MG01LVVCNU1YRE1WYWFT?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-8": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Emeka Egbuka, A.J. Brown, Jayden Reed, Josh Jacobs, Blake Corum, Quentin Johnston, Jalen Coker, Rashee Rice, Jordan Mason, Makai Lemon",
+      "headline": "Rashee Rice Fantasy Projection 2026: Should You Draft the Chiefs WR After Controversial Offseason?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc3E1TmVUb0hPVnZfZkRyM1NtdW1BX3A1NFZVVXBkdTgwZ0NOalJGQUJ4cDNtWVZfR29EWENVRnF5V3A5b25SRUtfYXlfWWdOdnk3bGMxUHk3bnk1OGRGT3M1TEdVeGtKbVFHSDU0b0JHU0xKSGc4WWJJNUYyOFkyY0h4Y2paLXVUc251TlBkdjBodw?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-7": {
+      "headline": "Nico Collins' Target Outlook Cools After Monday's Trade - NFL News | Fantasy Football",
       "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:05:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOR0ZQMm93eGdzcHRMUll0M2c3S29xVjdVUXNLSVBGY1M0WmhYT3hKUFFCY1RSYlAxVlZCUEM2QnNIcUhNVTBDSGptRjVzZi1lR1Ayd0lDMVFwckRZd3llR011NWdHdmtpcVEtSHJrX2E2NnVFTXFRbU0yNkJjSGJwdjRDLXZiVGp1TFA3OUs4SDhUUktRRnpVemdacFFxbXJ6d0t3dWVNaGtJbWZpV2ZTUlRmdUN2VHRZYkk2RWh1dENralI5RTJRbHJPLXpjN3RZY19mbUVtcFdobkRMdklXWGNFMG93aExka2hvSEt5UFJxZHAyeWwzZ2R2YlhCdUxHM1hPOGRERTd2SVVIUkp0UWZtTzhIS2ZCaFBZeUJMQThtejhfMkdzdHZMTk0yOFJlV1FtYWdGUQ?oc=5",
+      "publishedAt": "2026-08-24T19:09:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmRuQ0dXSGlrb083Z0JTQnc0dC12RkUtVmN3bnBXTnNvR3VJTTllMENjZUh0N0RrWWNpN3ZqVHZjMVZtUXcyLW45TUM5VHVKd2FNVklRSjl2bHEyNVJqMWJlUnpPRzR5OE1jM0FVazBpQlNCVlAtbWFTUlplOXJTYWl5bWtWWXJKeHQzcTFWU0xNcVFENk1WOGN2V2hBUUNqTmc?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-9": {
@@ -659,10 +611,10 @@
       "category": "Fantasy / draft"
     },
     "WR-11": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tee Higgins, J.K. Dobbins, Jeremiyah Love, Rome Odunze, Jaylen Warren, Caleb Douglas, Matthew Golden, Denzel Boston, Cyrus Allen, Tony Pollard",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:45:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZWpWWDhXRWFNOV9SV25PRVFMdldHaDZpcGZ0Y2RhVFc2dldncG9tTC0wekJIbFJBMmVGOVdiT3BORVhwdlhDNGhQdl91RjlvTVNZR25IQVFDSGdhdkVQWVdKVkFLM0VHLTQyempLdkNWdWRMd0g0Z2Z1UmI4WVViekNpTFNBMFFrbGMzRlhVWGthXzlDTkxUbGFXODREZy03RU9VYXlTTmo5akJBaDdYTVB1NEJQMlM0YmFDN2ZMSjZCTVYtc19EMmpjQkkxV1RiQ0w4ejFZYV85cEg2UTZ2SHJod0VyQUVVQU9jUU0xdk5HU2paX0FEM2p1b05mQkIyWGpEV29idmR3amx1TDF1WXdCZXlZS2VyQ09TbGpmQkVPYm9RNGxuRjMweWV2Z0dMN1o0aWZyZXR3VHpFSXRGSVdR?oc=5",
+      "headline": "Updated Tee Higgins Fantasy Outlook 2026: Is the Bengals Star Undervalued in Drafts?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T11:55:43.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPekxVYTFHZkpLeDhvdmRiYkt1LUVYckVhdnZoeG9RaFFqc3dKb1Vta2phWUo2aTBrZlY0bFRud2JBTUVSUzJPSEVpRG1ZSnZGSW9wWDZDbGlZMUkzYmxNWExzbFRDUmFxbU41eXp2R1Y3WWxKRTFHd281NEIzX2pWOFFNODZLQ0RmT1RYdlNQZHJPQktZaUtCOQ?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-12": {
@@ -672,33 +624,33 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORDJRTk9odnB5bGpGSFhBenlwME5QYXR5RUZoSHZabjVEVlpCWTYyemJwMGt2N3NPQS03WVpDMDNvNnlGY29ieWJ4YkVpMWNNUHpwQWhEdkpTU2Utd3FzZlY3c0VVS1EyYVFRa0ZZZW5YbDB6aDlqMnJjNkJJVnhCYTBfdXZiMUF3VTNOcERiVEcyQQ?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-13": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Saquon Barkley, James Cook III, Ladd McConkey, Jonathan Taylor, Chris Olave, Chase Brown, DeVonta Smith, D'Andre Swift, Ashton Jeanty, Derrick Henry",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T12:45:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPUEZBT2ZTMlNRS0JsaG9Qc0F6dWVZX3dnaUNSY0RQdFRsanJ3c1JrZENmQ3o4c1QzVE41dW9HeHR4YXBodVB4UTFsMTVIQnZSRG1oV1p2MzI5cDllNmpXY2NiUnAyMU4wNmEwcjBhZXdHdHpBTGhFcXhJWk8xYnRwaDdrZ3VhUmwycWxLaTdpdUxKWk1Za1NCR3BIUlVNOHFRSGE5NHc1b2dqc2tJUXRhXzZwMVZpbWFzUlVrUHJBdmtUV0ZqRDB3amZJZENUWUVHTVRsbExXc2NQR0cyMHVuVy12U04yTzJNZ3lhN3NCQ1ZHNGJKY2pWNXNDblhvdmlJM0hzUkNHLWwzeFptQ0tWUmE5QUwtTGk3cWFhbTJ3V0xDckVXVHFmamVOdUotNGtoY1dvaXR4aVZFYkZVMTFUMWVHNnNsR0E?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-15": {
-      "headline": "Broncos injury report: WR Jaylen Waddle returns to practice",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-17T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYzdEbVZHbGpTSHBpd0hGX0xaX1F0VXNja0dySzBWWlJlWXFXcDFNZGQ3TXIxbm1Da3Y2Z2p0NjlzYWZHOHFYUzlwVUZKeVd1UHRWcnNuRmluX0dkWndUR1hWRGFyX3NXS0paNEJIeW8xSEpmWGZzcEJvNjFzN1NUbnlFWHNjbTQ?oc=5",
-      "category": "Injury / availability"
-    },
-    "WR-14": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Saquon Barkley, James Cook III, Ladd McConkey, Jonathan Taylor, Chris Olave, Chase Brown, DeVonta Smith, D'Andre Swift, Ashton Jeanty, Derrick Henry",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T12:45:37.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPUEZBT2ZTMlNRS0JsaG9Qc0F6dWVZX3dnaUNSY0RQdFRsanJ3c1JrZENmQ3o4c1QzVE41dW9HeHR4YXBodVB4UTFsMTVIQnZSRG1oV1p2MzI5cDllNmpXY2NiUnAyMU4wNmEwcjBhZXdHdHpBTGhFcXhJWk8xYnRwaDdrZ3VhUmwycWxLaTdpdUxKWk1Za1NCR3BIUlVNOHFRSGE5NHc1b2dqc2tJUXRhXzZwMVZpbWFzUlVrUHJBdmtUV0ZqRDB3amZJZENUWUVHTVRsbExXc2NQR0cyMHVuVy12U04yTzJNZ3lhN3NCQ1ZHNGJKY2pWNXNDblhvdmlJM0hzUkNHLWwzeFptQ0tWUmE5QUwtTGk3cWFhbTJ3V0xDckVXVHFmamVOdUotNGtoY1dvaXR4aVZFYkZVMTFUMWVHNnNsR0E?oc=5",
-      "category": "Fantasy / draft"
-    },
     "WR-16": {
       "headline": "Garrett Wilson Returns to practice Tuesday",
       "publisher": "Fantasy Footballers Podcast",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2QweVJLekE2WDJkNGROMW1CMV9vRlBKYTBoaW0yTWN3VUVKVWpNS09Xek9ma29KRlhpX281ckN0cUx0cFNCWGk1R1djLXJxY2dvLVN4YV9SYjBROTFRSVU3eGZia05ieU9rVEdvUnFzNmtma2lES21hZmowSl94OFg1a0tTSVFTX3hLak1ETjFXeGFnTkFWRg?oc=5",
       "category": "Injury / availability"
+    },
+    "WR-13": {
+      "headline": "Ladd McConkey Fantasy Projection 2026: Should You Draft the Chargers WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:15:32.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaUtUNW93WDl1Rnh4RERfWmdwMlhLeUNLTHZqOXo1bnBxN2szVTdEazJKUm9Vem1sQ29lU1IyNUlUUWMxUWVCOTgtSjNnbjdNWWQ0dzE5aDJ3M0pTYjlvMktnMW9oZXBYMkcxaG54SW1ETnZCOVJScFBMRDhwZTY4SXVvNjZYallPLTgxU2VrNGdSdG1V?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-15": {
+      "headline": "Jaylen Waddle News: Returns to team drills at practice",
+      "publisher": "RotoWire",
+      "publishedAt": "2026-08-19T16:53:26.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2tTd0Q2b09FcVk3UFhBdHZENmp1d2Ztd29UNllGblo2VkxlNjRxZGRzWGFhTmtNQmduM2RZdmFJeXByaUNoSTNmNXN1V2lHU2ZIbS1lT3VVS0pZVnY0emtldjZiTEk4U2FkUW5wX3FlZ3NzVWJwaHVfZG5qdTdsX29WczlkMDZ1ajJEa0g1Z0M3YWswczZkRUpnYXU1Si1adXZ6azRPaw?oc=5",
+      "category": "Injury / availability"
+    },
+    "WR-14": {
+      "headline": "DeVonta Smith Fantasy Projection 2026: Should You Draft the Eagles WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNamxmcXNkekY4YlQ5WG96RTE0LUEweE5qR3o5dkZDaTNlbGJKOUFqUnFST1NpWHJUTVFhVndVdm1NNG5MakdvbzBXZENzald5QXpYSlpxTS05YmFmS1NUeDlQMU1vWXYzUzg4eFRNczROdnhDcXlINlpwcm1iLWs2bGl3NnZ6RW1WZ0VIRUNnVnVQT0Zt?oc=5",
+      "category": "Fantasy / draft"
     },
     "WR-17": {
       "headline": "Mike Evans Returns to 49ers Practice on Saturday - NFL News | Fantasy Football",
@@ -708,10 +660,17 @@
       "category": "Injury / availability"
     },
     "WR-18": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Marvin Harrison Jr., Wan'Dale Robinson, Bijan Robinson, Jaxon Smith-Njigba, Davante Adams, Ja'Kobi Lane, Kenny Gainwell, DK Metcalf, Tyler Allgeier",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:45:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPZlZqV2NSUkh2bVdnYVNsZEppenhKRXVwNEFjYlVqTFJkM000c3p1SGdabXVmM01MS1FjZUUxRDZBTFFKcXU2LUs2ZEVkMlRPakdMNWVLTFNvZVFhUVljOUY3ZnduWDBFUUFNU3M0TDdmbElwX3hpTjRmaGtDN2w2TlpWYmJ3cnhveFh6d2s4azRDYkRXcGw1eUF6WWZsTnZtdldxMXFMeTc2Szd6N3l5clFNUXc1aEpSSE40eHptdFhIc1BqbDZvMW81YkZLblVhQ1VseGhJbnpVakxBVTJZQVROU2JraTh5VFFETmVLX3ZDc0kzV3Z4M2xnb1JoREtqQmVOM2ppRzVmenZZN2s2a0RMeS04eWlVN3NjLW9GNXcyNEp0NVg3bmhEUUprN3hPMzlIaUVNX1hfaWd0ZGJ5b0h3Z3VtZw?oc=5",
+      "headline": "Davante Adams’ Fantasy Projection 2026: Should You Draft Rams WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T14:35:26.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQXR6WWZobVY4UVQ4UHZkUmZMSnhBQUo4STdkcVJGMDA5SUw1QVRCZVltckJoMjJya1BwMFBUMTVYR0FETkFUcEYzQmFVU0kxSnZRRzZ3SXRxNHRlQ2MwSmhqUl80dEpiZXgxaFBabE16dzBXTlA5LXVsMkpfQ2xPSUVxUlJwVmZCNzRyMGtIOFRDQlpR?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-20": {
+      "headline": "Is Keenan Allen worth drafting in 2026 fantasy football after signing with the Colts?",
+      "publisher": "DraftKings Network",
+      "publishedAt": "2026-08-31T19:49:26.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVW9WWEdTQ1Z2OERXSlVRN1E1cERwVFVRYkFpa2JITTdxUEV3cTBRNjc3VXdQNHZFVUc5dzMwNkZQbjhzSVFFTnlxOHE5SnBwMy1obmQzY0tqcWw1YzN4ZjJfQVBsa1VJNG9JWGFydXNzYTN6cUh2ODVYU1NobDY1TDAxaEN1NERkTWZEaFpNZ1RBSk1nejVtdmVUa0R4Vy1kdnVoUjhfUmdnT29fUjBHcGtlZmU3bjBTelVMelpzMXAtU2JHWUNmUw?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-19": {
@@ -721,25 +680,25 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbVpMbFNXNERRM2hZRWF3ZmdxNGU0UjFWV3FiTDRFSUMxVG9uY2lUTGVKRWNUNUpFWVU2RlFESFBMdy03SDRnTGViQ0JZUFp6Q0d1ZVNNRHdmSjB2QTQtZWZDelNaRlFkMEZnSGxCQjFuZHBRb1lqclM1MTJqdTZSbnZZMEZYUXJB?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-20": {
-      "headline": "Is Keenan Allen a sleeper WR you need to draft with Alec Pierce and Josh Downs injured?",
-      "publisher": "DraftKings Network",
-      "publishedAt": "2026-08-26T16:48:29.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWp4ZV9GSV9GRHVLYkV4dTJqb0pMS1JRRmlOZHVqRmxmN3pMclpBVVQ3Z3NLRi1GSkJDRG5ucUdzRUZkSnFtTnFtY25kZ0ktM0JFRkJGZ0Z3MDdQcUJVSzJ5Y2FuYUlBZ1YwQ3BQRXZlaDU0MU5uTXpjX2hwZjdRalJ3OGRtdnJiQ0hQa2pNeG96YWl2R2Q0SjNTc2Q3R0xscllQRlFjcEdOb3h1Zk50MzdodWJsanJOb2Q5eE9fYXBHRE94LWRsVkxDRQ?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-21": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Jaxon Smith-Njigba, Bijan Robinson, Tetairoa McMillan, Michael Pittman Jr., Quinshon Judkins, Matthew Golden, Josh Downs, Kenneth Walker III, Terry McLaurin, Josh Jacobs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-24T12:45:14.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOUlVVSndEdnVpSUhEZnBBdk1JUlo4YUtSUG5uWTU3cXdLRXdjcmhkVzhndHhiWThLbmlWLU1kM1ZnNFdQTmFFeEd6T2ZLRjVqOWh6Yk5yUTJ3YUlfR3ViSFFSQ0VEalZ5R3J3N0pEY2ZOSnU5Nlp1em5ieXRQV2Q5Uk9zd2xJdlQ5cVVkbTBjUzhLM2xDUXRYUlBmOFRyUmhfZTVLTkdMdDFZRnozazZycm9TU2MtekFicUlWWDg2OXRRakEwNkhYSVFPLTJpMUNCd1MwY21fWTR4T1RyUUVfR3k5RVNNeFRhdUN6MjN1MWItQ1pjZ0lpTFU4Q2laMGE4NkZLZWpjYm4wc09DRC1zanJ6QmtRR0tQLTF5bEdBemdISVF5WmZPN1VFU1ROUFo4MzZXaGVaSUZRTnM4ZE9fWW9JcWpFU1Vw?oc=5",
-      "category": "Fantasy / draft"
-    },
     "WR-22": {
       "headline": "Updated Tank Dell Fantasy Outlook 2026: Can the Texans WR Bounce Back From His Devastating Injury?",
       "publisher": "PFSN",
       "publishedAt": "2026-08-29T11:51:25.000Z",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHNiNHc4a1A5X1paT3NiWHlQLXExYzQ3ZUx6OWFOa0Q1TUxTeVdQblFzZHg0ZjdMdENfZThPVlZCejRxcTNUTTZSaFJHLXRna0hOZHVRYnhFbVBpeEZ3TDA2RW5DU084Wk13Q3h3MlFwNWU2dkdwOTFwVkFkNWprYUR5SThvLXhRaDB3NnlrTDZNd0IzMFE?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-21": {
+      "headline": "Michael Pittman Jr. Back at Practice on Monday - NFL News | Fantasy Football",
+      "publisher": "RotoBaller",
+      "publishedAt": "2026-08-24T16:44:13.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaGJaWkljdDQ4S1RlVWVIcFRUQngyQ2V4bG5BdFUwY29DajJZeG5BOE5sdktYYlc3ZHF3S2ttNTZDQmgwUXB3Zk45NGFwVkFONDhfY0FFYklnZEJmU0U3VXBwQ1U5TXBqSUVTdk5ROTZySnUwVndtR3RUZHFYZ2l2Z2x0VTdROC1WTUo2eE5rY1Jmc3ZsbHFB?oc=5",
+      "category": "Injury / availability"
+    },
+    "WR-24": {
+      "headline": "Terry McLaurin Fantasy Projection 2026: Should You Draft the Commanders WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:38:14.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeWo2dXpybnlCbUpfY3V1eGVwUFBaRWJVYjFvaWJ2MUgza2F6VTRFZGR6X3dIdnBFYlBJUk1IN3B3ejVpZ29nLVpKVjJ5ck8tbV9zT3dyblBCUVBRenBoV0NPQXdTRm5CNnU5ZnNLaEdyTDlQRFc3S3dvVy1POHByOU50MHV4ejllajJPSkI2WUxfamQ0dUE?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-23": {
@@ -749,12 +708,12 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeG4wMEdwSXE3Y2NKRFdnZ3VpRDBfUk9Fclc4Sl80UktVLUIwMHgwLXo4MFpGRjB3UnFQNjExaGUzRmVqS0NLRVVLakdlcTdFYXkydlNVSWZHcjNGaW0xTlZsOTVvRXpNSF9KNE1Lb3JBYi1yelh3NFc5XzVNb1dPRVN2MjItVk94Y3dzUzln?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-24": {
-      "headline": "Fantasy football rankings 2026: Busts by computer that called Terry McLaurin's tough season",
-      "publisher": "newsbreak.com",
-      "publishedAt": "2026-08-23T04:54:59.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTkdiM1R2Q1E2bnFaVnhmenoySEFKbkxWdk9RY19iRHZxMTJiVDJENW9FSFQ4Sm9nTVRqOXJiSk0zbWFPWmVTV1NRTktmQkF6bVBtZ1BSa2toNzR2eGtnd0JyVkY1cmlqcEhUZUxuZ09veXZDYjRHQVhQTnBQcEdSN3RYQ1Z1eC1mSjFJZ0ZMSzFWT3FiMENCclctLUsyeTF5c2JyeGxuTXFEdnd6ZzkxUnBCcjhvc0hObmgwZmVtc2Zjd2pMV040YmZDWFhhVTBCSkxMUVkzSmh0cnUwYjNESTNYaw?oc=5",
-      "category": "Fantasy / draft"
+    "WR-26": {
+      "headline": "Christian Kirk Injury: Placed on IR, designated to return",
+      "publisher": "RotoWire",
+      "publishedAt": "2026-08-31T03:27:53.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNm9HUUpEeHFkQXhfaXNCaTZ4eWN2c0czVGozc3BGTVhhQUM0akhBMEJabVdVMl9oaVJPYWJNY056TWR1NHYzS0MyREU4SmJrMGVZMDE1YUwwZGwxVENlcUhrOWdHTm9HZHQ0Q1gtRFh4US1yVm5ZbUt0aWRvaXRBbC1YUGVEbURJY0dBa3BDUVRJVUQ5MnhSNzRrUnZ4Vng2YXV2R0g3dFJodw?oc=5",
+      "category": "Injury / availability"
     },
     "WR-25": {
       "headline": "Updated Jayden Reed Fantasy Outlook 2026: Is the Packers WR Being Drafted at His Floor?",
@@ -763,74 +722,67 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNTF4RXZxU0IxSFVMSk9FM2pnZExqekdVSmVLTXpUOTM3blZWRjNrNkp6VmtWQUdra25xOTUwaW4xSlJjbFhWOUsxWFhLRnVWaV9ucXNFSlBCMWlMM3p4S3IwcDFBYUJFc21CNnZUZGZNOWFYRHVEREhYX0dVZUdmdHZXd0pzQU5PdDQxYw?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-26": {
-      "headline": "Christian Kirk Injury: Placed on IR, designated to return",
-      "publisher": "RotoWire",
-      "publishedAt": "2026-08-31T03:27:53.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNm9HUUpEeHFkQXhfaXNCaTZ4eWN2c0czVGozc3BGTVhhQUM0akhBMEJabVdVMl9oaVJPYWJNY056TWR1NHYzS0MyREU4SmJrMGVZMDE1YUwwZGwxVENlcUhrOWdHTm9HZHQ0Q1gtRFh4US1yVm5ZbUt0aWRvaXRBbC1YUGVEbURJY0dBa3BDUVRJVUQ5MnhSNzRrUnZ4Vng2YXV2R0g3dFJodw?oc=5",
-      "category": "Injury / availability"
-    },
-    "WR-27": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Rashid Shaheed, Brian Thomas Jr., Deebo Samuel Sr., MarShawn Lloyd, Emmett Johnson, Jauan Jennings, Malachi Fields, Jalen McMillan, Woody Marks",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:25:01.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOZGN1eGZ3TjViWWZhbGhoYjU1bl9DeUFnd2kxWlBMSUJKa3BLeFlobWlHMXdUbEVoaGl6S3JPUGN2c1hTQWUwMVBhYkRsOVNUU1BHZHdHQldfR3JEcERlU05zaFg3RE5wUnZEWGFkeWRWcEY0WTllUWZrWldCMTFFSlg3MDg3NUpXVVU3WEUyYWRNeFh6S2sxT0owNE5Lb2s0RXAyZzhUaEJmVFIzMVgzUjFGeDBQYzdZcHdtY1hYOWMzd3UyNFQzUlBGdjhPTG9ucEduN0xfUzhJOXRWem5RQlA1WXJ2X1ZnUEViOUNKRDVVVHNXYlFYaDg1YjRrU3VyOUFPVGlEeUZiOE1SSVZELXZBbHNyOGJEZTRfWnFFazBySWc1WkRLa0VSc3ZWYVkwQWQySjZUczRZNlJoWkQwRFczNA?oc=5",
+    "WR-28": {
+      "headline": "Calvin Ridley Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-26T12:56:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUlMMmpERWVMc0NnV0QzdG55QmoxSFhlRDFjWnF3Y1RoSlZYZmFaYlVVX2picWZmZklvUks4Zi1XajRGaDdpazVGVW1iU0hkd1BuQ0prNkhQR3FRQVJhX2FaWEp4QVFtck1OQmlMdzd4WS0tejQ2b19SeXpCZDdVatIBhgFBVV95cUxNdy1VMm1ZSkdaNVNmMGREVGpERVlSVlBfNFpjZ09nT3IxeUVzcWhvSzVzanhLOUdtdEhIQWxIRS12WmFzUDlvX0VGakF4UDhFSW1kaU9aYjd6T1JDXzhqT1dDOGdnZXB5N0p6ank5amxQQ1BfNlBrQV9YSGtJOVRmVXFUTmxjZw?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-28": {
-      "headline": "Calvin Ridley Fantasy: 2026 Outlook, Projections, Stats, Points & ADP",
-      "publisher": "Bleacher Nation",
-      "publishedAt": "2026-08-18T23:38:55.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaWRNR2JEQ2luOFB2d1hlaVRfNFd6NU5veVdDaTJfY19BUFdheUR5WTBhQ0NZS1VuUUFYc3hBeXM3TlZORHdDY0FPT3phdDBaaXlDUnpxRVVFWVNkdG0xWTYxQzNaenh6QzROOHlVTjVGQWZzc1dXVFBYVzNsdjNaSEpwM2V6Slo1NFJST0lzUUlFdGFkdUpSWnpTLVRKalAtd2pzb3prUjhqaVNGVFdDWkxmTkM2RG92bnFUc1VR?oc=5",
+    "WR-27": {
+      "headline": "Jaguars' Star WR Brian Thomas Jr. ‘Alright’ After Injury Scare During Practice",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-27T07:22:54.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZXAtNklpa3ROMFp2ZnNMd2tmS3pwbk9CWWNUUmFpczh3Z2RDS3ZUOFBIYWVyUmtFdVRCdXIyOWVZS2Z5QmtrdVY3a21USkh1ODVYMUJEYU8yd19OTnAyRkJMNHNscWZLNG16TVdkeU0tczJfTDN4bFJpWDBlNDhaU1NsTQ?oc=5",
+      "category": "Injury / availability"
+    },
+    "WR-30": {
+      "headline": "Why Deebo Samuel is too 'old' to draft in fantasy",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-30T13:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VNTZmVkhsbmZaOWxyUzBoaWRrV1NiczRlWXZMYmRWajd5eHRzN3dRNW9FQlZTSEdsUVRPZ0o5RTM0QVQ1ZHNheEtCQVkxcUE1YzhsM0pnZjhMLXZySThFZVBOUEdIeTRZTjJ0eVJ6b0xveEpRNHBBbGxn?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-31": {
-      "headline": "What does 'DNR' mean in fantasy football? What it has to do with Brandon Aiyuk",
-      "publisher": "USA Today",
-      "publishedAt": "2026-08-31T18:40:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONGE4X01EV1dDcUJfX3NLTUV2NHRuV3JOMVgzX0VpNXpCY1RsSVhxY0tkOV83ZzcxZ29KUFJELTQtRWkyS1UyN0ZOdHdhNy1IYXVKVWxYNkpPSnNRakE4LW1lS3ZnVGVITnNmUVcwcWJjZnkyNTJHd0lXam01MXlJczFnZ3dJc3pobGNCOWk1M1c5aWVIYTlOWWctZ1JoejdicjEtLTFqVlY?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-30": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Rashid Shaheed, Brian Thomas Jr., Deebo Samuel Sr., MarShawn Lloyd, Emmett Johnson, Jauan Jennings, Malachi Fields, Jalen McMillan, Woody Marks",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:25:01.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOZGN1eGZ3TjViWWZhbGhoYjU1bl9DeUFnd2kxWlBMSUJKa3BLeFlobWlHMXdUbEVoaGl6S3JPUGN2c1hTQWUwMVBhYkRsOVNUU1BHZHdHQldfR3JEcERlU05zaFg3RE5wUnZEWGFkeWRWcEY0WTllUWZrWldCMTFFSlg3MDg3NUpXVVU3WEUyYWRNeFh6S2sxT0owNE5Lb2s0RXAyZzhUaEJmVFIzMVgzUjFGeDBQYzdZcHdtY1hYOWMzd3UyNFQzUlBGdjhPTG9ucEduN0xfUzhJOXRWem5RQlA1WXJ2X1ZnUEViOUNKRDVVVHNXYlFYaDg1YjRrU3VyOUFPVGlEeUZiOE1SSVZELXZBbHNyOGJEZTRfWnFFazBySWc1WkRLa0VSc3ZWYVkwQWQySjZUczRZNlJoWkQwRFczNA?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-32": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Jaxon Smith-Njigba, Bijan Robinson, Tetairoa McMillan, Michael Pittman Jr., Quinshon Judkins, Matthew Golden, Josh Downs, Kenneth Walker III, Terry McLaurin, Josh Jacobs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-24T12:45:14.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOUlVVSndEdnVpSUhEZnBBdk1JUlo4YUtSUG5uWTU3cXdLRXdjcmhkVzhndHhiWThLbmlWLU1kM1ZnNFdQTmFFeEd6T2ZLRjVqOWh6Yk5yUTJ3YUlfR3ViSFFSQ0VEalZ5R3J3N0pEY2ZOSnU5Nlp1em5ieXRQV2Q5Uk9zd2xJdlQ5cVVkbTBjUzhLM2xDUXRYUlBmOFRyUmhfZTVLTkdMdDFZRnozazZycm9TU2MtekFicUlWWDg2OXRRakEwNkhYSVFPLTJpMUNCd1MwY21fWTR4T1RyUUVfR3k5RVNNeFRhdUN6MjN1MWItQ1pjZ0lpTFU4Q2laMGE4NkZLZWpjYm4wc09DRC1zanJ6QmtRR0tQLTF5bEdBemdISVF5WmZPN1VFU1ROUFo4MzZXaGVaSUZRTnM4ZE9fWW9JcWpFU1Vw?oc=5",
+      "headline": "Brandon Aiyuk gets dragged by NFL Analyst after 49ers owner Jed York's reported prostitution bust",
+      "publisher": "Sportskeeda",
+      "publishedAt": "2026-08-24T17:33:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ0dXSlZtMC0ycUF4TElZUDhuLUNhakMtVGs1VDdXYVRNTGNVMjF6NUlDYk03ZmV5Q1BJcnVPMWJXa0d6eE96NlJhb2pWTWNXSHZ6MkdWREN0RGxpY25kLWV4OE00TnFjdE5TSk5HWlo4ZF9zQ0dPdlRHNC1xSW5GS2lrVFdpUWpWQlRQZlpua1k5M0g3czd6OWhOelNmNEw2a3FtakRuemhYeF9kcDE3TXBTa0V3QXRaSGFaWmpmM3o0VFk?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-34": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Ja'Marr Chase, TreVeyon Henderson, Courtland Sutton, Keaton Mitchell, Jalen Nailor, Keenan Allen, Tyjae Spears, Alec Pierce, Khalil Shakir",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T13:05:54.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNejVzYWVzYU41ZVhDVEhfVzFsWGxDVUJzMkVxQlphUW9jUFRlakxqYUpxV3JHTFd3cU0zQ3B5bFBCbTdOQW9xdnVVbU1zZFduOUJQR1BqcmtyZGU3QlItZTNJMlhfS3JIdDg1RERIbnYyNFFrQkM0ZEkxci02eEROcHNQZThYYllKVkpkWDlDU1N6RmN3VFNkcmpwNWNHc2lJdDNPb3NjVFZ4WDlSdTlManl3eHdCNGFOdlR5T0tvdWVwcHZYWkJsZ0dsS2RzMlM4UmdTb0tSY09OUmQ2ZmFGVU1EbWJlOVB6c1RUanBpTUtfN2FGRzkwb05oZS1JM2ZlejI4MXlCcEx4RWZPalQ1dkdtZzJ6bEtQSjlfWWRrWDNuSURLMGtrZlV4NUR1cDQwZURNVG5qMl9hbjV0ZlE?oc=5",
+      "headline": "Khalil Shakir Fantasy Projection 2026: Should You Draft the Bills WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:10:35.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSHRIWkpCUWVFVXBYamRPaDJPQkxIbEEzMG1EMGRsaFNrbWM3WGlLTm5waVV5M3lpWi1hYzhuSzJ1RTJVZUpkYm04SzhFRzRfYV9ib1NCclZ4OHZTblFEX3BXSEplR053cE1CYzhwbE43WjZPZVViTi13Sk01Ty1PcDZCbU5ybFNFOThDM2w5U3hNSGVm?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-33": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Ja'Marr Chase, TreVeyon Henderson, Courtland Sutton, Keaton Mitchell, Jalen Nailor, Keenan Allen, Tyjae Spears, Alec Pierce, Khalil Shakir",
+      "headline": "Courtland Sutton Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T20:23:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFBlZTdsXzFnWXJ5aWVpWlpnYjl4cWdHMUFMdnd6VXFxaVhYd3VPRXA4aGNoczM5NDFUUERTbFE1RHhXZTdub01tSXBIOURhcElHaDZscF93Y3ItbER6QjM2OEFjQXlJZFJKTFRXcVAzR29KSzUyNzlvaTFMRmRVMXo4ZkvSAYoBQVVfeXFMUHdkVUpKZl8tdDE1endEa3h1VHNNM3NEUXBOTEsyOTg3MjIwUGhfaExETmNoQUp5dnJlNndzWVMzcWQtRjdxbFRGMWRwXzJFSHM5cWpBX3FWVFNMdEhNM0szTHdITGt1T0Rac1JBUkZUNm1WU09nbDNFR3JyMjlMdm1pNHlJOE9iSmhB?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-32": {
+      "headline": "Jaxon Smith-Njigba Worth the Investment in First Round of Fantasy Drafts - NFL News | Fantasy Football",
       "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T13:05:54.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNejVzYWVzYU41ZVhDVEhfVzFsWGxDVUJzMkVxQlphUW9jUFRlakxqYUpxV3JHTFd3cU0zQ3B5bFBCbTdOQW9xdnVVbU1zZFduOUJQR1BqcmtyZGU3QlItZTNJMlhfS3JIdDg1RERIbnYyNFFrQkM0ZEkxci02eEROcHNQZThYYllKVkpkWDlDU1N6RmN3VFNkcmpwNWNHc2lJdDNPb3NjVFZ4WDlSdTlManl3eHdCNGFOdlR5T0tvdWVwcHZYWkJsZ0dsS2RzMlM4UmdTb0tSY09OUmQ2ZmFGVU1EbWJlOVB6c1RUanBpTUtfN2FGRzkwb05oZS1JM2ZlejI4MXlCcEx4RWZPalQ1dkdtZzJ6bEtQSjlfWWRrWDNuSURLMGtrZlV4NUR1cDQwZURNVG5qMl9hbjV0ZlE?oc=5",
+      "publishedAt": "2026-08-30T03:31:39.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFV3R2NBZ3laUHNHaktscENmUG1FLVY5UlNrTVNQN2ZhRlVLN2NRdTdxb3NvWkp1QWE4bnRZTjNJUUJHUEFfSjF3WGNoOUUzeW5ka1JOTmVvQWhieFVRMnp3LWJiX2JfQVdEN19EQVZtNWloZkVjeVQtLW1hM2lPNjRNaVdqbDloQjZxUGhKZ2xUWTVzeUNzQ0M4LUZXb3Y0N3UxbHMwdFRNanFXMGdWd2tEaE50aG9oQVow?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-36": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Christian McCaffrey, De'Von Achane, Carnell Tate, Zay Flowers, Bhayshul Tuten, Jadarian Price, Xavier Worthy, Garrett Wilson, Jahmyr Gibbs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T12:05:33.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNbG1sRHBTYTYybGhuRUt4Y250UFpjQzNvd2pvSW84ZjY2NDNyaDVCeGpUQnlLTjlhVVhHUFdMU0tyZ3lhVEhhY1dWbWowQnhOb3BVbXNRa3pzcHQyZmFOcDhkcUYtV0dSWDVPRS1uZWVyOE91Y0I0aG9wX1RsZUU5c0lUejlGcmZRYk9XQUJoUm9HWDNNZjhzQUE5OVNHZDQxNmJ0YV93R0dhMnVyV1U0dV9pc2tKMUFKMnk5MGl3Q29VMUVuS2FPYy02Q1RrUVd4c0NIRXQ4amxIOV8xNWJEZFRVSVJfUTlHTF9USWs3dUV4cHJMX1pRRm9iZ19PQWl2S0NkOEwtN24xSkI1QzZ4MUNGN2xXQjNSRFVCX1ZoQWYtd1NXUXp1d2NVWGp6S0c4Q1BNdmxMTkJ6NnVmeWc?oc=5",
+      "headline": "Xavier Worthy Fantasy Projection 2026: Should You Draft the Chiefs WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T17:15:52.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdk9HQUxpcWhVZVhmUkhYZnZsamVrRS1vMTNTbWxxMTJGdFdkbjY5UlpPWU50NVl0cy1hWlRZT21PYy1GUUVURThBMzNwWG01cHVxVEJoRHhwQTc4S2c4WmJyb0dXdFk5QWVEeGlHTEN3ejJSQ3E2ZlQzSHVDMy03MEFWeV9teVZRTmg2QlRHSWRvR1ND?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-37": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Puka Nacua, Quinshon Judkins, Christian Watson, Tetairoa McMillan, Jacory Croskey-Merritt, Jakobi Meyers, Chuba Hubbard, Kyle Monangai, Jonah Coleman, Romeo Doubs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:25:43.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdmNCQVhkZkJxa0hCTnJySjBaTmZZNkotSUx2d28zSXd2b3NzS25fRmZQc0ZlbjVDZ1hoNlpyQ3hqMkc4Tm5rVWNZbGtQSjJEYTRMZm1Xa0owUHZjNWhaR291WnFwTXJwY1QtWXk0QndFNXZuRV8xNm1PSUJpaWpCMWxBanoyZ1ZLa0Nrb0k4dHhHcFVsaGFYYTRVZ0Y0Mm5SM1hyeGhpRXctLVZqWGV3WWp0c18yQ2JwRVluWk5FcTBIcW96RlpWU2xwX3pWNFcwM1RzTTkwTVdUUl9OODlrMkt1dDMtNmkxN0xEdElBOUJZU0JzazZqMk5CZ091bV9uamtwQjVoNmhOazYwOUdrX25IbmxNOHYxTzF6cEtjVG5tUnYzckZ0NkFiY3pXSFd5eG43eHlkZVk1NF9IREhOT1JmYUpuNWxyWXc?oc=5",
+      "headline": "Romeo Doubs Fantasy Projection 2026: Is the Patriots WR a 2026 Fantasy Football Sleeper?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:31:43.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVUF2NmhFbTVsQm1LSXJjRzRIVWlUUkRjU1pSaW56ZTFwbWhKVWV3VzQxOWdqVF9aZVVGVmVUcTdGcFFFUXlWeXhpWVlfTkc1LWpBZFBxeEdPcWpyZWdnazdOXzVycFdGdUhRRmJ0bFlUd1pRUkRmeV9PMHlPb2pTSFpiNE45Y1lJeWsyUHc4VUFpdw?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-39": {
@@ -847,13 +799,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR1ZMNFdkT3hVa2tlaFBiQ3F2dERyM1JjWUJuc1EyT08tQ05OdHZnbW52X2ZaZVlrUUN6ZTBkd0tJa1RsN3FJUWJMdHhEcTRyTHIwTEdSbmh1UVBBMGRndTB6cXByTVl1X2g2anQ3LXBVN09oTEpWV3FOSXpsbE04VkMyNlZKWV8yOV9wTXJnc2UtZEU?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-41": {
-      "headline": "Eagles injury news: Makai Lemon returns to practice in limited capacity",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWlGcEJpNHFRekJKTGFYUDhkOWtnandMWXdFODI2NXlyVUpxUzhua0RpTE45N1gydU5fTU9pYkk1QVNTNmNCZmh3aUpKSWpIdm9HX19janc1dHk2eHJPc2hoVDdqcVhhQjF6MGRyM1ZYSmFVM2NtYl9RR1RBRFQ3dWl0UVlRQQ?oc=5",
-      "category": "Injury / availability"
-    },
     "WR-40": {
       "headline": "Carnell Tate Fantasy Projection 2026: Should You Draft the Titans Rookie in Fantasy Football?",
       "publisher": "PFSN",
@@ -861,39 +806,11 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOGdkN1hpN1hZTUhINlNhTFRqRXlWY1M4cndRWTRGX2p1ZXZJR3QzRnBranhKMUVaNGdoV09RRjU3MWRRYkRfRW5JdzJFZXRrVm1SbFdBOWtzQkRtU0FXVUp4WGtHVG5zVXgyLUU1YjR0UzBkRVlxYk9QN3NTZ2FNN2drcjZVN3ZwVmpXNENEQzd2Q2M?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-43": {
-      "headline": "When Is Jordyn Tyson Coming Back - Fantasy Football Injury Return Update (2026)",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-21T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEQ0RlRIaTRuS1FDblU0aXdnVUxrZzNnbWlkOW1BVklwczBNcUxYU2hTLVVPOHpST3RGemxrckZyTjUzVl9fWjdMNFVIV2dhQWF5YVBSVzdjMmRzMVg0d3hqYkhUQURZYW5CWmhKYjlqRVAtRlFpRXB6RXhnNDBsUkk3WXZsN2lFaGVHYkdqQk8tSnJPSkY1VFhrdUJZOUpxLWlkUHVXS2dsUnV5czJV?oc=5",
-      "category": "Injury / availability"
-    },
-    "WR-42": {
-      "headline": "49ers injury updates: De’Zhaun Stribling and Deommodore Lenoir are day-to-day; Jordan James returns",
-      "publisher": "Yahoo Sports",
+    "WR-41": {
+      "headline": "Makai Lemon Fantasy Projection 2026: Should You Draft the Eagles Rookie in Fantasy Football?",
+      "publisher": "PFSN",
       "publishedAt": "2026-08-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1NoMXpNZklja0lXV2xXZUMxWkxrVFNwZnRIVDFMLS1JYXhaTEVDQ2lRc25sODJFc3NmOW1FTlY2SllOUW5Qejh6ZGVPVDAxQ0g5MDRnNHRENU5SYjNHMk1FV3hYWTg3U1VGLVozYldmV0xpUDIwYWdmaTZrYTFvUDF5dVRDOG9uSEh0cDd3?oc=5",
-      "category": "Injury / availability"
-    },
-    "WR-47": {
-      "headline": "Updated Jerry Jeudy Fantasy Outlook 2026: Why Managers Should Avoid the Browns WR in Drafts",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-29T12:18:32.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2xGLWJDYTBpazEydk9aMWl1MFQ0RzRCaWdKTjJseEM5V0xuUlNCcDNDLWI4aHdJQWowZG8weG1jNDVqUjF1ZFdqOVhkbVBRUXhXc2ozZUtBSGV3Mjdvc0FSanpqS2lfWU5wTlFYNWl3SmdjWE9wUGdteGoxaUpDNU1xYWxud012OVg4Nw?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-45": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tee Higgins, J.K. Dobbins, Jeremiyah Love, Rome Odunze, Jaylen Warren, Caleb Douglas, Matthew Golden, Denzel Boston, Cyrus Allen, Tony Pollard",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:45:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZWpWWDhXRWFNOV9SV25PRVFMdldHaDZpcGZ0Y2RhVFc2dldncG9tTC0wekJIbFJBMmVGOVdiT3BORVhwdlhDNGhQdl91RjlvTVNZR25IQVFDSGdhdkVQWVdKVkFLM0VHLTQyempLdkNWdWRMd0g0Z2Z1UmI4WVViekNpTFNBMFFrbGMzRlhVWGthXzlDTkxUbGFXODREZy03RU9VYXlTTmo5akJBaDdYTVB1NEJQMlM0YmFDN2ZMSjZCTVYtc19EMmpjQkkxV1RiQ0w4ejFZYV85cEg2UTZ2SHJod0VyQUVVQU9jUU0xdk5HU2paX0FEM2p1b05mQkIyWGpEV29idmR3amx1TDF1WXdCZXlZS2VyQ09TbGpmQkVPYm9RNGxuRjMweWV2Z0dMN1o0aWZyZXR3VHpFSXRGSVdR?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-46": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Puka Nacua, Quinshon Judkins, Christian Watson, Tetairoa McMillan, Jacory Croskey-Merritt, Jakobi Meyers, Chuba Hubbard, Kyle Monangai, Jonah Coleman, Romeo Doubs",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:25:43.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdmNCQVhkZkJxa0hCTnJySjBaTmZZNkotSUx2d28zSXd2b3NzS25fRmZQc0ZlbjVDZ1hoNlpyQ3hqMkc4Tm5rVWNZbGtQSjJEYTRMZm1Xa0owUHZjNWhaR291WnFwTXJwY1QtWXk0QndFNXZuRV8xNm1PSUJpaWpCMWxBanoyZ1ZLa0Nrb0k4dHhHcFVsaGFYYTRVZ0Y0Mm5SM1hyeGhpRXctLVZqWGV3WWp0c18yQ2JwRVluWk5FcTBIcW96RlpWU2xwX3pWNFcwM1RzTTkwTVdUUl9OODlrMkt1dDMtNmkxN0xEdElBOUJZU0JzazZqMk5CZ091bV9uamtwQjVoNmhOazYwOUdrX25IbmxNOHYxTzF6cEtjVG5tUnYzckZ0NkFiY3pXSFd5eG43eHlkZVk1NF9IREhOT1JmYUpuNWxyWXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNanBqQkx3cjQ1cXp5cGNNX3V6Tl9FYUtEcy1yTEliZVgwWlVjVUhhenE5Ti0zNE42VEQ2X29zY3JaUUEyR2RoVERTUzlxMTRZTWZhM3BINUdWVUVzcE94dkZZQzlnelotY04teVJUWEE1WDVHOUNwY1U4Uk9lQUw5eDBVQ1l1VUQxbDg5dTFwVGNrdw?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-44": {
@@ -903,11 +820,39 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSmFGRElWSGUyZndrV0Q2aFNzTnZNTEJieHBfVWlkV1RnaXZpb3g0dlItd1JYUF9GMWdHN1FjNG51TFRrOXFENjROM3YzWnIzS0h2UHV4Y3NUV1hrOWNFc21OX2k4MFJYTFBPelpQUGt2NW9GeEZPVDkxSl8wRWlhUUlFWVlaNWFnLTE3ZjVMQUpkT2Fo?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-48": {
-      "headline": "Jalen Tolbert Losing Appeal as a Late-Round Redraft Pick - NFL News | Fantasy Football",
+    "WR-43": {
+      "headline": "When Is Jordyn Tyson Coming Back - Fantasy Football Injury Return Update (2026)",
       "publisher": "RotoBaller",
-      "publishedAt": "2026-08-26T17:16:13.000Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ3VOcVp4dkcyWnJyS3JydVZ1RGRiSGg3TldCby1rRXhIZVhNZGNtSkU3cnN6SWY3ZWFydzVCWFpITXZtQ2xMS1lCXzZjZ2I1aFA0eDdSN1NhTHgxX1FMUzhSNlItZTZUT2NBNWZWckVvX0V0UzNLTTVzVFh4ZjBhZWFIVjVuemRGNTduOU1NQWx4STZtalRYNVFrWF9ueUxLek5meHdB?oc=5",
+      "publishedAt": "2026-08-21T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEQ0RlRIaTRuS1FDblU0aXdnVUxrZzNnbWlkOW1BVklwczBNcUxYU2hTLVVPOHpST3RGemxrckZyTjUzVl9fWjdMNFVIV2dhQWF5YVBSVzdjMmRzMVg0d3hqYkhUQURZYW5CWmhKYjlqRVAtRlFpRXB6RXhnNDBsUkk3WXZsN2lFaGVHYkdqQk8tSnJPSkY1VFhrdUJZOUpxLWlkUHVXS2dsUnV5czJV?oc=5",
+      "category": "Injury / availability"
+    },
+    "WR-47": {
+      "headline": "Updated Jerry Jeudy Fantasy Outlook 2026: Why Managers Should Avoid the Browns WR in Drafts",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T12:18:32.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2xGLWJDYTBpazEydk9aMWl1MFQ0RzRCaWdKTjJseEM5V0xuUlNCcDNDLWI4aHdJQWowZG8weG1jNDVqUjF1ZFdqOVhkbVBRUXhXc2ozZUtBSGV3Mjdvc0FSanpqS2lfWU5wTlFYNWl3SmdjWE9wUGdteGoxaUpDNU1xYWxud012OVg4Nw?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-42": {
+      "headline": "Is De’Zhaun Stribling worth drafting in 2026 fantasy football after his preseason breakout?",
+      "publisher": "DraftKings Network",
+      "publishedAt": "2026-09-01T03:22:08.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONXM5SWhCMFJqYm1VV0NsUzNwMDZqNmlReFNLYWtxdFIwSlBPVmhpa291RnFpb1NEZVRudkF5MG1wSDdETzNzTHd5X0xvTndacjFoSzR5Wk5ja0ZDVTJLTThoQTd4Rmh6WXd0aFRMY09IY0U1WDFKTU8wQnYxd3F5ZlBocGtiOFZDcGxBSEpZcy1mcVdvMXM5RG5DQXhVZThWbDA1b1ROdmNfSVQ4MkhZNG1Heng3WWxQcDNSN3FLdjNGSWl2OE9mWkp3ekRTT0k?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-45": {
+      "headline": "Denzel Boston Sees First-Team Snaps In Preseason Opener - NFL News | Fantasy Football",
+      "publisher": "RotoBaller",
+      "publishedAt": "2026-08-16T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSGNydHNuWklTclczY3Nwa01fejN3ODFSM1RCX1BwVVdkdGNROUVIaWhRejVQS0p5VGotVEF2THJUc1M1alFhcGZuSWl1Y0EweFdCNHVlZlJQb0ZUOUpHNkVzNjJOMTJIVVk0dnhYQmpTQUU4WTdIMVVYUWJhWEViYWxBM1F2cWNWcjVwdlpZeG9lUGltYk9WUUxMUlR6ZlU5VFNtLQ?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "WR-46": {
+      "headline": "Updated Jakobi Meyers Fantasy Outlook 2026: Jaguars WR Has a High Floor, But a Limited Ceiling",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T12:02:04.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNEdDNzZaOUpDb3M3THlhQ1Y3OWtKaHRETzRpN3VteS1tTEtUdERHT1ZpazlPNWRLRzZfcjRVLURvel9QNlpCVHpJREZhNTVNZHFUcDAzbllJVkx5emZ1dlA2VExvTXdLZEFPMUZQbFNLODBobEF4R0t6a2tQSXdSR3JaTktwM2JUY2NoUjJLZw?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-49": {
@@ -919,7 +864,7 @@
     },
     "WR-51": {
       "headline": "49ers' Demarcus Robinson: Has quiet night",
-      "publisher": "cbssports.com",
+      "publisher": "CBS Sports",
       "publishedAt": "2026-08-21T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlV0QTAwTWc4WnRIQ3Rua1RyYnRXUDlDZHZVZXJianlYSjRzTTBFSVpvWU41cjM4OVhnaUdFVmUzVkNXNkp5VHl1MGQ3UnF6bXlMMWNSZHd0ekM4TGlIdFlZaXRNZERMbnpCMWtTdmJ4YURwdTlNRDBsQlVtdUFCbWNLeU1qRFBFWUtCbkZPS2RnQQ?oc=5",
       "category": "Recent performance"
@@ -931,11 +876,18 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZXRIVlFScVJXMklrWWs3RFYzU21UaXdXdTd6QTRpc2JKWkpEUkxmb1VRaTVQNWh2bFZnajR5VVF1a0s2aHl5TC16Z3hkb0dTbWQ5NVNxLUluMWw2UDloLU1wX1ZxX1dzaWt5UlQzZkRaZkNvcGtkbzRiTnh5WGs2QVVlVnFwVFVMYjl4Z1djUGRuVjVzRmtqR1JpVGFQeXprT3hBcGpGQ21JTEFtakdpd2M4aHN1V21vR3FFemdlX2l0ZUlh?oc=5",
       "category": "Transaction / discipline"
     },
+    "WR-48": {
+      "headline": "Jalen Tolbert Losing Appeal as a Late-Round Redraft Pick - NFL News | Fantasy Football",
+      "publisher": "RotoBaller",
+      "publishedAt": "2026-08-26T17:16:13.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ3VOcVp4dkcyWnJyS3JydVZ1RGRiSGg3TldCby1rRXhIZVhNZGNtSkU3cnN6SWY3ZWFydzVCWFpITXZtQ2xMS1lCXzZjZ2I1aFA0eDdSN1NhTHgxX1FMUzhSNlItZTZUT2NBNWZWckVvX0V0UzNLTTVzVFh4ZjBhZWFIVjVuemRGNTduOU1NQWx4STZtalRYNVFrWF9ueUxLek5meHdB?oc=5",
+      "category": "Fantasy / draft"
+    },
     "WR-53": {
-      "headline": "Michael Wilson Fantasy: 2026 Outlook, Projections, Stats, Points & ADP",
-      "publisher": "Bleacher Nation",
-      "publishedAt": "2026-08-18T23:40:01.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkVBcnBoeHJfVHd0Z0N0bkdhcXQ3eDdEeE1hdUZJUzlELTVqSXRXOXBFYUFFTUgtYzNMQ25uQXhNSW9SWEt1WDlzMlJtVXR1SVREODJhSl8wbURtd2R0bUNSRlV5WDRZUGg2TWxQaC1VbTlmOXpFeUpFdkZfUUtRSGxJcUdITXMwN1g3aEF1Y0JvT2IxTHJ1amt5Um5ucklPTmZSUEZfZElWWDR1M3VHV1R3S0N4V1NtWDZVWGNsOA?oc=5",
+      "headline": "Michael Wilson Fantasy Projection 2026: Should You Draft the Cardinals WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:50:22.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTGRKaDdLVjE5MzNSVTNEMEFFcFJGU2xfdzNvRjBHRWVFeUNRLWc5eHZDdjJIM0hsMFd5eEVLS2kzSTYtYWpqU1FzWkh1X2hwZHJYS2N2MmY2Zml2NDR6RTUxbWdraEFqYlNmZXFXUHlhVUxpb1lJTnBVUHBadXJQRVBSSEJnR0hMVFdJNnJvUGhEU21FZVE?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-54": {
@@ -952,11 +904,11 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ2gtQ0gwLWlpZURyV1BTVU9yeEZHcVpxWDI0T3lWbm5uVW5wQW9BUmpfNUlXTTlEZnl5M1dSc3YxVURNdHdWQV9tWjFFa2tVUzR1eUh2S25EMUszY09HdUQ2bnBZWGxTNTFQYWwteEl2ZUVLTU5NNzBQRkdwd2JwTjhLWFhxeXNBelVuSHpfUzhQWXIxQkJWS1F3UXU?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-56": {
-      "headline": "Giants insider reveals Darnell Mooney's practice performance amid rising trade rumors",
-      "publisher": "sportskeeda.com",
-      "publishedAt": "2026-08-26T15:24:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNjg5dXl4dXd5MVN4TkdvX205cFpxenpueTdnS25HNnVVei04NzVrRm1yNlZyQ21OMjJXTmdJUWN4a1pDSDNKdFZZZGpuTDM1c2xQVXh4OFE1czg3cXc1dlZzMkhzbk5ic2UwaUotdUxyeUxhRTZRU2QyMnp4T1ZQWGpFT3F5VTEyQ2c4UDJ0azhRaHFDeDYwQXZMcURhT1dVR3lLSnhLa1ZidUNoMnR4aWYwNTktRmt2dkk4MTg3UQ?oc=5",
+    "WR-59": {
+      "headline": "Marvin Mims Jr. returns to limited practice Monday",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-17T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbU9tRldwc3RjOXpGSVQxMHl1dEtVRzZzZXFWeFp4RGgzZURzUlpuU3RpajlLZnR5S3hNeWJMcUI5Qk1telN3N0U0YXNYY2R5MndSLWRpN0VTTXNwOWRSV3luLWVjTEFJQkRobU8yVVhmVnppem15Vm9qY3NVZDZ1QUNnT21PZnNvQVNqazZkekNvZnB5MkFYRWpLX2tId9IBowFBVV95cUxNM0dsdzFjSFZ4NW9tLXdoZlZVTnVubmhpRHVfWVhhZmExa2E5SU9IdDJ1dThGTHBCaG9ndEk5bV9Ra3N4c0FoUmlQWGRuUDJNSi16WmJWaTRxSkFhRjB0V185ZWxqdTVlUTNaQTZuOFYzaks0Q2hpQkxrV2pnd3drMm5vZGVGbTlMZ0VhbGF2ak0tUFpuQ1UzSFE4cnAyVE9ycUxV?oc=5",
       "category": "Injury / availability"
     },
     "WR-58": {
@@ -966,19 +918,12 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMFVGQ2Zmd3ZlbUN2Y1h1RWQ4b3RqMnJPYmJsT2hkUkJZb1RxV0dSS2lnd1pLT1plc3QtMG9xelBJVUlSM0FWUTNHZi1nTmExaHZDVldNQWhGM0phWWx5TGVPblh3dHlVOV9qYTRqb2xERk1ySWFveFRqV2prNTRFUHNqWjFKTWNPbk9XdmM2clEtLUNUMjZNZEEtd2JGZ0R0YnUwa2tjQ0x3RzN1?oc=5",
       "category": "Injury / availability"
     },
-    "WR-59": {
-      "headline": "Marvin Mims Jr. returns to limited practice Monday",
-      "publisher": "FantasyPros",
-      "publishedAt": "2026-08-17T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbU9tRldwc3RjOXpGSVQxMHl1dEtVRzZzZXFWeFp4RGgzZURzUlpuU3RpajlLZnR5S3hNeWJMcUI5Qk1telN3N0U0YXNYY2R5MndSLWRpN0VTTXNwOWRSV3luLWVjTEFJQkRobU8yVVhmVnppem15Vm9qY3NVZDZ1QUNnT21PZnNvQVNqazZkekNvZnB5MkFYRWpLX2tId9IBowFBVV95cUxNM0dsdzFjSFZ4NW9tLXdoZlZVTnVubmhpRHVfWVhhZmExa2E5SU9IdDJ1dThGTHBCaG9ndEk5bV9Ra3N4c0FoUmlQWGRuUDJNSi16WmJWaTRxSkFhRjB0V185ZWxqdTVlUTNaQTZuOFYzaks0Q2hpQkxrV2pnd3drMm5vZGVGbTlMZ0VhbGF2ak0tUFpuQ1UzSFE4cnAyVE9ycUxV?oc=5",
+    "WR-56": {
+      "headline": "Giants insider reveals Darnell Mooney's practice performance amid rising trade rumors",
+      "publisher": "Sportskeeda",
+      "publishedAt": "2026-08-26T15:24:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNjg5dXl4dXd5MVN4TkdvX205cFpxenpueTdnS25HNnVVei04NzVrRm1yNlZyQ21OMjJXTmdJUWN4a1pDSDNKdFZZZGpuTDM1c2xQVXh4OFE1czg3cXc1dlZzMkhzbk5ic2UwaUotdUxyeUxhRTZRU2QyMnp4T1ZQWGpFT3F5VTEyQ2c4UDJ0azhRaHFDeDYwQXZMcURhT1dVR3lLSnhLa1ZidUNoMnR4aWYwNTktRmt2dkk4MTg3UQ?oc=5",
       "category": "Injury / availability"
-    },
-    "WR-60": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tyrone Tracy Jr., Malachi Fields, Jerry Jeudy, Demond Claiborne, Kaelon Black, Ted Hurst, Troy Franklin, Alvin Kamara, Caleb Douglas, and Dontayvion Wicks",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-27T13:05:49.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPS2Nya0JKMTJfbGdZUWhiWkxJNndHWjhGSHgtczhtbFlsYVlNM29PNUt6WEwwNDdzZ3RscjBzR1A4WmdJQ1Fld1JCOVBMa2ZhYk95X0FGa0FjLXpWY3RoOURHLU9iU1VKcVl3dFJzOEJ3c3RXUFVLQ0tlbzZnamstaXlxN3VmYzg0ZkxBNERDczhSWXRoMXFMNmkwZVItY1RmUkNZWlk2c0VyRlhIRHBUM00tV0lvYmRBS29ldjQ4WHAxQUVRMktTbFNiTFgzNEsyYUUyUlRwdC03LUk4ZklHRG5IWlhrU3B5OUpPazI1SWY4ai00V0VLSm9yNU9QdldDcTVfcWtLMkp1Q3paMkJHVHZqekhxUmFHWUVVNVdxN0dSeG1NTkpjUWwwYnE1UVBLLXpMMW5xU0R3MjlsMEhlUjFxaV81TUk?oc=5",
-      "category": "Fantasy / draft"
     },
     "WR-61": {
       "headline": "What Happened to Ricky Pearsall? A Look at the 49ers WR’s Latest Injury and When He’ll Return",
@@ -987,9 +932,16 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbFlBem9iSzhZMjh6dHRiSjlKcW5xUHRXbHN2TTZ3UjF5Q0lIWWZLaVhMNkd0MFM4bHZxbi1YRmFjV1RmbFRtUFVEc2N3NUpqcmE0bURkNjc0dHFDTGoyY0tueHdkT3FkdnpKb2JKZm45UWhrSnNIaUd6V2JSVmc4bExXcjF2eVU1RUo4?oc=5",
       "category": "Injury / availability"
     },
+    "WR-62": {
+      "headline": "Jauan Jennings Fantasy Projection 2026: Should You Draft the Vikings WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T14:28:47.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlZfM2xpdXhDY19lYXBhTEdWLXRxMXdmaW40ZDlpWjdoYktBTFBVZENIdjQ4LU54N0xZSC02MmtkaElQN0o3RGNIdjZzSkZYVGcyTnhmSzZ5YTZCdnA0ZWVrNlp5Ry1fRG9IRXFydFlFTXVLOFJVYnlYMVpJZ3hLN0RPOFp6UjVwZXNMeDRmSjJjNTZSOVE?oc=5",
+      "category": "Fantasy / draft"
+    },
     "WR-63": {
       "headline": "Eagles' Elijah Moore: Returns to practice Monday",
-      "publisher": "cbssports.com",
+      "publisher": "CBS Sports",
       "publishedAt": "2026-08-24T21:33:52.000Z",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDF3UndYWVdqZXVRYUlsZXM3SWYzWmwwUkVER0pQQVZvdF9ydk5qOXlxMlJremh5OHZscWVsTk5JQmZhbmEyajBtT1NSZXZCQnNGZkpDUUN0SGVSRTU0WFM3U29TWS1BTEx2ZVM2ejNCeUdLXzViMG11VnpfbDFYUV9EWkhXWDJac1U4Qk1vcFRQY2JlbV9TalBKMA?oc=5",
       "category": "Injury / availability"
@@ -1001,11 +953,11 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdFFjNkZNeHMzTG81QlJJaVF6bDl0VFBGOGUzZUtWVU1mdVVBbXIyOWRfMHRpUWN1bDZ4QmJROWV1NGJzUnNhUzdUQ29VaG50WkVwbkNTZ3JmZ0FwckhLNVFKM1RTMzdRVmdValNvTlBCRUlvZ1RhaXJSMFNjUU1oX3RDNGQyQmxNSzR2N1pxM0ZzMUdyRmQtV3RWNWhuMkppM0Ftcw?oc=5",
       "category": "Injury / availability"
     },
-    "WR-62": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Rashid Shaheed, Brian Thomas Jr., Deebo Samuel Sr., MarShawn Lloyd, Emmett Johnson, Jauan Jennings, Malachi Fields, Jalen McMillan, Woody Marks",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:25:01.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOZGN1eGZ3TjViWWZhbGhoYjU1bl9DeUFnd2kxWlBMSUJKa3BLeFlobWlHMXdUbEVoaGl6S3JPUGN2c1hTQWUwMVBhYkRsOVNUU1BHZHdHQldfR3JEcERlU05zaFg3RE5wUnZEWGFkeWRWcEY0WTllUWZrWldCMTFFSlg3MDg3NUpXVVU3WEUyYWRNeFh6S2sxT0owNE5Lb2s0RXAyZzhUaEJmVFIzMVgzUjFGeDBQYzdZcHdtY1hYOWMzd3UyNFQzUlBGdjhPTG9ucEduN0xfUzhJOXRWem5RQlA1WXJ2X1ZnUEViOUNKRDVVVHNXYlFYaDg1YjRrU3VyOUFPVGlEeUZiOE1SSVZELXZBbHNyOGJEZTRfWnFFazBySWc1WkRLa0VSc3ZWYVkwQWQySjZUczRZNlJoWkQwRFczNA?oc=5",
+    "WR-65": {
+      "headline": "Roman Wilson Fantasy Outlook & Stats",
+      "publisher": "FantasySP",
+      "publishedAt": "2026-08-28T06:43:09.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02OHZaSDFIU2c3UUFHWnZxbGxZakVzMVp1eEpZRUxDWFdrYmlwYi1FdWF6OW5VLUpUb0ZsZkxFcVJyNldRSmlPVjktRUhoUTN4cG9QOGp2Z1JSSWoybFZVSzhPd3Y2QQ?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-66": {
@@ -1015,25 +967,18 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUXFjUlAyNzAyNnk1YWJVWi1Ib0ZVV3AtNHVkblB1TWJXVnBhR1cwc191b0JrS0o3UEpPaGMtU0tJUi1OTlNuOFVQWTQ1dm0zT0ZueFBPWVRPLWpzU0xDQ0tKbTE0TEtrWkhCdElBdTBnTHo5Z21nd3l6UDllYzl3dTJiOHF3ZGQ4OERkNFFINEs?oc=5",
       "category": "Transaction / discipline"
     },
-    "WR-65": {
-      "headline": "Roman Wilson Fantasy Outlook & Stats",
-      "publisher": "FantasySP",
-      "publishedAt": "2026-08-28T06:43:09.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02OHZaSDFIU2c3UUFHWnZxbGxZakVzMVp1eEpZRUxDWFdrYmlwYi1FdWF6OW5VLUpUb0ZsZkxFcVJyNldRSmlPVjktRUhoUTN4cG9QOGp2Z1JSSWoybFZVSzhPd3Y2QQ?oc=5",
-      "category": "Fantasy / draft"
-    },
     "WR-67": {
       "headline": "Alec Pierce Fantasy Outlook 2026: Is Colts WR a good pick amid return from injury?",
-      "publisher": "sportskeeda.com",
+      "publisher": "Sportskeeda",
       "publishedAt": "2026-08-26T15:40:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUWdablk0OGRraXBsRkZrdEcyTlBvQ0NENE5uRzF1NWowWlJIdmRkNDFJYkE5NDc0WkNWbjNxWDJDbnpHaGx2WVplVTVhVGxjZHBsN0x6NkgxRkthS2dmWl9aamVQMU5zemEtM1l4TG1NUjFJTzBONmpMc3NaMHZROFpmUnJYMVhLV3dvRzFVMmp0aWRKOVhWWDZyV1BGUEExS1BodVhic0EyV1FhcjFF?oc=5",
       "category": "Injury / availability"
     },
     "WR-68": {
-      "headline": "2026 Fantasy football deep sleepers: Projections say Tyler Shough and Tre Tucker are steals",
-      "publisher": "thepress.net",
-      "publishedAt": "2026-08-26T13:22:16.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPOXB0UXh0XzdvRjBkdGZIVHRzYWlFRFBsSWlITHd2Y0VNbHNSVnR3TEx5cTVSZ2MwRHdBRllwbTN3Szgxb2Yxdkx0NW5RUjVfNGprTFBPS1dfazJMZXB3UjQxeFR6WnJ0cHBpT0dTcTgyeWw1d191TExubTVldmFZX2FmQW1acU15YTh3dzdUbTJEUHZOelVlQU9jZkJsLVJNMFNOZjgzbnBXWk42VDRWdUxYanR2Sjd0ZWVHX28tNzk4bk5uU3Rmbkt1dmx5dXU0ZzFqREpjR3E1MjIyLTZ2R3NiWWxaQ2pZWEpsSU5BVWU4dVQxOWpVeUhtT2IxXzVldmxWWjFzcEhqS3ZwY3c?oc=5",
+      "headline": "Tre Tucker Fantasy Projection 2026: Should You Draft the Raiders WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:51:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZXdpaUFqYmhNYXdlTm5vbDhQMmxFRlRYTkRmYU9YQVhfaDI3ejhfOUVJVUxDUHhFaTUzTjhQaG5OejR2XzdlQTRxUlJZMWU2YnVDRVhKQ19mYXNQdENzS2NZcndOdGViSlB2dWY0clFjZmhtZUtTakZxaEJfRzV6dUNmNjV5cnhEY0Y3TF94UEE?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-71": {
@@ -1057,25 +1002,11 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVhLbjRqa1QxOFNMM0s0a3ByaWJlZTU2LVVBQkhxQWdfWjZJUXg3TmZXcjJLU0NaU19lZjJrVWJ0UnlVWGxTQVhlOE96WlFWd3Fmbk1HdVhsbDFDUW9ZdUVza2d2QnMtaVd3TmE2WVZzZlhvc3RRZGU1T1U2aDNieWJHcnI3Q3JlYzBtTkdkdFlMLVZYWlhiU0JrdmxmZGhUNTBsb0ROQmttMjRRSEZZcHpvaW1Mam1zVFd1SmJ5ZWFEbVo1TUpzeTBlcVZpQQ?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-74": {
-      "headline": "Commanders Cut 166-Catch Wide Receiver and Offer Luke McCaffrey Hope",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-31T00:14:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRTVmLXVOb1BFTGZDNV9NUFQwRXlhdGJsVEVqcUk4ckZhMWRMOXR1aldSVGlNai1hSFRHbWNzel9MZWZkT3J0VWRpU01ERGpPMXRIYjlEbTN5eXJxQk9TZUhQNGNoV2F3cXBrSldPS2VkSHN0ZXA2THpSbnNxZjNPdXJ1b0U?oc=5",
-      "category": "Transaction / discipline"
-    },
     "WR-75": {
       "headline": "Jahan Dotson 2026 Fantasy Football Outlook: Deep Sleeper in Atlanta's Receiver Room",
       "publisher": "RotoBaller",
       "publishedAt": "2026-08-31T18:27:09.000Z",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeWlfWF9ZQ2VTdWktSE9SVWZjRGdlTUFHOGljZnlwYm9odmJsMUdnSzQ3RzNfYUUtZDJLd0EtWUM4RWRwS1UzelphYy1KWk9Db184REZ1bkFmc2FzM2lNWE9kNHZDT084clJOcjRPR1puYlU0Sml6clFtcW5kelJITU82UFh4Y2hZYnJvRnl4dGMxQ2VwV2g3RXNhT1o2N1NlUVkzVTkwVTJMV2NkZlRUYkV3OUI4c0R0MlZTbGhBRm1XZTAxTm9Z?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "WR-76": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Emeka Egbuka, A.J. Brown, Jayden Reed, Josh Jacobs, Blake Corum, Quentin Johnston, Jalen Coker, Rashee Rice, Jordan Mason, Makai Lemon",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:05:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOR0ZQMm93eGdzcHRMUll0M2c3S29xVjdVUXNLSVBGY1M0WmhYT3hKUFFCY1RSYlAxVlZCUEM2QnNIcUhNVTBDSGptRjVzZi1lR1Ayd0lDMVFwckRZd3llR011NWdHdmtpcVEtSHJrX2E2NnVFTXFRbU0yNkJjSGJwdjRDLXZiVGp1TFA3OUs4SDhUUktRRnpVemdacFFxbXJ6d0t3dWVNaGtJbWZpV2ZTUlRmdUN2VHRZYkk2RWh1dENralI5RTJRbHJPLXpjN3RZY19mbUVtcFdobkRMdklXWGNFMG93aExka2hvSEt5UFJxZHAyeWwzZ2R2YlhCdUxHM1hPOGRERTd2SVVIUkp0UWZtTzhIS2ZCaFBZeUJMQThtejhfMkdzdHZMTk0yOFJlV1FtYWdGUQ?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-77": {
@@ -1085,19 +1016,19 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkhFWDU3Y3BiU3JNakNPd0tGU1lxLTBxN0tHNkRaWFR0QjdqNk8xZ3lMTE9kVUtNLUhKR1F1Sl9CU1JGZFpBZ2ZWajNFZHpOMEFQcy1Pd1JqMWdkOHd1dk85S2tWaU5QUWNZeTRwcTZfMEUwQjFDY3Q2cnNQdXNpX0FDVmVLNTdI?oc=5",
       "category": "Injury / availability"
     },
-    "WR-79": {
-      "headline": "Malachi Corley or Isaiah Williams | Who Should I Draft? (2026)",
-      "publisher": "FantasyPros",
-      "publishedAt": "2026-08-16T15:52:28.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa2c1TGM4ME5DMGVWXzl3d1N4RXNxekctdjk1Y0h4SnVnUDhhU3RaNmZWSFlxM1pUcG5ZQzBEYUZHLVJCLVNqQjlMQmxDemFpWjd2YXJUUUJ6cm5acDk1bjdjSUFjVTlwNHhnemV0bko2WGFfRTRBWlVmOGg5WXhaWWxkZ0xXLUJidTJTbDluUTM?oc=5",
+    "WR-76": {
+      "headline": "Is Jalen Coker one of the best late-round wide receiver sleepers in 2026 fantasy football?",
+      "publisher": "DraftKings Network",
+      "publishedAt": "2026-08-31T19:18:15.000Z",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdzF4R0tKQlMyNXhWcjNFLVYzelBCZ01CTThPT01OdFBvQ1pfb0E1NTYzMWVUa3hnVktndVFwN1pqQ2lJekxJT2dodlU3RWt5M0RzRUZQNlJwZDYzaThOaXItOWNnWm5KN0J1c2lONnhJaEo2QkRQUDhPWDVLY2R1VmZoSEJDRkN2YmhHRnp5Qlp6OFZFRHUxRGxGYUlLeVdiRW41SU5EVFI3NU84c1g2UUJGd3NoanhwMl85R3kxNUxpWEpzU3pfeVdSdzZYeVU?oc=5",
       "category": "Fantasy / draft"
     },
-    "WR-83": {
-      "headline": "Gabe Davis or D'Ernest Johnson | Who Should I Draft? (2026) (Half PPR)",
+    "WR-79": {
+      "headline": "Should I Trade J. Michael Sturdivant for Malachi Corley (2026)?",
       "publisher": "FantasyPros",
-      "publishedAt": "2026-08-24T12:47:56.000Z",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42d3dOWEhremFOUTdfemg4QzdkcnpLR3lqc2h2djQwSThvUVl2MUxuemllSmY3T1Y4d0VKQ0x3ODlfMEZwX0YxN3FyQnJSbG1QLXJDM2hWR0ZJSFBfVGVRaHFjUWpnajd5TXFrc2doSnFRRGFheGRacmVlRQ?oc=5",
-      "category": "Fantasy / draft"
+      "publishedAt": "2026-08-31T16:55:58.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZDJsa082WVRua2NQYldCWDNrc2xRRWVQZmtsLXRTbjdsQjJPNV93cWJJeUVxOHV6UER5TW4zQWhqbDN4S19yQ2xjT3dCX0xhcV9YeXBBUTVwc2hTRFNNc3ZxNE9Gb2t0X1ZoWThlOGZQeVlHMDNCbjNqQjJ5OEFoZFF6SkVicFQ4ZG5IQ1g0dk8tdw?oc=5",
+      "category": "Transaction / discipline"
     },
     "WR-80": {
       "headline": "Kayshon Boutte 2026 Fantasy Football Outlook: Traded to the Texans to Replace the Injured Higgins",
@@ -1107,32 +1038,39 @@
       "category": "Fantasy / draft"
     },
     "WR-82": {
-      "headline": "Is Keenan Allen a sleeper WR you need to draft with Alec Pierce and Josh Downs injured?",
-      "publisher": "DraftKings Network",
-      "publishedAt": "2026-08-26T16:48:29.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWp4ZV9GSV9GRHVLYkV4dTJqb0pMS1JRRmlOZHVqRmxmN3pMclpBVVQ3Z3NLRi1GSkJDRG5ucUdzRUZkSnFtTnFtY25kZ0ktM0JFRkJGZ0Z3MDdQcUJVSzJ5Y2FuYUlBZ1YwQ3BQRXZlaDU0MU5uTXpjX2hwZjdRalJ3OGRtdnJiQ0hQa2pNeG96YWl2R2Q0SjNTc2Q3R0xscllQRlFjcEdOb3h1Zk50MzdodWJsanJOb2Q5eE9fYXBHRE94LWRsVkxDRQ?oc=5",
+      "headline": "Josh Downs Fantasy Projection 2026: Should You Draft the Colts WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T14:10:21.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYUdxd3Y4T0ZKNEZjTVM2VGxsaXdock9pbVhhQjFZcXRfRHNzZGY1RWlDRWVXYkVHWWJ0ZndBSjZ3TVd3THQyVnk4cFRpN1hrN3YtcEFZWHdFSl90OW40VEdVMG4xVWVFZlNnSHZpamRtRkc5S3NDVWhxRzdYN05PeEN3cER2TW5MOUdRZHU5bHo?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-84": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tank Bigsby, Tre Tucker, Isiah Pacheco, Calvin Ridley, Adonai Mitchell, James Cook III, Mike Washington Jr., Jauan Jennings, Rashid Shaheed, Brandon Aiyuk",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-26T12:05:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOQklxLVI0bmFoQ21EVnBSbHA5ZzFkYlZIbVdFalEyRkoxRXRqVDJNWUpLcUl0S1ZuOFNBTDBGMldDYkNwcFFzOU1KZUoxb1VLX0JjYURDRzNYMjI2VWpzd0hXTVlmRlhIR1pnbXdEQTdCOEF2c2FmVjRNZEFSR2x0eEpuRHIwbzVUSU5qbHg1OFduQXkwQndnRDVSMllqLUpOdWxHZlV2Qzh4WUZnWGctLXR5VWtwSXBvc0czMl9FSE9rNlI0SG1GWUZ4ZU5ZQUFEdTdndm5NdTFJUG8tYWp1QVcxY0swUHlPYTRPODV0bnpCLVZ1Mi1keUxYSmx3RWVBYXRGcHRORFNBMm5DQXUxVnowNTlJU2hEc2g3NzlTRDdzZEc3NkxrbEF3RHlYYWd4Vnd0b0xXNnRGQTdjc1JMWkVpUjJJcUk?oc=5",
+      "headline": "Updated Adonai Mitchell Fantasy Outlook 2026: Is the Jets WR Poised for a Year 3 Breakout?",
+      "publisher": "AOL.com",
+      "publishedAt": "2026-08-29T11:07:52.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0hkSTdzSEotbkdfYndVTVAxOGVhU241R0gxeWpjWHY2YkZQWF9Mek1Wc29yTjFXOE11VjU3VmluU3U0cmdWOVlSNzZkZEhLNE1hWW1LUXkxWlYwOU41dkx6cjdXeGpJYXIzUjJIUGlZY05kdFVRcmlEUW44dndPcXBpbGVwOURzNjdz?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-85": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Tee Higgins, J.K. Dobbins, Jeremiyah Love, Rome Odunze, Jaylen Warren, Caleb Douglas, Matthew Golden, Denzel Boston, Cyrus Allen, Tony Pollard",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:45:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZWpWWDhXRWFNOV9SV25PRVFMdldHaDZpcGZ0Y2RhVFc2dldncG9tTC0wekJIbFJBMmVGOVdiT3BORVhwdlhDNGhQdl91RjlvTVNZR25IQVFDSGdhdkVQWVdKVkFLM0VHLTQyempLdkNWdWRMd0g0Z2Z1UmI4WVViekNpTFNBMFFrbGMzRlhVWGthXzlDTkxUbGFXODREZy03RU9VYXlTTmo5akJBaDdYTVB1NEJQMlM0YmFDN2ZMSjZCTVYtc19EMmpjQkkxV1RiQ0w4ejFZYV85cEg2UTZ2SHJod0VyQUVVQU9jUU0xdk5HU2paX0FEM2p1b05mQkIyWGpEV29idmR3amx1TDF1WXdCZXlZS2VyQ09TbGpmQkVPYm9RNGxuRjMweWV2Z0dMN1o0aWZyZXR3VHpFSXRGSVdR?oc=5",
+      "headline": "Rome Odunze Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-31T16:52:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yaWxwWTVfbkpnd3ZNT1lJRTZrQS1zNE5fYllGRWQ1R2VPSG54LS1FQlMyTHVHUmNRSjMtZDc3NzQ3dUhOLXFqZE1QZE1QMURBdWZhbXVfaWhnNGJzbzRldEZNUHJGVlpHS1QydGdWaGhKZGxqRlgxN0NHWkhmQdIBgwFBVV95cUxQWkZjaHRuWm9ja2pGYkJEX3VGM2FZcTRLangxQi01cmdFLXpDQ3A3N0dTeWdCMklUVjhuM2tuYW1GOE40cWtySDdCMGJ5QWN5ZldFM2pVY0cxNW1PVXNpMG1qSnpaMFFIdElOb2V6MEw5cVZBMXhQUTdFUlhpRmZBMHV6OA?oc=5",
       "category": "Fantasy / draft"
     },
     "WR-86": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Marvin Harrison Jr., Wan'Dale Robinson, Bijan Robinson, Jaxon Smith-Njigba, Davante Adams, Ja'Kobi Lane, Kenny Gainwell, DK Metcalf, Tyler Allgeier",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T12:45:57.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPZlZqV2NSUkh2bVdnYVNsZEppenhKRXVwNEFjYlVqTFJkM000c3p1SGdabXVmM01MS1FjZUUxRDZBTFFKcXU2LUs2ZEVkMlRPakdMNWVLTFNvZVFhUVljOUY3ZnduWDBFUUFNU3M0TDdmbElwX3hpTjRmaGtDN2w2TlpWYmJ3cnhveFh6d2s4azRDYkRXcGw1eUF6WWZsTnZtdldxMXFMeTc2Szd6N3l5clFNUXc1aEpSSE40eHptdFhIc1BqbDZvMW81YkZLblVhQ1VseGhJbnpVakxBVTJZQVROU2JraTh5VFFETmVLX3ZDc0kzV3Z4M2xnb1JoREtqQmVOM2ppRzVmenZZN2s2a0RMeS04eWlVN3NjLW9GNXcyNEp0NVg3bmhEUUprN3hPMzlIaUVNX1hfaWd0ZGJ5b0h3Z3VtZw?oc=5",
+      "headline": "Wan'Dale Robinson Fantasy Projection 2026: Should You Draft the Titans WR in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-22T13:46:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSVpscTYwSDRvMllSSlU4TldmRFFNZ0RpTmR3MXhMeThqT0xKQjdZcU5mdVozRm9sR1p0WC11SFBBTEJxNTBDZHhCVTNnTWFvYWN0Q2RkZHd6amlVdHJDcmNmWVlUbE1xSTI5dW92RVl2UnFMemt5VzZUR0R0YW45UkdTb2ZSNHJqeVNxcW5RM0trTllnLW9KRQ?oc=5",
       "category": "Fantasy / draft"
+    },
+    "WR-87": {
+      "headline": "New York Giants WR Darius Slayton distraught over Calvin Austin injury",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-26T10:55:34.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQUVRM0pXVnJ0OG1fWTl6QUVJYVVOd3ItaC1OOXZhZTM1bjVkNExxUHYwYjYycXBfcno3Ui1fWlloZjg0WFFlNjlLSlIxUHphQXhrNlFRZmdkODFfcFM3SmNoVUpRdXAyektGc0lHejBFWHo4M0ZDSTNNQjFLT2o1X2FCSXk?oc=5",
+      "category": "Injury / availability"
     },
     "WR-88": {
       "headline": "Jalin Hyatt returning to Giants practice squad",
@@ -1143,23 +1081,16 @@
     },
     "WR-90": {
       "headline": "Eagles waive WR Johnny Wilson with an injury designation",
-      "publisher": "NBC Sports",
+      "publisher": "nbcsports.com",
       "publishedAt": "2026-08-21T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVEhBb19zUEVTLW5HQWtCSFkxNDhBUHBpbVlPSmEzc0ZkN3pSeW0zaHpKaFEzczJIemlTeUNJbG4zOGFWT21yWkZQY2JvSUh4a1dXZTJ1YlUzbnRYSnlERUdHMENRdHV6SERIVVJSR1Foc1doOFlFdHN3aXN4c3FfcVZSeTVPUFl6d1Y5aVBMVTc3d19KaGNuVk1EMmI0eWp4WXRIeTU1VWhtaWpfZzI1bVZUVU9hWTZBSEE?oc=5",
       "category": "Transaction / discipline"
     },
-    "WR-87": {
-      "headline": "New York Giants WR Darius Slayton distraught over Calvin Austin injury",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-26T10:55:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQUVRM0pXVnJ0OG1fWTl6QUVJYVVOd3ItaC1OOXZhZTM1bjVkNExxUHYwYjYycXBfcno3Ui1fWlloZjg0WFFlNjlLSlIxUHphQXhrNlFRZmdkODFfcFM3SmNoVUpRdXAyektGc0lHejBFWHo4M0ZDSTNNQjFLT2o1X2FCSXk?oc=5",
-      "category": "Injury / availability"
-    },
     "WR-91": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Emeka Egbuka, A.J. Brown, Jayden Reed, Josh Jacobs, Blake Corum, Quentin Johnston, Jalen Coker, Rashee Rice, Jordan Mason, Makai Lemon",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-28T12:05:38.000Z",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOR0ZQMm93eGdzcHRMUll0M2c3S29xVjdVUXNLSVBGY1M0WmhYT3hKUFFCY1RSYlAxVlZCUEM2QnNIcUhNVTBDSGptRjVzZi1lR1Ayd0lDMVFwckRZd3llR011NWdHdmtpcVEtSHJrX2E2NnVFTXFRbU0yNkJjSGJwdjRDLXZiVGp1TFA3OUs4SDhUUktRRnpVemdacFFxbXJ6d0t3dWVNaGtJbWZpV2ZTUlRmdUN2VHRZYkk2RWh1dENralI5RTJRbHJPLXpjN3RZY19mbUVtcFdobkRMdklXWGNFMG93aExka2hvSEt5UFJxZHAyeWwzZ2R2YlhCdUxHM1hPOGRERTd2SVVIUkp0UWZtTzhIS2ZCaFBZeUJMQThtejhfMkdzdHZMTk0yOFJlV1FtYWdGUQ?oc=5",
+      "headline": "Quentin Johnston Fantasy Projection 2026: Should You Draft the Chargers WR in Fantasy Football?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHNrWk94VjJpaUtpeDQzM0NQSE14bTczalJWbVByWnlMSVhweDlsZ09HQkN2eGtxd0VaOGpxczBYcGRhSlFRSmdqdkN0S0FKMkJtb3dVRHZWQk1WRDR1UEd0MmtLdWxRb21NUENxVGFZT0RQMDdnTzJSNnBteGtHTWFJcENpN01WTVo1dDZHWWJaQVk?oc=5",
       "category": "Fantasy / draft"
     },
     "TE-0": {
@@ -1176,6 +1107,13 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTTY1ZS04U3ZPM096TVMyU2J6WUlXcDU2UW8wcVg1SkdoNl9iMzk3aVI3WUVnOHc3YnFpVEh6Q3RRY2FobWdRaUdQbVlramViVTFST2QwYXVNeHUxTkgtdXhBeEozSkZxUm52dEdEeEctSVRXZm1nOG0ySmxGdTFUNktnbThHVlFLZm5OcXFCVGJmN3dmTmsyZzJ3?oc=5",
       "category": "Fantasy / draft"
     },
+    "TE-2": {
+      "headline": "Updated Colston Loveland Fantasy Outlook 2026: Should You Draft the Bears TE in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T10:35:57.000Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZUNOU2xLeWVnQjQxeGhuVkl3NE1hZU1xaFQ4MzFGWHlqQ2w2N1ZkV0FLUEpXMXpNdjlOWFJRUzBYTEVQc3otb290NXpweXVNcWYxN3FhdDN6a0wzY25mYXlrYkhRTE8wc08taUxuTmllMlBnS1djT2NfbXBQMXgySVAxRzh5YzVzcXd1TWJ4cjdrOGlCSi10d0xzS1N6OWM?oc=5",
+      "category": "Fantasy / draft"
+    },
     "TE-3": {
       "headline": "Tyler Warren Fantasy Projection 2026: Is the Colts Star Worth Drafting At His ADP?",
       "publisher": "PFSN",
@@ -1184,38 +1122,31 @@
       "category": "Fantasy / draft"
     },
     "TE-4": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Colston Loveland, Tyler Warren, Brock Bowers, Tucker Kraft, Kyle Pitts Sr., Harold Fannin Jr., Sam LaPorta, Isaiah Likely, Terrance Ferguson",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:05:45.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOY25GOE0zajhlMHdvNzhFeXdPV0dyWVFxS1JQMl9aY0ptVUlkZl82V0VlTVdISDFxR185LWFDTktVZWJDVnpTcTJ1MVVuWFRIaDc5V1AwVndCVmhIREJvZDQ0bGctaWlNX25hdXBpbkYtNWtvdGJmX19CYUYyUF9STEFDOE5FUXlDc3RtSHZmakU5X2lrTk81ZFV2QVN3OUdZeER4Z3poUExOcERTLUg5U2UwY1haR2MtenhIVEdWSzBmTXVSeEhBcWtZVDZ6dk1TMkdyV0pHOWxlSWUySGliRjRLQnhObFpSYzVjVF9ZLVk1d2xCbjFlWXZxZ3BUeGY2VW0zR0JOd3E5OU9RcHI4VURpaDNjMEhjMlBrcFNudXA2aDkyR1BOc1FkY2pnTlB2b3Z6MWFXSWR3a1piaGY4?oc=5",
+      "headline": "Updated Harold Fannin Jr. Fantasy Outlook 2026: Should I Draft the Browns TE in Fantasy Football?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T10:22:40.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmIxSnVaM3dJbjJyR0xVVWNYQUdoWHhlUVc3OGZEdjRRYVJVWV9xQWJwb1VjQ0MzN1VaOXBKdDBIcGpDQnJzeUVxWVZvR2lYclAzMDBrSnF3Z0F5MTFuZGZNRkNPdjhBdUwtRUljMXYzUEJvczRuQkJHWm9heC01Y0ExTXVWc0pf?oc=5",
       "category": "Fantasy / draft"
     },
     "TE-5": {
       "headline": "Sports doctor delivers Sam LaPorta fantasy outlook as Lions TE returns from significant back injury in 2025",
-      "publisher": "sportskeeda.com",
+      "publisher": "Sportskeeda",
       "publishedAt": "2026-08-20T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUG40Y0tPWjd1aXJnbzhTRzZwMmp6NWNpTlEyU3YwQ05qeXBKMTNfOEZPX214allTVVhoUnpoelJwM1oyeUlBQV9oa3pTRnh3N3l5QW5QN0hIOHI4a0RrQ3FJNmgtY2x0QzI1eFZLeGlOT0N1NVBtZC1DSk91WWVzYW5SQUU5bzBGQW96ZVVaVGtHTGt3cnUwQVMwQzhTQXBCUTg1ZF9IbXlRWXpjekV4TWhwdHotbEJXZDdMYVJETldySTFQLU13YmlLa01NZw?oc=5",
       "category": "Injury / availability"
     },
-    "TE-2": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Colston Loveland, Tyler Warren, Brock Bowers, Tucker Kraft, Kyle Pitts Sr., Harold Fannin Jr., Sam LaPorta, Isaiah Likely, Terrance Ferguson",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:05:45.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOY25GOE0zajhlMHdvNzhFeXdPV0dyWVFxS1JQMl9aY0ptVUlkZl82V0VlTVdISDFxR185LWFDTktVZWJDVnpTcTJ1MVVuWFRIaDc5V1AwVndCVmhIREJvZDQ0bGctaWlNX25hdXBpbkYtNWtvdGJmX19CYUYyUF9STEFDOE5FUXlDc3RtSHZmakU5X2lrTk81ZFV2QVN3OUdZeER4Z3poUExOcERTLUg5U2UwY1haR2MtenhIVEdWSzBmTXVSeEhBcWtZVDZ6dk1TMkdyV0pHOWxlSWUySGliRjRLQnhObFpSYzVjVF9ZLVk1d2xCbjFlWXZxZ3BUeGY2VW0zR0JOd3E5OU9RcHI4VURpaDNjMEhjMlBrcFNudXA2aDkyR1BOc1FkY2pnTlB2b3Z6MWFXSWR3a1piaGY4?oc=5",
-      "category": "Fantasy / draft"
-    },
     "TE-6": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Colston Loveland, Tyler Warren, Brock Bowers, Tucker Kraft, Kyle Pitts Sr., Harold Fannin Jr., Sam LaPorta, Isaiah Likely, Terrance Ferguson",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:05:45.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOY25GOE0zajhlMHdvNzhFeXdPV0dyWVFxS1JQMl9aY0ptVUlkZl82V0VlTVdISDFxR185LWFDTktVZWJDVnpTcTJ1MVVuWFRIaDc5V1AwVndCVmhIREJvZDQ0bGctaWlNX25hdXBpbkYtNWtvdGJmX19CYUYyUF9STEFDOE5FUXlDc3RtSHZmakU5X2lrTk81ZFV2QVN3OUdZeER4Z3poUExOcERTLUg5U2UwY1haR2MtenhIVEdWSzBmTXVSeEhBcWtZVDZ6dk1TMkdyV0pHOWxlSWUySGliRjRLQnhObFpSYzVjVF9ZLVk1d2xCbjFlWXZxZ3BUeGY2VW0zR0JOd3E5OU9RcHI4VURpaDNjMEhjMlBrcFNudXA2aDkyR1BOc1FkY2pnTlB2b3Z6MWFXSWR3a1piaGY4?oc=5",
+      "headline": "Kyle Pitts Sr. Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T21:16:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ldlh1MEg5WDc4MXYtRXBHM3QtbUYzLUV4cUVpYUhRZDgzNVYxTWFfTGMtNGRyclQ2ZEtGNHB6TVMxQ1hfUnJoNTAyamZsU2t3X0ZOZlhuT3lIcDJZQmNzci1SV0Q0SlJYLVRna2pIZU5iVm9vSFBKREtRTlnSAYIBQVVfeXFMUDZmQ2h0cEVDcWhaS2Q1eVdjLXhaeXd5c3I2OERmM1o0aXY5X1FGdktMZHY5VUEtMUdVU0tacHhQZzdPRGhWOG94RUJwS3dsVDhCNnVtbkFLUjNmTTd4RmhEQjE2V1lrNmZJMkdkSnBwSmNvTVdOaVpPVVZMU2poOW9FQQ?oc=5",
       "category": "Fantasy / draft"
     },
     "TE-7": {
-      "headline": "Updated Fantasy Football TE Rankings 2026: Travis Kelce, George Kittle Look to Return to Form",
+      "headline": "Updated George Kittle Fantasy Outlook 2026: Can the 49ers Star Rebound From Devastating Injury?",
       "publisher": "PFSN",
-      "publishedAt": "2026-08-29T22:45:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcXI3N0lOUnJSRTg4aXNmdlZXN2RtZG84TUV4a1dxYk9tWENyQTZ2Yndvd0VibV9QWDlILVMyT0FSOXpDQm4zTUdKWHVyb3dSaXFBQnJfVC0tdlV4clQ3RkhkdHBzemNFZW1kSjJXN0s4c1BrZ0pDZHk4X1cyUnFOcm9Kamc2V3NCc1JadlB6NHZ0QmdBMFR5VHBn?oc=5",
+      "publishedAt": "2026-08-29T10:55:23.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSG05eUxqTW50R0ZzR3M3X1llVzFUcFl1dDJoZDdTbkdQbTQ0NkliWmtOLWlyc1ZjUEt4eG8tSENZR2tIRUZvTllIQl9GdVFqbTR6NnVPZG0zNmlFRURfbDhMZDg0LWlZeURxUWJiQmdPZU1rcmg5eEZfTllpT2E1N1pZSmtBTG9saW04ZlgzYVBnZWp4alBySDl3Yw?oc=5",
       "category": "Fantasy / draft"
     },
     "TE-8": {
@@ -1239,25 +1170,25 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYUpXMVJYNW9TdDI3dzNJWTNCYk5FUUtoc2hJXzFVM0VPLVRpUDVOXzJyX0ljU0lsN1ZGS0xnZlVNaHFZa2l3U2hCMHE5RTlwRUZiTFNSNkdrZzVhTVBlZS1jaEwwT0dYYXdvX3h3dkc2UkdOTTVRTzJEYmxmalNhTXhFUk1XRjNUX3dCd3V1Y1FjbzNmbkUtOFVsSS0?oc=5",
       "category": "Fantasy / draft"
     },
-    "TE-11": {
-      "headline": "Updated Mark Andrews Fantasy Outlook 2026: Should You Draft the Ravens TE in Fantasy Football?",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-29T10:44:33.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR2czSWJvaEdfZlZXNFREU1R6TmZBZlhKVGxnUWRXWTJncG5BcHV3dVZEMDRycUpWLTZHRXkyVkFWbVhpbmRsT2FKRmRYaTRMaWlsaEN4UHdLMDZmeGZ2Yk15aG50bHc0MzgySUxKRi1aXzRwUjNQRmZmUjFWSk82T0NPZTFBWTBXRzRTdUN3?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "TE-12": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Gunnar Helm, Colby Parkinson, Kyle Pitts Sr., T.J. Hockenson, Dalton Kincaid, Terrance Ferguson, Mark Andrews, AJ Barner, Chig Okonkwo, Travis Kelce",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-25T12:45:56.000Z",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNV2JicFpMRGgtUWl4MndqNnVxX05TdEtlUW1IUk9NVFBYVkZvMnd1M0sxa084QXJMWjBFNDdVMERoR3NGVnV0aWF6a2ZRWlFoTkxPSnhuNVpJRmxyMHpPWU1kY2xoSncyMmtHNjNITWJxd2lheUZfMGQtY0Y5YWk5bUU4bVFhclF4THVNM0x2cHFZRXNka3VrZmZLQ1B4ZXc2cjVKclJIRDJmbC1yeWJBR1h3anpHd0M5M3JuSW95MHhwNDItMmxNNFU1Qm02UGpPaWcza2U0d1dTb3dVUEFUb1N4dFFYU2ZoUzhXUUdxWC1iZUg3THdfeFVuN0QzZnoxWkI5QlpZNnBlTmJDX2NkZXZfV3FHNjFISmZXOUx6R3Bjb2xzc2ZIUWpVTnlaWUhlYldlWU50YjgtWTBSRXNLWUI2RjVYdw?oc=5",
-      "category": "Fantasy / draft"
-    },
     "TE-13": {
       "headline": "Updated Evan Engram Fantasy Outlook 2026: Should I Draft the Broncos TE in Fantasy Football?",
       "publisher": "PFSN",
       "publishedAt": "2026-08-29T10:50:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONWhSdDI2VHFKUFFuWDltZFBDRlJPSERuYnA5TEJFXzZQYVJwWWpoR19EcjVQVHRJRXpMZDR0OVpycUdLclh3SW8wR1FQOW1fN2ptd25Mc3V6SFU0Zlh4TGZ3MHBmdU5MVzlDYkUtYnNHMnlxV2RVR1lpbVExRXJMa3BoQVlCRXF2OFlwcm5fUHk1eEJuN2R4SA?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "TE-12": {
+      "headline": "Dalton Kincaid Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T05:07:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc04tdm4tR2I5ZnBJeDBnX25IUk5adEhoRHFBOUtDbkdYR3JIQU1RQ2RSRkFZOUVmOGpVd3piSlliQlc5a01BdVlpUU9lR0ozTnJHSG5hODBNUEFiZ1BhRTd2dTVwaW1DQ2I0dTdwUjBLd2xELVZ4TGNiTmR5UkFlX3BB0gGHAUFVX3lxTE14cFU0Xy1ySnoydFlTQTRGSS1DRmxMN3NweGJ2TngwRWhJejdaa1BzS292Rm5mVFQ2QzBLdGVtVG9WQXFtbUcyY2l1cGRoQUktSEZUbWFKa2dUb3JVdkV5Y01SRkh6MUlPbWVKQjBKUXQyckhLWTkweV92ckFzOHlMQnN6X1ZySQ?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "TE-11": {
+      "headline": "Updated Mark Andrews Fantasy Outlook 2026: Should You Draft the Ravens TE in Fantasy Football?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T10:44:33.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR2czSWJvaEdfZlZXNFREU1R6TmZBZlhKVGxnUWRXWTJncG5BcHV3dVZEMDRycUpWLTZHRXkyVkFWbVhpbmRsT2FKRmRYaTRMaWlsaEN4UHdLMDZmeGZ2Yk15aG50bHc0MzgySUxKRi1aXzRwUjNQRmZmUjFWSk82T0NPZTFBWTBXRzRTdUN3?oc=5",
       "category": "Fantasy / draft"
     },
     "TE-14": {
@@ -1267,13 +1198,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRndqSFdiRXdYUmItcHM0Q19WTVF5RjZ3MEVCZWRJRVVDMU02YUttVmJVb1ZvY2JIbU1rOUtJUUZoMlF5bnFVWWNsM3R1WTByTWNkNG5WbW5fUDJQOWViWE1JeWRuRTkzZUthQzdtek5Td2d4YjJoTXgwVHZXMGpBZHRUTXd2SHNEUlZpcmVvNklCNWlfU05rUEJlNzQtSU5Ba2hhbFJVZTlfZw?oc=5",
       "category": "Recent performance"
     },
-    "TE-15": {
-      "headline": "Who Should I Draft for Fantasy Football? Outlooks for Colston Loveland, Tyler Warren, Brock Bowers, Tucker Kraft, Kyle Pitts Sr., Harold Fannin Jr., Sam LaPorta, Isaiah Likely, Terrance Ferguson",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-29T12:05:45.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOY25GOE0zajhlMHdvNzhFeXdPV0dyWVFxS1JQMl9aY0ptVUlkZl82V0VlTVdISDFxR185LWFDTktVZWJDVnpTcTJ1MVVuWFRIaDc5V1AwVndCVmhIREJvZDQ0bGctaWlNX25hdXBpbkYtNWtvdGJmX19CYUYyUF9STEFDOE5FUXlDc3RtSHZmakU5X2lrTk81ZFV2QVN3OUdZeER4Z3poUExOcERTLUg5U2UwY1haR2MtenhIVEdWSzBmTXVSeEhBcWtZVDZ6dk1TMkdyV0pHOWxlSWUySGliRjRLQnhObFpSYzVjVF9ZLVk1d2xCbjFlWXZxZ3BUeGY2VW0zR0JOd3E5OU9RcHI4VURpaDNjMEhjMlBrcFNudXA2aDkyR1BOc1FkY2pnTlB2b3Z6MWFXSWR3a1piaGY4?oc=5",
-      "category": "Fantasy / draft"
-    },
     "TE-16": {
       "headline": "Pat Freiermuth Gearing Up for Bounce-Back 2026 Season - NFL News | Fantasy Football",
       "publisher": "RotoBaller",
@@ -1281,18 +1205,11 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLVVQLXJRUU5rYVZGN1F0UG9RN3FXdTZoenhheEVKaEVWSlJHX1FfR1pQX1F1UWdNRHJmcGxVU0xIRGZRWVljNTd6VkNYaDN4Y2VJOHZXZGl0NE5tTDdmcUM5S19fTkh5YWJIN1laZDc0RkVrZnZ3RFVwREZsWjd1VG42b2JQWXJHTWpTQWF0Y3pXVDY1WGVUMzM0X0xLQW9KVEE?oc=5",
       "category": "Fantasy / draft"
     },
-    "TE-17": {
-      "headline": "Updated Dalton Schultz Fantasy Outlook 2026: Should You Draft the Texans TE in Fantasy Football?",
-      "publisher": "PFSN",
-      "publishedAt": "2026-08-29T10:40:49.000Z",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNjFTRU0yWjdsWEZpSVFfdV9mYjFJSmFsVXFoNk9Xa3IxR0R2bUx2cXhpUmJ0bkZOeTB2YVhLMkdsMFlKQWEtb2Qwb1dBdVFKdjJTVlE4bUxqQkJQRmtfaXFid3lKWVFDWlNLNEJOS1JyaUFBMXJIYWZZbGVDZU5hRm9wcHByWHJpNXZmUjBsSnNxVmhOclM2LV9QZm8?oc=5",
-      "category": "Fantasy / draft"
-    },
-    "TE-18": {
-      "headline": "T.J. Hockenson Fantasy: 2026 Outlook, Projections, Stats, Points & ADP",
-      "publisher": "Bleacher Nation",
-      "publishedAt": "2026-08-29T23:40:27.000Z",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVXg2ckdDcVVYbDhnMms3aHZnMXhPZVowdzNYYVRRbFQ0X05qTTVXNUZCMWtmVGRUUUhUSWc3dkFtVl9Db0NyYzNDNFNoNWd5djBoMGxzS2E1VkRnbm0yaFZhbTNyTDFDNWgxN2Y4TGpoRGMyUzFzMkNRT1RaeXdGbjdaT0RZNE5lcXNQeWdvbTNSUTk2SU14TXhrVnphWTBzMzczVDJTMHIxcEo5dGFOZE9HMUIzSnVVaENhMWZR?oc=5",
+    "TE-15": {
+      "headline": "Updated Isaiah Likely Fantasy Outlook 2026: Should You Draft in Fantasy Football?",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-29T10:32:58.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVFFIcVV6NkY0VUdMWUpkem1qQ0JJNU1uWGppX1pJNUpVNmt6eHBRQ083aWE0SzlmLUJONUxpZkEzNloxeVVkSGxKMDRWWlhyLXJxUFFBVTEtVkltUUN3QmE0WnNZeS1rWGx6YnVidmtxbkk4T0NDNmlqUHc0elRoUVFENTNEa0ZUTWpMS0dxZw?oc=5",
       "category": "Fantasy / draft"
     },
     "TE-19": {
@@ -1302,19 +1219,26 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNzVtTzRpYjloNG9JLTZ4NDR3UWtEcXNHVUp5RExVUFN3ejNTUDJoZWNIWkRUYVlnb3hhR3hlNTJfWWM3ZlZuVjZDZEt4SlVmUmtCSVEtM1dpc3A4MmdYeEZVZHltRGxQSVpXZHZnVjFuNG1wTWxZaTQyRnVncnJQdGxkMWJxQ0haVXMzbDVNNlYwMUx5M0kxT25VZk8?oc=5",
       "category": "Injury / availability"
     },
+    "TE-17": {
+      "headline": "Updated Dalton Schultz Fantasy Outlook 2026: Should You Draft the Texans TE in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T10:40:49.000Z",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNjFTRU0yWjdsWEZpSVFfdV9mYjFJSmFsVXFoNk9Xa3IxR0R2bUx2cXhpUmJ0bkZOeTB2YVhLMkdsMFlKQWEtb2Qwb1dBdVFKdjJTVlE4bUxqQkJQRmtfaXFid3lKWVFDWlNLNEJOS1JyaUFBMXJIYWZZbGVDZU5hRm9wcHByWHJpNXZmUjBsSnNxVmhOclM2LV9QZm8?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "TE-18": {
+      "headline": "Updated T.J. Hockenson Fantasy Outlook 2026: Should You Draft the Vikings TE in Fantasy Football?",
+      "publisher": "PFSN",
+      "publishedAt": "2026-08-29T10:02:25.000Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWl8ydThWd0tLYlJCX25KbXdjU2M4SHJ1bFhZY1pUaFYzNW1XYVFKQ3B1ekpvY2FjWEhCX0VHQUt2VFBlZHNoWWgtWm1vNHdaYWNpcUxVOWtNdHNPUzNTSkZDakd1T2REOGhNZkFlVWU3WFVqOHE2V1VrYXQzeTZ3VU5FdmRBQVhLVVkzenNLQ0t0bGNMdUNjTmpn?oc=5",
+      "category": "Fantasy / draft"
+    },
     "TE-21": {
       "headline": "Tyler Conklin amongst Lions’ cuts to 53 players",
-      "publisher": "NBC Sports",
+      "publisher": "nbcsports.com",
       "publishedAt": "2026-08-31T14:39:17.000Z",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQVZBb19XNjU3ZVcxclZvazhIVHlqelVTSG92am56QklpVC1VdHlQUDFVWTRYSDlsOUpWLWJKMXIxUV90blJHTTBwUWFKQVl6M29SU0hHRjRTSXRLMU1zQW0zOFRCUnA3eFEzak05RTNvQXo2djk0MEJvb0Z5V19rQWpXQnR6am96TnNiQ2JIS1dIOWozeFdYRlJTa1RHNGlVY082UWFiZW5oRUUyTmFVR0F3?oc=5",
       "category": "Transaction / discipline"
-    },
-    "TE-20": {
-      "headline": "Hunter Henry Fantasy Football Outlook (2026)",
-      "publisher": "FantasyPros",
-      "publishedAt": "2026-08-30T05:07:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqRDJEWkpoZTFLWUFTRHlUSC1STWlyamxJSlVhZWxKYWhPQkRiZGhfamdmcmpKcGUtR3JMZzhUbzI3M2lfbEliTC0wa21ncy1qRU5BREF1TlE2NnhTWVhlcktMekpPUDdIT2UzZ1BzN0ZNaFA0bXhWYWgzSlpBLXfSAYQBQVVfeXFMTTZ3emV4SjJncUJieWdMVU5USy12NkVLOWNGQ0ROYzVGVzFwVHIzdlk5M0Q4dElUNTZqV3dWWjdfZUJ1OVlYWkxnZFBBaFBGdk9DMjVIbVZXakh2dUljb2NpeUtlNHZRWGF3OUV3ZjJkczRGVmJDSFJKd3FQZzF0MjktZlVk?oc=5",
-      "category": "Fantasy / draft"
     },
     "TE-22": {
       "headline": "Cade Otton Back at practice",
@@ -1322,6 +1246,13 @@
       "publishedAt": "2026-08-25T16:05:24.000Z",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaG9OWm1leTd3R2pUOWxzeDJia1hSMFFPNXRfX1VfcXdRVVkxYXpIX05Yd1Z0WHJMMm9BS3p3RDRZOW9ma3Rfbmt3RFdZdDlfTGxDbWFHUkt3dFdkSkcxX2lrZkN4R2dVN0JNcjR3ZTR1ZXBvQlowSXZWZTRoM0NKeUZGZ3Q?oc=5",
       "category": "Injury / availability"
+    },
+    "TE-20": {
+      "headline": "Hunter Henry Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T05:07:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqRDJEWkpoZTFLWUFTRHlUSC1STWlyamxJSlVhZWxKYWhPQkRiZGhfamdmcmpKcGUtR3JMZzhUbzI3M2lfbEliTC0wa21ncy1qRU5BREF1TlE2NnhTWVhlcktMekpPUDdIT2UzZ1BzN0ZNaFA0bXhWYWgzSlpBLXfSAYQBQVVfeXFMTTZ3emV4SjJncUJieWdMVU5USy12NkVLOWNGQ0ROYzVGVzFwVHIzdlk5M0Q4dElUNTZqV3dWWjdfZUJ1OVlYWkxnZFBBaFBGdk9DMjVIbVZXakh2dUljb2NpeUtlNHZRWGF3OUV3ZjJkczRGVmJDSFJKd3FQZzF0MjktZlVk?oc=5",
+      "category": "Fantasy / draft"
     },
     "TE-24": {
       "headline": "Ben Sinnott Injury: Sidelined for preseason finale",
@@ -1344,13 +1275,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tdUtZcVQ4LUotX3BubHp5dl9sNUlDemRVa3NpeHF4cHFQalhQZHJDY044Vkc3VlJrSnMxd19OOXMteVRKSmlYLXNENGtNWmVhRENtZ1hUX1lGYW11NG1nNm4xMjl6QQ?oc=5",
       "category": "Fantasy / draft"
     },
-    "K-1": {
-      "headline": "Fantasy Football Kicker Rankings 2026: Cam Little Rises, Harrison Butker Falls",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVVY2SDA5cDNrei1LaDlMSWMtTFNZd0xfeE9CV0llOWFjMnR5WldiZS1kQklYbG5PQ0ZkdjdRT3dVVkVIRkR3WkNWOFJJTFV0dzdZTHdxN3hFSFlwRlU1TGhZTmRQRjAzX1dSem5SekcxcEhZRkdaVmlNMFlzYXV2LXJnR2NNOVBUTnd5RzdUaw?oc=5",
-      "category": "Fantasy / draft"
-    },
     "K-3": {
       "headline": "Ka'imi Fairbairn Fantasy Football Outlook (2026)",
       "publisher": "FantasyPros",
@@ -1358,10 +1282,17 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdFByRnhNRDg2ZHd4eXVXdUlnZTBtdWs2ckdoWW50TG5hYTA0NWh6dHR4VHZTLUhSRlI3MGJ1OXhXZnNkWXNpNDFsQ3JLeC1YZUt3N3pGYVNEdmsyZGpJYVQ3anFSeDYySzdIXzBJSVkwUE5fUXl6c01zd2pwSEpUdVRpVdIBiAFBVV95cUxQZWVKRlZTWjRTM0FvcUU5NzZ3RFE4S3FLdVIybk9kQkhWdE43UmhTeC16QXpRVWhySTg5T3J2dm1ySjBfUXZVUTdUN1liWEx3Vkx6Q2toUTlyMFJTRjczVXlFSHI2d0pJWm5SOS1tcDZBb0pLZHdDVVo1YnVoeUlfeVNTc0hTMEdv?oc=5",
       "category": "Fantasy / draft"
     },
+    "K-1": {
+      "headline": "Harrison Butker Solidifies Return To Form With Record 69-Yard Field Goal",
+      "publisher": "Yahoo Sports",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaEFnaVExS3RzbEFkYXktQzJaMTZvR1hmcHRWN05VMndWSlZrY0N6bTVndHlhem03OUVlSFozMUVia3RWZDJyaGFlcV9TeEFnazZRNElKZXNDbHdHVnZQYmFrVmZSVmk3dnZnampJcGxjblc0M2tJOHRvR1RWQmZrT3hiQkVtMTQxS194c3BXVWo?oc=5",
+      "category": "Injury / availability"
+    },
     "K-5": {
       "headline": "Jake Moody Signed to Ravens' practice squad",
       "publisher": "Fantasy Footballers Podcast",
-      "publishedAt": "2026-08-31T19:52:25.000Z",
+      "publishedAt": "2026-09-01T03:48:19.000Z",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUC1NSTVVaUp5a1ByRGhTTTc2UG9kbjdtQUhSdlY1YlMtSzRQcDR1UFN1YXdubHRhTVpmUEtuMzAyckZMS19PTlZOZ2VHSnV6SUpJeUlDTHVZOF8tQjBTX2NsQWRNUmdlYnFRdnVqNDFkenhXZzByVF9QTmZpQ1ppUnFCYnRHWjRrQzJULXl5ZDlDNGhtc2wxLQ?oc=5",
       "category": "Injury / availability"
     },
@@ -1372,12 +1303,26 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUVZNSHpqQklObmRqMldnVXJBY3l6cEljOUs5OE5seVNWZGFSR0VtWWJGTG5VOXJ5dHFqYXNaVDBfX3BQd0E2aExnZ1YyNFhHV1JTOXVVTXBnWE43T2FwdS1CQ25qN0p0Wl9TZS03V2YzU2g1bFVSX29iMGxZcFExaFJB0gGHAUFVX3lxTE1KYmctQWU5WDI0U29QMGl0VXRaMXR5WWoxeTV0RmVTS0ZvTEgwT0VESjlKWEZhNlkwU19oQ0FGeEoxTW1TaVBDNl92QzdSZUdUSHhIUkFSMzdfS2NxTm5MaEdFdlBwZkRLZUhZUTN4MW8zSFBjMWdLSFo0a1J3Z29YQldQS0N1NA?oc=5",
       "category": "Fantasy / draft"
     },
+    "K-9": {
+      "headline": "Tyler Bass Busy in preseason opener",
+      "publisher": "Fantasy Footballers Podcast",
+      "publishedAt": "2026-08-18T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORlk5cWQwd0FaVXJNN3JvRnlyQnZYdzlOeTFYLTN3YWxZSy1tY1ZlVVhyUjV1Q1F5SlBxcUFla3Bkcm1RcHJOSHk0WnF3ay1YbE1OWkFHLVFrY1B1UVd6RTdVcEk2bXU3em1pU19yWGZwZTFxNnFaLWdPLTZjS1lQdURjMm9INmEwVERUZmtmNA?oc=5",
+      "category": "Recent performance"
+    },
     "K-7": {
-      "headline": "Chargers Coach Jim Harbaugh Comments on Possible Injury to Cameron Dicker",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-28T13:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR1F5U19pMjQ0dzM4NldOLVVPdXRvdWdnT2ROVnNma0YzV3I3Y3RSMUJpWU4zWkpnOXhnYXZIbUVWdlAxUXAzaWhFcFF6bGpSUTczQjUyVmh1bmdjaHc4R0NVcDRDeVJsbHJGckp3Q21HSmJoRThaN2ZqckNpbG9Zdy1IVFBFV1RqYWJSaThB?oc=5",
-      "category": "Injury / availability"
+      "headline": "Cameron Dicker Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-26T17:27:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVXZXQmY1Nm1WbWlMV1RmVU5YUUl6dW5WNHItWUpTWGtPNDFuWEtKX1hZQWk4VG5QQW9uNVU5eHNSREpRVzc3blNTR0RuTWFuZTA5ZXd6NkF6R3NkaUQ4cUVrWXJxRDhNb1h0NlZYUFN0Vi01NFNiNnJBVHR1SzNmNnZn0gGHAUFVX3lxTE9MMnBuR0FGNHNHYXZYcFhTTWRhajNSelFRZExjYVZ2WUtqb0o4MkdhN2JucXdoQnk3NlljUDFmQUd5U25ILWZDVjBPV3NmSUFZdlhZRFRrTjEyQ3owTS0yZW1ZWUd3RklEb3RIWGtDZXlxS1hwVFgydVNRZGVmTDBqN0pwZm5aOA?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "K-11": {
+      "headline": "Seahawks' Jason Myers: Five missed kicks in preseason",
+      "publisher": "CBS Sports",
+      "publishedAt": "2026-08-27T23:54:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFFPVS1VLUtXVVNNZEZWdXVuS0dxRU5BTlRFc2U5U3kzeHFBdXR4WFRNemtRcTVzTTN2RmZnMnB0NXZWTFhoOUNyM1FZeEVLd0hDUTZjdzFteWVFeXo1dVhvSFJWdnU2bjVNbkhhYWJ4S0s4M3JoR3RNWkxIT3ptZGs0cWdhVzVDYXBJSzd4UEZOY3ZibEp0cGNJMThsdXNqSGc?oc=5",
+      "category": "Recent performance"
     },
     "K-8": {
       "headline": "Jason Sanders re-signs with Jets practice squad",
@@ -1385,20 +1330,6 @@
       "publishedAt": "2026-09-01T03:25:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTlOemJXd0hsNHhESzlTT25jUlhvNl9BSDhCd1NWVzY1NV9MWGtHWExxZ0lMSEtxM19NOHl3bnA2NVYtUEoyWFZTYXMtNHkwLVB0dGhnMDlybElTcG45WFNzUG1mc0F2MXcyVktNemp0VnVJa2ZLMXp0MGZzbXg5Vlp6dTNocTBwSFVETWFuOGNWVVdRT3RhQlRLVdIBoAFBVV95cUxQcERqV1l5ZnpTMVdOUmZZUFgzY1VsaU9Cd0NZdU90bjFkYnZsYVQxd05yT3J0WUNQeUlGd1MzZ0VYeUYzSGEzcVFrZmhkei1oaVIxaWtLMlVkUl8wOUtPU0diVlFzT2I0eWFHckFYZGx4d0JjRlc0NkhkeDVLN1pzb1B0MllycHRETEdXdTFxN1RJXzFBeXVtOVY4SzI4bjh2?oc=5",
       "category": "Injury / availability"
-    },
-    "K-9": {
-      "headline": "Bills' Joe Brady: 'A lot of trust' in kicker Tyler Bass in 2026",
-      "publisher": "Yahoo Sports",
-      "publishedAt": "2026-08-24T16:06:21.000Z",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPLW1JSURnaHVvYTg5VVNBdzJFOGJWdXlVNHFuNGxMeDFndzl1amFPZno3b01zSTRHX1U0dDNQaF94eTZmZW1uclE3RGZuUVlLZ0pRY3QwUHpTMVdGbUVvUGlPVzJxbmg5Sl9nUmJMNHItUUZ6Y3JmYmM5YUQ3UVU?oc=5",
-      "category": "Role / depth chart"
-    },
-    "K-11": {
-      "headline": "Seahawks' Jason Myers: Five missed kicks in preseason",
-      "publisher": "cbssports.com",
-      "publishedAt": "2026-08-27T23:54:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFFPVS1VLUtXVVNNZEZWdXVuS0dxRU5BTlRFc2U5U3kzeHFBdXR4WFRNemtRcTVzTTN2RmZnMnB0NXZWTFhoOUNyM1FZeEVLd0hDUTZjdzFteWVFeXo1dVhvSFJWdnU2bjVNbkhhYWJ4S0s4M3JoR3RNWkxIT3ptZGs0cWdhVzVDYXBJSzd4UEZOY3ZibEp0cGNJMThsdXNqSGc?oc=5",
-      "category": "Recent performance"
     },
     "K-10": {
       "headline": "Matt Gay has won Raiders’ kicking job, what’s next?",
@@ -1414,13 +1345,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUWNZMXZvQ0FqbnBWZ1pMeFFtLV8zaHVxekVvNTNMQ0NwZjJHdE43T2p0MG5yUDYxMjRLa3pqZlNMYmNMMnliSzJ2SXM3V2RGWDlyQVU2bFE3M3JuX3RqRV9jd0F0ZFk3Y1hlRWJqUWZSb01xYU45T3dwY3VabV8zeGJkZWZUby1GTGkxWGhwWFpzRXd1UnZCbA?oc=5",
       "category": "Recent performance"
     },
-    "K-16": {
-      "headline": "Colts Release Kicker Blake Grupe - NFL News | Fantasy Football",
-      "publisher": "RotoBaller",
-      "publishedAt": "2026-08-30T20:49:26.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRW1iZWI3MVdzal80UEJ1Y0tUUUo4ZVppZkxIRXNUY1ZmcFg0U3F0Smo1S19tcnFrdlVPR05pZjJ4OUN0ajZPaGFsVzZBT0dUdzVKSHdjUGpUQ3FWVUpHNkh5ZmFPT0xYcWxCdlNsOEtMaTJ2QWdUVU1PZ1pQa1RTWXlLNl93dw?oc=5",
-      "category": "Fantasy / draft"
-    },
     "K-17": {
       "headline": "Andre Szmyt Makes all seven kicks Thursday",
       "publisher": "Fantasy Footballers Podcast",
@@ -1428,19 +1352,26 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNmhycWdjWTZ3TnVSWEJGZE1GdlRNeFpieHhfSnF2Umxnc0FZWVZCNV8xUGF3U1M0T1dZQm1UTXJhcEZBSmkzQktncmpBelZCVVlHemVyenJOc0dJX0Z4d2VUWk0zLVhadHlnZ0J6eng1NzZiWlhLNHhMWXFaMFR4U3hjaTNLRkIwU3ZDN2RDQWtzNkN4eDhvMQ?oc=5",
       "category": "Recent performance"
     },
+    "K-16": {
+      "headline": "Colts Release Kicker Blake Grupe - NFL News | Fantasy Football",
+      "publisher": "RotoBaller",
+      "publishedAt": "2026-08-30T20:49:26.000Z",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRW1iZWI3MVdzal80UEJ1Y0tUUUo4ZVppZkxIRXNUY1ZmcFg0U3F0Smo1S19tcnFrdlVPR05pZjJ4OUN0ajZPaGFsVzZBT0dUdzVKSHdjUGpUQ3FWVUpHNkh5ZmFPT0xYcWxCdlNsOEtMaTJ2QWdUVU1PZ1pQa1RTWXlLNl93dw?oc=5",
+      "category": "Fantasy / draft"
+    },
+    "K-18": {
+      "headline": "Ravens Cut Kicker Tyler Loop After Rough Preseason Showing",
+      "publisher": "Sports Illustrated",
+      "publishedAt": "2026-08-30T22:32:46.000Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUnF3dUp3R3JNSXU2S2xyQi1wbDFiV0ZvYXVNMndrZ3hIM21VWFFRdGVNcDdXWFBRS1JuV1lCT25BOU9Nc1ZQN2kwd1d6Q3dVWjJvbTVoVW9Ra3lacTNhb2p6UFBlazJGV1BoeU0yaHdybjR5X3pRYUZxZEJqaW5pZDZFSGJSUEp5ZlRCR3dqTnM2WklQdmZoNklQTHNLVl92aFVFZWFTNA?oc=5",
+      "category": "Transaction / discipline"
+    },
     "K-19": {
       "headline": "Daniel Carlson Signing with Saints - NFL News | Fantasy Football",
       "publisher": "RotoBaller",
       "publishedAt": "2026-08-24T14:49:51.000Z",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTjNKMjB6VWt3bkpGVDlfUm43YkxJVE1FZ0dTQ1BFWksxaTN5RE1GSjFISjhoSHZwM2FMeG5rUENuTm9iVVoyVlRYTEkyTWZfM19BWXgyZ1NLOEowVUw3VmprVkw4bEhRQlJRemstcWpIWk5RTHFnVzEwWmQ5OVRkbGhxQ2FaWkVu?oc=5",
       "category": "Fantasy / draft"
-    },
-    "K-18": {
-      "headline": "Ravens sign K Jake Moody to the practice squad as Tyler Loop continues to struggle",
-      "publisher": "ca.sports.yahoo.com",
-      "publishedAt": "2026-08-31T21:50:13.000Z",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoNnpIU1JRTjJLaTA3eFhnZXlfLTBGWml4X3RHS3huTktVZHRYUUVFaGFnNC02SW5FYU9aZkpwaW84ZU1SSXNPejA0T2JOLUVUZHJtd2ZkZi13ci1TQWtTRjhuSVlKQUJIMDluTHN2VVlkQXlZWmRBOFRFQVo?oc=5",
-      "category": "Injury / availability"
     },
     "DEF-0": {
       "headline": "The 49ers begin final stretch of practice before the opener with Nick Bosa still sidelined",
@@ -1456,12 +1387,12 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS1JMTVJoQ0NmcVNTNVplYVp0VExBMjdKLWJIREcxZF9lVURMRUE1NXN0TnNudlBSbzZWSHU0X0ZHSXZ4dzFlNlpweHpZZVJOZVJNeTVmczNUMVg5dWsxMlYxMktWcHZXQWxUTlNvalcyY3pnYWNVczFpMjM2LV9DN3poRVVTdjVLSU1ucjZn?oc=5",
       "category": "Fantasy / draft"
     },
-    "DEF-3": {
-      "headline": "Jets' T'Vondre Sweat Excited For Return Following Injury",
-      "publisher": "roundtable.io",
-      "publishedAt": "2026-08-19T19:22:44.000Z",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3hiX2NlX3ZtWFdzZ0RKc0VpWHJ1U0pidlZ5VVdaOUx4SjJyc0I5dzZBNVE3T2J0SER1QlZSSlpIbkFRWEd0M2gtQkRHTWlkS0xXd3M1UERTZGZ5TnFMNHV6eW1lRnYydUN2TkRUQmh5ak52MWtuam4xV2NBLUEySHAxYTJvRmktaWNnZFM0a1VEb1Iyb2wxVDZGRGFjZw?oc=5",
-      "category": "Injury / availability"
+    "DEF-4": {
+      "headline": "Browns Sign Former 1st-Rounder to Contract After Star DE's Season-Ending Injury, New Rumors Reveal",
+      "publisher": "Bleacher Report",
+      "publishedAt": "2026-08-23T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeVgwbDYwMVRvZGk1N0RlUGtKazFoMDFQSTlPeW1NZnJybzhwRWNFTnVxbGZTNjBWc0pWSURLeWxVNHFtVzlQQmtWRGxZcXg4RmphSGpoRTJPTVB5YzhtMno2MzZiN2NRSDY1SE11VUluX3YwZTJ2NTd4SkVNSVVIU3hUd01XWTNrd2VVaEZxSVdqLV9uN2RBZ3hhLXZVSUVLLVhYdlF1cGJKenprZUxQNFZNaS1Oa2kwX3EzQU12ZHR2T0N1eFJSZE5TcVhNZDBHRnRTdg?oc=5",
+      "category": "Transaction / discipline"
     },
     "DEF-2": {
       "headline": "Cowboys Defensive Line Duo Leave Practice After Visiting Injury Tent",
@@ -1470,19 +1401,19 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc1J1MUZXclEycEZDN2ZGRFdETWstanhuTV90NjF3TlVFODhEeDR3Q2VQTEFQdlRSUnNsZUlKUG1vWDlBUzBSbmpMNENNMTgtYW14OWFGaUhlaFloclJDbmR4RFQ2Vl9MdXBBRnBGX0wtVTBKTklVeldkSUJjUmtlWlA1U1dhbHNIOXc?oc=5",
       "category": "Injury / availability"
     },
+    "DEF-3": {
+      "headline": "Jets' T'Vondre Sweat Excited For Return Following Injury",
+      "publisher": "roundtable.io",
+      "publishedAt": "2026-08-19T19:22:44.000Z",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3hiX2NlX3ZtWFdzZ0RKc0VpWHJ1U0pidlZ5VVdaOUx4SjJyc0I5dzZBNVE3T2J0SER1QlZSSlpIbkFRWEd0M2gtQkRHTWlkS0xXd3M1UERTZGZ5TnFMNHV6eW1lRnYydUN2TkRUQmh5ak52MWtuam4xV2NBLUEySHAxYTJvRmktaWNnZFM0a1VEb1Iyb2wxVDZGRGFjZw?oc=5",
+      "category": "Injury / availability"
+    },
     "DEF-5": {
       "headline": "Bills 24-Game Starting Defensive Back Predicted to Return to Top AFC Rival",
       "publisher": "heavy.com",
       "publishedAt": "2026-08-28T23:03:29.000Z",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWUFUYmpfU2hNUUZtanR4Nmxwcl9UVE8wWUdBQ09tWlRZNVN2Tzh0WVJoOWNpb29ZdTRsOHVtbzI5SHFPMmo2REpSQjdBQ1V6c293WjhMSGMzT2c0bUdJYUJfcHd1bHZDaE5GSDVoSHNBUjVJa3F6aHZQTDdkd2k0MGNZWFFnc3BuaXcxM0RWUQ?oc=5",
       "category": "Injury / availability"
-    },
-    "DEF-4": {
-      "headline": "Browns Sign Former 1st-Rounder to Contract After Star DE's Season-Ending Injury, New Rumors Reveal",
-      "publisher": "Bleacher Report",
-      "publishedAt": "2026-08-23T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeVgwbDYwMVRvZGk1N0RlUGtKazFoMDFQSTlPeW1NZnJybzhwRWNFTnVxbGZTNjBWc0pWSURLeWxVNHFtVzlQQmtWRGxZcXg4RmphSGpoRTJPTVB5YzhtMno2MzZiN2NRSDY1SE11VUluX3YwZTJ2NTd4SkVNSVVIU3hUd01XWTNrd2VVaEZxSVdqLV9uN2RBZ3hhLXZVSUVLLVhYdlF1cGJKenprZUxQNFZNaS1Oa2kwX3EzQU12ZHR2T0N1eFJSZE5TcVhNZDBHRnRTdg?oc=5",
-      "category": "Transaction / discipline"
     },
     "DEF-6": {
       "headline": "Chiefs 53-man roster projection: Who makes cut as NFL deadline looms?",
@@ -1498,6 +1429,13 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUzFiUE9CT2FiSl94b1VPQVdlRDc2RFlLLW1oNi1uQ09BVDQ0S1l2WWd5eC0yNWx4MGE5MktScGE3b2NhWXA5LTROb3c2ZHFPanp6UEZ0azY0T1Q0bFlMc2taWGtKSk5RcEJhdFpqNnRnLUlIa0VWYXZfckdYWXZ3cEVSNXFZUDlTVEoyQkpWdFNKZnR2TWdrWkNOQmNtYTd6c2xyemhYMnJEcmk0QUlNNFZrU29MUkozalBnNHN3?oc=5",
       "category": "Transaction / discipline"
     },
+    "DEF-10": {
+      "headline": "Lions rookie LB Jimmy Rolder updates injury return timeline",
+      "publisher": "Lions Wire",
+      "publishedAt": "2026-08-18T21:35:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU3hsSDY1cFM2Y29pRE8yeFZyc2dLdk1GY2VYT3l1dVVGSEJyb0FGT1g5bEZPN18zZU9RN1B5XzM2REpXdkRpZ2llTE1wR0lubmpZSHBOWTJkTzQ4RGgxTk1uNWd1T3FIMjNoYUU5OG82cFdZUzFKaEFSbW9EdWszamMzWFJIbjM1SGhGRk9nTmJWT2d5VFUtcjQzUzdCS0lmalpiMlhuallDSnB3Uk5tR2ZnSE9rdjJkN3U4NmlHSTAtVkk?oc=5",
+      "category": "Injury / availability"
+    },
     "DEF-8": {
       "headline": "UPDATED Dolphins Depth Chart After 2026 NFL Draft & UDFA Signings Real (uTnUN7jFLy)",
       "publisher": "Mshale",
@@ -1507,24 +1445,17 @@
     },
     "DEF-9": {
       "headline": "Texans defense dominates Panthers, but Houston loses 2 players to injuries in joint practice",
-      "publisher": "The Washington Post",
+      "publisher": "washingtonpost.com",
       "publishedAt": "2026-08-27T01:17:41.000Z",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0pKb1pOX1k2cC1wNUJtNEpBR05JbTJ0UG1ZM2RUNXc2dmFZZ0tVOWpkSGZzbUxlam5CMmJEYzlJVFlUcWZvMUF5NXcxQ0ZWaTVQbEpHeHBKUE5uMjU1VVFjSkJJRFhEV3h2eElvUnh5SFBqaXI2YlU1cUNwUEVwTjN0ME1USlpOUG9pSUFxeGFDWmpvbkEzRWV1a2JFc0V0SVdDWGpxVDZpN2RKSGtwUzcxcWZWYW9RSERPa3JBaWwybjVka244Vk54MA?oc=5",
       "category": "Injury / availability"
     },
-    "DEF-10": {
-      "headline": "Lions rookie LB Jimmy Rolder updates injury return timeline",
-      "publisher": "Lions Wire",
-      "publishedAt": "2026-08-18T21:35:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU3hsSDY1cFM2Y29pRE8yeFZyc2dLdk1GY2VYT3l1dVVGSEJyb0FGT1g5bEZPN18zZU9RN1B5XzM2REpXdkRpZ2llTE1wR0lubmpZSHBOWTJkTzQ4RGgxTk1uNWd1T3FIMjNoYUU5OG82cFdZUzFKaEFSbW9EdWszamMzWFJIbjM1SGhGRk9nTmJWT2d5VFUtcjQzUzdCS0lmalpiMlhuallDSnB3Uk5tR2ZnSE9rdjJkN3U4NmlHSTAtVkk?oc=5",
-      "category": "Injury / availability"
-    },
     "DEF-11": {
-      "headline": "On the field or eye in the sky, Patrick Graham secure he’ll get injured players up to speed on Steelers defense",
-      "publisher": "TribLIVE.com",
-      "publishedAt": "2026-08-16T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYU4zX0RTX25HbTVSNlpGWHJGUnhkTUIxbW5TMmpZMG1ldXRfNXd6bkJtUDhDajdubVIzT21NeG5uRUJQX25MQldaVnBwOW9fOUs1XzRpOHdjSTYxU1JhZWl1a0F5WE0tWTVpQmJoRlhKNHJFN3N2b19KQkp0YjYzSlB0T25WNFRBcF9nN1JURTFxQ0lNb3YzOGl4NkNXUnRIczNKY0ttdnRILUEzSGtWby03N0sxQW9Xd08zejVZTkFveE53aVY2T0llSDR5ZXphV0UxXw?oc=5",
-      "category": "Injury / availability"
+      "headline": "Steelers Undrafted Rookie Surprisingly Lands on 53-Man Roster",
+      "publisher": "heavy.com",
+      "publishedAt": "2026-08-30T23:17:14.000Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWZWbEpZQ3ptMkpSdHFMZHBmS1V1LVp4NUtDd2xBTm5yU0pYQmtrQTM5cHBPNk5ITVFrYlI2ZHFxcmw2U2pLYTNiOVdPTktreFl4TUtNQWNiWkhWY0NJaUhrdENHU1FNZlBkZS1zUVMyN1B0a1VTTG4xZVBTbG05UnpuSXR6OE54RGd6aldn?oc=5",
+      "category": "Fantasy / draft"
     },
     "DEF-12": {
       "headline": "Packers’ Micah Parsons shares injury update, timeline for return",
@@ -1540,6 +1471,13 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX2ZGLUZlSHo3ODJyWHJhTXlzYzV0a2pUbTZVcG1aS3ZXM21FODIxTjVIajlOSXpQVm5rb3RtM0VWYmI1YnpCVG9FVWZzTkZNZ0l6VlRCV3V0WXM4WHR5WUpjd0d5dXVCQWdjeGpyLVpUX29JTzR1aGVBQk9EbWFNY09jMFh5R0VvZlpuZ0NjNF9jTDl2MWRWX2t1aVBneG1vcW5iUk1WeVo5eTE3?oc=5",
       "category": "Transaction / discipline"
     },
+    "DEF-15": {
+      "headline": "Jacksonville Jaguars Fantasy Football Outlook (2026)",
+      "publisher": "FantasyPros",
+      "publishedAt": "2026-08-30T05:07:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdkNvM0pMS01ESmF5LUZDQ2dtYTFqS1VIZHg0M0ZZWC0zMWpIMDZkUzFhbndiTEJMSlZMelQwWFlYLXBSUHAzdF9RV3lzQkx1MlRaTFQzYXNncW1pYjU2SHd2eGNQUnY5Nl8yREhnaU16ZjF2dEhSeTBsYmRJTzVnUkczRG9jWU9CQXfSAY8BQVVfeXFMT1g2aWNNdUx4YlV3aElfMF9qb1F2QS1qd2RycW5UcjhrQnBZLTRnTjFCcUVGZ2lFLWtTdTFtdVh0RlMzY0k2bzNsdmlOZnkxUG1Gbk83RnZHVFhzTnpYS1lCVmp6cXc5ZHdFTWlEZkZQMllQaHN4ak5VaU1CY2xyQjNBaUptWTRfM2lhVHI4Z2M?oc=5",
+      "category": "Fantasy / draft"
+    },
     "DEF-14": {
       "headline": "What We Learned from Rams-Saints Joint Practice: Saints' Defense Stands Out",
       "publisher": "Sports Illustrated",
@@ -1547,19 +1485,19 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oYVlOZzNLNlNHSnJjd3FyUWVJN1hselRTUllrT29jR3dlSnJWaTBPMFJkMjF4cXlfQmRHb01sWElGdUVTZEVudzRQTUNwRGxiQnd5aGtWQVNMNGRINVc2ekpyM2FLcmc4amJLTE8wSDNBdDg?oc=5",
       "category": "Injury / availability"
     },
-    "DEF-15": {
-      "headline": "Trade: Jaguars Acquire Sixth-Round Selection in 2028 NFL Draft from Arizona Cardinals",
-      "publisher": "Jacksonville Jaguars",
-      "publishedAt": "2026-08-30T15:35:23.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdHJIUFVfN0VkSng1YmFMRXNBV2xNSXlqNUlzOE55VGdIeEpHX3J2S0ZwSl9LZFU3X3Z0YnVkdkl4WGdSMkcwWVUxSkVINXMxMGI2SG45cmNIeW8yU2xFSXR5Z3JiS3REQlRTdFlPVDcxc3hfaHlmaHVlcUp6WWpMY0Rjd01WUkRwYTdWc2hWa0RxZjlJTlNKeEh0Z2J5THdDQXRCZ3F2QkdGTWlHUUlGVHJVUQ?oc=5",
-      "category": "Transaction / discipline"
-    },
     "DEF-16": {
       "headline": "Buccaneers Release 25-Year-Old Defensive Back After Injury Amid Training Camp",
       "publisher": "heavy.com",
       "publishedAt": "2026-08-22T07:00:00.000Z",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0JpOXdxVW5PcHlFaTFDOXFQVWlHcmtKdUJ5TUF0eXhJVjhzcUdsYVM3SWlpeFpFS0xnLWpzc2xpNDFLLXhIa0NzQjdRLV85YUZKTElkdUUwa0FuWFJKLXRLQTBJRjR1OURjU0ktS3IxVndpRFI0X3hma1dEcFA2eGpSMjFjeW5FOGs0VjRWM0wzQQ?oc=5",
       "category": "Injury / availability"
+    },
+    "DEF-18": {
+      "headline": "Predicting Bears' Week 1 Starting Lineup After Preseason Week 2 and New Trade Rumor",
+      "publisher": "Sports Illustrated",
+      "publishedAt": "2026-08-26T16:34:51.000Z",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRFNfbGNnYVZlNG4wV1JmM0xtMFpnYW1hQkRSem00QXpUU0NfbWMyWk5WbmNiMTlvX0NFQzN6RWUwZGtYaHd2d3hnSjBQajJ0bWdSYWpEVEstT3RDTzRFRHpKZmtFOW5rTE5YbjM4dDJjZXZLZUNudHpoS2pCbW1IQS12NjZNNjRPejdDNDRiUk0wU1VMYjVXYUlRUmt3RVhld2k0TUh5OVVCTjIySVJiT3E1RTJyMWM?oc=5",
+      "category": "Role / depth chart"
     },
     "DEF-17": {
       "headline": "Vikings Starting Offense Up and Down while No. 1 Defense Fares Well in Ravens Joint Practice",
@@ -1569,17 +1507,10 @@
       "category": "Injury / availability"
     },
     "DEF-19": {
-      "headline": "Bears' starting defense doesn't hold up well vs. Bengals' backups in preseason game",
-      "publisher": "Chicago Sun-Times",
-      "publishedAt": "2026-08-22T07:00:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR0FCeWxBU2Q5S0dwWVZfV2JCak5GTEhQOTEzaE5seFZPQy1lcVBVNEdabGNwR0FvMGJzWkl4VDVaUUZSNEc3RjRBSC1yNlkyMDI1R2RZMkRRcVVCbF94NDNVamdDMlBSTFZBWk95Qzc3T0JWSGRYWTZYMkozZ3I4cUltcEJMVGpxZ2wwcjdXVjJFS2RjbTNPTHZ5T3Z5TUd5X0ExVXJwOG41ZjdlSThzTU1CWnF4cW5EaDg0eUJSbzd1MFk?oc=5",
-      "category": "Role / depth chart"
-    },
-    "DEF-18": {
-      "headline": "Bears-Titans Joint Practice Takeaways: Caleb Williams starts off hot while Bears' defense has brief injury scare at CB",
+      "headline": "Ted Karras confirms Bengals' joint practice against Bears is the sign Cincinnati needed entering the 2026 season",
       "publisher": "A to Z Sports",
-      "publishedAt": "2026-08-27T19:04:13.000Z",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN2lST29zdWYyeEcxNlV0RVBBa2ZSdTF2OGRVb3VZdVVoRTR5Q1o4MDU4MkNEbnc1NDY2RWhYWS1admpoQ0tLMlMwMzRCM2xiTTdESEw4UlppTnB4R0EyVWdHVEFMVWFwanctOVZzdTlNVWEtMUZHSkUzWll4c2JHWVpGN2tYT1lSQTBpbGJnbTB5LVFGZC04bVRpTGhZeVVNZWszVWZaYUpQYTdKVEpiaVg5NkZtdDVkc0dfQnA1UWkzQnBxVUpkSFhWWGg?oc=5",
+      "publishedAt": "2026-08-21T07:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNFdDa0V2RHlMZlRSMTdfLXJESE85cEJlWVBzcVV3TFdId1RnY1h3elNhQWc4eVF3aGpFSDZRUVd0d3pSZkg1VlZGdHNhbnJXNFdadzlBWGdNRHZOdGprZDZRZUwxUm9EWXZPV1FSNW5KVlowNHlSTG5LRE5ITF9jNmFoTi1IcUk2WVRUSmNyTml2YWQ5MUU5NmtUMUxDRFd3NlRzbUE5c2JWbHdIbUlTSnppWTNUcldaTnJRTndTYVdIcmExbkxjN3U4UDNPVVFJTEE0T2JpdFpRelFIeGxqLU5ILTZ0SHBqVXZJNDBKYWhxUTREUFE?oc=5",
       "category": "Injury / availability"
     }
   }

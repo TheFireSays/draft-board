@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { classifyHeadline, normalizeNewsText } from "./news-relevance.mjs";
+import { classifyHeadline, isPlayerFocusedHeadline, normalizeNewsText } from "./news-relevance.mjs";
 
 const SOURCE_FILE = new URL("../auction-draft-board.jsx", import.meta.url);
 const OUTPUT_FILE = new URL("../player-news.json", import.meta.url);
@@ -38,7 +38,7 @@ function readPlayers(source) {
   return players;
 }
 
-async function latestHeadline(player) {
+async function latestHeadline(player, rosterPlayers) {
   const phrase = player.pos === "DEF"
     ? `"${player.name}" NFL defense when:${LOOKBACK_DAYS}d`
     : `"${player.name}" NFL fantasy when:${LOOKBACK_DAYS}d`;
@@ -75,6 +75,7 @@ async function latestHeadline(player) {
     .filter(item => {
       if (!item.headline || !item.url || !item.publishedAt || !item.relevant) return false;
       if (!normalizeNewsText(item.headline).includes(playerName)) return false;
+      if (!isPlayerFocusedHeadline(item.headline, player, rosterPlayers)) return false;
       const ageOnDraftDay = (DRAFT_DEADLINE - new Date(item.publishedAt)) / 86400000;
       return ageOnDraftDay >= 0 && ageOnDraftDay <= MAX_AGE_ON_DRAFT_DAY_DAYS;
     })
@@ -96,7 +97,7 @@ async function worker() {
   while (cursor < players.length) {
     const player = players[cursor++];
     try {
-      const item = await latestHeadline(player);
+      const item = await latestHeadline(player, allPlayers);
       if (item) news[player.id] = item;
     } catch (error) {
       failures += 1;
@@ -118,6 +119,7 @@ const snapshot = {
   lookbackDays: LOOKBACK_DAYS,
   draftDay: DRAFT_DAY,
   maxAgeOnDraftDayDays: MAX_AGE_ON_DRAFT_DAY_DAYS,
+  focusPolicy: "single-player headline",
   checkedPlayers: players.length,
   matchedPlayers: Object.keys(news).length,
   players: news,

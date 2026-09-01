@@ -50,15 +50,16 @@ Useful extras:
 - Tap **☆ Add to Targets** on a player to build a short watchlist. Targeted
   players automatically move to the top of their position list, and the
   **★ Targets** filter shows the whole watchlist by itself.
-- **My Team** labels your players as **My pick #1, #2, #3…** in the order you
+- **My Team** puts **#1, #2, #3…** beside players in the order you
   won them. Removing or undoing a player automatically renumbers the roster,
   and the downloaded spreadsheet includes the same My Pick Order column.
 - Add a private personal note to any player. Notes save with the draft and its
   backup files.
 - When a recent draft-relevant headline is available, the player card shows its
-  publisher and date with a link to the source. These are checked for the
-  September 5 draft and refreshed before draft day; players without a useful
-  headline simply have no news box.
+  publisher and date with a link to the source. Headlines must focus on that one
+  player; roundup, rankings-list, and multi-player articles are excluded. These
+  are checked for the September 5 draft and refreshed before draft day; players
+  without a useful focused headline simply have no news box.
 - If you already own a kicker or defense, the app gives a quick warning before
   adding another. It is only a reminder and never blocks the pick.
 - The recent-picks ticker can be hidden from the ticker itself or turned back on

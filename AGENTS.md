@@ -108,12 +108,15 @@ Point him at these before proposing anything technical:
   warning but is intentionally allowed.
 - **Player news.** When `player-news.json` has a qualifying entry for that exact
   player ID, the player card shows headline, publisher, date, and source link.
-  No match means no card; do not substitute generic news.
+  `isPlayerFocusedHeadline` rejects roundups, list articles, multiple named
+  players, and late incidental mentions. No match means no card; do not
+  substitute generic news.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
   or Excel). Also "Save a backup file" for the full restorable state.
-- **Track acquisition order.** My Team labels won players by their index in
-  `myPicks` as "My pick #1" and so on. Undo/Remove naturally renumbers them; the
-  CSV includes a separate `My Pick Order` column alongside overall draft order.
+- **Track acquisition order.** My Team shows a compact `#1`, `#2`, and so on
+  beside won players using their index in `myPicks`. Undo/Remove naturally
+  renumbers them; the CSV includes a separate `My Pick Order` column alongside
+  overall draft order.
 - **Start a new draft.** Settings → "Clear draft & start over" (it asks for
   confirmation). Suggest saving a backup first.
 
@@ -212,10 +215,12 @@ The runnable `index.html` is generated from the source. To change behavior:
 
 ### Draft-day player news
 
-News is a static snapshot, not a live in-app feed. Headlines must name the exact
-player, include publisher/date/link metadata, pass the draft-relevance classifier,
-and be at most 21 days old on September 5, 2026. Generic personality or team-news
-headlines are omitted. Within 24 hours of the draft, run:
+News is a static snapshot, not a live in-app feed. Headlines must name and focus
+on the exact player, include publisher/date/link metadata, pass both the
+draft-relevance and single-player-focus classifiers, and be at most 21 days old
+on September 5, 2026. Roundups, rankings lists, multi-player titles, generic
+personality stories, and team-news headlines are omitted. Within 24 hours of the
+draft, run:
 
 ```bash
 npm run draft-day-refresh
@@ -232,9 +237,9 @@ The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
-banner animation, Target priority sorting, non-negative bid enforcement, and My
-Team acquisition order. The current checkpoint is
-`draft-build-18-my-pick-order`.
+banner animation, Target priority sorting, non-negative bid enforcement, My Team
+acquisition order, and player-focused news. The current checkpoint is
+`draft-build-19-player-focused-news`.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { classifyHeadline, normalizeNewsText } from "./news-relevance.mjs";
+import { classifyHeadline, isPlayerFocusedHeadline, normalizeNewsText } from "./news-relevance.mjs";
 
 const source = await readFile(new URL("../auction-draft-board.jsx", import.meta.url), "utf8");
 const snapshot = JSON.parse(await readFile(new URL("../player-news.json", import.meta.url), "utf8"));
@@ -15,13 +15,25 @@ for (const line of raw.split("\n")) {
   const [, pos, list] = match;
   list.split(",").forEach((entry, index) => {
     const [name] = entry.split("|");
-    players.set(`${pos}-${index}`, { name, pos });
+    players.set(`${pos}-${index}`, { id: `${pos}-${index}`, name, pos });
   });
 }
 
 const errors = [];
 const categories = {};
 const coverage = {};
+const rosterPlayers = [...players.values()];
+const joshAllen = players.get("QB-0");
+const roundupFixture = "Who Should I Draft for Fantasy Football? Outlooks for Dak Prescott, Josh Allen, Lamar Jackson, Baker Mayfield, Bo Nix, Caleb Williams, Patrick Mahomes, Tyler Shough, Matthew Stafford";
+if (isPlayerFocusedHeadline(roundupFixture, joshAllen, rosterPlayers)) {
+  errors.push("focus classifier accepted a multi-player roundup fixture");
+}
+if (isPlayerFocusedHeadline("Fantasy Football Rankings Update: Quarterback Tiers, Josh Allen Leads the Way", joshAllen, rosterPlayers)) {
+  errors.push("focus classifier accepted a late list mention fixture");
+}
+if (!isPlayerFocusedHeadline("Josh Allen Fantasy Football 2026: Should You Draft Him At His ADP?", joshAllen, rosterPlayers)) {
+  errors.push("focus classifier rejected a single-player fixture");
+}
 for (const player of players.values()) coverage[player.pos] = { total: (coverage[player.pos]?.total || 0) + 1, matched: coverage[player.pos]?.matched || 0 };
 
 for (const [id, item] of Object.entries(snapshot.players || {})) {
@@ -34,6 +46,9 @@ for (const [id, item] of Object.entries(snapshot.players || {})) {
   }
   if (!normalizeNewsText(item.headline).includes(normalizeNewsText(player.name))) {
     errors.push(`${id} ${player.name}: headline does not name the player`);
+  }
+  if (!isPlayerFocusedHeadline(item.headline, player, rosterPlayers)) {
+    errors.push(`${id} ${player.name}: headline is not player focused: ${item.headline}`);
   }
   const relevance = classifyHeadline(item.headline);
   if (!relevance.relevant) errors.push(`${id} ${player.name}: not draft relevant: ${item.headline}`);

@@ -27,6 +27,19 @@ export const NEWS_RELEVANCE_GROUPS = [
 ];
 
 const NOISE_TERMS = ["girlfriend", "wife", "wedding", "podcast", "got jokes", "dating", "top 100 players", "highest paid"];
+const ROUNDUP_TERMS = [
+  "who should i draft",
+  "outlooks for",
+  "players to draft",
+  "players to avoid",
+  "top sleepers",
+  "deep sleepers",
+  "breakouts busts",
+  "rankings tiers",
+  "and more",
+  "and other",
+  "target these",
+];
 
 export const normalizeNewsText = value => value
   .normalize("NFKD")
@@ -34,6 +47,27 @@ export const normalizeNewsText = value => value
   .toLowerCase()
   .replace(/[^a-z0-9]+/g, " ")
   .trim();
+
+export function isPlayerFocusedHeadline(headline, player, rosterPlayers = []) {
+  const text = normalizeNewsText(headline);
+  const playerName = normalizeNewsText(player?.name || "");
+  if (!playerName || !text.includes(playerName)) return false;
+  if (ROUNDUP_TERMS.some(term => text.includes(term))) return false;
+  if ((headline.match(/,/g) || []).length >= 2) return false;
+  if (text.indexOf(playerName) > 45) return false;
+  for (const separator of [":", ","]) {
+    const separatorIndex = headline.indexOf(separator);
+    if (separatorIndex >= 0 && !normalizeNewsText(headline.slice(0, separatorIndex)).includes(playerName)) return false;
+  }
+
+  const otherNamedPlayers = new Set(
+    rosterPlayers
+      .filter(candidate => candidate.id !== player.id && candidate.pos !== "DEF")
+      .map(candidate => normalizeNewsText(candidate.name))
+      .filter(name => name.length >= 6 && text.includes(name))
+  );
+  return otherNamedPlayers.size === 0;
+}
 
 export function classifyHeadline(headline) {
   const text = normalizeNewsText(headline);
