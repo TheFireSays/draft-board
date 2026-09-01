@@ -45,6 +45,7 @@ function MatrixRain({ enabled }) {
     const canvas = ref.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
+    if (!ctx) return;
     let w, h, drops = [], raf;
     const COL_W = 42;
     const newDrop = (x, top) => ({
