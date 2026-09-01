@@ -428,10 +428,13 @@ export default function AuctionDraftBoard() {
           {myPicks.map(pk => {
             const p = findP(pk.playerId);
             return (
-              <div key={pk.ts} style={{ ...S.row, cursor: "default", borderRadius: 0 }}>
+              <div
+                key={pk.ts}
+                style={{ ...S.row, cursor: "default", boxSizing: "border-box", border: "1px solid #DDE1DA", borderRadius: 14, marginBottom: 10, padding: "14px 16px" }}
+              >
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
-                <span style={{ fontSize: 19, fontWeight: 600, flex: 1 }}>{p.name}</span>
-                <span style={{ fontSize: 19, fontWeight: 800, fontVariantNumeric: "tabular-nums" }}>${pk.price}</span>
+                <span style={{ fontSize: 19, fontWeight: 600, flex: 1, minWidth: 0 }}>{p.name}</span>
+                <span style={{ fontSize: 19, fontWeight: 800, fontVariantNumeric: "tabular-nums", flexShrink: 0 }}>${pk.price}</span>
                 <button
                   onClick={() => removePick(pk.ts, p.name)}
                   aria-label={`Remove ${p.name}`}
@@ -448,10 +451,13 @@ export default function AuctionDraftBoard() {
               {picks.filter(p => !p.mine).map(pk => {
                 const p = findP(pk.playerId);
                 return (
-                  <div key={pk.ts} style={{ ...S.row, cursor: "default", opacity: 0.65 }}>
+                  <div
+                    key={pk.ts}
+                    style={{ ...S.row, cursor: "default", boxSizing: "border-box", border: "1px solid #DDE1DA", borderRadius: 14, marginBottom: 10, padding: "14px 16px", opacity: 0.72 }}
+                  >
                     <span style={S.posTag(p.pos)}>{p.pos}</span>
-                    <span style={{ fontSize: 17, flex: 1 }}>{p.name}</span>
-                    {pk.price > 0 && <span style={{ fontSize: 15, color: "#7C857A" }}>${pk.price}</span>}
+                    <span style={{ fontSize: 17, flex: 1, minWidth: 0 }}>{p.name}</span>
+                    {pk.price > 0 && <span style={{ fontSize: 15, color: "#7C857A", flexShrink: 0 }}>${pk.price}</span>}
                     <button
                       onClick={() => removePick(pk.ts, p.name)}
                       aria-label={`Remove ${p.name}`}
