@@ -1,0 +1,21 @@
+{
+  "name": "loads-draft-o-matic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify-build.mjs",
+    "audit-news": "node scripts/audit-player-news.mjs",
+    "update-news": "node scripts/update-player-news.mjs",
+    "test": "npm run verify && npm run audit-news",
+    "draft-day-refresh": "npm run update-news && npm run audit-news && npm run build && npm run verify"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}

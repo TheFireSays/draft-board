@@ -36,6 +36,20 @@ That's it. Drafted players disappear from the list so you never pick someone twi
 
 Your draft saves itself. You can close the app and come back to it.
 
+On a laptop, your current roster stays visible beside the player list. On a
+phone, use the **My Team** tab as before.
+
+Useful extras:
+
+- Tap **☆ Add to Targets** on a player to build a short watchlist, then use the
+  **★ Targets** filter on the draft screen.
+- Add a private personal note to any player. Notes save with the draft and its
+  backup files.
+- When a recent draft-relevant headline is available, the player card shows its
+  publisher and date with a link to the source.
+- The recent-picks ticker can be hidden from the ticker itself or turned back on
+  in **Settings**.
+
 ---
 
 ## If something goes wrong
@@ -61,8 +75,8 @@ Those snapshots stay on the same device. For an off-device copy, go to
 **Settings** → **Restore from a backup file** and pick that file.
 
 **Other settings:**
-Budget, roster size, turning off the falling footballs, and downloading your
-results as a spreadsheet are all under **Settings**.
+Budget, roster size, the recent-picks ticker, turning off the falling footballs,
+and downloading your results as a spreadsheet are all under **Settings**.
 
 ---
 

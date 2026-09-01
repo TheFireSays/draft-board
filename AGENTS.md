@@ -32,6 +32,10 @@ that spreadsheet.
 |---|---|
 | `index.html` | **The app that actually runs.** Self-contained: React and all app code are bundled and minified inside this one file. This is what GitHub Pages serves. Do not hand-edit unless there is no alternative. |
 | `auction-draft-board.jsx` | **The readable source code.** All logic and UI live here. Make changes here, then rebuild `index.html`. |
+| `entry.jsx` | React mount plus the required `window.storage` to `localStorage` shim. |
+| `player-news.json` | Build-time snapshot of audited player headlines and source links. Missing players intentionally show no news card. |
+| `scripts/` | Deterministic build, bundle verification, news refresh, and September 5 relevance audit. |
+| `package.json` | Pinned React/esbuild versions and the supported build/test commands. |
 | `draft-sync.gs` | Optional Google Apps Script for pushing draft results to a Google Sheet. Setup instructions are in the file's comments. Not required for the app to work. |
 | `AGENTS.md` | This file. |
 
@@ -51,7 +55,8 @@ that spreadsheet.
 ## Where the data lives (important)
 
 Current draft data is stored in the browser's **`localStorage`** under the key
-`auction-draft-v1`. It holds a JSON object: `{ picks, settings, customPlayers }`.
+`auction-draft-v1`. It holds a JSON object:
+`{ picks, settings, customPlayers, targetIds, playerNotes }`.
 The app also keeps up to 12 rotating five-minute recovery snapshots under
 `auction-draft-auto-backups-v1` while the app is open and at least one pick
 exists. Settings lets the user select and restore one of those snapshots.
@@ -87,6 +92,8 @@ Point him at these before proposing anything technical:
 - **Different league rules.** Settings has **starting budget** (default $100)
   and **roster size** (default 15).
 - **Turn off the falling-footballs background.** Settings → Matrix rain toggle.
+- **Keep a watchlist.** Open a player and tap "Add to Targets," then use the
+  Targets filter. Personal player notes are entered on the same card.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
   or Excel). Also "Save a backup file" for the full restorable state.
 - **Start a new draft.** Settings → "Clear draft & start over" (it asks for
@@ -143,17 +150,13 @@ debounced `fetch` effect that POSTs draft state to `settings.syncUrl` when set.
 The runnable `index.html` is generated from the source. To change behavior:
 
 1. Edit `auction-draft-board.jsx`.
-2. Rebuild the bundle (requires Node.js). Create an entry file that shims
-   `window.storage` onto `localStorage` and mounts the component, then:
+2. Install the pinned dependencies once, rebuild, and verify:
 
    ```bash
-   npm i react@18 react-dom@18 esbuild
-   npx esbuild entry.jsx --bundle --minify \
-       --define:process.env.NODE_ENV='"production"' --outfile=bundle.js
+   npm ci
+   npm run build
+   npm test
    ```
-
-   Then inline `bundle.js` inside a `<script>` tag in `index.html`.
-   The existing `index.html` shows the exact wrapper markup to reproduce.
 
 3. Commit and push to `main`. GitHub Pages redeploys automatically in ~1 minute.
 4. On the Chromebook, the installed app picks up the new version on next launch.
@@ -162,6 +165,22 @@ The runnable `index.html` is generated from the source. To change behavior:
 **The `window.storage` shim matters:** the source calls `window.storage.get/set`
 (an async key-value API). The bundle's entry file defines that on top of
 `localStorage`. If you rebuild without the shim, saving silently stops working.
+
+### Draft-day player news
+
+News is a static snapshot, not a live in-app feed. Headlines must name the exact
+player, include publisher/date/link metadata, pass the draft-relevance classifier,
+and be at most 21 days old on September 5, 2026. Generic personality or team-news
+headlines are omitted. Within 24 hours of the draft, run:
+
+```bash
+npm run draft-day-refresh
+```
+
+That refreshes the snapshot, audits it against `DRAFT_DAY=2026-09-05`, rebuilds
+`index.html`, and verifies the bundle. If a player has no qualifying headline,
+the app simply hides the news card. Never hand-write a headline or copy article
+bodies into the repo.
 
 ---
 
