@@ -152,9 +152,18 @@ export default function AuctionDraftBoard() {
   const [syncPromptCopied, setSyncPromptCopied] = useState(false);
   const [autoBackups, setAutoBackups] = useState([]);
   const [autoBackupChoice, setAutoBackupChoice] = useState("");
+  const [wide, setWide] = useState(false);
   const searchRef = useRef(null);
   const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [], targetIds: [], playerNotes: {} });
   const autoBackupsRef = useRef([]);
+
+  useEffect(() => {
+    const media = window.matchMedia("(min-width: 900px)");
+    const update = () => setWide(media.matches);
+    update();
+    media.addEventListener?.("change", update);
+    return () => media.removeEventListener?.("change", update);
+  }, []);
 
   // ---------- Load / save persistent state ----------
   useEffect(() => {
@@ -411,15 +420,16 @@ export default function AuctionDraftBoard() {
     app: {
       fontFamily: "-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
       background: "#F6F7F4", minHeight: "100vh", color: "#17211B",
-      maxWidth: 560, margin: "0 auto", paddingBottom: 90,
+      maxWidth: wide ? 1180 : 560, margin: "0 auto", paddingBottom: wide ? 0 : 90,
+      boxShadow: wide ? "0 0 60px rgba(0,0,0,0.5)" : "none",
     },
     scoreboard: {
-      background: "#123524", color: "#F2F7EF", padding: "14px 18px 12px",
+      background: "#123524", color: "#F2F7EF", padding: wide ? "18px 32px 16px" : "14px 18px 12px",
       display: "flex", justifyContent: "space-between", alignItems: "flex-end",
       position: "sticky", top: 0, zIndex: 20,
       borderBottom: "4px solid #E8B33A",
     },
-    money: { fontSize: 52, fontWeight: 800, lineHeight: 1, fontVariantNumeric: "tabular-nums", letterSpacing: "-1px" },
+    money: { fontSize: wide ? 64 : 52, fontWeight: 800, lineHeight: 1, fontVariantNumeric: "tabular-nums", letterSpacing: "-1px" },
     moneyLabel: { fontSize: 13, opacity: 0.75, marginTop: 4 },
     statCol: { textAlign: "right" },
     stat: { fontSize: 24, fontWeight: 700, fontVariantNumeric: "tabular-nums", lineHeight: 1.15 },
@@ -451,7 +461,7 @@ export default function AuctionDraftBoard() {
       marginTop: 10,
     }),
     tabBar: {
-      position: "fixed", bottom: 0, left: 0, right: 0, maxWidth: 560, margin: "0 auto",
+      position: wide ? "static" : "fixed", bottom: 0, left: 0, right: 0, maxWidth: wide ? "none" : 560, margin: "0 auto",
       display: "flex", background: "#fff", borderTop: "2px solid #DDE1DA", zIndex: 30,
     },
     tabBtn: (active) => ({
@@ -494,7 +504,8 @@ export default function AuctionDraftBoard() {
       )}
 
       {tab === "draft" && (
-        <>
+        <div style={{ display: "flex", alignItems: "stretch" }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ padding: "16px 16px 0" }}>
             <input
               ref={searchRef}
@@ -567,7 +578,41 @@ export default function AuctionDraftBoard() {
               </div>
             )}
           </div>
-        </>
+        </div>
+
+        {wide && (
+          <aside aria-label="Current roster" style={{ width: 360, flexShrink: 0, borderLeft: "1px solid #DDE1DA", background: "#FBFCFA" }}>
+            <div style={{ padding: "18px 20px 10px", display: "flex", justifyContent: "space-between", gap: 12, alignItems: "baseline" }}>
+              <span style={{ fontSize: 18, fontWeight: 800 }}>My team</span>
+              <span style={{ fontSize: 14, color: "#687269", fontWeight: 700 }}>${spent} spent · {myPicks.length}/{settings.rosterSize}</span>
+            </div>
+            {myPicks.length === 0 && (
+              <div style={{ padding: "8px 20px 24px", color: "#7C857A", fontSize: 15, lineHeight: 1.5 }}>
+                Players you win appear here as you draft.
+              </div>
+            )}
+            {myPicks.map(pk => {
+              const p = findP(pk.playerId);
+              return (
+                <div key={pk.ts} style={{ display: "flex", alignItems: "center", gap: 10, padding: "11px 16px", borderTop: "1px solid #EDF0EA" }}>
+                  <span style={{ ...S.posTag(p.pos), fontSize: 12, padding: "4px 7px", minWidth: 32 }}>{p.pos}</span>
+                  <span style={{ flex: 1, minWidth: 0 }}>
+                    <span style={{ display: "block", fontSize: 16, fontWeight: 650, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{p.name}</span>
+                    {playerNotes[p.id] && <span style={{ display: "block", marginTop: 2, color: "#687269", fontSize: 12, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{playerNotes[p.id]}</span>}
+                  </span>
+                  <span style={{ fontSize: 16, fontWeight: 800, fontVariantNumeric: "tabular-nums" }}>${pk.price}</span>
+                  <button
+                    onClick={() => removePick(pk.ts, p.name)}
+                    aria-label={`Remove ${p.name}`}
+                    title={`Remove ${p.name}`}
+                    style={{ border: "none", background: "none", color: "#A05656", fontSize: 20, fontWeight: 700, cursor: "pointer", padding: "0 2px", lineHeight: 1 }}
+                  >×</button>
+                </div>
+              );
+            })}
+          </aside>
+        )}
+        </div>
       )}
 
       {tab === "roster" && (
@@ -758,11 +803,11 @@ export default function AuctionDraftBoard() {
       {/* Price modal */}
       {selected && (
         <div
-          style={{ position: "fixed", inset: 0, background: "rgba(18,53,36,0.55)", zIndex: 40, display: "flex", alignItems: "flex-end", justifyContent: "center" }}
+          style={{ position: "fixed", inset: 0, background: "rgba(18,53,36,0.55)", zIndex: 40, display: "flex", alignItems: wide ? "center" : "flex-end", justifyContent: "center", padding: wide ? 24 : 0, boxSizing: "border-box" }}
           onClick={closeModal}
         >
           <div
-            style={{ background: "#fff", width: "100%", maxWidth: 560, borderRadius: "22px 22px 0 0", padding: "22px 20px 30px", boxSizing: "border-box" }}
+            style={{ background: "#fff", width: "100%", maxWidth: 560, maxHeight: wide ? "calc(100vh - 48px)" : "92vh", overflowY: "auto", borderRadius: wide ? 22 : "22px 22px 0 0", padding: "22px 20px 30px", boxSizing: "border-box" }}
             onClick={e => e.stopPropagation()}
           >
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
