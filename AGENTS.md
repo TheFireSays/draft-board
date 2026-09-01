@@ -34,7 +34,7 @@ that spreadsheet.
 | `auction-draft-board.jsx` | **The readable source code.** All logic and UI live here. Make changes here, then rebuild `index.html`. |
 | `entry.jsx` | React mount plus the required `window.storage` to `localStorage` shim. |
 | `player-news.json` | Build-time snapshot of audited player headlines and source links. Missing players intentionally show no news card. |
-| `assets/banner/` | Original, logo-free football snap/contact frames plus the generated finite-loop laptop banner GIF. |
+| `assets/banner/` | Original, logo-free football snap/contact frames plus the generated seamless-loop laptop banner GIF. |
 | `scripts/` | Deterministic app/banner builds, bundle verification, news refresh, and September 5 relevance audit. |
 | `package.json` | Pinned React/esbuild versions and the supported build/test commands. |
 | `package-lock.json` | Exact dependency lock used by `npm ci`. Commit changes to it when dependencies change. |
@@ -143,9 +143,10 @@ near the bottom of the component.
 
 **Responsive layout:** `wide` is driven by `(min-width: 900px)`. At laptop width,
 the scoreboard includes the centered app title over an original, logo-free
-football snap animation. The finite GIF plays for at most 27.5 seconds and ends
-on its collision frame; `prefers-reduced-motion: reduce` uses the static contact
-PNG immediately. The phone scoreboard remains solid green. Navigation is
+football snap animation. Its two-second snap-to-contact-to-snap cycle has a
+seamless boundary; the app replaces it with the static contact PNG after 15
+seconds. `prefers-reduced-motion: reduce` uses that PNG immediately. The phone
+scoreboard remains solid green. Navigation is
 rendered immediately below the scoreboard/ticker and sticks at the top while
 scrolling, and a 360px live roster sidebar appears on the Draft tab. Below
 900px, navigation is fixed at the bottom and the roster remains on the My Team
@@ -188,7 +189,7 @@ The runnable `index.html` is generated from the source. To change behavior:
    npm test
    ```
 
-   `npm run build` regenerates the finite-loop `football-snap.gif` from those
+   `npm run build` regenerates the seamless-loop `football-snap.gif` from those
    two PNG frames before rebuilding `index.html`.
 
 3. Commit and push to `main`. GitHub Pages redeploys automatically in ~1 minute.
@@ -220,8 +221,8 @@ bodies into the repo.
 The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
-top navigation, banner title, synchronized documentation, and the finite football
-banner animation. The current checkpoint is `draft-build-13-banner-animation`.
+top navigation, banner title, synchronized documentation, and the smooth football
+banner animation. The current checkpoint is `draft-build-14-smooth-banner`.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 
