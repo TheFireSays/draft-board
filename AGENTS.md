@@ -36,7 +36,9 @@ that spreadsheet.
 | `player-news.json` | Build-time snapshot of audited player headlines and source links. Missing players intentionally show no news card. |
 | `scripts/` | Deterministic build, bundle verification, news refresh, and September 5 relevance audit. |
 | `package.json` | Pinned React/esbuild versions and the supported build/test commands. |
+| `package-lock.json` | Exact dependency lock used by `npm ci`. Commit changes to it when dependencies change. |
 | `draft-sync.gs` | Optional Google Apps Script for pushing draft results to a Google Sheet. Setup instructions are in the file's comments. Not required for the app to work. |
+| `README.md` | Plain-language setup, draft-night use, recovery, and feature guide for the user. |
 | `AGENTS.md` | This file. |
 
 ---
@@ -49,6 +51,10 @@ that spreadsheet.
   launcher/shelf icon and opens in its own window.
 - There is **no server, no database, no login, no build step at runtime.**
   Everything runs in his browser.
+- GitHub Pages is configured as a **legacy branch deploy** from `main` and `/`.
+  If a push does not create a Pages run, request one explicitly with
+  `gh api --method POST repos/TheFireSays/draft-board/pages/builds`, then verify
+  the resulting Actions run and live file rather than assuming the push deployed.
 
 ---
 
@@ -93,6 +99,13 @@ Point him at these before proposing anything technical:
   and **roster size** (default 15).
 - **Keep a watchlist.** Open a player and tap "Add to Targets," then use the
   Targets filter. Personal player notes are entered on the same card.
+- **Recent pick context.** The scrolling ticker shows the latest six picks. Its
+  × button hides it; Settings turns it back on. It honors reduced-motion mode.
+- **Duplicate-position reminder.** Drafting a second K or DEF shows an advisory
+  warning but is intentionally allowed.
+- **Player news.** When `player-news.json` has a qualifying entry for that exact
+  player ID, the player card shows headline, publisher, date, and source link.
+  No match means no card; do not substitute generic news.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
   or Excel). Also "Save a backup file" for the full restorable state.
 - **Start a new draft.** Settings → "Clear draft & start over" (it asks for
@@ -121,6 +134,20 @@ near the bottom of the component.
 - `picks` — the draft log: `[{ playerId, price, mine, ts }]`. `mine: true` means
   he won the player; `false` means another team took him (still removed from the
   available pool).
+- `targetIds` — player IDs in the saved Targets watchlist.
+- `playerNotes` — object keyed by player ID; notes are capped at 300 characters.
+- `settings` — currently `budget`, `rosterSize`, `ticker`, and `syncUrl`.
+  Old saved objects may still contain an ignored `rain` property from builds
+  before the digital-rain background was removed.
+
+**Responsive layout:** `wide` is driven by `(min-width: 900px)`. At laptop width,
+the green scoreboard includes the centered app title, navigation is rendered
+immediately below the scoreboard/ticker and sticks at the top while scrolling,
+and a 360px live roster sidebar appears on the Draft tab. Below 900px, navigation
+is fixed at the bottom and the roster remains on the My Team tab. The outer page
+background is the static neutral `#E8ECE6`; there is no canvas animation. The
+bottom-right TheFireSays credit sits above phone navigation and links to the
+GitHub profile.
 
 **The budget math** (in `derive`-equivalent code near "Derived draft math"):
 
@@ -180,6 +207,15 @@ That refreshes the snapshot, audits it against `DRAFT_DAY=2026-09-05`, rebuilds
 the app simply hides the news card. Never hand-write a headline or copy article
 bodies into the repo.
 
+### Reversible build checkpoints
+
+The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
+is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
+notes, audited news, laptop layout, build verification, credit, clean background,
+top navigation, banner title, and synchronized documentation. The current
+checkpoint is `draft-build-12-docs`. Use the tags to compare or restore a known build;
+do not rewrite or delete them casually.
+
 ---
 
 ## Troubleshooting guide
@@ -192,7 +228,8 @@ bodies into the repo.
 | "It says I have negative money" | Expected behavior after bidding over the max bid. Undo the offending pick, or adjust the budget in Settings if the league's budget is actually higher. |
 | "Nothing shows up in my Google Sheet" | Sheet sync is optional and off unless a URL is set. The app sends data without reading a response, so a bad URL fails silently. Re-check the Apps Script deployment (must be "Anyone" access) and re-paste the web app URL into Settings. See `draft-sync.gs`. |
 | "The app won't open / white screen" | Have him open the GitHub Pages URL directly in Chrome. If that works, reinstall the app from the ⋮ menu. Draft data survives reinstalling. |
-| "Can we add team logos?" | NFL logos are trademarked and are deliberately not included; the rain uses footballs and team abbreviations in team colors instead. He may supply his own image files if he wants. |
+| "The latest changes are not live" | Confirm `origin/main`, inspect the newest Pages Actions run, and compare the live `index.html` with the local build. For legacy Pages, explicitly POST `repos/TheFireSays/draft-board/pages/builds` if no run was triggered. |
+| "Can we add team logos?" | NFL logos are trademarked and deliberately not included. He may supply his own image files if he wants. |
 
 ### Google Sheets sync setup
 
@@ -227,6 +264,8 @@ prompt is:
 - Do not remove the `window.storage` shim when rebuilding.
 - Do not add a login, account system, or backend. Zero-maintenance and
   no-support are explicit goals of this project.
+- Do not reintroduce the digital-rain/canvas background unless explicitly asked;
+  the clean static surround is a deliberate laptop-layout decision.
 - Do not commit anything containing personal data; the repo is public.
 - Prefer in-app solutions to code changes. A change he can make himself in
   Settings is always better than one that requires a rebuild and a push.

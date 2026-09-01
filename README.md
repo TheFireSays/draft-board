@@ -36,8 +36,10 @@ That's it. Drafted players disappear from the list so you never pick someone twi
 
 Your draft saves itself. You can close the app and come back to it.
 
-On a laptop, your current roster stays visible beside the player list. On a
-phone, use the **My Team** tab as before.
+On a laptop, **Load's Draft-o-matic** appears in the top scoreboard, the main
+navigation stays near the top while you scroll, and your current roster stays
+visible beside the player list. On a phone, use the bottom **My Team** tab as
+before.
 
 Useful extras:
 
@@ -46,9 +48,15 @@ Useful extras:
 - Add a private personal note to any player. Notes save with the draft and its
   backup files.
 - When a recent draft-relevant headline is available, the player card shows its
-  publisher and date with a link to the source.
+  publisher and date with a link to the source. These are checked for the
+  September 5 draft and refreshed before draft day; players without a useful
+  headline simply have no news box.
+- If you already own a kicker or defense, the app gives a quick warning before
+  adding another. It is only a reminder and never blocks the pick.
 - The recent-picks ticker can be hidden from the ticker itself or turned back on
   in **Settings**.
+- **Brought to you by: TheFireSays** in the bottom-right corner links to the
+  project owner's GitHub profile.
 
 ---
 
@@ -77,6 +85,12 @@ Those snapshots stay on the same device. For an off-device copy, go to
 **Other settings:**
 Budget, roster size, the recent-picks ticker, and downloading your results as a
 spreadsheet are all under **Settings**.
+
+**Optional Google Sheets copy:**
+Settings also has a **Sheet sync URL**. It needs the special Google Apps Script
+web-app link—not the normal Sheet address. If the field is empty, use its
+**Copy Gemini prompt** helper for step-by-step setup. The draft remains fully
+usable without Sheets.
 
 ---
 
