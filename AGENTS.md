@@ -98,8 +98,10 @@ Point him at these before proposing anything technical:
   several picks.
 - **Different league rules.** Settings has **starting budget** (default $100)
   and **roster size** (default 15).
-- **Keep a watchlist.** Open a player and tap "Add to Targets," then use the
-  Targets filter. Personal player notes are entered on the same card.
+- **Keep a watchlist.** Open a player and tap "Add to Targets." Undrafted
+  Targets are automatically promoted within their position category without
+  changing the saved player ranking inside the Target/non-Target groups. The
+  Targets filter shows only the watchlist. Personal notes use the same card.
 - **Recent pick context.** The scrolling ticker shows the latest six picks. Its
   × button hides it; Settings turns it back on. It honors reduced-motion mode.
 - **Duplicate-position reminder.** Drafting a second K or DEF shows an advisory
@@ -136,6 +138,9 @@ near the bottom of the component.
   he won the player; `false` means another team took him (still removed from the
   available pool).
 - `targetIds` — player IDs in the saved Targets watchlist.
+- `results` — filtered available players. Outside the dedicated Targets view,
+  its stable sort groups the ALL list by `POSITION_ORDER` and promotes Targets
+  within each position while preserving original rank order.
 - `playerNotes` — object keyed by player ID; notes are capped at 300 characters.
 - `settings` — currently `budget`, `rosterSize`, `ticker`, and `syncUrl`.
   Old saved objects may still contain an ignored `rain` property from builds
@@ -223,7 +228,8 @@ The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
-banner animation. The current checkpoint is `draft-build-15-four-pass-banner`.
+banner animation and Target priority sorting. The current checkpoint is
+`draft-build-16-target-priority`.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

@@ -46,8 +46,9 @@ mode enabled, it shows the final still image immediately.
 
 Useful extras:
 
-- Tap **☆ Add to Targets** on a player to build a short watchlist, then use the
-  **★ Targets** filter on the draft screen.
+- Tap **☆ Add to Targets** on a player to build a short watchlist. Targeted
+  players automatically move to the top of their position list, and the
+  **★ Targets** filter shows the whole watchlist by itself.
 - Add a private personal note to any player. Notes save with the draft and its
   backup files.
 - When a recent draft-relevant headline is available, the player card shows its

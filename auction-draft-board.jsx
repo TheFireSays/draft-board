@@ -26,6 +26,7 @@ const POS_COLORS = {
   K:  { bg: "#5B3A8E", light: "#EFEAF7" },
   DEF:{ bg: "#4A4A48", light: "#EDEDEC" },
 };
+const POSITION_ORDER = { QB: 0, RB: 1, WR: 2, TE: 3, K: 4, DEF: 5 };
 
 function RecentPicksTicker({ picks, findPlayer, onDismiss }) {
   const recent = picks.slice(-6).reverse().map(pk => {
@@ -236,13 +237,26 @@ export default function AuctionDraftBoard() {
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return ALL.filter(p => {
+    const available = ALL.filter(p => {
       if (posFilter === "TARGETS" && !targetIdSet.has(p.id)) return false;
       if (posFilter !== "ALL" && posFilter !== "TARGETS" && p.pos !== posFilter) return false;
       if (draftedIds.has(p.id)) return false;
       if (!q) return true;
       return p.name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q);
-    }).slice(0, q ? 12 : 40);
+    });
+    if (posFilter === "TARGETS") return available.slice(0, q ? 12 : 40);
+    return available
+      .map((player, originalOrder) => ({ player, originalOrder }))
+      .sort((a, b) => {
+        if (posFilter === "ALL") {
+          const positionDifference = POSITION_ORDER[a.player.pos] - POSITION_ORDER[b.player.pos];
+          if (positionDifference) return positionDifference;
+        }
+        const targetDifference = Number(targetIdSet.has(b.player.id)) - Number(targetIdSet.has(a.player.id));
+        return targetDifference || a.originalOrder - b.originalOrder;
+      })
+      .map(({ player }) => player)
+      .slice(0, q ? 12 : 40);
   }, [query, posFilter, draftedIds, targetIdSet, ALL]);
 
   const lastPick = picks.length ? picks[picks.length - 1] : null;
