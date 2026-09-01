@@ -1,9 +1,13 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { classifyHeadline, normalizeNewsText } from "./news-relevance.mjs";
 
 const SOURCE_FILE = new URL("../auction-draft-board.jsx", import.meta.url);
 const OUTPUT_FILE = new URL("../player-news.json", import.meta.url);
 const LOOKBACK_DAYS = 21;
 const CONCURRENCY = 6;
+const DRAFT_DAY = process.env.DRAFT_DAY || "2026-09-05";
+const DRAFT_DEADLINE = new Date(`${DRAFT_DAY}T23:59:59-07:00`);
+const MAX_AGE_ON_DRAFT_DAY_DAYS = 21;
 
 const decodeXml = (value = "") => value
   .replace(/^<!\[CDATA\[|\]\]>$/g, "")
@@ -16,24 +20,6 @@ const decodeXml = (value = "") => value
 const xmlValue = (xml, tag) => {
   const match = xml.match(new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`, "i"));
   return decodeXml(match?.[1]?.trim() || "");
-};
-
-const normalize = value => value
-  .normalize("NFKD")
-  .replace(/[\u0300-\u036f]/g, "")
-  .toLowerCase()
-  .replace(/[^a-z0-9]+/g, " ")
-  .trim();
-
-const headlineScore = headline => {
-  const text = normalize(headline);
-  const weightedTerms = [
-    ["injur", 6], ["practice", 6], ["questionable", 6], ["doubtful", 6], ["ruled out", 6],
-    ["status", 5], ["return", 5], ["suspend", 5], ["trade", 5], ["sign", 4], ["release", 4],
-    ["fantasy", 4], ["depth chart", 4], ["starter", 4], ["role", 3], ["waiver", 3],
-    ["draft", 3], ["ranking", 3], ["outlook", 3], ["preview", 3], ["projection", 3],
-  ];
-  return weightedTerms.reduce((score, [term, weight]) => score + (text.includes(term) ? weight : 0), 0);
 };
 
 function readPlayers(source) {
@@ -68,7 +54,7 @@ async function latestHeadline(player) {
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const xml = await response.text();
-  const playerName = normalize(player.name);
+  const playerName = normalizeNewsText(player.name);
   const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
     .map(match => {
       const item = match[1];
@@ -83,13 +69,18 @@ async function latestHeadline(player) {
         publisher,
         publishedAt: Number.isNaN(published.valueOf()) ? "" : published.toISOString(),
         url: xmlValue(item, "link"),
-        score: headlineScore(headline),
+        ...classifyHeadline(headline),
       };
     })
-    .filter(item => item.headline && item.url && item.publishedAt && normalize(item.headline).includes(playerName))
+    .filter(item => {
+      if (!item.headline || !item.url || !item.publishedAt || !item.relevant) return false;
+      if (!normalizeNewsText(item.headline).includes(playerName)) return false;
+      const ageOnDraftDay = (DRAFT_DEADLINE - new Date(item.publishedAt)) / 86400000;
+      return ageOnDraftDay >= 0 && ageOnDraftDay <= MAX_AGE_ON_DRAFT_DAY_DAYS;
+    })
     .sort((a, b) => b.score - a.score || b.publishedAt.localeCompare(a.publishedAt));
   if (!items[0]) return null;
-  const { score, ...latest } = items[0];
+  const { relevant, score, ...latest } = items[0];
   return latest;
 }
 
@@ -125,6 +116,8 @@ const snapshot = {
   updatedAt: new Date().toISOString(),
   provider: "Google News RSS",
   lookbackDays: LOOKBACK_DAYS,
+  draftDay: DRAFT_DAY,
+  maxAgeOnDraftDayDays: MAX_AGE_ON_DRAFT_DAY_DAYS,
   checkedPlayers: players.length,
   matchedPlayers: Object.keys(news).length,
   players: news,
