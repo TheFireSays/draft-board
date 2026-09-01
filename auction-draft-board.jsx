@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 
 // ---------- Player data (from the 2026 auction sheet) ----------
 const RAW = {
