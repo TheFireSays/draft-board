@@ -145,13 +145,14 @@ export default function AuctionDraftBoard() {
   const [loaded, setLoaded] = useState(false);
   const [customPlayers, setCustomPlayers] = useState([]);
   const [targetIds, setTargetIds] = useState([]);
+  const [playerNotes, setPlayerNotes] = useState({});
   const [addPos, setAddPos] = useState("RB");
   const [addTeam, setAddTeam] = useState("");
   const [syncPromptCopied, setSyncPromptCopied] = useState(false);
   const [autoBackups, setAutoBackups] = useState([]);
   const [autoBackupChoice, setAutoBackupChoice] = useState("");
   const searchRef = useRef(null);
-  const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [], targetIds: [] });
+  const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [], targetIds: [], playerNotes: {} });
   const autoBackupsRef = useRef([]);
 
   // ---------- Load / save persistent state ----------
@@ -165,6 +166,7 @@ export default function AuctionDraftBoard() {
           if (data.settings) setSettings({ ...DEFAULT_SETTINGS, ...data.settings });
           if (Array.isArray(data.customPlayers)) setCustomPlayers(data.customPlayers);
           if (Array.isArray(data.targetIds)) setTargetIds(data.targetIds);
+          if (data.playerNotes && typeof data.playerNotes === "object") setPlayerNotes(data.playerNotes);
         }
       } catch (e) { /* first run: no saved draft yet */ }
       try {
@@ -185,14 +187,14 @@ export default function AuctionDraftBoard() {
     if (!loaded) return;
     (async () => {
       try {
-        await window.storage.set(STORE_KEY, JSON.stringify({ picks, settings, customPlayers, targetIds }));
+        await window.storage.set(STORE_KEY, JSON.stringify({ picks, settings, customPlayers, targetIds, playerNotes }));
       } catch (e) { console.error("Save failed", e); }
     })();
-  }, [picks, settings, customPlayers, targetIds, loaded]);
+  }, [picks, settings, customPlayers, targetIds, playerNotes, loaded]);
 
   useEffect(() => {
-    latestDraftRef.current = { picks, settings, customPlayers, targetIds };
-  }, [picks, settings, customPlayers, targetIds]);
+    latestDraftRef.current = { picks, settings, customPlayers, targetIds, playerNotes };
+  }, [picks, settings, customPlayers, targetIds, playerNotes]);
 
   useEffect(() => {
     if (!loaded) return;
@@ -202,7 +204,7 @@ export default function AuctionDraftBoard() {
       const latest = autoBackupsRef.current[0];
       const currentData = JSON.stringify(current);
       const latestData = latest
-        ? JSON.stringify({ picks: latest.picks, settings: latest.settings, customPlayers: latest.customPlayers, targetIds: latest.targetIds || [] })
+        ? JSON.stringify({ picks: latest.picks, settings: latest.settings, customPlayers: latest.customPlayers, targetIds: latest.targetIds || [], playerNotes: latest.playerNotes || {} })
         : "";
       if (currentData === latestData) return;
 
@@ -304,6 +306,16 @@ export default function AuctionDraftBoard() {
       : [...prev, playerId]);
   };
 
+  const updatePlayerNote = (playerId, note) => {
+    setPlayerNotes(prev => {
+      const next = { ...prev };
+      const clean = note.slice(0, 300);
+      if (clean) next[playerId] = clean;
+      else delete next[playerId];
+      return next;
+    });
+  };
+
   const copySyncHelpPrompt = async () => {
     try {
       await navigator.clipboard.writeText(SYNC_HELP_PROMPT);
@@ -335,7 +347,7 @@ export default function AuctionDraftBoard() {
 
   const downloadBackup = () => {
     const blob = new Blob(
-      [JSON.stringify({ picks, settings, customPlayers, targetIds, saved: new Date().toISOString() }, null, 2)],
+      [JSON.stringify({ picks, settings, customPlayers, targetIds, playerNotes, saved: new Date().toISOString() }, null, 2)],
       { type: "application/json" }
     );
     const url = URL.createObjectURL(blob);
@@ -356,6 +368,7 @@ export default function AuctionDraftBoard() {
         if (d.settings) setSettings({ ...DEFAULT_SETTINGS, ...d.settings });
         if (Array.isArray(d.customPlayers)) setCustomPlayers(d.customPlayers);
         setTargetIds(Array.isArray(d.targetIds) ? d.targetIds : []);
+        setPlayerNotes(d.playerNotes && typeof d.playerNotes === "object" ? d.playerNotes : {});
         window.alert("Draft restored from backup.");
       } catch {
         window.alert("That file isn't a draft backup. Look for draft-backup.json in Downloads.");
@@ -375,6 +388,7 @@ export default function AuctionDraftBoard() {
     if (backup.settings) setSettings({ ...DEFAULT_SETTINGS, ...backup.settings });
     if (Array.isArray(backup.customPlayers)) setCustomPlayers(backup.customPlayers);
     setTargetIds(Array.isArray(backup.targetIds) ? backup.targetIds : []);
+    setPlayerNotes(backup.playerNotes && typeof backup.playerNotes === "object" ? backup.playerNotes : {});
     window.alert("Automatic backup restored.");
   };
 
@@ -511,7 +525,10 @@ export default function AuctionDraftBoard() {
             {results.map(p => (
               <button key={p.id} style={S.row} onClick={() => openPlayer(p)}>
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
-                <span style={{ fontSize: 20, fontWeight: 600, flex: 1 }}>{p.name}</span>
+                <span style={{ flex: 1, minWidth: 0 }}>
+                  <span style={{ display: "block", fontSize: 20, fontWeight: 600 }}>{p.name}</span>
+                  {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#687269", fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
+                </span>
                 {targetIdSet.has(p.id) && <span title="Target player" aria-label="Target player" style={{ color: "#9A6B00", fontSize: 20 }}>★</span>}
                 <span style={{ fontSize: 15, color: "#7C857A", fontWeight: 600 }}>{p.team}</span>
               </button>
@@ -567,7 +584,10 @@ export default function AuctionDraftBoard() {
                 style={{ ...S.row, cursor: "default", boxSizing: "border-box", border: "1px solid #DDE1DA", borderRadius: 14, marginBottom: 10, padding: "14px 16px" }}
               >
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
-                <span style={{ fontSize: 19, fontWeight: 600, flex: 1, minWidth: 0 }}>{p.name}</span>
+                <span style={{ flex: 1, minWidth: 0 }}>
+                  <span style={{ display: "block", fontSize: 19, fontWeight: 600 }}>{p.name}</span>
+                  {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#687269", fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
+                </span>
                 <span style={{ fontSize: 19, fontWeight: 800, fontVariantNumeric: "tabular-nums", flexShrink: 0 }}>${pk.price}</span>
                 <button
                   onClick={() => removePick(pk.ts, p.name)}
@@ -590,7 +610,10 @@ export default function AuctionDraftBoard() {
                     style={{ ...S.row, cursor: "default", boxSizing: "border-box", border: "1px solid #DDE1DA", borderRadius: 14, marginBottom: 10, padding: "14px 16px", opacity: 0.72 }}
                   >
                     <span style={S.posTag(p.pos)}>{p.pos}</span>
-                    <span style={{ fontSize: 17, flex: 1, minWidth: 0 }}>{p.name}</span>
+                    <span style={{ flex: 1, minWidth: 0 }}>
+                      <span style={{ display: "block", fontSize: 17 }}>{p.name}</span>
+                      {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#687269", fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
+                    </span>
                     {pk.price > 0 && <span style={{ fontSize: 15, color: "#7C857A", flexShrink: 0 }}>${pk.price}</span>}
                     <button
                       onClick={() => removePick(pk.ts, p.name)}
@@ -755,6 +778,18 @@ export default function AuctionDraftBoard() {
             >
               {targetIdSet.has(selected.id) ? "★ In Targets — tap to remove" : "☆ Add to Targets"}
             </button>
+
+            <label style={{ display: "block", fontSize: 15, fontWeight: 800, color: "#41493F", margin: "0 0 6px" }}>
+              Personal note <span style={{ fontWeight: 500, color: "#7C857A" }}>(optional)</span>
+            </label>
+            <textarea
+              value={playerNotes[selected.id] || ""}
+              onChange={e => updatePlayerNote(selected.id, e.target.value)}
+              maxLength={300}
+              rows={2}
+              placeholder="Example: Only bid if still under $18"
+              style={{ ...S.search, fontFamily: "inherit", fontSize: 15, lineHeight: 1.4, padding: "11px 13px", resize: "vertical", marginBottom: 12 }}
+            />
 
             {duplicateSpecialPosition && (
               <div role="note" style={{ margin: "0 0 12px", padding: "11px 13px", border: "1px solid #E4C66B", borderRadius: 11, background: "#FFF7D9", color: "#664A00", fontSize: 15, lineHeight: 1.4 }}>
