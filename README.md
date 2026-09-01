@@ -59,6 +59,9 @@ Useful extras:
   rank, projected fantasy points, and average draft position (ADP), plus a link
   to ESPN's projections page. It is a draft-day reference, not a replacement for
   the app's Max bid. If ESPN has no current projection, the card says so plainly.
+- The player list uses ESPN headshots and current full team names. Defenses use
+  ESPN team logos. If an image is unavailable or the device is offline, a clean
+  colored position marker appears instead; drafting still works normally.
 - If you already own a kicker or defense, the app gives a quick warning before
   adding another. It is only a reminder and never blocks the pick.
 - The recent-picks ticker can be hidden from the ticker itself or turned back on

@@ -18,6 +18,7 @@ requireText("Add to Targets", "Targets watchlist");
 requireText("Personal note", "personal notes");
 requireText("ESPN 2026 PPR PROJECTION", "ESPN projection summary");
 requireText("ESPN source", "ESPN projection attribution");
+requireText("ESPN CDN", "ESPN media attribution");
 requireText("Current roster", "laptop roster sidebar");
 requireText("My pick", "My Team draft order accessibility label");
 requireText("Recent picks ticker", "recent-picks setting");
@@ -26,6 +27,7 @@ requireText("background:#E8ECE6", "clean page background");
 requireText("window.storage", "storage shim");
 
 if (!source.includes('import playerProjectionsSnapshot from "./player-projections.json"')) failures.push("source does not import the ESPN projection snapshot");
+if (!source.includes("function PlayerAvatar") || !source.includes("teamLogoUrl") || !source.includes("headshotUrl")) failures.push("source is missing player headshots or defense logo support");
 if (!source.includes("<h1 style") || !source.includes("Load's Draft-o-matic")) failures.push("source is missing the laptop banner title");
 if (!source.includes('./assets/banner/football-snap.gif')) failures.push("source is missing the animated football banner");
 if (!source.includes('./assets/banner/football-contact-frame.png')) failures.push("source is missing the reduced-motion banner fallback");
@@ -37,7 +39,7 @@ if (!source.includes('sanitizeBidAmount') || !source.includes('pattern="[0-9]*"'
 if (!source.includes('"My Pick Order"') || !source.includes('myPickIndex')) failures.push("My Team draft order is not tracked in the roster and CSV");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
 if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
-if (projections.provider !== "ESPN" || projections.scoringFormat !== "PPR") failures.push("projection snapshot is missing ESPN PPR attribution");
+if (projections.provider !== "ESPN" || projections.mediaProvider !== "ESPN CDN" || projections.scoringFormat !== "PPR") failures.push("projection snapshot is missing ESPN PPR/media attribution");
 if ((projections.projectedPlayers || 0) < 175) failures.push("projection snapshot coverage is unexpectedly low");
 if (bannerGif.subarray(0, 6).toString("ascii") !== "GIF89a") failures.push("football banner is not a GIF89a asset");
 if (bannerStatic.subarray(1, 4).toString("ascii") !== "PNG") failures.push("football banner fallback is not a PNG asset");

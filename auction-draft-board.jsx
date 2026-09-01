@@ -32,6 +32,31 @@ const sanitizePicks = value => Array.isArray(value)
   ? value.map(pick => ({ ...pick, price: sanitizeBidAmount(pick.price) }))
   : [];
 
+function PlayerAvatar({ player, media, size = 56 }) {
+  const imageUrl = player.pos === "DEF" ? media?.teamLogoUrl : media?.headshotUrl;
+  return (
+    <span
+      aria-hidden="true"
+      style={{ position: "relative", width: size, height: size, borderRadius: "50%", overflow: "hidden", flexShrink: 0, border: "1px solid #D8DDD6", background: POS_COLORS[player.pos].light }}
+    >
+      <span style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", color: POS_COLORS[player.pos].bg, fontSize: Math.max(11, Math.round(size * 0.24)), fontWeight: 900 }}>
+        {player.pos}
+      </span>
+      {imageUrl && (
+        <img
+          src={imageUrl}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          referrerPolicy="no-referrer"
+          onError={event => { event.currentTarget.style.display = "none"; }}
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: player.pos === "DEF" ? "contain" : "cover", objectPosition: "center top", padding: player.pos === "DEF" ? Math.max(5, Math.round(size * 0.13)) : 0, boxSizing: "border-box", background: player.pos === "DEF" ? "#fff" : "transparent" }}
+        />
+      )}
+    </span>
+  );
+}
+
 function RecentPicksTicker({ picks, findPlayer, onDismiss }) {
   const recent = picks.slice(-6).reverse().map(pk => {
     const player = findPlayer(pk.playerId);
@@ -536,17 +561,23 @@ export default function AuctionDraftBoard() {
           )}
 
           <div style={{ marginTop: 6 }}>
-            {results.map(p => (
-              <button key={p.id} style={S.row} onClick={() => openPlayer(p)}>
-                <span style={S.posTag(p.pos)}>{p.pos}</span>
-                <span style={{ flex: 1, minWidth: 0 }}>
-                  <span style={{ display: "block", fontSize: 20, fontWeight: 600 }}>{p.name}</span>
-                  {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#687269", fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
-                </span>
-                {targetIdSet.has(p.id) && <span title="Target player" aria-label="Target player" style={{ color: "#9A6B00", fontSize: 20 }}>★</span>}
-                <span style={{ fontSize: 15, color: "#7C857A", fontWeight: 600 }}>{p.team}</span>
-              </button>
-            ))}
+            {results.map(p => {
+              const media = playerProjectionsSnapshot.players?.[p.id];
+              const teamLabel = media?.teamName || media?.teamAbbrev || p.team;
+              return (
+                <button key={p.id} style={{ ...S.row, padding: wide ? "11px 18px" : "10px 14px", gap: wide ? 14 : 11 }} onClick={() => openPlayer(p)}>
+                  <PlayerAvatar player={p} media={media} size={wide ? 62 : 54} />
+                  <span style={{ flex: 1, minWidth: 0 }}>
+                    <span style={{ display: "block", fontSize: wide ? 20 : 18, fontWeight: 700, lineHeight: 1.2 }}>{p.name}</span>
+                    <span style={{ display: "block", marginTop: 4, color: "#687269", fontSize: 13, fontWeight: 600, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                      {teamLabel} <span aria-hidden="true" style={{ color: "#B4BAB2", margin: "0 4px" }}>·</span> <span style={{ color: POS_COLORS[p.pos].bg, fontWeight: 850 }}>{p.pos}</span>
+                    </span>
+                    {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#7A8279", fontSize: 12, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
+                  </span>
+                  {targetIdSet.has(p.id) && <span title="Target player" aria-label="Target player" style={{ color: "#9A6B00", fontSize: 20 }}>★</span>}
+                </button>
+              );
+            })}
             {results.length === 0 && posFilter === "TARGETS" && (
               <div style={{ padding: "34px 20px", textAlign: "center", color: "#5C665B", fontSize: 17, lineHeight: 1.5 }}>
                 No available targets yet. Open any player and tap <b>Add to Targets</b>.
@@ -806,10 +837,12 @@ export default function AuctionDraftBoard() {
             onClick={e => e.stopPropagation()}
           >
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
-              <span style={S.posTag(selected.pos)}>{selected.pos}</span>
+              <PlayerAvatar player={selected} media={selectedProjection} size={64} />
               <div>
                 <div style={{ fontSize: 24, fontWeight: 800 }}>{selected.name}</div>
-                <div style={{ fontSize: 15, color: "#7C857A", fontWeight: 600 }}>{selected.team}</div>
+                <div style={{ fontSize: 15, color: "#7C857A", fontWeight: 650 }}>
+                  {selectedProjection?.teamName || selectedProjection?.teamAbbrev || selected.team} <span aria-hidden="true" style={{ color: "#B4BAB2", margin: "0 4px" }}>·</span> <span style={{ color: POS_COLORS[selected.pos].bg, fontWeight: 850 }}>{selected.pos}</span>
+                </div>
               </div>
             </div>
 

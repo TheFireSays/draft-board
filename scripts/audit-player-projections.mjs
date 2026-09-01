@@ -18,6 +18,7 @@ for (const line of raw.split("\n")) {
 
 const errors = [];
 if (snapshot.provider !== "ESPN") errors.push("provider is not ESPN");
+if (snapshot.mediaProvider !== "ESPN CDN") errors.push("media provider is not ESPN CDN");
 if (snapshot.season !== 2026) errors.push("projection season is not 2026");
 if (snapshot.scoringFormat !== "PPR") errors.push("projection scoring format is not PPR");
 if (snapshot.sourceUrl !== "https://fantasy.espn.com/football/players/projections") errors.push("unexpected ESPN source URL");
@@ -28,6 +29,15 @@ if (snapshot.projectedPlayers < 175) errors.push(`projection coverage is too low
 for (const [id, projection] of Object.entries(snapshot.players || {})) {
   if (!players.has(id)) { errors.push(`${id}: unknown player id`); continue; }
   if (typeof projection.hasProjection !== "boolean") errors.push(`${id}: hasProjection is not boolean`);
+  if (!projection.teamAbbrev) errors.push(`${id}: missing team abbreviation`);
+  if (projection.espnPlayerId) {
+    if (!projection.teamName) errors.push(`${id}: missing ESPN team name`);
+    if (players.get(id).pos === "DEF") {
+      if (!/^https:\/\/a\.espncdn\.com\/i\/teamlogos\/nfl\/500\/[a-z]+\.png$/.test(projection.teamLogoUrl || "")) errors.push(`${id}: invalid ESPN defense logo URL`);
+    } else if (projection.headshotUrl !== `https://a.espncdn.com/i/headshots/nfl/players/full/${projection.espnPlayerId}.png`) {
+      errors.push(`${id}: invalid ESPN headshot URL`);
+    }
+  }
   if (!projection.hasProjection) continue;
   if (!(projection.projectedPoints > 0 && projection.projectedPoints < 1000)) errors.push(`${id}: invalid projected points`);
   if (projection.pprRank !== null && !(projection.pprRank > 0 && projection.pprRank < 1000)) errors.push(`${id}: invalid PPR rank`);

@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-09-01T08:14:39.423Z",
+  "updatedAt": "2026-09-01T08:26:45.379Z",
   "provider": "ESPN",
+  "mediaProvider": "ESPN CDN",
   "season": 2026,
   "scoringFormat": "PPR",
   "sourceUrl": "https://fantasy.espn.com/football/players/projections",
@@ -11,6 +12,9 @@
     "QB-0": {
       "espnPlayerId": 3918298,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
       "pprRank": 26,
       "projectedPoints": 370.5,
       "adp": 19.6
@@ -18,6 +22,9 @@
     "QB-1": {
       "espnPlayerId": 3916387,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
       "pprRank": 49,
       "projectedPoints": 322.5,
       "adp": 35.4
@@ -25,6 +32,9 @@
     "QB-2": {
       "espnPlayerId": 4426348,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426348.png",
       "pprRank": 60,
       "projectedPoints": 317.5,
       "adp": 52.7
@@ -32,6 +42,9 @@
     "QB-3": {
       "espnPlayerId": 4040715,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
       "pprRank": 76,
       "projectedPoints": 319.8,
       "adp": 54.1
@@ -39,6 +52,9 @@
     "QB-4": {
       "espnPlayerId": 3915511,
       "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png",
       "pprRank": 70,
       "projectedPoints": 304.3,
       "adp": 54.4
@@ -46,6 +62,9 @@
     "QB-5": {
       "espnPlayerId": 4431452,
       "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png",
       "pprRank": 62,
       "projectedPoints": 320.2,
       "adp": 47.4
@@ -53,6 +72,9 @@
     "QB-6": {
       "espnPlayerId": 3139477,
       "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
       "pprRank": 132,
       "projectedPoints": 291,
       "adp": 108
@@ -60,6 +82,9 @@
     "QB-7": {
       "espnPlayerId": 4432577,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432577.png",
       "pprRank": 280,
       "projectedPoints": 246.1,
       "adp": 165.3
@@ -67,6 +92,9 @@
     "QB-8": {
       "espnPlayerId": 4036378,
       "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036378.png",
       "pprRank": 203,
       "projectedPoints": 263.4,
       "adp": 155.7
@@ -74,6 +102,9 @@
     "QB-9": {
       "espnPlayerId": 3917315,
       "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
       "pprRank": 143,
       "projectedPoints": 283.4,
       "adp": 139.3
@@ -81,6 +112,9 @@
     "QB-10": {
       "espnPlayerId": 4361741,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361741.png",
       "pprRank": 124,
       "projectedPoints": 292,
       "adp": 109.3
@@ -88,6 +122,9 @@
     "QB-11": {
       "espnPlayerId": 4360310,
       "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
       "pprRank": 120,
       "projectedPoints": 289.5,
       "adp": 98.5
@@ -95,6 +132,9 @@
     "QB-12": {
       "espnPlayerId": 14880,
       "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14880.png",
       "pprRank": 430,
       "projectedPoints": 45.8,
       "adp": 170
@@ -102,6 +142,9 @@
     "QB-13": {
       "espnPlayerId": 3046779,
       "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png",
       "pprRank": 159,
       "projectedPoints": 269.1,
       "adp": 136.2
@@ -109,6 +152,9 @@
     "QB-14": {
       "espnPlayerId": 12483,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12483.png",
       "pprRank": 141,
       "projectedPoints": 292.8,
       "adp": 91.1
@@ -116,6 +162,9 @@
     "QB-15": {
       "espnPlayerId": 2577417,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png",
       "pprRank": 80,
       "projectedPoints": 286.1,
       "adp": 73.8
@@ -123,6 +172,9 @@
     "QB-16": {
       "espnPlayerId": 4431611,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431611.png",
       "pprRank": 107,
       "projectedPoints": 281.9,
       "adp": 91.7
@@ -130,6 +182,9 @@
     "QB-17": {
       "espnPlayerId": 4038941,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038941.png",
       "pprRank": 102,
       "projectedPoints": 283.6,
       "adp": 89.2
@@ -137,6 +192,9 @@
     "QB-18": {
       "espnPlayerId": 3917792,
       "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png",
       "pprRank": 177,
       "projectedPoints": 266.6,
       "adp": 159.5
@@ -144,6 +202,9 @@
     "QB-19": {
       "espnPlayerId": 8439,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png",
       "pprRank": 385,
       "projectedPoints": 218.8,
       "adp": 169.2
@@ -151,6 +212,9 @@
     "QB-20": {
       "espnPlayerId": 4688380,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4688380.png",
       "pprRank": 315,
       "projectedPoints": 219.6,
       "adp": 169.2
@@ -158,6 +222,9 @@
     "QB-21": {
       "espnPlayerId": 4689114,
       "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4689114.png",
       "pprRank": 100,
       "projectedPoints": 299.5,
       "adp": 82.5
@@ -165,6 +232,9 @@
     "QB-22": {
       "espnPlayerId": 3052587,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
       "pprRank": 175,
       "projectedPoints": 264.7,
       "adp": 146.1
@@ -172,6 +242,9 @@
     "QB-23": {
       "espnPlayerId": 15864,
       "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15864.png",
       "pprRank": 379,
       "projectedPoints": 233.2,
       "adp": 170.1
@@ -179,6 +252,9 @@
     "QB-24": {
       "espnPlayerId": 4426338,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426338.png",
       "pprRank": 139,
       "projectedPoints": 295.7,
       "adp": 100.1
@@ -186,6 +262,9 @@
     "QB-25": {
       "espnPlayerId": 4837248,
       "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4837248.png",
       "pprRank": 383,
       "projectedPoints": 187.5,
       "adp": 168.4
@@ -193,6 +272,9 @@
     "QB-26": {
       "espnPlayerId": 4685720,
       "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685720.png",
       "pprRank": 313,
       "projectedPoints": 238.1,
       "adp": 168.9
@@ -200,6 +282,9 @@
     "QB-27": {
       "espnPlayerId": 4360689,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360689.png",
       "pprRank": 158,
       "projectedPoints": 265.6,
       "adp": 152.9
@@ -207,1135 +292,1655 @@
     "QB-28": {
       "espnPlayerId": 3912547,
       "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3912547.png",
       "pprRank": 283,
       "projectedPoints": 242.5,
       "adp": 162.3
     },
     "QB-29": {
       "espnPlayerId": 4361418,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361418.png"
     },
     "QB-30": {
       "espnPlayerId": 3122840,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122840.png",
       "pprRank": 387,
       "projectedPoints": 78.2,
       "adp": 170.1
     },
     "QB-31": {
       "espnPlayerId": 4429084,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429084.png"
     },
     "RB-0": {
       "espnPlayerId": 4429795,
       "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429795.png",
       "pprRank": 1,
-      "projectedPoints": 297.1,
+      "projectedPoints": 365,
       "adp": 1.4
     },
     "RB-1": {
       "espnPlayerId": 4430807,
       "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430807.png",
       "pprRank": 2,
-      "projectedPoints": 277,
+      "projectedPoints": 352.8,
       "adp": 2.4
     },
     "RB-2": {
       "espnPlayerId": 4242335,
       "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242335.png",
       "pprRank": 5,
-      "projectedPoints": 265.9,
+      "projectedPoints": 316.3,
       "adp": 6.4
     },
     "RB-3": {
       "espnPlayerId": 3117251,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3117251.png",
       "pprRank": 7,
-      "projectedPoints": 263,
+      "projectedPoints": 341.9,
       "adp": 7.7
     },
     "RB-4": {
       "espnPlayerId": 4379399,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4379399.png",
       "pprRank": 9,
-      "projectedPoints": 244.4,
+      "projectedPoints": 280.3,
       "adp": 10.5
     },
     "RB-5": {
       "espnPlayerId": 4429160,
       "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429160.png",
       "pprRank": 10,
-      "projectedPoints": 229,
+      "projectedPoints": 293.6,
       "adp": 12.1
     },
     "RB-6": {
       "espnPlayerId": 4362238,
       "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362238.png",
       "pprRank": 14,
-      "projectedPoints": 207.3,
+      "projectedPoints": 271.6,
       "adp": 17.6
     },
     "RB-7": {
       "espnPlayerId": 4685382,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685382.png",
       "pprRank": 13,
-      "projectedPoints": 210.1,
+      "projectedPoints": 261.7,
       "adp": 19.6
     },
     "RB-8": {
       "espnPlayerId": 3929630,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
       "pprRank": 15,
-      "projectedPoints": 230.1,
+      "projectedPoints": 273.3,
       "adp": 14.2
     },
     "RB-9": {
       "espnPlayerId": 4890973,
       "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4890973.png",
       "pprRank": 18,
-      "projectedPoints": 214.3,
+      "projectedPoints": 278.9,
       "adp": 21.4
     },
     "RB-10": {
       "espnPlayerId": 3043078,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
       "pprRank": 16,
-      "projectedPoints": 256.4,
+      "projectedPoints": 277.8,
       "adp": 16.9
     },
     "RB-11": {
       "espnPlayerId": 4870808,
       "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870808.png",
       "pprRank": 21,
-      "projectedPoints": 211.7,
+      "projectedPoints": 276.5,
       "adp": 25.8
     },
     "RB-12": {
       "espnPlayerId": 4567048,
       "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4567048.png",
       "pprRank": 25,
-      "projectedPoints": 224.8,
+      "projectedPoints": 273.1,
       "adp": 24.8
     },
     "RB-13": {
       "espnPlayerId": 4427366,
       "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4427366.png",
       "pprRank": 30,
-      "projectedPoints": 222.2,
+      "projectedPoints": 274.5,
       "adp": 35.8
     },
     "RB-14": {
       "espnPlayerId": 4047365,
       "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047365.png",
       "pprRank": 93,
-      "projectedPoints": 140.7,
+      "projectedPoints": 164.4,
       "adp": 57.8
     },
     "RB-15": {
       "espnPlayerId": 4361579,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361579.png",
       "pprRank": 31,
-      "projectedPoints": 222.6,
+      "projectedPoints": 259.5,
       "adp": 33.4
     },
     "RB-16": {
       "espnPlayerId": 4430737,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430737.png",
       "pprRank": 32,
-      "projectedPoints": 198.6,
+      "projectedPoints": 232,
       "adp": 36.5
     },
     "RB-17": {
       "espnPlayerId": 4239996,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4239996.png",
       "pprRank": 34,
-      "projectedPoints": 201.5,
+      "projectedPoints": 246.7,
       "adp": 42
     },
     "RB-18": {
       "espnPlayerId": 4685702,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685702.png",
       "pprRank": 40,
-      "projectedPoints": 194.6,
+      "projectedPoints": 226.7,
       "adp": 50
     },
     "RB-19": {
       "espnPlayerId": 4696981,
       "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4696981.png",
       "pprRank": 42,
-      "projectedPoints": 182.8,
+      "projectedPoints": 227.4,
       "adp": 45.3
     },
     "RB-20": {
       "espnPlayerId": 4259545,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4259545.png",
       "pprRank": 47,
-      "projectedPoints": 179.8,
+      "projectedPoints": 210.5,
       "adp": 54.2
     },
     "RB-21": {
       "espnPlayerId": 4882093,
       "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png",
       "pprRank": 48,
-      "projectedPoints": 171.8,
+      "projectedPoints": 205.5,
       "adp": 63.3
     },
     "RB-22": {
       "espnPlayerId": 4596448,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4596448.png",
       "pprRank": 50,
-      "projectedPoints": 170.3,
+      "projectedPoints": 207.1,
       "adp": 56.8
     },
     "RB-23": {
       "espnPlayerId": 4035538,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035538.png",
       "pprRank": 51,
-      "projectedPoints": 168.1,
+      "projectedPoints": 199.7,
       "adp": 63.2
     },
     "RB-24": {
       "espnPlayerId": 4685512,
       "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685512.png",
       "pprRank": 54,
-      "projectedPoints": 167,
+      "projectedPoints": 194.1,
       "adp": 69.3
     },
     "RB-25": {
       "espnPlayerId": 4432710,
       "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432710.png",
       "pprRank": 64,
-      "projectedPoints": 159.1,
+      "projectedPoints": 197.9,
       "adp": 79.1
     },
     "RB-26": {
       "espnPlayerId": 4569173,
       "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569173.png",
       "pprRank": 69,
-      "projectedPoints": 160.9,
+      "projectedPoints": 203.3,
       "adp": 80.2
     },
     "RB-27": {
       "espnPlayerId": 3916148,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916148.png",
       "pprRank": 74,
-      "projectedPoints": 155.8,
+      "projectedPoints": 185.5,
       "adp": 91.6
     },
     "RB-28": {
       "espnPlayerId": 4569987,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569987.png",
       "pprRank": 81,
-      "projectedPoints": 147.9,
+      "projectedPoints": 194,
       "adp": 89.6
     },
     "RB-29": {
       "espnPlayerId": 4371733,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4371733.png",
       "pprRank": 88,
-      "projectedPoints": 125.8,
+      "projectedPoints": 177.9,
       "adp": 103.7
     },
     "RB-30": {
       "espnPlayerId": 4038815,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038815.png",
       "pprRank": 95,
-      "projectedPoints": 159.1,
+      "projectedPoints": 188.3,
       "adp": 96.3
     },
     "RB-31": {
       "espnPlayerId": 4241416,
       "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241416.png",
       "pprRank": 108,
-      "projectedPoints": 134.7,
+      "projectedPoints": 175.8,
       "adp": 109.3
     },
     "RB-32": {
       "espnPlayerId": 3042519,
       "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042519.png",
       "pprRank": 110,
-      "projectedPoints": 130.7,
+      "projectedPoints": 178,
       "adp": 116.4
     },
     "RB-33": {
       "espnPlayerId": 4678008,
       "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4678008.png",
       "pprRank": 104,
-      "projectedPoints": 147.8,
+      "projectedPoints": 184.4,
       "adp": 106.5
     },
     "RB-34": {
       "espnPlayerId": 4697815,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4697815.png",
       "pprRank": 121,
-      "projectedPoints": 124,
+      "projectedPoints": 164.3,
       "adp": 126.3
     },
     "RB-35": {
       "espnPlayerId": 4608686,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4608686.png",
       "pprRank": 125,
-      "projectedPoints": 149.3,
+      "projectedPoints": 175.2,
       "adp": 124.3
     },
     "RB-36": {
       "espnPlayerId": 4241985,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241985.png",
       "pprRank": 122,
-      "projectedPoints": 153.4,
+      "projectedPoints": 174.8,
       "adp": 112.9
     },
     "RB-37": {
       "espnPlayerId": 4568490,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4568490.png",
       "pprRank": 133,
-      "projectedPoints": 100.7,
+      "projectedPoints": 149.4,
       "adp": 127.3
     },
     "RB-38": {
       "espnPlayerId": 4429096,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429096.png",
       "pprRank": 138,
-      "projectedPoints": 142.6,
+      "projectedPoints": 159.3,
       "adp": 127.4
     },
     "RB-39": {
       "espnPlayerId": 4428557,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428557.png",
       "pprRank": 160,
-      "projectedPoints": 104.8,
+      "projectedPoints": 154.3,
       "adp": 147.2
     },
     "RB-40": {
       "espnPlayerId": 4575131,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4575131.png",
       "pprRank": 145,
-      "projectedPoints": 143,
+      "projectedPoints": 159,
       "adp": 135.8
     },
     "RB-41": {
       "espnPlayerId": 4373626,
       "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4373626.png",
       "pprRank": 195,
-      "projectedPoints": 74.3,
+      "projectedPoints": 92.6,
       "adp": 162.8
     },
     "RB-42": {
       "espnPlayerId": 4596334,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4596334.png",
       "pprRank": 228,
-      "projectedPoints": 73.8,
+      "projectedPoints": 93.9,
       "adp": 169.4
     },
     "RB-43": {
       "espnPlayerId": 4702555,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4702555.png",
       "pprRank": 173,
-      "projectedPoints": 57,
+      "projectedPoints": 74.4,
       "adp": 168.4
     },
     "RB-44": {
       "espnPlayerId": 4429059,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429059.png",
       "pprRank": 167,
-      "projectedPoints": 107.6,
+      "projectedPoints": 131.8,
       "adp": 151.5
     },
     "RB-45": {
       "espnPlayerId": 4362619,
       "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362619.png",
       "pprRank": 183,
-      "projectedPoints": 67.4,
+      "projectedPoints": 71.5,
       "adp": 164.8
     },
     "RB-46": {
       "espnPlayerId": 4426385,
       "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426385.png",
       "pprRank": 165,
-      "projectedPoints": 113.7,
+      "projectedPoints": 134,
       "adp": 153.2
     },
     "RB-47": {
       "espnPlayerId": 4241474,
       "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241474.png",
       "pprRank": 207,
-      "projectedPoints": 85.2,
+      "projectedPoints": 94,
       "adp": 167.5
     },
     "RB-48": {
       "espnPlayerId": 4685555,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685555.png",
       "pprRank": 355,
-      "projectedPoints": 15.5,
+      "projectedPoints": 19.8,
       "adp": 170.4
     },
     "RB-49": {
       "espnPlayerId": 5081397,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5081397.png",
       "pprRank": 206,
-      "projectedPoints": 58.3,
+      "projectedPoints": 88.2,
       "adp": 169.2
     },
     "WR-0": {
       "espnPlayerId": 4362628,
       "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362628.png",
       "pprRank": 3,
-      "projectedPoints": 217.1,
+      "projectedPoints": 336.9,
       "adp": 4.3
     },
     "WR-1": {
       "espnPlayerId": 4426515,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426515.png",
       "pprRank": 4,
-      "projectedPoints": 230.5,
+      "projectedPoints": 353.6,
       "adp": 5.3
     },
     "WR-2": {
       "espnPlayerId": 4374302,
       "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4374302.png",
       "pprRank": 8,
-      "projectedPoints": 206.1,
+      "projectedPoints": 324.4,
       "adp": 8.3
     },
     "WR-3": {
       "espnPlayerId": 4241389,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241389.png",
       "pprRank": 11,
-      "projectedPoints": 190.1,
+      "projectedPoints": 293.6,
       "adp": 11.7
     },
     "WR-4": {
       "espnPlayerId": 4262921,
       "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4262921.png",
       "pprRank": 12,
-      "projectedPoints": 183.2,
+      "projectedPoints": 294.7,
       "adp": 12.6
     },
     "WR-5": {
       "espnPlayerId": 4047646,
       "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047646.png",
       "pprRank": 19,
-      "projectedPoints": 163.8,
+      "projectedPoints": 249.7,
       "adp": 21.8
     },
     "WR-6": {
       "espnPlayerId": 4426502,
       "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426502.png",
       "pprRank": 17,
-      "projectedPoints": 167.7,
+      "projectedPoints": 269.8,
       "adp": 19.9
     },
     "WR-7": {
       "espnPlayerId": 4258173,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258173.png",
       "pprRank": 23,
-      "projectedPoints": 161.5,
+      "projectedPoints": 248.2,
       "adp": 25.9
     },
     "WR-8": {
       "espnPlayerId": 4428331,
       "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428331.png",
       "pprRank": 27,
-      "projectedPoints": 166.8,
+      "projectedPoints": 259.3,
       "adp": 28.3
     },
     "WR-9": {
       "espnPlayerId": 4426354,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426354.png",
       "pprRank": 28,
-      "projectedPoints": 159.4,
+      "projectedPoints": 239.3,
       "adp": 28.6
     },
     "WR-10": {
       "espnPlayerId": 4361370,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361370.png",
       "pprRank": 24,
-      "projectedPoints": 158.6,
+      "projectedPoints": 249.8,
       "adp": 29.8
     },
     "WR-11": {
       "espnPlayerId": 4239993,
       "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4239993.png",
       "pprRank": 44,
-      "projectedPoints": 145.6,
+      "projectedPoints": 218.9,
       "adp": 51.2
     },
     "WR-12": {
       "espnPlayerId": 4429615,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429615.png",
       "pprRank": 38,
-      "projectedPoints": 156.8,
+      "projectedPoints": 238.5,
       "adp": 44
     },
     "WR-13": {
       "espnPlayerId": 4612826,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4612826.png",
       "pprRank": 41,
-      "projectedPoints": 141.4,
+      "projectedPoints": 221,
       "adp": 46.6
     },
     "WR-14": {
       "espnPlayerId": 4241478,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
       "pprRank": 35,
-      "projectedPoints": 148.6,
+      "projectedPoints": 239.1,
       "adp": 37.2
     },
     "WR-15": {
       "espnPlayerId": 4372016,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372016.png",
       "pprRank": 46,
-      "projectedPoints": 136.5,
+      "projectedPoints": 213.1,
       "adp": 52.7
     },
     "WR-16": {
       "espnPlayerId": 4569618,
       "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569618.png",
       "pprRank": 29,
-      "projectedPoints": 150,
+      "projectedPoints": 250.3,
       "adp": 37.2
     },
     "WR-17": {
       "espnPlayerId": 16737,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16737.png",
       "pprRank": 68,
-      "projectedPoints": 123.5,
+      "projectedPoints": 180.1,
       "adp": 86.1
     },
     "WR-18": {
       "espnPlayerId": 16800,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16800.png",
       "pprRank": 45,
-      "projectedPoints": 164.6,
+      "projectedPoints": 232.2,
       "adp": 46.3
     },
     "WR-19": {
       "espnPlayerId": 3915416,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915416.png",
       "pprRank": 53,
-      "projectedPoints": 142.6,
+      "projectedPoints": 209.7,
       "adp": 61.9
     },
     "WR-20": {
       "espnPlayerId": 15818,
       "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15818.png",
       "pprRank": 201,
-      "projectedPoints": 69.4,
+      "projectedPoints": 124.2,
       "adp": 165.7
     },
     "WR-21": {
       "espnPlayerId": 4035687,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035687.png",
       "pprRank": 73,
-      "projectedPoints": 108.7,
+      "projectedPoints": 197.2,
       "adp": 90
     },
     "WR-22": {
       "espnPlayerId": 4366031,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4366031.png"
     },
     "WR-23": {
       "espnPlayerId": 2976212,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976212.png",
       "pprRank": 106,
-      "projectedPoints": 98.3,
+      "projectedPoints": 173.1,
       "adp": 105.6
     },
     "WR-24": {
       "espnPlayerId": 3121422,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121422.png",
       "pprRank": 52,
-      "projectedPoints": 141.4,
+      "projectedPoints": 218.2,
       "adp": 61
     },
     "WR-25": {
       "espnPlayerId": 4362249,
       "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362249.png",
       "pprRank": 150,
-      "projectedPoints": 109.1,
+      "projectedPoints": 173.7,
       "adp": 137.9
     },
     "WR-26": {
       "espnPlayerId": 3895856,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3895856.png"
     },
     "WR-27": {
       "espnPlayerId": 4432773,
       "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432773.png",
       "pprRank": 114,
-      "projectedPoints": 119.6,
+      "projectedPoints": 176.6,
       "adp": 112.9
     },
     "WR-28": {
       "espnPlayerId": 3925357,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3925357.png",
       "pprRank": 205,
-      "projectedPoints": 91.9,
+      "projectedPoints": 135.2,
       "adp": 168.3
     },
     "WR-29": {
       "espnPlayerId": 3932905,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3932905.png"
     },
     "WR-30": {
       "espnPlayerId": 3126486,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3126486.png",
       "pprRank": 163,
-      "projectedPoints": 101.9,
+      "projectedPoints": 149.6,
       "adp": 141.2
     },
     "WR-31": {
       "espnPlayerId": 4360438,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360438.png"
     },
     "WR-32": {
       "espnPlayerId": 4430878,
       "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430878.png",
       "pprRank": 6,
-      "projectedPoints": 210,
+      "projectedPoints": 326.7,
       "adp": 6.2
     },
     "WR-33": {
       "espnPlayerId": 3128429,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128429.png",
       "pprRank": 78,
-      "projectedPoints": 134.9,
+      "projectedPoints": 204.1,
       "adp": 81.2
     },
     "WR-34": {
       "espnPlayerId": 4373678,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4373678.png",
       "pprRank": 130,
-      "projectedPoints": 101.2,
+      "projectedPoints": 171.3,
       "adp": 139.3
     },
     "WR-35": {
       "espnPlayerId": 4241372,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241372.png",
       "pprRank": null,
-      "projectedPoints": 21.7,
+      "projectedPoints": 34.3,
       "adp": 170
     },
     "WR-36": {
       "espnPlayerId": 4683062,
       "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4683062.png",
       "pprRank": 151,
-      "projectedPoints": 117.4,
+      "projectedPoints": 173,
       "adp": 129.3
     },
     "WR-37": {
       "espnPlayerId": 4361432,
       "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361432.png",
       "pprRank": 154,
-      "projectedPoints": 98.2,
+      "projectedPoints": 150.6,
       "adp": 148.1
     },
     "WR-38": {
       "espnPlayerId": 4248528,
       "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4248528.png",
       "pprRank": 85,
-      "projectedPoints": 132.8,
+      "projectedPoints": 188.8,
       "adp": 90.5
     },
     "WR-39": {
       "espnPlayerId": 3116165,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116165.png",
       "pprRank": 118,
-      "projectedPoints": 97,
+      "projectedPoints": 157.3,
       "adp": 125.1
     },
     "WR-40": {
       "espnPlayerId": 4871023,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4871023.png",
       "pprRank": 67,
-      "projectedPoints": 127.7,
+      "projectedPoints": 202.2,
       "adp": 76.8
     },
     "WR-41": {
       "espnPlayerId": 4870795,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870795.png",
       "pprRank": 137,
-      "projectedPoints": 103,
+      "projectedPoints": 155.2,
       "adp": 133
     },
     "WR-42": {
       "espnPlayerId": 4710714,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4710714.png",
       "pprRank": 152,
-      "projectedPoints": 108,
+      "projectedPoints": 160.2,
       "adp": 141.5
     },
     "WR-43": {
       "espnPlayerId": 4880281,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4880281.png",
       "pprRank": 223,
-      "projectedPoints": 64.2,
+      "projectedPoints": 99.8,
       "adp": 168
     },
     "WR-44": {
       "espnPlayerId": 4870653,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870653.png",
       "pprRank": 164,
-      "projectedPoints": 97.4,
+      "projectedPoints": 156,
       "adp": 146.6
     },
     "WR-45": {
       "espnPlayerId": 4832800,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4832800.png",
       "pprRank": 215,
-      "projectedPoints": 86.9,
+      "projectedPoints": 142.3,
       "adp": 168.8
     },
     "WR-46": {
       "espnPlayerId": 3916433,
       "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
       "pprRank": 112,
-      "projectedPoints": 112.1,
+      "projectedPoints": 181.9,
       "adp": 122.1
     },
     "WR-47": {
       "espnPlayerId": 4241463,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241463.png",
       "pprRank": 216,
-      "projectedPoints": 87.9,
+      "projectedPoints": 139.8,
       "adp": 168.3
     },
     "WR-48": {
       "espnPlayerId": 4249417,
       "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4249417.png",
       "pprRank": 330,
-      "projectedPoints": 54.2,
+      "projectedPoints": 89.5,
       "adp": 170.6
     },
     "WR-49": {
       "espnPlayerId": 16731,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16731.png"
     },
     "WR-50": {
       "espnPlayerId": 4569382,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569382.png",
       "pprRank": null,
-      "projectedPoints": 14.3,
+      "projectedPoints": 21.8,
       "adp": 170
     },
     "WR-51": {
       "espnPlayerId": 3043116,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043116.png",
       "pprRank": null,
-      "projectedPoints": 12.4,
+      "projectedPoints": 19,
       "adp": 170
     },
     "WR-52": {
       "espnPlayerId": 4360797,
       "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360797.png",
       "pprRank": null,
-      "projectedPoints": 21.2,
+      "projectedPoints": 30.9,
       "adp": 170.1
     },
     "WR-53": {
       "espnPlayerId": 4360761,
       "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360761.png",
       "pprRank": 97,
-      "projectedPoints": 105.8,
+      "projectedPoints": 176.4,
       "adp": 102.2
     },
     "WR-54": {
       "espnPlayerId": 4037235,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4037235.png"
     },
     "WR-55": {
       "espnPlayerId": 4360939,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360939.png",
       "pprRank": 232,
-      "projectedPoints": 84.7,
+      "projectedPoints": 122.3,
       "adp": 171.4
     },
     "WR-56": {
       "espnPlayerId": 4040655,
       "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040655.png",
       "pprRank": 419,
-      "projectedPoints": 42.2,
+      "projectedPoints": 63.7,
       "adp": 170.4
     },
     "WR-57": {
       "espnPlayerId": 4426407,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426407.png"
     },
     "WR-58": {
       "espnPlayerId": 4430834,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430834.png",
       "pprRank": 171,
-      "projectedPoints": 85.6,
+      "projectedPoints": 132.9,
       "adp": 164.9
     },
     "WR-59": {
       "espnPlayerId": 4686472,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686472.png",
       "pprRank": 372,
-      "projectedPoints": 45.9,
+      "projectedPoints": 70,
       "adp": 170.2
     },
     "WR-60": {
       "espnPlayerId": 4431280,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431280.png",
       "pprRank": 980,
-      "projectedPoints": 33.7,
+      "projectedPoints": 50.7,
       "adp": 170.1
     },
     "WR-61": {
       "espnPlayerId": 4428209,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428209.png"
     },
     "WR-62": {
       "espnPlayerId": 3886598,
       "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3886598.png",
       "pprRank": 285,
-      "projectedPoints": 68.2,
+      "projectedPoints": 115,
       "adp": 171.1
     },
     "WR-63": {
       "espnPlayerId": 4372414,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372414.png"
     },
     "WR-64": {
       "espnPlayerId": 4369863,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4369863.png"
     },
     "WR-65": {
       "espnPlayerId": 4431492,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431492.png",
       "pprRank": null,
-      "projectedPoints": 17.1,
+      "projectedPoints": 28.8,
       "adp": 170
     },
     "WR-66": {
       "espnPlayerId": 3930066,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3930066.png"
     },
     "WR-67": {
       "espnPlayerId": 4360078,
       "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360078.png",
       "pprRank": 111,
-      "projectedPoints": 125.5,
+      "projectedPoints": 185.4,
       "adp": 108.1
     },
     "WR-68": {
       "espnPlayerId": 4428718,
       "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428718.png",
       "pprRank": 226,
-      "projectedPoints": 89.6,
+      "projectedPoints": 138,
       "adp": 169.1
     },
     "WR-69": {
       "espnPlayerId": 4692022,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4692022.png"
     },
     "WR-70": {
       "espnPlayerId": 3128390,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128390.png"
     },
     "WR-71": {
       "espnPlayerId": 4567096,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4567096.png"
     },
     "WR-72": {
       "espnPlayerId": 4569559,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569559.png",
       "pprRank": 236,
-      "projectedPoints": 74,
+      "projectedPoints": 123.4,
       "adp": 171.7
     },
     "WR-73": {
       "espnPlayerId": 3121409,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121409.png"
     },
     "WR-74": {
       "espnPlayerId": 4426948,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426948.png",
       "pprRank": null,
-      "projectedPoints": 11.7,
+      "projectedPoints": 18.4,
       "adp": 169.9
     },
     "WR-75": {
       "espnPlayerId": 4361409,
       "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361409.png",
       "pprRank": 328,
-      "projectedPoints": 57.6,
+      "projectedPoints": 92.8,
       "adp": 170.7
     },
     "WR-76": {
       "espnPlayerId": 4695883,
       "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4695883.png",
       "pprRank": 156,
-      "projectedPoints": 85.9,
+      "projectedPoints": 147,
       "adp": 155.6
     },
     "WR-77": {
       "espnPlayerId": 2577327,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577327.png"
     },
     "WR-78": {
       "espnPlayerId": 3045144,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045144.png"
     },
     "WR-79": {
       "espnPlayerId": 4613104,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4613104.png",
       "pprRank": null,
-      "projectedPoints": 10.2,
+      "projectedPoints": 13.6,
       "adp": 170
     },
     "WR-80": {
       "espnPlayerId": 4429022,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429022.png",
       "pprRank": 305,
-      "projectedPoints": 87.9,
+      "projectedPoints": 139,
       "adp": 170.6
     },
     "WR-81": {
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA"
     },
     "WR-82": {
       "espnPlayerId": 4688813,
       "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4688813.png",
       "pprRank": 127,
-      "projectedPoints": 87.6,
+      "projectedPoints": 157.7,
       "adp": 137.1
     },
     "WR-83": {
       "espnPlayerId": 4243537,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4243537.png"
     },
     "WR-84": {
       "espnPlayerId": 4597500,
       "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4597500.png",
       "pprRank": 220,
-      "projectedPoints": 85.9,
+      "projectedPoints": 127.9,
       "adp": 171.1
     },
     "WR-85": {
       "espnPlayerId": 4431299,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431299.png",
       "pprRank": 58,
-      "projectedPoints": 153.7,
+      "projectedPoints": 213.6,
       "adp": 64.9
     },
     "WR-86": {
       "espnPlayerId": 4569587,
       "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569587.png",
       "pprRank": 91,
-      "projectedPoints": 96,
+      "projectedPoints": 174.8,
       "adp": 114.8
     },
     "WR-87": {
       "espnPlayerId": 3916945,
       "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916945.png",
       "pprRank": 333,
-      "projectedPoints": 51.7,
+      "projectedPoints": 80.1,
       "adp": 170.6
     },
     "WR-88": {
       "espnPlayerId": 4692590,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4692590.png"
     },
     "WR-89": {
       "espnPlayerId": 3121410,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121410.png"
     },
     "WR-90": {
       "espnPlayerId": 4686104,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686104.png"
     },
     "WR-91": {
       "espnPlayerId": 4429025,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429025.png",
       "pprRank": 148,
-      "projectedPoints": 112.6,
+      "projectedPoints": 165.4,
       "adp": 130.4
     },
     "WR-92": {
       "espnPlayerId": 4242433,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242433.png",
       "pprRank": 981,
-      "projectedPoints": 31.4,
+      "projectedPoints": 50.3,
       "adp": 170
     },
     "WR-93": {
       "espnPlayerId": 3115394,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115394.png"
     },
     "TE-0": {
       "espnPlayerId": 4432665,
       "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432665.png",
       "pprRank": 22,
-      "projectedPoints": 142.2,
+      "projectedPoints": 240.9,
       "adp": 24
     },
     "TE-1": {
       "espnPlayerId": 4361307,
       "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361307.png",
       "pprRank": 20,
-      "projectedPoints": 133.9,
+      "projectedPoints": 241.7,
       "adp": 22.4
     },
     "TE-2": {
       "espnPlayerId": 4723086,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4723086.png",
       "pprRank": 43,
-      "projectedPoints": 126,
+      "projectedPoints": 206.9,
       "adp": 42.8
     },
     "TE-3": {
       "espnPlayerId": 4431459,
       "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431459.png",
       "pprRank": 56,
-      "projectedPoints": 126.1,
+      "projectedPoints": 210.6,
       "adp": 52
     },
     "TE-4": {
       "espnPlayerId": 5083076,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5083076.png",
       "pprRank": 77,
-      "projectedPoints": 105,
+      "projectedPoints": 188.9,
       "adp": 71.3
     },
     "TE-5": {
       "espnPlayerId": 4430027,
       "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430027.png",
       "pprRank": 92,
-      "projectedPoints": 110.4,
+      "projectedPoints": 188.9,
       "adp": 73.1
     },
     "TE-6": {
       "espnPlayerId": 4360248,
       "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360248.png",
       "pprRank": 79,
-      "projectedPoints": 104.7,
+      "projectedPoints": 185.1,
       "adp": 68
     },
     "TE-7": {
       "espnPlayerId": 3040151,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3040151.png",
       "pprRank": 89,
-      "projectedPoints": 116.9,
+      "projectedPoints": 193.4,
       "adp": 77.3
     },
     "TE-8": {
       "espnPlayerId": 4572680,
       "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4572680.png",
       "pprRank": 126,
-      "projectedPoints": 104.2,
+      "projectedPoints": 172.3,
       "adp": 91.1
     },
     "TE-9": {
       "espnPlayerId": 4242355,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242355.png",
       "pprRank": 140,
-      "projectedPoints": 93.7,
+      "projectedPoints": 166.6,
       "adp": 109.5
     },
     "TE-10": {
       "espnPlayerId": 3121023,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
       "pprRank": 134,
-      "projectedPoints": 106.3,
+      "projectedPoints": 176.9,
       "adp": 103.8
     },
     "TE-11": {
       "espnPlayerId": 3116365,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116365.png",
       "pprRank": 153,
-      "projectedPoints": 111.1,
+      "projectedPoints": 169.1,
       "adp": 125.8
     },
     "TE-12": {
       "espnPlayerId": 4385690,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4385690.png",
       "pprRank": 157,
-      "projectedPoints": 96.3,
+      "projectedPoints": 155.5,
       "adp": 130.9
     },
     "TE-13": {
       "espnPlayerId": 3051876,
       "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051876.png",
       "pprRank": 412,
-      "projectedPoints": 59.2,
+      "projectedPoints": 106.5,
       "adp": 170
     },
     "TE-14": {
       "espnPlayerId": 3123076,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3123076.png",
       "pprRank": 414,
-      "projectedPoints": 64.5,
+      "projectedPoints": 104.3,
       "adp": 169.7
     },
     "TE-15": {
       "espnPlayerId": 4361050,
       "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png",
       "pprRank": 147,
-      "projectedPoints": 92.1,
+      "projectedPoints": 155.1,
       "adp": 123.2
     },
     "TE-16": {
       "espnPlayerId": 4361411,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361411.png",
       "pprRank": 296,
-      "projectedPoints": 76.3,
+      "projectedPoints": 136.3,
       "adp": 169.6
     },
     "TE-17": {
       "espnPlayerId": 3117256,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3117256.png",
       "pprRank": 297,
-      "projectedPoints": 73.3,
+      "projectedPoints": 132.9,
       "adp": 168.7
     },
     "TE-18": {
       "espnPlayerId": 4036133,
       "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036133.png",
       "pprRank": 199,
-      "projectedPoints": 80.8,
+      "projectedPoints": 158.9,
       "adp": 148.6
     },
     "TE-19": {
       "espnPlayerId": 4428085,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428085.png"
     },
     "TE-20": {
       "espnPlayerId": 3046439,
       "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046439.png",
       "pprRank": 192,
-      "projectedPoints": 94.6,
+      "projectedPoints": 150.3,
       "adp": 151.5
     },
     "TE-21": {
       "espnPlayerId": 3915486,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915486.png"
     },
     "TE-22": {
       "espnPlayerId": 4243331,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4243331.png",
       "pprRank": 368,
-      "projectedPoints": 57.6,
+      "projectedPoints": 102.1,
       "adp": 170.4
     },
     "TE-23": {
       "espnPlayerId": 4360635,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360635.png",
       "pprRank": 311,
-      "projectedPoints": 69.8,
+      "projectedPoints": 120.9,
       "adp": 170.2
     },
     "TE-24": {
       "espnPlayerId": 4690923,
       "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4690923.png",
       "pprRank": null,
-      "projectedPoints": 15.5,
+      "projectedPoints": 26.6,
       "adp": 170
     },
     "K-0": {
       "espnPlayerId": 3953687,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3953687.png",
       "pprRank": 146,
       "projectedPoints": 171.5,
       "adp": 85.9
@@ -1343,6 +1948,9 @@
     "K-1": {
       "espnPlayerId": 3055899,
       "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3055899.png",
       "pprRank": 256,
       "projectedPoints": 148.8,
       "adp": 143.9
@@ -1350,6 +1958,9 @@
     "K-2": {
       "espnPlayerId": 3050478,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3050478.png",
       "pprRank": 488,
       "projectedPoints": 135.7,
       "adp": 169
@@ -1357,21 +1968,33 @@
     "K-3": {
       "espnPlayerId": 2971573,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2971573.png",
       "pprRank": 190,
       "projectedPoints": 157.8,
       "adp": 126
     },
     "K-4": {
       "espnPlayerId": 3049899,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3049899.png"
     },
     "K-5": {
       "espnPlayerId": 4372066,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372066.png"
     },
     "K-6": {
       "espnPlayerId": 4360234,
       "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360234.png",
       "pprRank": 363,
       "projectedPoints": 141.8,
       "adp": 169.3
@@ -1379,17 +2002,26 @@
     "K-7": {
       "espnPlayerId": 4362081,
       "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362081.png",
       "pprRank": 181,
       "projectedPoints": 161.9,
       "adp": 112.3
     },
     "K-8": {
       "espnPlayerId": 3124679,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3124679.png"
     },
     "K-9": {
       "espnPlayerId": 3917232,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917232.png",
       "pprRank": 491,
       "projectedPoints": 137,
       "adp": 169.6
@@ -1397,6 +2029,9 @@
     "K-10": {
       "espnPlayerId": 4249087,
       "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4249087.png",
       "pprRank": 497,
       "projectedPoints": 125.1,
       "adp": 169.6
@@ -1404,6 +2039,9 @@
     "K-11": {
       "espnPlayerId": 2473037,
       "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2473037.png",
       "pprRank": 187,
       "projectedPoints": 158.5,
       "adp": 116.3
@@ -1411,6 +2049,9 @@
     "K-12": {
       "espnPlayerId": 3150744,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3150744.png",
       "pprRank": 339,
       "projectedPoints": 142.2,
       "adp": 170.2
@@ -1418,17 +2059,26 @@
     "K-13": {
       "espnPlayerId": 17427,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17427.png",
       "pprRank": 265,
       "projectedPoints": 144.3,
       "adp": 169
     },
     "K-14": {
       "espnPlayerId": 14993,
-      "hasProjection": false
+      "hasProjection": false,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14993.png"
     },
     "K-15": {
       "espnPlayerId": 17372,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17372.png",
       "pprRank": 338,
       "projectedPoints": 142.8,
       "adp": 164.6
@@ -1436,6 +2086,9 @@
     "K-16": {
       "espnPlayerId": 4259619,
       "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4259619.png",
       "pprRank": null,
       "projectedPoints": 119.9,
       "adp": 170
@@ -1443,6 +2096,9 @@
     "K-17": {
       "espnPlayerId": 4258620,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258620.png",
       "pprRank": 503,
       "projectedPoints": 121.6,
       "adp": 169.9
@@ -1450,6 +2106,9 @@
     "K-18": {
       "espnPlayerId": 4697745,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4697745.png",
       "pprRank": 263,
       "projectedPoints": 145.9,
       "adp": 165.3
@@ -1457,6 +2116,9 @@
     "K-19": {
       "espnPlayerId": 3051909,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051909.png",
       "pprRank": 489,
       "projectedPoints": 137.8,
       "adp": 170.2
@@ -1464,6 +2126,9 @@
     "DEF-0": {
       "espnPlayerId": -16025,
       "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
       "pprRank": 409,
       "projectedPoints": 83.1,
       "adp": 169
@@ -1471,6 +2136,9 @@
     "DEF-1": {
       "espnPlayerId": -16033,
       "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
       "pprRank": 242,
       "projectedPoints": 120,
       "adp": 133.9
@@ -1478,6 +2146,9 @@
     "DEF-2": {
       "espnPlayerId": -16006,
       "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
       "pprRank": 424,
       "projectedPoints": 78.1,
       "adp": 167.2
@@ -1485,6 +2156,9 @@
     "DEF-3": {
       "espnPlayerId": -16020,
       "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
       "pprRank": 408,
       "projectedPoints": 82.6,
       "adp": 170.2
@@ -1492,6 +2166,9 @@
     "DEF-4": {
       "espnPlayerId": -16005,
       "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
       "pprRank": 246,
       "projectedPoints": 103.9,
       "adp": 157.8
@@ -1499,6 +2176,9 @@
     "DEF-5": {
       "espnPlayerId": -16002,
       "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
       "pprRank": 516,
       "projectedPoints": 59,
       "adp": 169
@@ -1506,6 +2186,9 @@
     "DEF-6": {
       "espnPlayerId": -16012,
       "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
       "pprRank": 250,
       "projectedPoints": 100.4,
       "adp": 165.9
@@ -1513,6 +2196,9 @@
     "DEF-7": {
       "espnPlayerId": -16021,
       "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
       "pprRank": 243,
       "projectedPoints": 107.1,
       "adp": 137.7
@@ -1520,6 +2206,9 @@
     "DEF-8": {
       "espnPlayerId": -16015,
       "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
       "pprRank": 519,
       "projectedPoints": 45.1,
       "adp": 169.7
@@ -1527,6 +2216,9 @@
     "DEF-9": {
       "espnPlayerId": -16034,
       "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
       "pprRank": 179,
       "projectedPoints": 129.2,
       "adp": 91.6
@@ -1534,6 +2226,9 @@
     "DEF-10": {
       "espnPlayerId": -16008,
       "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
       "pprRank": 249,
       "projectedPoints": 108,
       "adp": 154.6
@@ -1541,6 +2236,9 @@
     "DEF-11": {
       "espnPlayerId": -16023,
       "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
       "pprRank": 239,
       "projectedPoints": 123.1,
       "adp": 121.4
@@ -1548,6 +2246,9 @@
     "DEF-12": {
       "espnPlayerId": -16009,
       "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
       "pprRank": 337,
       "projectedPoints": 90.3,
       "adp": 169.3
@@ -1555,6 +2256,9 @@
     "DEF-13": {
       "espnPlayerId": -16026,
       "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
       "pprRank": 240,
       "projectedPoints": 122.2,
       "adp": 112.1
@@ -1562,6 +2266,9 @@
     "DEF-14": {
       "espnPlayerId": -16018,
       "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
       "pprRank": 361,
       "projectedPoints": 89,
       "adp": 170.5
@@ -1569,6 +2276,9 @@
     "DEF-15": {
       "espnPlayerId": -16030,
       "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
       "pprRank": 359,
       "projectedPoints": 78.5,
       "adp": 168
@@ -1576,6 +2286,9 @@
     "DEF-16": {
       "espnPlayerId": -16027,
       "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
       "pprRank": 336,
       "projectedPoints": 93,
       "adp": 170.4
@@ -1583,6 +2296,9 @@
     "DEF-17": {
       "espnPlayerId": -16016,
       "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
       "pprRank": 426,
       "projectedPoints": 74.4,
       "adp": 169
@@ -1590,6 +2306,9 @@
     "DEF-18": {
       "espnPlayerId": -16003,
       "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
       "pprRank": 506,
       "projectedPoints": 71.4,
       "adp": 169.6
@@ -1597,6 +2316,9 @@
     "DEF-19": {
       "espnPlayerId": -16004,
       "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
       "pprRank": 427,
       "projectedPoints": 72.4,
       "adp": 169.7

@@ -33,7 +33,7 @@ that spreadsheet.
 | `index.html` | **The app that actually runs.** Self-contained: React and all app code are bundled and minified inside this one file. This is what GitHub Pages serves. Do not hand-edit unless there is no alternative. |
 | `auction-draft-board.jsx` | **The readable source code.** All logic and UI live here. Make changes here, then rebuild `index.html`. |
 | `entry.jsx` | React mount plus the required `window.storage` to `localStorage` shim. |
-| `player-projections.json` | Build-time snapshot of ESPN's 2026 PPR rank, projected points, and ADP for the board. Every built-in player has an explicit projected/not-projected status. |
+| `player-projections.json` | Build-time snapshot of ESPN's 2026 PPR rank, projected points, ADP, current team, headshot URL, or defense-logo URL. Every built-in player has an explicit projected/not-projected status. |
 | `assets/banner/` | Original, logo-free football snap/contact frames plus the generated seamless-loop laptop banner GIF. |
 | `scripts/` | Deterministic app/banner builds, bundle verification, ESPN projection refresh, and projection coverage audit. |
 | `package.json` | Pinned React/esbuild versions and the supported build/test commands. |
@@ -112,6 +112,11 @@ Point him at these before proposing anything technical:
   without a positive ESPN season projection explicitly say no projection is
   listed. Do not substitute NFL prospect grades or present ESPN data as the
   user's Max bid.
+- **Player identity.** Available-player rows and the bid modal use ESPN's current
+  full team name. Individual players use ESPN CDN headshots; defenses use ESPN
+  team logos. `PlayerAvatar` hides a failed image and leaves the colored
+  position fallback visible. Media is remotely hosted, so loss of connectivity
+  may remove the photo/logo but must never block drafting.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
   or Excel). Also "Save a backup file" for the full restorable state.
 - **Track acquisition order.** My Team shows a compact `#1`, `#2`, and so on
@@ -217,10 +222,11 @@ The runnable `index.html` is generated from the source. To change behavior:
 ### Draft-day ESPN projections
 
 ESPN data is a static build-time snapshot, not a live in-app dependency. The
-updater reads ESPN's 2026 fantasy projections and matches names without
-reordering the board's positional IDs. It stores only factual summary fields:
-PPR rank, projected points, ADP, match status, and source metadata. It does not
-copy ESPN outlook prose. Shortly before the September 5, 2026 draft, run:
+updater reads ESPN's 2026 PPR fantasy projections and current pro-team mapping,
+then matches names without reordering the board's positional IDs. It stores only
+factual summary fields plus ESPN CDN media URLs: PPR rank, projected points, ADP,
+team name, match status, and source metadata. It does not copy ESPN outlook
+prose. Shortly before the September 5, 2026 draft, run:
 
 ```bash
 npm run draft-day-refresh
@@ -240,9 +246,10 @@ clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
 banner animation, Target priority sorting, non-negative bid enforcement, My Team
 acquisition order, and the player-focused-news checkpoint. The current
-checkpoint is `draft-build-20-espn-projections`, which removes the news feature
-and replaces it with sourced ESPN fantasy summaries. Build 19 is the immediate
-rollback point for restoring the news experiment.
+checkpoint is `draft-build-21-player-media`, which adds player headshots, current
+ESPN team names, and defense logos. Build 20 is the immediate rollback point for
+the ESPN-summary layout without remote player/team images; build 19 restores the
+earlier news experiment.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 
@@ -259,7 +266,7 @@ casually.
 | "Nothing shows up in my Google Sheet" | Sheet sync is optional and off unless a URL is set. The app sends data without reading a response, so a bad URL fails silently. Re-check the Apps Script deployment (must be "Anyone" access) and re-paste the web app URL into Settings. See `draft-sync.gs`. |
 | "The app won't open / white screen" | Have him open the GitHub Pages URL directly in Chrome. If that works, reinstall the app from the ⋮ menu. Draft data survives reinstalling. |
 | "The latest changes are not live" | Confirm `origin/main`, inspect the newest Pages Actions run, and compare the live `index.html` with the local build. For legacy Pages, explicitly POST `repos/TheFireSays/draft-board/pages/builds` if no run was triggered. |
-| "Can we add team logos?" | NFL logos are trademarked and deliberately not included. He may supply his own image files if he wants. |
+| "A headshot or defense logo is missing" | ESPN media is loaded remotely and may be unavailable offline or for a newly added/custom player. The colored position fallback is intentional; drafting remains fully functional. |
 
 ### Google Sheets sync setup
 
