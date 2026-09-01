@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useRef } from "react";
+import playerNewsSnapshot from "./player-news.json";
 
 // ---------- Player data (from the 2026 auction sheet) ----------
 const RAW = {
@@ -403,6 +404,7 @@ export default function AuctionDraftBoard() {
   const overMax = selected && priceNum > maxBid;
   const duplicateSpecialPosition = selected && ["K", "DEF"].includes(selected.pos)
     && myPicks.some(pk => findP(pk.playerId).pos === selected.pos);
+  const selectedNews = selected ? playerNewsSnapshot.players?.[selected.id] : null;
 
   // ---------- Styles ----------
   const S = {
@@ -778,6 +780,18 @@ export default function AuctionDraftBoard() {
             >
               {targetIdSet.has(selected.id) ? "★ In Targets — tap to remove" : "☆ Add to Targets"}
             </button>
+
+            {selectedNews && (
+              <div style={{ margin: "0 0 12px", padding: "12px 13px", border: "1px solid #C7D8E8", borderRadius: 11, background: "#F2F7FB" }}>
+                <div style={{ color: "#1D4E89", fontSize: 12, fontWeight: 900, letterSpacing: ".04em", marginBottom: 5 }}>LATEST NEWS</div>
+                <a href={selectedNews.url} target="_blank" rel="noreferrer" style={{ color: "#173E6A", fontSize: 15, fontWeight: 750, lineHeight: 1.35, textDecoration: "underline" }}>
+                  {selectedNews.headline}
+                </a>
+                <div style={{ marginTop: 5, color: "#687686", fontSize: 12 }}>
+                  {selectedNews.publisher || "News source"} · {new Date(selectedNews.publishedAt).toLocaleDateString()} · opens source
+                </div>
+              </div>
+            )}
 
             <label style={{ display: "block", fontSize: 15, fontWeight: 800, color: "#41493F", margin: "0 0 6px" }}>
               Personal note <span style={{ fontWeight: 500, color: "#7C857A" }}>(optional)</span>
