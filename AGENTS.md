@@ -102,8 +102,6 @@ Point him at these before proposing anything technical:
   Targets are automatically promoted within their position category without
   changing the saved player ranking inside the Target/non-Target groups. The
   Targets filter shows only the watchlist. Personal notes use the same card.
-- **Recent pick context.** The scrolling ticker shows the latest six picks. Its
-  × button hides it; Settings turns it back on. It honors reduced-motion mode.
 - **Duplicate-position reminder.** Drafting a second K or DEF shows an advisory
   warning but is intentionally allowed.
 - **ESPN fantasy summary.** Each built-in player's card reads its status from
@@ -155,9 +153,9 @@ near the bottom of the component.
   its stable sort groups the ALL list by `POSITION_ORDER` and promotes Targets
   within each position while preserving original rank order.
 - `playerNotes` — object keyed by player ID; notes are capped at 300 characters.
-- `settings` — currently `budget`, `rosterSize`, `ticker`, and `syncUrl`.
-  Old saved objects may still contain an ignored `rain` property from builds
-  before the digital-rain background was removed.
+- `settings` — currently `budget`, `rosterSize`, and `syncUrl`. Old saved
+  objects may still contain ignored `ticker` or `rain` properties from builds
+  before those visual features were removed.
 
 **Responsive layout:** `wide` is driven by `(min-width: 900px)`. At laptop width,
 the scoreboard includes the centered app title over an original, logo-free
@@ -165,8 +163,8 @@ football snap animation. Its two-second snap-to-contact-to-snap cycle has a
 seamless boundary; the app freezes on the fourth collision pass after about
 seven seconds by replacing it with the static contact PNG.
 `prefers-reduced-motion: reduce` uses that PNG immediately. The phone scoreboard
-remains solid green. Navigation is
-rendered immediately below the scoreboard/ticker and sticks at the top while
+remains solid green. Navigation is rendered immediately below the scoreboard
+and sticks at the top while
 scrolling, and a 360px live roster sidebar appears on the Draft tab. Below
 900px, navigation is fixed at the bottom and the roster remains on the My Team
 tab. The outer page background is the static neutral `#E8ECE6`; there is no
@@ -240,16 +238,17 @@ without a positive projection remains in the board with an explicit
 ### Reversible build checkpoints
 
 The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
-is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
+is the pre-enhancement baseline; later tags add the former ticker, Targets, advisory,
 notes, the former news experiment, laptop layout, build verification, credit,
 clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
 banner animation, Target priority sorting, non-negative bid enforcement, My Team
 acquisition order, and the player-focused-news checkpoint. The current
-checkpoint is `draft-build-21-player-media`, which adds player headshots, current
-ESPN team names, and defense logos. Build 20 is the immediate rollback point for
-the ESPN-summary layout without remote player/team images; build 19 restores the
-earlier news experiment.
+checkpoint is `draft-build-22-no-ticker`, which removes the recent-picks ticker
+and its Settings control. Build 21 is the immediate rollback point for restoring
+the ticker while keeping player headshots, current ESPN team names, and defense
+logos; build 20 restores the ESPN-summary layout without remote player/team
+images.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

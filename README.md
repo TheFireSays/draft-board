@@ -64,8 +64,6 @@ Useful extras:
   colored position marker appears instead; drafting still works normally.
 - If you already own a kicker or defense, the app gives a quick warning before
   adding another. It is only a reminder and never blocks the pick.
-- The recent-picks ticker can be hidden from the ticker itself or turned back on
-  in **Settings**.
 - **Brought to you by: TheFireSays** in the bottom-right corner links to the
   project owner's GitHub profile.
 
@@ -94,8 +92,8 @@ Those snapshots stay on the same device. For an off-device copy, go to
 **Settings** → **Restore from a backup file** and pick that file.
 
 **Other settings:**
-Budget, roster size, the recent-picks ticker, and downloading your results as a
-spreadsheet are all under **Settings**.
+Budget, roster size, and downloading your results as a spreadsheet are all
+under **Settings**.
 
 **Optional Google Sheets copy:**
 Settings also has a **Sheet sync URL**. It needs the special Google Apps Script

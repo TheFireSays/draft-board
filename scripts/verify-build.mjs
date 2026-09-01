@@ -21,7 +21,6 @@ requireText("ESPN source", "ESPN projection attribution");
 requireText("ESPN CDN", "ESPN media attribution");
 requireText("Current roster", "laptop roster sidebar");
 requireText("My pick", "My Team draft order accessibility label");
-requireText("Recent picks ticker", "recent-picks setting");
 requireText("Brought to you by: TheFireSays", "TheFireSays credit");
 requireText("background:#E8ECE6", "clean page background");
 requireText("window.storage", "storage shim");
@@ -39,6 +38,7 @@ if (!source.includes('sanitizeBidAmount') || !source.includes('pattern="[0-9]*"'
 if (!source.includes('"My Pick Order"') || !source.includes('myPickIndex')) failures.push("My Team draft order is not tracked in the roster and CSV");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
 if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
+if (source.includes("RecentPicksTicker") || source.includes("recent-picks-track") || html.includes("Recent picks ticker")) failures.push("recent-picks ticker is still present");
 if (projections.provider !== "ESPN" || projections.mediaProvider !== "ESPN CDN" || projections.scoringFormat !== "PPR") failures.push("projection snapshot is missing ESPN PPR/media attribution");
 if ((projections.projectedPlayers || 0) < 175) failures.push("projection snapshot coverage is unexpectedly low");
 if (bannerGif.subarray(0, 6).toString("ascii") !== "GIF89a") failures.push("football banner is not a GIF89a asset");

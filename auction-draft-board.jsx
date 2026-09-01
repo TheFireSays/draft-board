@@ -57,44 +57,7 @@ function PlayerAvatar({ player, media, size = 56 }) {
   );
 }
 
-function RecentPicksTicker({ picks, findPlayer, onDismiss }) {
-  const recent = picks.slice(-6).reverse().map(pk => {
-    const player = findPlayer(pk.playerId);
-    return `${player.name} — ${pk.mine ? `yours for $${pk.price}` : (pk.price ? `$${pk.price}` : "gone")}`;
-  });
-  const message = recent.join("  •  ");
-  return (
-    <div
-      role="status"
-      aria-label={`Recent picks: ${message}`}
-      style={{ display: "flex", alignItems: "center", background: "#EAF2ED", borderBottom: "1px solid #C9D8CF", minHeight: 38, overflow: "hidden" }}
-    >
-      <style>{`
-        @keyframes recent-picks-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-        .recent-picks-track { animation: recent-picks-scroll 28s linear infinite; }
-        @media (prefers-reduced-motion: reduce) { .recent-picks-track { animation: none; transform: none; } }
-      `}</style>
-      <div style={{ background: "#123524", color: "#fff", alignSelf: "stretch", display: "flex", alignItems: "center", padding: "0 10px", fontSize: 12, fontWeight: 800, letterSpacing: ".04em", flexShrink: 0, zIndex: 1 }}>
-        RECENT
-      </div>
-      <div aria-hidden="true" style={{ overflow: "hidden", whiteSpace: "nowrap", flex: 1 }}>
-        <div className="recent-picks-track" style={{ display: "inline-flex", width: "max-content", fontSize: 14, fontWeight: 650, color: "#27382E" }}>
-          <span style={{ padding: "0 28px" }}>{message}</span>
-          <span style={{ padding: "0 28px" }}>{message}</span>
-        </div>
-      </div>
-      <button
-        type="button"
-        onClick={onDismiss}
-        aria-label="Hide recent picks ticker"
-        title="Hide ticker"
-        style={{ alignSelf: "stretch", border: "none", borderLeft: "1px solid #C9D8CF", background: "#EAF2ED", color: "#526158", padding: "0 12px", fontSize: 20, cursor: "pointer", flexShrink: 0 }}
-      >×</button>
-    </div>
-  );
-}
-
-const DEFAULT_SETTINGS = { budget: 100, rosterSize: 15, ticker: true, syncUrl: "" };
+const DEFAULT_SETTINGS = { budget: 100, rosterSize: 15, syncUrl: "" };
 const STORE_KEY = "auction-draft-v1";
 const AUTO_BACKUP_KEY = "auction-draft-auto-backups-v1";
 const AUTO_BACKUP_INTERVAL = 5 * 60 * 1000;
@@ -513,14 +476,6 @@ export default function AuctionDraftBoard() {
         </div>
       </div>
 
-      {settings.ticker !== false && picks.length > 0 && (
-        <RecentPicksTicker
-          picks={picks}
-          findPlayer={findP}
-          onDismiss={() => setSettings(s => ({ ...s, ticker: false }))}
-        />
-      )}
-
       {wide && (
         <nav style={S.tabBar} aria-label="Main navigation">
           <button style={S.tabBtn(tab === "draft")} onClick={() => setTab("draft")}>Draft</button>
@@ -726,14 +681,6 @@ export default function AuctionDraftBoard() {
             onChange={e => setSettings(s => ({ ...s, rosterSize: parseInt(e.target.value, 10) || 0 }))}
             style={{ ...S.search, fontSize: 20 }}
           />
-          <label style={{ display: "block", fontSize: 17, fontWeight: 600, margin: "18px 0 6px" }}>Recent picks ticker</label>
-          <button
-            onClick={() => setSettings(s => ({ ...s, ticker: s.ticker === false }))}
-            style={{ ...S.chip(settings.ticker !== false, "ALL"), padding: "12px 22px", fontSize: 17 }}
-          >
-            {settings.ticker !== false ? "On — show recent picks" : "Off"}
-          </button>
-
           <label style={{ display: "block", fontSize: 17, fontWeight: 600, margin: "22px 0 6px" }}>Sheet sync URL (optional)</label>
           <input
             type="url"
