@@ -27,70 +27,6 @@ const POS_COLORS = {
   DEF:{ bg: "#4A4A48", light: "#EDEDEC" },
 };
 
-const TEAM_COLORS = {
-  BUF:"#00338D", BAL:"#241773", WAS:"#5A1414", WSH:"#5A1414", PHI:"#004C54",
-  CIN:"#FB4F14", NE:"#002244", KC:"#E31837", HOU:"#03202F", GB:"#203731",
-  MIN:"#4F2683", SF:"#AA0000", JAX:"#006778", ATL:"#A71930", DET:"#0076B6",
-  LAR:"#003594", DAL:"#041E42", CHI:"#C83803", LAC:"#0080C6", IND:"#002C5F",
-  PIT:"#FFB612", TEN:"#4B92DB", NYG:"#0B2265", TB:"#D50A0A", NYJ:"#125740",
-  DEN:"#FB4F14", LV:"#A5ACAF", CAR:"#0085CA", NO:"#D3BC8D", SEA:"#69BE28",
-  CLE:"#FF3C00", MIA:"#008E97", ARI:"#97233F",
-};
-const RAIN_GLYPHS = ["🏈","🏈","🏈", ...Object.keys(TEAM_COLORS)];
-
-function MatrixRain({ enabled }) {
-  const ref = useRef(null);
-  useEffect(() => {
-    if (!enabled) return;
-    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
-    const canvas = ref.current;
-    if (!canvas) return;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return; // no canvas support — skip the rain, keep the app running
-    let w, h, drops = [], raf;
-    const COL_W = 42;
-    const newDrop = (x, top) => ({
-      x,
-      y: top ? -30 - Math.random() * 200 : Math.random() * window.innerHeight,
-      speed: 1.2 + Math.random() * 2.6,
-      glyph: RAIN_GLYPHS[Math.floor(Math.random() * RAIN_GLYPHS.length)],
-    });
-    const resize = () => {
-      w = canvas.width = window.innerWidth;
-      h = canvas.height = window.innerHeight;
-      const cols = Math.max(1, Math.floor(w / COL_W));
-      drops = Array.from({ length: cols }, (_, i) => newDrop(i * COL_W + 8, false));
-    };
-    const tick = () => {
-      ctx.fillStyle = "rgba(6,13,9,0.42)"; // short, readable trail
-      ctx.fillRect(0, 0, w, h);
-      drops.forEach((d, i) => {
-        if (d.glyph === "🏈") {
-          ctx.font = "20px serif";
-          ctx.fillStyle = "#B5813B";
-        } else {
-          ctx.font = "bold 17px 'Courier New', monospace";
-          ctx.fillStyle = TEAM_COLORS[d.glyph] || "#3FA86A";
-        }
-        ctx.globalAlpha = 1;
-        ctx.fillText(d.glyph, d.x, d.y);
-        ctx.globalAlpha = 1;
-        d.y += d.speed;
-        if (d.y > h + 40) drops[i] = newDrop(d.x, true);
-      });
-      raf = requestAnimationFrame(tick);
-    };
-    resize();
-    ctx.fillStyle = "#060D09";
-    ctx.fillRect(0, 0, w, h);
-    window.addEventListener("resize", resize);
-    tick();
-    return () => { cancelAnimationFrame(raf); window.removeEventListener("resize", resize); };
-  }, [enabled]);
-  if (!enabled) return null;
-  return <canvas ref={ref} style={{ position: "fixed", inset: 0, zIndex: 0 }} aria-hidden="true" />;
-}
-
 function RecentPicksTicker({ picks, findPlayer, onDismiss }) {
   const recent = picks.slice(-6).reverse().map(pk => {
     const player = findPlayer(pk.playerId);
@@ -128,7 +64,7 @@ function RecentPicksTicker({ picks, findPlayer, onDismiss }) {
   );
 }
 
-const DEFAULT_SETTINGS = { budget: 100, rosterSize: 15, rain: true, ticker: true, syncUrl: "" };
+const DEFAULT_SETTINGS = { budget: 100, rosterSize: 15, ticker: true, syncUrl: "" };
 const STORE_KEY = "auction-draft-v1";
 const AUTO_BACKUP_KEY = "auction-draft-auto-backups-v1";
 const AUTO_BACKUP_INTERVAL = 5 * 60 * 1000;
@@ -474,8 +410,7 @@ export default function AuctionDraftBoard() {
   if (!loaded) return <div style={{ ...S.app, padding: 40, textAlign: "center" }}>Loading your draft…</div>;
 
   return (
-    <div style={{ background: "#060D09", minHeight: "100vh" }}>
-    <MatrixRain enabled={settings.rain} />
+    <div style={{ background: "#E8ECE6", minHeight: "100vh" }}>
     <div style={{ ...S.app, position: "relative", zIndex: 1 }}>
       {/* Scoreboard — always visible */}
       <div style={S.scoreboard}>
@@ -692,14 +627,6 @@ export default function AuctionDraftBoard() {
             onChange={e => setSettings(s => ({ ...s, rosterSize: parseInt(e.target.value, 10) || 0 }))}
             style={{ ...S.search, fontSize: 20 }}
           />
-          <label style={{ display: "block", fontSize: 17, fontWeight: 600, margin: "18px 0 6px" }}>Matrix rain background</label>
-          <button
-            onClick={() => setSettings(s => ({ ...s, rain: !s.rain }))}
-            style={{ ...S.chip(settings.rain, "ALL"), padding: "12px 22px", fontSize: 17 }}
-          >
-            {settings.rain ? "On — footballs falling" : "Off"}
-          </button>
-
           <label style={{ display: "block", fontSize: 17, fontWeight: 600, margin: "18px 0 6px" }}>Recent picks ticker</label>
           <button
             onClick={() => setSettings(s => ({ ...s, ticker: s.ticker === false }))}

@@ -75,8 +75,8 @@ Those snapshots stay on the same device. For an off-device copy, go to
 **Settings** → **Restore from a backup file** and pick that file.
 
 **Other settings:**
-Budget, roster size, the recent-picks ticker, turning off the falling footballs,
-and downloading your results as a spreadsheet are all under **Settings**.
+Budget, roster size, the recent-picks ticker, and downloading your results as a
+spreadsheet are all under **Settings**.
 
 ---
 

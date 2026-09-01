@@ -91,7 +91,6 @@ Point him at these before proposing anything technical:
   several picks.
 - **Different league rules.** Settings has **starting budget** (default $100)
   and **roster size** (default 15).
-- **Turn off the falling-footballs background.** Settings → Matrix rain toggle.
 - **Keep a watchlist.** Open a player and tap "Add to Targets," then use the
   Targets filter. Personal player notes are entered on the same card.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
@@ -138,10 +137,9 @@ allowed** — this is intentional, because live auctions have corrections and
 house rules. As a result `remaining` can legitimately go negative and display as
 a negative dollar amount. Do not "fix" this without asking him first.
 
-**Other components/functions:** `MatrixRain` (canvas background of falling
-footballs and team abbreviations; respects `prefers-reduced-motion` and the
-settings toggle), `exportCsv`, `downloadBackup`, `restoreBackup`, and a
-debounced `fetch` effect that POSTs draft state to `settings.syncUrl` when set.
+**Other components/functions:** `exportCsv`, `downloadBackup`, `restoreBackup`,
+and a debounced `fetch` effect that POSTs draft state to `settings.syncUrl` when
+set.
 
 ---
 
@@ -192,7 +190,6 @@ bodies into the repo.
 | "A player isn't in the list" | Use the add-player form that appears when a search returns nothing. No code change needed. |
 | "I entered the wrong price" | Undo the pick and re-enter it. |
 | "It says I have negative money" | Expected behavior after bidding over the max bid. Undo the offending pick, or adjust the budget in Settings if the league's budget is actually higher. |
-| "The background is distracting" | Settings → turn off Matrix rain. |
 | "Nothing shows up in my Google Sheet" | Sheet sync is optional and off unless a URL is set. The app sends data without reading a response, so a bad URL fails silently. Re-check the Apps Script deployment (must be "Anyone" access) and re-paste the web app URL into Settings. See `draft-sync.gs`. |
 | "The app won't open / white screen" | Have him open the GitHub Pages URL directly in Chrome. If that works, reinstall the app from the ⋮ menu. Draft data survives reinstalling. |
 | "Can we add team logos?" | NFL logos are trademarked and are deliberately not included; the rain uses footballs and team abbreviations in team colors instead. He may supply his own image files if he wants. |

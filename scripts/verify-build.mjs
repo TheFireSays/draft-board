@@ -18,10 +18,12 @@ requireText("LATEST NEWS", "player news card");
 requireText("Current roster", "laptop roster sidebar");
 requireText("Recent picks ticker", "recent-picks setting");
 requireText("Brought to you by: TheFireSays", "TheFireSays credit");
+requireText("background:#E8ECE6", "clean page background");
 requireText("window.storage", "storage shim");
 
 if (!source.includes('import playerNewsSnapshot from "./player-news.json"')) failures.push("source does not import the news snapshot");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
+if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
 if ((news.matchedPlayers || 0) !== Object.keys(news.players || {}).length) failures.push("news match count does not match its data");
 
 const rootIndex = html.indexOf("<div id='root'></div>");
