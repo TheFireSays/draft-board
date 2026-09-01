@@ -52,7 +52,12 @@ Type his name in the search box. When nothing comes up, a box appears — pick h
 position, type his team, and tap the add button. He's added for good.
 
 **Want to be safe before draft day?**
-Go to **Settings** → **Save a backup file**. If anything is ever lost, go to
+The app keeps the latest 12 recovery snapshots automatically, one every five
+minutes while the app is open. Restore one from **Settings → Automatic recovery
+backups**.
+
+Those snapshots stay on the same device. For an off-device copy, go to
+**Settings** → **Save a backup file**. If anything is ever lost, go to
 **Settings** → **Restore from a backup file** and pick that file.
 
 **Other settings:**

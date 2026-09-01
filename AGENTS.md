@@ -50,14 +50,18 @@ that spreadsheet.
 
 ## Where the data lives (important)
 
-All draft data is stored in the browser's **`localStorage`** under the key
+Current draft data is stored in the browser's **`localStorage`** under the key
 `auction-draft-v1`. It holds a JSON object: `{ picks, settings, customPlayers }`.
+The app also keeps up to 12 rotating five-minute recovery snapshots under
+`auction-draft-auto-backups-v1` while the app is open and at least one pick
+exists. Settings lets the user select and restore one of those snapshots.
 
 Consequences worth knowing before you troubleshoot:
 
 - The draft is stored **on his device only**. It is not in the cloud and not in
   this repo. You cannot see his draft data.
-- **Clearing browsing data / cookies / site data will erase an in-progress draft.**
+- **Clearing browsing data / cookies / site data will erase the current draft and
+  all automatic recovery snapshots.**
   This is the single most likely cause of "my draft disappeared."
 - localStorage is per-origin. A draft started at the GitHub Pages URL will not
   appear if he opens a local copy of the file, and vice versa.

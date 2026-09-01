@@ -92,6 +92,9 @@ function MatrixRain({ enabled }) {
 
 const DEFAULT_SETTINGS = { budget: 100, rosterSize: 15, rain: true, syncUrl: "" };
 const STORE_KEY = "auction-draft-v1";
+const AUTO_BACKUP_KEY = "auction-draft-auto-backups-v1";
+const AUTO_BACKUP_INTERVAL = 5 * 60 * 1000;
+const MAX_AUTO_BACKUPS = 12;
 const SYNC_HELP_PROMPT = "Help me connect Load's Draft-o-matic to Google Sheets. Use the draft-sync.gs file in https://github.com/TheFireSays/draft-board. Walk me through opening Apps Script from my Google Sheet, pasting the code, deploying it as a web app with access set to Anyone, and tell me which web app URL to paste into the app's Sheet sync field.";
 
 export default function AuctionDraftBoard() {
@@ -107,7 +110,11 @@ export default function AuctionDraftBoard() {
   const [addPos, setAddPos] = useState("RB");
   const [addTeam, setAddTeam] = useState("");
   const [syncPromptCopied, setSyncPromptCopied] = useState(false);
+  const [autoBackups, setAutoBackups] = useState([]);
+  const [autoBackupChoice, setAutoBackupChoice] = useState("");
   const searchRef = useRef(null);
+  const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [] });
+  const autoBackupsRef = useRef([]);
 
   // ---------- Load / save persistent state ----------
   useEffect(() => {
@@ -121,6 +128,16 @@ export default function AuctionDraftBoard() {
           if (Array.isArray(data.customPlayers)) setCustomPlayers(data.customPlayers);
         }
       } catch (e) { /* first run: no saved draft yet */ }
+      try {
+        const backupRes = await window.storage.get(AUTO_BACKUP_KEY);
+        if (backupRes?.value) {
+          const savedBackups = JSON.parse(backupRes.value);
+          if (Array.isArray(savedBackups)) {
+            autoBackupsRef.current = savedBackups;
+            setAutoBackups(savedBackups);
+          }
+        }
+      } catch (e) { /* first run: no automatic backups yet */ }
       setLoaded(true);
     })();
   }, []);
@@ -133,6 +150,34 @@ export default function AuctionDraftBoard() {
       } catch (e) { console.error("Save failed", e); }
     })();
   }, [picks, settings, customPlayers, loaded]);
+
+  useEffect(() => {
+    latestDraftRef.current = { picks, settings, customPlayers };
+  }, [picks, settings, customPlayers]);
+
+  useEffect(() => {
+    if (!loaded) return;
+    const saveAutomaticBackup = async () => {
+      const current = latestDraftRef.current;
+      if (!current.picks.length) return;
+      const latest = autoBackupsRef.current[0];
+      const currentData = JSON.stringify(current);
+      const latestData = latest
+        ? JSON.stringify({ picks: latest.picks, settings: latest.settings, customPlayers: latest.customPlayers })
+        : "";
+      if (currentData === latestData) return;
+
+      const snapshot = { ...current, saved: new Date().toISOString() };
+      const next = [snapshot, ...autoBackupsRef.current].slice(0, MAX_AUTO_BACKUPS);
+      autoBackupsRef.current = next;
+      setAutoBackups(next);
+      try {
+        await window.storage.set(AUTO_BACKUP_KEY, JSON.stringify(next));
+      } catch (e) { console.error("Automatic backup failed", e); }
+    };
+    const timer = setInterval(saveAutomaticBackup, AUTO_BACKUP_INTERVAL);
+    return () => clearInterval(timer);
+  }, [loaded]);
 
   // combined player pool + safe lookup (guards against a restore from an older backup)
   const ALL = useMemo(() => PLAYERS.concat(customPlayers), [customPlayers]);
@@ -270,6 +315,18 @@ export default function AuctionDraftBoard() {
     };
     reader.readAsText(file);
     ev.target.value = "";
+  };
+
+  const restoreAutomaticBackup = () => {
+    const saved = autoBackupChoice || autoBackups[0]?.saved;
+    const backup = autoBackups.find(item => item.saved === saved);
+    if (!backup) return;
+    const when = new Date(backup.saved).toLocaleString();
+    if (!window.confirm(`Restore the automatic backup from ${when}? This replaces the current draft.`)) return;
+    setPicks(Array.isArray(backup.picks) ? backup.picks : []);
+    if (backup.settings) setSettings({ ...DEFAULT_SETTINGS, ...backup.settings });
+    if (Array.isArray(backup.customPlayers)) setCustomPlayers(backup.customPlayers);
+    window.alert("Automatic backup restored.");
   };
 
   const resetDraft = () => {
@@ -549,6 +606,37 @@ export default function AuctionDraftBoard() {
               </div>
             </div>
           )}
+
+          <div style={{ marginTop: 22, padding: 14, background: "#F0F2EF", border: "1px solid #D5DAD3", borderRadius: 12 }}>
+            <div style={{ fontSize: 17, fontWeight: 800, color: "#17211B" }}>Automatic recovery backups</div>
+            <p style={{ margin: "6px 0 10px", color: "#5C665B", fontSize: 14, lineHeight: 1.45 }}>
+              While the app is open, it saves a snapshot every 5 minutes and keeps the latest 12 on this device.
+            </p>
+            {autoBackups.length > 0 ? (
+              <>
+                <select
+                  value={autoBackupChoice || autoBackups[0].saved}
+                  onChange={e => setAutoBackupChoice(e.target.value)}
+                  style={{ ...S.search, fontSize: 15, padding: "11px 12px" }}
+                  aria-label="Choose an automatic backup"
+                >
+                  {autoBackups.map(backup => (
+                    <option key={backup.saved} value={backup.saved}>
+                      {new Date(backup.saved).toLocaleString()} — {backup.picks?.length || 0} picks
+                    </option>
+                  ))}
+                </select>
+                <button onClick={restoreAutomaticBackup} style={{ ...S.bigBtn("#5C665B", false), fontSize: 16, padding: "13px 12px" }}>
+                  Restore selected automatic backup
+                </button>
+              </>
+            ) : (
+              <div style={{ color: "#7C857A", fontSize: 14 }}>The first snapshot appears within 5 minutes after drafting begins.</div>
+            )}
+            <p style={{ margin: "10px 0 0", color: "#7C857A", fontSize: 13, lineHeight: 1.4 }}>
+              Clearing Chrome site data also removes these snapshots. Use a backup file or Google Sheets for an off-device copy.
+            </p>
+          </div>
 
           <button onClick={exportCsv} style={S.bigBtn("#1D4E89", picks.length === 0)} disabled={picks.length === 0}>
             Download draft as CSV
