@@ -61,17 +61,17 @@ function MatrixRain({ enabled }) {
       drops = Array.from({ length: cols }, (_, i) => newDrop(i * COL_W + 8, false));
     };
     const tick = () => {
-      ctx.fillStyle = "rgba(6,13,9,0.14)"; // fading trail
+      ctx.fillStyle = "rgba(6,13,9,0.42)"; // short, readable trail
       ctx.fillRect(0, 0, w, h);
       drops.forEach((d, i) => {
         if (d.glyph === "🏈") {
           ctx.font = "20px serif";
           ctx.fillStyle = "#B5813B";
         } else {
-          ctx.font = "bold 15px 'Courier New', monospace";
+          ctx.font = "bold 17px 'Courier New', monospace";
           ctx.fillStyle = TEAM_COLORS[d.glyph] || "#3FA86A";
         }
-        ctx.globalAlpha = 0.85;
+        ctx.globalAlpha = 1;
         ctx.fillText(d.glyph, d.x, d.y);
         ctx.globalAlpha = 1;
         d.y += d.speed;
