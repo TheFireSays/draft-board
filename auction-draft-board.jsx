@@ -397,8 +397,10 @@ export default function AuctionDraftBoard() {
       marginTop: 10,
     }),
     tabBar: {
-      position: wide ? "static" : "fixed", bottom: 0, left: 0, right: 0, maxWidth: wide ? "none" : 560, margin: "0 auto",
-      display: "flex", background: "#fff", borderTop: "2px solid #DDE1DA", zIndex: 30,
+      position: wide ? "sticky" : "fixed", top: wide ? 104 : "auto", bottom: wide ? "auto" : 0,
+      left: 0, right: 0, maxWidth: wide ? "none" : 560, margin: "0 auto",
+      display: "flex", background: "#fff", borderTop: "2px solid #DDE1DA",
+      borderBottom: wide ? "1px solid #E7EAE4" : "none", zIndex: 30,
     },
     tabBtn: (active) => ({
       flex: 1, padding: "14px 0 16px", border: "none", background: "none",
@@ -436,6 +438,14 @@ export default function AuctionDraftBoard() {
           findPlayer={findP}
           onDismiss={() => setSettings(s => ({ ...s, ticker: false }))}
         />
+      )}
+
+      {wide && (
+        <nav style={S.tabBar} aria-label="Main navigation">
+          <button style={S.tabBtn(tab === "draft")} onClick={() => setTab("draft")}>Draft</button>
+          <button style={S.tabBtn(tab === "roster")} onClick={() => setTab("roster")}>My Team</button>
+          <button style={S.tabBtn(tab === "settings")} onClick={() => setTab("settings")}>Settings</button>
+        </nav>
       )}
 
       {tab === "draft" && (
@@ -843,11 +853,13 @@ export default function AuctionDraftBoard() {
       </a>
 
       {/* Bottom tabs */}
-      <div style={S.tabBar}>
-        <button style={S.tabBtn(tab === "draft")} onClick={() => setTab("draft")}>Draft</button>
-        <button style={S.tabBtn(tab === "roster")} onClick={() => setTab("roster")}>My Team</button>
-        <button style={S.tabBtn(tab === "settings")} onClick={() => setTab("settings")}>Settings</button>
-      </div>
+      {!wide && (
+        <nav style={S.tabBar} aria-label="Main navigation">
+          <button style={S.tabBtn(tab === "draft")} onClick={() => setTab("draft")}>Draft</button>
+          <button style={S.tabBtn(tab === "roster")} onClick={() => setTab("roster")}>My Team</button>
+          <button style={S.tabBtn(tab === "settings")} onClick={() => setTab("settings")}>Settings</button>
+        </nav>
+      )}
     </div>
     </div>
   );
