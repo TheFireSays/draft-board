@@ -144,13 +144,14 @@ export default function AuctionDraftBoard() {
   const [tab, setTab] = useState("draft"); // draft | roster | settings
   const [loaded, setLoaded] = useState(false);
   const [customPlayers, setCustomPlayers] = useState([]);
+  const [targetIds, setTargetIds] = useState([]);
   const [addPos, setAddPos] = useState("RB");
   const [addTeam, setAddTeam] = useState("");
   const [syncPromptCopied, setSyncPromptCopied] = useState(false);
   const [autoBackups, setAutoBackups] = useState([]);
   const [autoBackupChoice, setAutoBackupChoice] = useState("");
   const searchRef = useRef(null);
-  const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [] });
+  const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [], targetIds: [] });
   const autoBackupsRef = useRef([]);
 
   // ---------- Load / save persistent state ----------
@@ -163,6 +164,7 @@ export default function AuctionDraftBoard() {
           if (data.picks) setPicks(data.picks);
           if (data.settings) setSettings({ ...DEFAULT_SETTINGS, ...data.settings });
           if (Array.isArray(data.customPlayers)) setCustomPlayers(data.customPlayers);
+          if (Array.isArray(data.targetIds)) setTargetIds(data.targetIds);
         }
       } catch (e) { /* first run: no saved draft yet */ }
       try {
@@ -183,14 +185,14 @@ export default function AuctionDraftBoard() {
     if (!loaded) return;
     (async () => {
       try {
-        await window.storage.set(STORE_KEY, JSON.stringify({ picks, settings, customPlayers }));
+        await window.storage.set(STORE_KEY, JSON.stringify({ picks, settings, customPlayers, targetIds }));
       } catch (e) { console.error("Save failed", e); }
     })();
-  }, [picks, settings, customPlayers, loaded]);
+  }, [picks, settings, customPlayers, targetIds, loaded]);
 
   useEffect(() => {
-    latestDraftRef.current = { picks, settings, customPlayers };
-  }, [picks, settings, customPlayers]);
+    latestDraftRef.current = { picks, settings, customPlayers, targetIds };
+  }, [picks, settings, customPlayers, targetIds]);
 
   useEffect(() => {
     if (!loaded) return;
@@ -200,7 +202,7 @@ export default function AuctionDraftBoard() {
       const latest = autoBackupsRef.current[0];
       const currentData = JSON.stringify(current);
       const latestData = latest
-        ? JSON.stringify({ picks: latest.picks, settings: latest.settings, customPlayers: latest.customPlayers })
+        ? JSON.stringify({ picks: latest.picks, settings: latest.settings, customPlayers: latest.customPlayers, targetIds: latest.targetIds || [] })
         : "";
       if (currentData === latestData) return;
 
@@ -254,6 +256,7 @@ export default function AuctionDraftBoard() {
 
   // ---------- Derived draft math ----------
   const draftedIds = useMemo(() => new Set(picks.map(p => p.playerId)), [picks]);
+  const targetIdSet = useMemo(() => new Set(targetIds), [targetIds]);
   const myPicks = picks.filter(p => p.mine);
   const spent = myPicks.reduce((s, p) => s + p.price, 0);
   const remaining = settings.budget - spent;
@@ -264,12 +267,13 @@ export default function AuctionDraftBoard() {
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
     return ALL.filter(p => {
-      if (posFilter !== "ALL" && p.pos !== posFilter) return false;
+      if (posFilter === "TARGETS" && !targetIdSet.has(p.id)) return false;
+      if (posFilter !== "ALL" && posFilter !== "TARGETS" && p.pos !== posFilter) return false;
       if (draftedIds.has(p.id)) return false;
       if (!q) return true;
       return p.name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q);
     }).slice(0, q ? 12 : 40);
-  }, [query, posFilter, draftedIds, ALL]);
+  }, [query, posFilter, draftedIds, targetIdSet, ALL]);
 
   const lastPick = picks.length ? picks[picks.length - 1] : null;
   const lastPlayer = lastPick ? findP(lastPick.playerId) : null;
@@ -293,6 +297,12 @@ export default function AuctionDraftBoard() {
   };
 
   const undo = () => setPicks(prev => prev.slice(0, -1));
+
+  const toggleTarget = (playerId) => {
+    setTargetIds(prev => prev.includes(playerId)
+      ? prev.filter(id => id !== playerId)
+      : [...prev, playerId]);
+  };
 
   const copySyncHelpPrompt = async () => {
     try {
@@ -325,7 +335,7 @@ export default function AuctionDraftBoard() {
 
   const downloadBackup = () => {
     const blob = new Blob(
-      [JSON.stringify({ picks, settings, customPlayers, saved: new Date().toISOString() }, null, 2)],
+      [JSON.stringify({ picks, settings, customPlayers, targetIds, saved: new Date().toISOString() }, null, 2)],
       { type: "application/json" }
     );
     const url = URL.createObjectURL(blob);
@@ -345,6 +355,7 @@ export default function AuctionDraftBoard() {
         setPicks(d.picks);
         if (d.settings) setSettings({ ...DEFAULT_SETTINGS, ...d.settings });
         if (Array.isArray(d.customPlayers)) setCustomPlayers(d.customPlayers);
+        setTargetIds(Array.isArray(d.targetIds) ? d.targetIds : []);
         window.alert("Draft restored from backup.");
       } catch {
         window.alert("That file isn't a draft backup. Look for draft-backup.json in Downloads.");
@@ -363,6 +374,7 @@ export default function AuctionDraftBoard() {
     setPicks(Array.isArray(backup.picks) ? backup.picks : []);
     if (backup.settings) setSettings({ ...DEFAULT_SETTINGS, ...backup.settings });
     if (Array.isArray(backup.customPlayers)) setCustomPlayers(backup.customPlayers);
+    setTargetIds(Array.isArray(backup.targetIds) ? backup.targetIds : []);
     window.alert("Automatic backup restored.");
   };
 
@@ -402,7 +414,7 @@ export default function AuctionDraftBoard() {
     chipRow: { display: "flex", gap: 8, padding: "12px 16px 4px", overflowX: "auto" },
     chip: (active, pos) => ({
       border: "none", borderRadius: 999, padding: "10px 16px", fontSize: 16, fontWeight: 700,
-      background: active ? (pos === "ALL" ? "#17211B" : POS_COLORS[pos].bg) : "#E5E8E2",
+      background: active ? (pos === "ALL" ? "#17211B" : pos === "TARGETS" ? "#9A6B00" : POS_COLORS[pos].bg) : "#E5E8E2",
       color: active ? "#fff" : "#41493F", cursor: "pointer", flexShrink: 0,
     }),
     row: {
@@ -477,8 +489,8 @@ export default function AuctionDraftBoard() {
           </div>
 
           <div style={S.chipRow}>
-            {["ALL", "QB", "RB", "WR", "TE", "K", "DEF"].map(p => (
-              <button key={p} style={S.chip(posFilter === p, p)} onClick={() => setPosFilter(p)}>{p}</button>
+            {["ALL", "TARGETS", "QB", "RB", "WR", "TE", "K", "DEF"].map(p => (
+              <button key={p} style={S.chip(posFilter === p, p)} onClick={() => setPosFilter(p)}>{p === "TARGETS" ? "★ Targets" : p}</button>
             ))}
           </div>
 
@@ -498,10 +510,16 @@ export default function AuctionDraftBoard() {
               <button key={p.id} style={S.row} onClick={() => openPlayer(p)}>
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
                 <span style={{ fontSize: 20, fontWeight: 600, flex: 1 }}>{p.name}</span>
+                {targetIdSet.has(p.id) && <span title="Target player" aria-label="Target player" style={{ color: "#9A6B00", fontSize: 20 }}>★</span>}
                 <span style={{ fontSize: 15, color: "#7C857A", fontWeight: 600 }}>{p.team}</span>
               </button>
             ))}
-            {results.length === 0 && (
+            {results.length === 0 && posFilter === "TARGETS" && (
+              <div style={{ padding: "34px 20px", textAlign: "center", color: "#5C665B", fontSize: 17, lineHeight: 1.5 }}>
+                No available targets yet. Open any player and tap <b>Add to Targets</b>.
+              </div>
+            )}
+            {results.length === 0 && posFilter !== "TARGETS" && (
               <div style={{ padding: "26px 20px", textAlign: "center" }}>
                 <div style={{ color: "#41493F", fontSize: 18, fontWeight: 600, marginBottom: 14 }}>
                   "{query.trim()}" isn't in the list — add them:
@@ -727,6 +745,14 @@ export default function AuctionDraftBoard() {
                 <div style={{ fontSize: 15, color: "#7C857A", fontWeight: 600 }}>{selected.team}</div>
               </div>
             </div>
+
+            <button
+              type="button"
+              onClick={() => toggleTarget(selected.id)}
+              style={{ width: "100%", border: "1px solid #D8C486", borderRadius: 11, padding: "11px 12px", marginBottom: 12, background: targetIdSet.has(selected.id) ? "#FFF3C9" : "#FFFCF2", color: "#6E4D00", fontSize: 16, fontWeight: 800, cursor: "pointer" }}
+            >
+              {targetIdSet.has(selected.id) ? "★ In Targets — tap to remove" : "☆ Add to Targets"}
+            </button>
 
             <input
               autoFocus
