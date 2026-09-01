@@ -18,6 +18,7 @@ requireText("Add to Targets", "Targets watchlist");
 requireText("Personal note", "personal notes");
 requireText("LATEST NEWS", "player news card");
 requireText("Current roster", "laptop roster sidebar");
+requireText("My pick #", "My Team draft order");
 requireText("Recent picks ticker", "recent-picks setting");
 requireText("Brought to you by: TheFireSays", "TheFireSays credit");
 requireText("background:#E8ECE6", "clean page background");
@@ -32,6 +33,7 @@ if (!source.includes('const BANNER_COLLISION_PASSES = 4')) failures.push("footba
 if (!source.includes('bannerAnimationFinished')) failures.push("football banner does not switch to its final still");
 if (!source.includes('targetDifference') || !source.includes('POSITION_ORDER')) failures.push("Targets are not promoted within position lists");
 if (!source.includes('sanitizeBidAmount') || !source.includes('pattern="[0-9]*"')) failures.push("player bids are not constrained to non-negative whole dollars");
+if (!source.includes('"My Pick Order"') || !source.includes('myPickIndex')) failures.push("My Team draft order is not tracked in the roster and CSV");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
 if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
 if ((news.matchedPlayers || 0) !== Object.keys(news.players || {}).length) failures.push("news match count does not match its data");

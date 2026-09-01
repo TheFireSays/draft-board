@@ -217,10 +217,12 @@ export default function AuctionDraftBoard() {
   }, [picks, loaded, settings.syncUrl, settings.budget]);
 
   const exportCsv = () => {
-    const rows = [["Order", "Player", "Pos", "Team", "Price", "My Team"]];
+    const rows = [["Order", "My Pick Order", "Player", "Pos", "Team", "Price", "My Team"]];
+    let myPickOrder = 0;
     picks.forEach((pk, i) => {
       const p = findP(pk.playerId);
-      rows.push([i + 1, p.name, p.pos, p.team, pk.price, pk.mine ? "YES" : ""]);
+      if (pk.mine) myPickOrder += 1;
+      rows.push([i + 1, pk.mine ? myPickOrder : "", p.name, p.pos, p.team, pk.price, pk.mine ? "YES" : ""]);
     });
     const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(",")).join("\n");
     const url = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
@@ -590,10 +592,11 @@ export default function AuctionDraftBoard() {
                 Players you win appear here as you draft.
               </div>
             )}
-            {myPicks.map(pk => {
+            {myPicks.map((pk, myPickIndex) => {
               const p = findP(pk.playerId);
               return (
                 <div key={pk.ts} style={{ display: "flex", alignItems: "center", gap: 10, padding: "11px 16px", borderTop: "1px solid #EDF0EA" }}>
+                  <span aria-label={`My pick ${myPickIndex + 1}`} title={`My pick ${myPickIndex + 1}`} style={{ minWidth: 24, color: "#687269", fontSize: 12, fontWeight: 850, textAlign: "center", fontVariantNumeric: "tabular-nums" }}>#{myPickIndex + 1}</span>
                   <span style={{ ...S.posTag(p.pos), fontSize: 12, padding: "4px 7px", minWidth: 32 }}>{p.pos}</span>
                   <span style={{ flex: 1, minWidth: 0 }}>
                     <span style={{ display: "block", fontSize: 16, fontWeight: 650, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{p.name}</span>
@@ -622,7 +625,7 @@ export default function AuctionDraftBoard() {
               No players yet. When you win a bid, they'll show up here.
             </div>
           )}
-          {myPicks.map(pk => {
+          {myPicks.map((pk, myPickIndex) => {
             const p = findP(pk.playerId);
             return (
               <div
@@ -632,6 +635,7 @@ export default function AuctionDraftBoard() {
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
                 <span style={{ flex: 1, minWidth: 0 }}>
                   <span style={{ display: "block", fontSize: 19, fontWeight: 600 }}>{p.name}</span>
+                  <span style={{ display: "block", marginTop: 2, color: "#687269", fontSize: 13, fontWeight: 750 }}>My pick #{myPickIndex + 1}</span>
                   {playerNotes[p.id] && <span style={{ display: "block", marginTop: 3, color: "#687269", fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{playerNotes[p.id]}</span>}
                 </span>
                 <span style={{ fontSize: 19, fontWeight: 800, fontVariantNumeric: "tabular-nums", flexShrink: 0 }}>${pk.price}</span>

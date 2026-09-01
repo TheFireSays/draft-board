@@ -111,6 +111,9 @@ Point him at these before proposing anything technical:
   No match means no card; do not substitute generic news.
 - **Get the results out.** Settings → "Download draft as CSV" (opens in Sheets
   or Excel). Also "Save a backup file" for the full restorable state.
+- **Track acquisition order.** My Team labels won players by their index in
+  `myPicks` as "My pick #1" and so on. Undo/Remove naturally renumbers them; the
+  CSV includes a separate `My Pick Order` column alongside overall draft order.
 - **Start a new draft.** Settings → "Clear draft & start over" (it asks for
   confirmation). Suggest saving a backup first.
 
@@ -229,8 +232,9 @@ The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
-banner animation, Target priority sorting, and non-negative bid enforcement. The
-current checkpoint is `draft-build-17-nonnegative-bids`.
+banner animation, Target priority sorting, non-negative bid enforcement, and My
+Team acquisition order. The current checkpoint is
+`draft-build-18-my-pick-order`.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

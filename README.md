@@ -50,6 +50,9 @@ Useful extras:
 - Tap **☆ Add to Targets** on a player to build a short watchlist. Targeted
   players automatically move to the top of their position list, and the
   **★ Targets** filter shows the whole watchlist by itself.
+- **My Team** labels your players as **My pick #1, #2, #3…** in the order you
+  won them. Removing or undoing a player automatically renumbers the roster,
+  and the downloaded spreadsheet includes the same My Pick Order column.
 - Add a private personal note to any player. Notes save with the draft and its
   backup files.
 - When a recent draft-relevant headline is available, the player card shows its
