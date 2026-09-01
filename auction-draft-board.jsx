@@ -27,6 +27,10 @@ const POS_COLORS = {
   DEF:{ bg: "#4A4A48", light: "#EDEDEC" },
 };
 const POSITION_ORDER = { QB: 0, RB: 1, WR: 2, TE: 3, K: 4, DEF: 5 };
+const sanitizeBidAmount = value => Math.max(0, parseInt(value, 10) || 0);
+const sanitizePicks = value => Array.isArray(value)
+  ? value.map(pick => ({ ...pick, price: sanitizeBidAmount(pick.price) }))
+  : [];
 
 function RecentPicksTicker({ picks, findPlayer, onDismiss }) {
   const recent = picks.slice(-6).reverse().map(pk => {
@@ -131,7 +135,7 @@ export default function AuctionDraftBoard() {
         const res = await window.storage.get(STORE_KEY);
         if (res?.value) {
           const data = JSON.parse(res.value);
-          if (data.picks) setPicks(data.picks);
+          if (data.picks) setPicks(sanitizePicks(data.picks));
           if (data.settings) setSettings({ ...DEFAULT_SETTINGS, ...data.settings });
           if (Array.isArray(data.customPlayers)) setCustomPlayers(data.customPlayers);
           if (Array.isArray(data.targetIds)) setTargetIds(data.targetIds);
@@ -267,11 +271,11 @@ export default function AuctionDraftBoard() {
   const closeModal = () => { setSelected(null); setPrice(""); };
 
   const confirmPick = (mine) => {
-    const val = parseInt(price, 10);
-    if (mine && (!val || val < 1)) return;
+    const val = sanitizeBidAmount(price);
+    if (mine && val < 1) return;
     setPicks(prev => [...prev, {
       playerId: selected.id,
-      price: mine ? val : (val || 0),
+      price: val,
       mine,
       ts: Date.now(),
     }]);
@@ -286,6 +290,10 @@ export default function AuctionDraftBoard() {
     setTargetIds(prev => prev.includes(playerId)
       ? prev.filter(id => id !== playerId)
       : [...prev, playerId]);
+  };
+
+  const updatePriceInput = (value) => {
+    if (/^\d*$/.test(value)) setPrice(value.replace(/^0+(?=\d)/, ""));
   };
 
   const updatePlayerNote = (playerId, note) => {
@@ -346,7 +354,7 @@ export default function AuctionDraftBoard() {
       try {
         const d = JSON.parse(reader.result);
         if (!Array.isArray(d.picks)) throw new Error("not a backup");
-        setPicks(d.picks);
+        setPicks(sanitizePicks(d.picks));
         if (d.settings) setSettings({ ...DEFAULT_SETTINGS, ...d.settings });
         if (Array.isArray(d.customPlayers)) setCustomPlayers(d.customPlayers);
         setTargetIds(Array.isArray(d.targetIds) ? d.targetIds : []);
@@ -366,7 +374,7 @@ export default function AuctionDraftBoard() {
     if (!backup) return;
     const when = new Date(backup.saved).toLocaleString();
     if (!window.confirm(`Restore the automatic backup from ${when}? This replaces the current draft.`)) return;
-    setPicks(Array.isArray(backup.picks) ? backup.picks : []);
+    setPicks(sanitizePicks(backup.picks));
     if (backup.settings) setSettings({ ...DEFAULT_SETTINGS, ...backup.settings });
     if (Array.isArray(backup.customPlayers)) setCustomPlayers(backup.customPlayers);
     setTargetIds(Array.isArray(backup.targetIds) ? backup.targetIds : []);
@@ -841,11 +849,12 @@ export default function AuctionDraftBoard() {
 
             <input
               autoFocus
-              type="number"
+              type="text"
               inputMode="numeric"
+              pattern="[0-9]*"
               placeholder="$ price"
               value={price}
-              onChange={e => setPrice(e.target.value)}
+              onChange={e => updatePriceInput(e.target.value)}
               style={{ ...S.search, fontSize: 32, textAlign: "center", fontWeight: 800 }}
             />
             {overMax && (

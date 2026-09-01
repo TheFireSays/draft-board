@@ -31,6 +31,7 @@ if (!source.includes('(prefers-reduced-motion: reduce)')) failures.push("source 
 if (!source.includes('const BANNER_COLLISION_PASSES = 4')) failures.push("football banner is not capped at four collision passes");
 if (!source.includes('bannerAnimationFinished')) failures.push("football banner does not switch to its final still");
 if (!source.includes('targetDifference') || !source.includes('POSITION_ORDER')) failures.push("Targets are not promoted within position lists");
+if (!source.includes('sanitizeBidAmount') || !source.includes('pattern="[0-9]*"')) failures.push("player bids are not constrained to non-negative whole dollars");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
 if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
 if ((news.matchedPlayers || 0) !== Object.keys(news.players || {}).length) failures.push("news match count does not match its data");

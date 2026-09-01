@@ -136,7 +136,8 @@ near the bottom of the component.
   crashing if an ID isn't found (protects against restoring an old backup).
 - `picks` — the draft log: `[{ playerId, price, mine, ts }]`. `mine: true` means
   he won the player; `false` means another team took him (still removed from the
-  available pool).
+  available pool). Bid input accepts digits only, and `sanitizePicks` clamps
+  restored or previously saved prices to non-negative whole dollars.
 - `targetIds` — player IDs in the saved Targets watchlist.
 - `results` — filtered available players. Outside the dedicated Targets view,
   its stable sort groups the ALL list by `POSITION_ORDER` and promotes Targets
@@ -228,8 +229,8 @@ The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
 top navigation, banner title, synchronized documentation, and the smooth football
-banner animation and Target priority sorting. The current checkpoint is
-`draft-build-16-target-priority`.
+banner animation, Target priority sorting, and non-negative bid enforcement. The
+current checkpoint is `draft-build-17-nonnegative-bids`.
 Use the tags to compare or restore a known build; do not rewrite or delete them
 casually.
 

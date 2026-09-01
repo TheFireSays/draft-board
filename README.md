@@ -27,6 +27,7 @@ a quick look before you start. You only have to do this once.
 4. Tap **I won — add to my team**, or **Another team got them**.
 
 That's it. Drafted players disappear from the list so you never pick someone twice.
+Bid prices accept whole-dollar amounts only and cannot be negative.
 
 **The green bar at the top always shows:**
 
