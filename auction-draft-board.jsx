@@ -387,6 +387,8 @@ export default function AuctionDraftBoard() {
 
   const priceNum = parseInt(price, 10) || 0;
   const overMax = selected && priceNum > maxBid;
+  const duplicateSpecialPosition = selected && ["K", "DEF"].includes(selected.pos)
+    && myPicks.some(pk => findP(pk.playerId).pos === selected.pos);
 
   // ---------- Styles ----------
   const S = {
@@ -753,6 +755,12 @@ export default function AuctionDraftBoard() {
             >
               {targetIdSet.has(selected.id) ? "★ In Targets — tap to remove" : "☆ Add to Targets"}
             </button>
+
+            {duplicateSpecialPosition && (
+              <div role="note" style={{ margin: "0 0 12px", padding: "11px 13px", border: "1px solid #E4C66B", borderRadius: 11, background: "#FFF7D9", color: "#664A00", fontSize: 15, lineHeight: 1.4 }}>
+                <b>Quick check:</b> You already have a {selected.pos === "K" ? "kicker" : "defense"}. You can still draft another one.
+              </div>
+            )}
 
             <input
               autoFocus
