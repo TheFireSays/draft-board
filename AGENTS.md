@@ -34,7 +34,8 @@ that spreadsheet.
 | `auction-draft-board.jsx` | **The readable source code.** All logic and UI live here. Make changes here, then rebuild `index.html`. |
 | `entry.jsx` | React mount plus the required `window.storage` to `localStorage` shim. |
 | `player-news.json` | Build-time snapshot of audited player headlines and source links. Missing players intentionally show no news card. |
-| `scripts/` | Deterministic build, bundle verification, news refresh, and September 5 relevance audit. |
+| `assets/banner/` | Original, logo-free football snap/contact frames plus the generated finite-loop laptop banner GIF. |
+| `scripts/` | Deterministic app/banner builds, bundle verification, news refresh, and September 5 relevance audit. |
 | `package.json` | Pinned React/esbuild versions and the supported build/test commands. |
 | `package-lock.json` | Exact dependency lock used by `npm ci`. Commit changes to it when dependencies change. |
 | `draft-sync.gs` | Optional Google Apps Script for pushing draft results to a Google Sheet. Setup instructions are in the file's comments. Not required for the app to work. |
@@ -141,13 +142,16 @@ near the bottom of the component.
   before the digital-rain background was removed.
 
 **Responsive layout:** `wide` is driven by `(min-width: 900px)`. At laptop width,
-the green scoreboard includes the centered app title, navigation is rendered
-immediately below the scoreboard/ticker and sticks at the top while scrolling,
-and a 360px live roster sidebar appears on the Draft tab. Below 900px, navigation
-is fixed at the bottom and the roster remains on the My Team tab. The outer page
-background is the static neutral `#E8ECE6`; there is no canvas animation. The
-bottom-right TheFireSays credit sits above phone navigation and links to the
-GitHub profile.
+the scoreboard includes the centered app title over an original, logo-free
+football snap animation. The finite GIF plays for at most 27.5 seconds and ends
+on its collision frame; `prefers-reduced-motion: reduce` uses the static contact
+PNG immediately. The phone scoreboard remains solid green. Navigation is
+rendered immediately below the scoreboard/ticker and sticks at the top while
+scrolling, and a 360px live roster sidebar appears on the Draft tab. Below
+900px, navigation is fixed at the bottom and the roster remains on the My Team
+tab. The outer page background is the static neutral `#E8ECE6`; there is no
+canvas animation. The bottom-right TheFireSays credit sits above phone
+navigation and links to the GitHub profile.
 
 **The budget math** (in `derive`-equivalent code near "Derived draft math"):
 
@@ -174,7 +178,8 @@ set.
 
 The runnable `index.html` is generated from the source. To change behavior:
 
-1. Edit `auction-draft-board.jsx`.
+1. Edit `auction-draft-board.jsx`. If changing the banner art, replace the two
+   1180×180 PNG frames in `assets/banner/`; do not use branded game footage.
 2. Install the pinned dependencies once, rebuild, and verify:
 
    ```bash
@@ -182,6 +187,9 @@ The runnable `index.html` is generated from the source. To change behavior:
    npm run build
    npm test
    ```
+
+   `npm run build` regenerates the finite-loop `football-snap.gif` from those
+   two PNG frames before rebuilding `index.html`.
 
 3. Commit and push to `main`. GitHub Pages redeploys automatically in ~1 minute.
 4. On the Chromebook, the installed app picks up the new version on next launch.
@@ -212,9 +220,10 @@ bodies into the repo.
 The annotated `draft-build-*` tags are cumulative working checkpoints. Build 0
 is the pre-enhancement baseline; later tags add the ticker, Targets, advisory,
 notes, audited news, laptop layout, build verification, credit, clean background,
-top navigation, banner title, and synchronized documentation. The current
-checkpoint is `draft-build-12-docs`. Use the tags to compare or restore a known build;
-do not rewrite or delete them casually.
+top navigation, banner title, synchronized documentation, and the finite football
+banner animation. The current checkpoint is `draft-build-13-banner-animation`.
+Use the tags to compare or restore a known build; do not rewrite or delete them
+casually.
 
 ---
 

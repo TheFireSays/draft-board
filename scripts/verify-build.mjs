@@ -6,6 +6,8 @@ const html = await readFile(new URL("index.html", root), "utf8");
 const source = await readFile(new URL("auction-draft-board.jsx", root), "utf8");
 const entry = await readFile(new URL("entry.jsx", root), "utf8");
 const news = JSON.parse(await readFile(new URL("player-news.json", root), "utf8"));
+const bannerGif = await readFile(new URL("assets/banner/football-snap.gif", root));
+const bannerStatic = await readFile(new URL("assets/banner/football-contact-frame.png", root));
 const failures = [];
 const requireText = (text, label) => { if (!html.includes(text)) failures.push(`missing ${label}`); };
 
@@ -23,9 +25,17 @@ requireText("window.storage", "storage shim");
 
 if (!source.includes('import playerNewsSnapshot from "./player-news.json"')) failures.push("source does not import the news snapshot");
 if (!source.includes("<h1 style") || !source.includes("Load's Draft-o-matic")) failures.push("source is missing the laptop banner title");
+if (!source.includes('./assets/banner/football-snap.gif')) failures.push("source is missing the animated football banner");
+if (!source.includes('./assets/banner/football-contact-frame.png')) failures.push("source is missing the reduced-motion banner fallback");
+if (!source.includes('(prefers-reduced-motion: reduce)')) failures.push("source does not honor reduced-motion mode");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
 if (source.includes("MatrixRain") || html.includes("Matrix rain background")) failures.push("digital-rain background is still present");
 if ((news.matchedPlayers || 0) !== Object.keys(news.players || {}).length) failures.push("news match count does not match its data");
+if (bannerGif.subarray(0, 6).toString("ascii") !== "GIF89a") failures.push("football banner is not a GIF89a asset");
+if (bannerStatic.subarray(1, 4).toString("ascii") !== "PNG") failures.push("football banner fallback is not a PNG asset");
+if (bannerGif.length > 2_000_000) failures.push("football banner GIF is unexpectedly large");
+const loopMarker = bannerGif.indexOf(Buffer.from("NETSCAPE2.0"));
+if (loopMarker < 0 || bannerGif.readUInt16LE(loopMarker + 13) !== 10) failures.push("football banner must use the finite 10-repeat loop");
 
 const rootIndex = html.indexOf("<div id='root'></div>");
 const scriptStart = html.indexOf("<script>", rootIndex) + "<script>".length;

@@ -89,6 +89,7 @@ export default function AuctionDraftBoard() {
   const [autoBackups, setAutoBackups] = useState([]);
   const [autoBackupChoice, setAutoBackupChoice] = useState("");
   const [wide, setWide] = useState(false);
+  const [reducedMotion, setReducedMotion] = useState(false);
   const searchRef = useRef(null);
   const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [], targetIds: [], playerNotes: {} });
   const autoBackupsRef = useRef([]);
@@ -96,6 +97,14 @@ export default function AuctionDraftBoard() {
   useEffect(() => {
     const media = window.matchMedia("(min-width: 900px)");
     const update = () => setWide(media.matches);
+    update();
+    media.addEventListener?.("change", update);
+    return () => media.removeEventListener?.("change", update);
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => setReducedMotion(media.matches);
     update();
     media.addEventListener?.("change", update);
     return () => media.removeEventListener?.("change", update);
@@ -360,15 +369,20 @@ export default function AuctionDraftBoard() {
       boxShadow: wide ? "0 0 60px rgba(0,0,0,0.5)" : "none",
     },
     scoreboard: {
-      background: "#123524", color: "#F2F7EF", padding: wide ? "18px 32px 16px" : "14px 18px 12px",
+      backgroundColor: "#123524",
+      backgroundImage: wide
+        ? `linear-gradient(90deg, rgba(6,35,23,.82), rgba(6,35,23,.58) 32%, rgba(6,27,19,.62) 50%, rgba(6,35,23,.58) 68%, rgba(6,35,23,.82)), url("${reducedMotion ? "./assets/banner/football-contact-frame.png" : "./assets/banner/football-snap.gif"}")`
+        : "none",
+      backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat",
+      color: "#F2F7EF", padding: wide ? "18px 32px 16px" : "14px 18px 12px",
       display: "flex", justifyContent: "space-between", alignItems: "flex-end",
       position: "sticky", top: 0, zIndex: 20,
       borderBottom: "4px solid #E8B33A",
     },
-    money: { fontSize: wide ? 64 : 52, fontWeight: 800, lineHeight: 1, fontVariantNumeric: "tabular-nums", letterSpacing: "-1px" },
+    money: { fontSize: wide ? 64 : 52, fontWeight: 800, lineHeight: 1, fontVariantNumeric: "tabular-nums", letterSpacing: "-1px", textShadow: wide ? "0 2px 8px rgba(0,0,0,.7)" : "none" },
     moneyLabel: { fontSize: 13, opacity: 0.75, marginTop: 4 },
     statCol: { textAlign: "right" },
-    stat: { fontSize: 24, fontWeight: 700, fontVariantNumeric: "tabular-nums", lineHeight: 1.15 },
+    stat: { fontSize: 24, fontWeight: 700, fontVariantNumeric: "tabular-nums", lineHeight: 1.15, textShadow: wide ? "0 2px 7px rgba(0,0,0,.75)" : "none" },
     statLabel: { fontSize: 12, opacity: 0.75 },
     search: {
       width: "100%", boxSizing: "border-box", fontSize: 22, padding: "16px 18px",
@@ -421,7 +435,7 @@ export default function AuctionDraftBoard() {
           <div style={S.moneyLabel}>left to spend</div>
         </div>
         {wide && (
-          <h1 style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)", margin: 0, fontSize: 30, lineHeight: 1.1, fontWeight: 850, letterSpacing: "-0.02em", color: "#F2F7EF", whiteSpace: "nowrap" }}>
+          <h1 style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)", margin: 0, padding: "8px 18px 9px", fontSize: 30, lineHeight: 1.1, fontWeight: 850, letterSpacing: "-0.02em", color: "#F2F7EF", whiteSpace: "nowrap", background: "rgba(5,28,19,.56)", border: "1px solid rgba(255,255,255,.24)", borderRadius: 12, boxShadow: "0 3px 18px rgba(0,0,0,.32)", textShadow: "0 2px 6px rgba(0,0,0,.85)" }}>
             Load's Draft-o-matic
           </h1>
         )}
