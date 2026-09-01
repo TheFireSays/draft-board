@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 
 // ---------- Player data (from the 2026 auction sheet) ----------
 const RAW = {
@@ -45,7 +45,7 @@ function MatrixRain({ enabled }) {
     const canvas = ref.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
-    if (!ctx) return;
+    if (!ctx) return; // no canvas support — skip the rain, keep the app running
     let w, h, drops = [], raf;
     const COL_W = 42;
     const newDrop = (x, top) => ({
@@ -209,6 +209,12 @@ export default function AuctionDraftBoard() {
   };
 
   const undo = () => setPicks(prev => prev.slice(0, -1));
+
+  const removePick = (ts, name) => {
+    if (window.confirm(`Remove ${name} from the draft?`)) {
+      setPicks(prev => prev.filter(p => p.ts !== ts));
+    }
+  };
 
   const addCustomPlayer = () => {
     const name = query.trim();
@@ -426,6 +432,13 @@ export default function AuctionDraftBoard() {
                 <span style={S.posTag(p.pos)}>{p.pos}</span>
                 <span style={{ fontSize: 19, fontWeight: 600, flex: 1 }}>{p.name}</span>
                 <span style={{ fontSize: 19, fontWeight: 800, fontVariantNumeric: "tabular-nums" }}>${pk.price}</span>
+                <button
+                  onClick={() => removePick(pk.ts, p.name)}
+                  aria-label={`Remove ${p.name}`}
+                  style={{ border: "2px solid #E3D3D3", background: "#fff", color: "#8E2F2F", borderRadius: 10, padding: "8px 14px", fontSize: 15, fontWeight: 700, cursor: "pointer", marginLeft: 4 }}
+                >
+                  Remove
+                </button>
               </div>
             );
           })}
@@ -439,6 +452,13 @@ export default function AuctionDraftBoard() {
                     <span style={S.posTag(p.pos)}>{p.pos}</span>
                     <span style={{ fontSize: 17, flex: 1 }}>{p.name}</span>
                     {pk.price > 0 && <span style={{ fontSize: 15, color: "#7C857A" }}>${pk.price}</span>}
+                    <button
+                      onClick={() => removePick(pk.ts, p.name)}
+                      aria-label={`Remove ${p.name}`}
+                      style={{ border: "2px solid #DDE1DA", background: "#fff", color: "#8E2F2F", borderRadius: 10, padding: "6px 12px", fontSize: 14, fontWeight: 700, cursor: "pointer", marginLeft: 4 }}
+                    >
+                      Remove
+                    </button>
                   </div>
                 );
               })}

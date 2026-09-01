@@ -1,4 +1,4 @@
-# 🏈 Auction Draft Board
+# 🏈 Load's Draft-o-matic
 
 **Open the app:** https://thefiresays.github.io/draft-board/
 
@@ -41,7 +41,11 @@ Your draft saves itself. You can close the app and come back to it.
 ## If something goes wrong
 
 **Wrong player or wrong price?**
-Tap **Undo** on the draft screen. Tap it again to go back further.
+Tap **Undo** on the draft screen to reverse the last pick. Tap it again to go back further.
+
+To fix a pick from earlier in the draft, go to **My Team** and tap **Remove** next
+to that player. Your money and roster count update right away, and he goes back
+into the available list.
 
 **A player isn't in the list?**
 Type his name in the search box. When nothing comes up, a box appears — pick his
