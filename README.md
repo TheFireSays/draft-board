@@ -90,6 +90,10 @@ into the available list.
 Type his name in the search box. When nothing comes up, a box appears — pick his
 position, type his team, and tap the add button. He's added for good.
 
+**Added a player or defense by mistake?**
+Open that manually added entry and tap **Remove manually added player** or
+**Remove manually added defense**, then confirm. Built-in entries cannot be deleted.
+
 **Want to be safe before draft day?**
 The app keeps the latest 12 recovery snapshots automatically, one every five
 minutes while the app is open. Restore one from **Settings → Automatic recovery

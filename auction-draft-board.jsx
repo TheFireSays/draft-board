@@ -353,6 +353,23 @@ export default function AuctionDraftBoard() {
     setAddTeam("");
   };
 
+  const removeCustomPlayer = () => {
+    if (!selected?.id?.startsWith("C-")) return;
+    const playerId = selected.id;
+    const entryType = selected.pos === "DEF" ? "defense" : "player";
+    if (!window.confirm(`Permanently remove ${selected.name} from your manually added ${entryType} list?`)) return;
+    setCustomPlayers(prev => prev.filter(player => player.id !== playerId));
+    setTargetIds(prev => prev.filter(id => id !== playerId));
+    setPlayerNotes(prev => {
+      const next = { ...prev };
+      delete next[playerId];
+      return next;
+    });
+    setQuery("");
+    closeModal();
+    setTimeout(() => searchRef.current?.focus(), 50);
+  };
+
   const downloadBackup = () => {
     const blob = new Blob(
       [JSON.stringify({ picks, settings, customPlayers, targetIds, playerNotes, saved: new Date().toISOString() }, null, 2)],
@@ -917,6 +934,16 @@ export default function AuctionDraftBoard() {
             <button style={S.bigBtn("#5C665B", false)} onClick={() => confirmPick(false)}>
               Another team got them
             </button>
+            {selected.id.startsWith("C-") && (
+              <button
+                type="button"
+                data-action="delete-custom-player"
+                onClick={removeCustomPlayer}
+                style={{ width: "100%", border: "2px solid #E3D3D3", borderRadius: 12, padding: "13px 12px", marginTop: 14, background: "#FFF8F8", color: "#8E2F2F", fontSize: 16, fontWeight: 800, cursor: "pointer" }}
+              >
+                Remove manually added {selected.pos === "DEF" ? "defense" : "player"}
+              </button>
+            )}
             <button
               style={{ width: "100%", background: "none", border: "none", padding: "16px 0 0", fontSize: 17, color: "#7C857A", cursor: "pointer" }}
               onClick={closeModal}

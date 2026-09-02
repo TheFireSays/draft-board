@@ -92,7 +92,9 @@ Point him at these before proposing anything technical:
 - **A player is missing from the list.** Type the name in the search box. When
   nothing matches, an "add them" form appears — he picks the position, types the
   3-letter team, taps the add button. The custom player is saved permanently and
-  behaves like any other player.
+  behaves like any other player. Opening an undrafted custom entry exposes a
+  confirmed remove action that also clears its Target and personal note data;
+  built-in players and ESPN supplemental players cannot be deleted.
 - **Wrong pick / typo in a price.** The **Undo** button on the draft screen
   reverses the most recent pick. It can be tapped repeatedly to walk back
   several picks.

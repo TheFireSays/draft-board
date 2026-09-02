@@ -16,6 +16,7 @@ requireText("<div id='root'></div>", "React root");
 requireText("Automatic recovery backups", "automatic backups");
 requireText("Add to Targets", "Targets watchlist");
 requireText("Personal note", "personal notes");
+requireText("Remove manually added", "manual player removal");
 requireText("ESPN 2026 PPR PROJECTION", "ESPN projection summary");
 requireText("ESPN source", "ESPN projection attribution");
 requireText("ESPN CDN", "ESPN media attribution");
@@ -37,6 +38,7 @@ if (!source.includes('targetDifference') || !source.includes('POSITION_ORDER')) 
 if (!source.includes('IntersectionObserver') || !source.includes('Load more players')) failures.push("player lists do not progressively load every result");
 if (source.includes('.slice(0, q ? 12 : 40)')) failures.push("player lists still have the old hard result limit");
 if (!source.includes('supplementalPlayers') || !source.includes('BASE_PLAYERS.concat')) failures.push("ESPN supplemental players are not included in the board");
+if (!source.includes('removeCustomPlayer') || !source.includes('delete next[playerId]')) failures.push("manual player removal does not clean up saved player data");
 if (!source.includes('sanitizeBidAmount') || !source.includes('pattern="[0-9]*"')) failures.push("player bids are not constrained to non-negative whole dollars");
 if (!source.includes('"My Pick Order"') || !source.includes('myPickIndex')) failures.push("My Team draft order is not tracked in the roster and CSV");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");
