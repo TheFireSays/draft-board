@@ -1,13 +1,2370 @@
 {
-  "updatedAt": "2026-09-01T08:26:45.379Z",
+  "updatedAt": "2026-09-02T01:06:23.858Z",
   "provider": "ESPN",
   "mediaProvider": "ESPN CDN",
   "season": 2026,
   "scoringFormat": "PPR",
   "sourceUrl": "https://fantasy.espn.com/football/players/projections",
-  "checkedPlayers": 241,
-  "matchedPlayers": 240,
-  "projectedPlayers": 210,
+  "referenceSources": [
+    "https://g.espncdn.com/s/ffldraftkit/26/NFL26_CS_PPR300.pdf?adddata=2026CS_PPR300",
+    "https://www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26DST/nfl-fantasy-football-draft-rankings-2026-dst-defense",
+    "https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php",
+    "https://sports.yahoo.com/fantasy/article/fantasy-football-rankings-consensus-top-300-drafts-160643679.html"
+  ],
+  "checkedPlayers": 534,
+  "matchedPlayers": 533,
+  "projectedPlayers": 498,
+  "supplementalPlayers": [
+    {
+      "id": "E-4242512",
+      "espnPlayerId": 4242512,
+      "name": "Malik Willis",
+      "team": "MIA",
+      "pos": "QB",
+      "rank": 222
+    },
+    {
+      "id": "E-2578570",
+      "espnPlayerId": 2578570,
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "pos": "QB",
+      "rank": 317
+    },
+    {
+      "id": "E-4241479",
+      "espnPlayerId": 4241479,
+      "name": "Tua Tagovailoa",
+      "team": "ATL",
+      "pos": "QB",
+      "rank": 422
+    },
+    {
+      "id": "E-4432762",
+      "espnPlayerId": 4432762,
+      "name": "Shedeur Sanders",
+      "team": "CLE",
+      "pos": "QB",
+      "rank": 429
+    },
+    {
+      "id": "E-4360423",
+      "espnPlayerId": 4360423,
+      "name": "Michael Penix Jr.",
+      "team": "ATL",
+      "pos": "QB",
+      "rank": 440
+    },
+    {
+      "id": "E-4433970",
+      "espnPlayerId": 4433970,
+      "name": "J.J. McCarthy",
+      "team": "MIN",
+      "pos": "QB",
+      "rank": 447
+    },
+    {
+      "id": "E-4430841",
+      "espnPlayerId": 4430841,
+      "name": "Carson Beck",
+      "team": "ARI",
+      "pos": "QB",
+      "rank": 451
+    },
+    {
+      "id": "E-4362887",
+      "espnPlayerId": 4362887,
+      "name": "Justin Fields",
+      "team": "KC",
+      "pos": "QB",
+      "rank": 453
+    },
+    {
+      "id": "E-11252",
+      "espnPlayerId": 11252,
+      "name": "Joe Flacco",
+      "team": "CIN",
+      "pos": "QB",
+      "rank": 454
+    },
+    {
+      "id": "E-4241464",
+      "espnPlayerId": 4241464,
+      "name": "Mac Jones",
+      "team": "SF",
+      "pos": "QB",
+      "rank": 455
+    },
+    {
+      "id": "E-4685522",
+      "espnPlayerId": 4685522,
+      "name": "Ty Simpson",
+      "team": "LAR",
+      "pos": "QB",
+      "rank": 476
+    },
+    {
+      "id": "E-2969939",
+      "espnPlayerId": 2969939,
+      "name": "Jameis Winston",
+      "team": "NYG",
+      "pos": "QB",
+      "rank": 477
+    },
+    {
+      "id": "E-4596472",
+      "espnPlayerId": 4596472,
+      "name": "Jalon Daniels",
+      "team": "TB",
+      "pos": "QB",
+      "rank": 479
+    },
+    {
+      "id": "E-3892775",
+      "espnPlayerId": 3892775,
+      "name": "Jarrett Stidham",
+      "team": "DEN",
+      "pos": "QB",
+      "rank": 480
+    },
+    {
+      "id": "E-4240391",
+      "espnPlayerId": 4240391,
+      "name": "Tommy DeVito",
+      "team": "NE",
+      "pos": "QB",
+      "rank": 482
+    },
+    {
+      "id": "E-2576980",
+      "espnPlayerId": 2576980,
+      "name": "Marcus Mariota",
+      "team": "WSH",
+      "pos": "QB",
+      "rank": 483
+    },
+    {
+      "id": "E-4434153",
+      "espnPlayerId": 4434153,
+      "name": "Tyson Bagent",
+      "team": "CHI",
+      "pos": "QB",
+      "rank": 484
+    },
+    {
+      "id": "E-4426875",
+      "espnPlayerId": 4426875,
+      "name": "Sam Howell",
+      "team": "DAL",
+      "pos": "QB",
+      "rank": 485
+    },
+    {
+      "id": "E-4685201",
+      "espnPlayerId": 4685201,
+      "name": "Tanner McKee",
+      "team": "PHI",
+      "pos": "QB",
+      "rank": 486
+    },
+    {
+      "id": "E-4714771",
+      "espnPlayerId": 4714771,
+      "name": "Drew Allar",
+      "team": "PIT",
+      "pos": "QB",
+      "rank": 1223
+    },
+    {
+      "id": "E-4383351",
+      "espnPlayerId": 4383351,
+      "name": "Trey Lance",
+      "team": "LAC",
+      "pos": "QB",
+      "rank": 1224
+    },
+    {
+      "id": "E-4683423",
+      "espnPlayerId": 4683423,
+      "name": "Riley Leonard",
+      "team": "IND",
+      "pos": "QB",
+      "rank": 1228
+    },
+    {
+      "id": "E-4889929",
+      "espnPlayerId": 4889929,
+      "name": "Quinn Ewers",
+      "team": "JAX",
+      "pos": "QB",
+      "rank": 1229
+    },
+    {
+      "id": "E-14163",
+      "espnPlayerId": 14163,
+      "name": "Tyrod Taylor",
+      "team": "GB",
+      "pos": "QB",
+      "rank": 1231
+    },
+    {
+      "id": "E-4240703",
+      "espnPlayerId": 4240703,
+      "name": "Kenny Pickett",
+      "team": "CAR",
+      "pos": "QB",
+      "rank": 1236
+    },
+    {
+      "id": "E-4426339",
+      "espnPlayerId": 4426339,
+      "name": "Spencer Rattler",
+      "team": "NO",
+      "pos": "QB",
+      "rank": 1239
+    },
+    {
+      "id": "E-3044720",
+      "espnPlayerId": 3044720,
+      "name": "Joshua Dobbs",
+      "team": "DET",
+      "pos": "QB",
+      "rank": 1248
+    },
+    {
+      "id": "E-4035671",
+      "espnPlayerId": 4035671,
+      "name": "Tyler Huntley",
+      "team": "BAL",
+      "pos": "QB",
+      "rank": 1249
+    },
+    {
+      "id": "E-4242546",
+      "espnPlayerId": 4242546,
+      "name": "Davis Mills",
+      "team": "HOU",
+      "pos": "QB",
+      "rank": 1258
+    },
+    {
+      "id": "E-4685413",
+      "espnPlayerId": 4685413,
+      "name": "Cade Klubnik",
+      "team": "NYJ",
+      "pos": "QB",
+      "rank": 1262
+    },
+    {
+      "id": "E-3115293",
+      "espnPlayerId": 3115293,
+      "name": "Kyle Allen",
+      "team": "BUF",
+      "pos": "QB",
+      "rank": 1267
+    },
+    {
+      "id": "E-4433971",
+      "espnPlayerId": 4433971,
+      "name": "Kyle McCord",
+      "team": "MIA",
+      "pos": "QB",
+      "rank": 1268
+    },
+    {
+      "id": "E-3924327",
+      "espnPlayerId": 3924327,
+      "name": "Drew Lock",
+      "team": "SEA",
+      "pos": "QB",
+      "rank": 1271
+    },
+    {
+      "id": "E-3039707",
+      "espnPlayerId": 3039707,
+      "name": "Mitchell Trubisky",
+      "team": "TEN",
+      "pos": "QB",
+      "rank": 1273
+    },
+    {
+      "id": "E-4038524",
+      "espnPlayerId": 4038524,
+      "name": "Gardner Minshew II",
+      "team": "ARI",
+      "pos": "QB",
+      "rank": 1278
+    },
+    {
+      "id": "E-4429023",
+      "espnPlayerId": 4429023,
+      "name": "MarShawn Lloyd",
+      "team": "GB",
+      "pos": "RB",
+      "rank": 90
+    },
+    {
+      "id": "E-4360569",
+      "espnPlayerId": 4360569,
+      "name": "Jordan Mason",
+      "team": "MIN",
+      "pos": "RB",
+      "rank": 161
+    },
+    {
+      "id": "E-4361529",
+      "espnPlayerId": 4361529,
+      "name": "Isiah Pacheco",
+      "team": "DET",
+      "pos": "RB",
+      "rank": 184
+    },
+    {
+      "id": "E-3054850",
+      "espnPlayerId": 3054850,
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "pos": "RB",
+      "rank": 189
+    },
+    {
+      "id": "E-4686658",
+      "espnPlayerId": 4686658,
+      "name": "Mike Washington Jr.",
+      "team": "LV",
+      "pos": "RB",
+      "rank": 229
+    },
+    {
+      "id": "E-4685247",
+      "espnPlayerId": 4685247,
+      "name": "Braelon Allen",
+      "team": "NYJ",
+      "pos": "RB",
+      "rank": 230
+    },
+    {
+      "id": "E-4429013",
+      "espnPlayerId": 4429013,
+      "name": "Tank Bigsby",
+      "team": "PHI",
+      "pos": "RB",
+      "rank": 237
+    },
+    {
+      "id": "E-4429501",
+      "espnPlayerId": 4429501,
+      "name": "Ray Davis",
+      "team": "BUF",
+      "pos": "RB",
+      "rank": 238
+    },
+    {
+      "id": "E-4241457",
+      "espnPlayerId": 4241457,
+      "name": "Najee Harris",
+      "team": "NYG",
+      "pos": "RB",
+      "rank": 270
+    },
+    {
+      "id": "E-4038441",
+      "espnPlayerId": 4038441,
+      "name": "Justice Hill",
+      "team": "BAL",
+      "pos": "RB",
+      "rank": 273
+    },
+    {
+      "id": "E-4696044",
+      "espnPlayerId": 4696044,
+      "name": "Kaelon Black",
+      "team": "SF",
+      "pos": "RB",
+      "rank": 306
+    },
+    {
+      "id": "E-4430968",
+      "espnPlayerId": 4430968,
+      "name": "Kimani Vidal",
+      "team": "LAC",
+      "pos": "RB",
+      "rank": 307
+    },
+    {
+      "id": "E-4682745",
+      "espnPlayerId": 4682745,
+      "name": "Jaylen Wright",
+      "team": "MIA",
+      "pos": "RB",
+      "rank": 308
+    },
+    {
+      "id": "E-4711533",
+      "espnPlayerId": 4711533,
+      "name": "Ollie Gordon II",
+      "team": "MIA",
+      "pos": "RB",
+      "rank": 319
+    },
+    {
+      "id": "E-3116389",
+      "espnPlayerId": 3116389,
+      "name": "Samaje Perine",
+      "team": "CIN",
+      "pos": "RB",
+      "rank": 320
+    },
+    {
+      "id": "E-3915411",
+      "espnPlayerId": 3915411,
+      "name": "Ty Johnson",
+      "team": "BUF",
+      "pos": "RB",
+      "rank": 321
+    },
+    {
+      "id": "E-4240603",
+      "espnPlayerId": 4240603,
+      "name": "Malik Davis",
+      "team": "DAL",
+      "pos": "RB",
+      "rank": 324
+    },
+    {
+      "id": "E-4596602",
+      "espnPlayerId": 4596602,
+      "name": "Brashard Smith",
+      "team": "KC",
+      "pos": "RB",
+      "rank": 325
+    },
+    {
+      "id": "E-3149687",
+      "espnPlayerId": 3149687,
+      "name": "Chris Brooks",
+      "team": "GB",
+      "pos": "RB",
+      "rank": 340
+    },
+    {
+      "id": "E-4832955",
+      "espnPlayerId": 4832955,
+      "name": "Emmett Johnson",
+      "team": "KC",
+      "pos": "RB",
+      "rank": 342
+    },
+    {
+      "id": "E-4695404",
+      "espnPlayerId": 4695404,
+      "name": "Isaiah Davis",
+      "team": "NYJ",
+      "pos": "RB",
+      "rank": 343
+    },
+    {
+      "id": "E-4911851",
+      "espnPlayerId": 4911851,
+      "name": "LeQuint Allen Jr.",
+      "team": "JAX",
+      "pos": "RB",
+      "rank": 344
+    },
+    {
+      "id": "E-4429835",
+      "espnPlayerId": 4429835,
+      "name": "George Holani",
+      "team": "SEA",
+      "pos": "RB",
+      "rank": 345
+    },
+    {
+      "id": "E-4360516",
+      "espnPlayerId": 4360516,
+      "name": "Tyrone Tracy Jr.",
+      "team": "NYG",
+      "pos": "RB",
+      "rank": 346
+    },
+    {
+      "id": "E-4430871",
+      "espnPlayerId": 4430871,
+      "name": "Sean Tucker",
+      "team": "TB",
+      "pos": "RB",
+      "rank": 348
+    },
+    {
+      "id": "E-4686468",
+      "espnPlayerId": 4686468,
+      "name": "Seth McGowan",
+      "team": "IND",
+      "pos": "RB",
+      "rank": 350
+    },
+    {
+      "id": "E-4685397",
+      "espnPlayerId": 4685397,
+      "name": "Jordan James",
+      "team": "SF",
+      "pos": "RB",
+      "rank": 351
+    },
+    {
+      "id": "E-4431545",
+      "espnPlayerId": 4431545,
+      "name": "Will Shipley",
+      "team": "PHI",
+      "pos": "RB",
+      "rank": 352
+    },
+    {
+      "id": "E-4383429",
+      "espnPlayerId": 4383429,
+      "name": "Jacob Saylors",
+      "team": "DET",
+      "pos": "RB",
+      "rank": 353
+    },
+    {
+      "id": "E-4599739",
+      "espnPlayerId": 4599739,
+      "name": "Kendre Miller",
+      "team": "NO",
+      "pos": "RB",
+      "rank": 356
+    },
+    {
+      "id": "E-4429299",
+      "espnPlayerId": 4429299,
+      "name": "Tahj Brooks",
+      "team": "CIN",
+      "pos": "RB",
+      "rank": 376
+    },
+    {
+      "id": "E-4832846",
+      "espnPlayerId": 4832846,
+      "name": "Demond Claiborne",
+      "team": "MIN",
+      "pos": "RB",
+      "rank": 378
+    },
+    {
+      "id": "E-4690013",
+      "espnPlayerId": 4690013,
+      "name": "Rasheen Ali",
+      "team": "BAL",
+      "pos": "RB",
+      "rank": 396
+    },
+    {
+      "id": "E-4685246",
+      "espnPlayerId": 4685246,
+      "name": "Kaytron Allen",
+      "team": "WSH",
+      "pos": "RB",
+      "rank": 397
+    },
+    {
+      "id": "E-4874509",
+      "espnPlayerId": 4874509,
+      "name": "DJ Giddens",
+      "team": "IND",
+      "pos": "RB",
+      "rank": 398
+    },
+    {
+      "id": "E-4887558",
+      "espnPlayerId": 4887558,
+      "name": "Emanuel Wilson",
+      "team": "SEA",
+      "pos": "RB",
+      "rank": 399
+    },
+    {
+      "id": "E-4819231",
+      "espnPlayerId": 4819231,
+      "name": "Kaleb Johnson",
+      "team": "GB",
+      "pos": "RB",
+      "rank": 402
+    },
+    {
+      "id": "E-4035537",
+      "espnPlayerId": 4035537,
+      "name": "Kene Nwangwu",
+      "team": "NYJ",
+      "pos": "RB",
+      "rank": 403
+    },
+    {
+      "id": "E-4427728",
+      "espnPlayerId": 4427728,
+      "name": "Bam Knight",
+      "team": "ARI",
+      "pos": "RB",
+      "rank": 404
+    },
+    {
+      "id": "E-4912274",
+      "espnPlayerId": 4912274,
+      "name": "Sione Vaki",
+      "team": "DET",
+      "pos": "RB",
+      "rank": 405
+    },
+    {
+      "id": "E-4366963",
+      "espnPlayerId": 4366963,
+      "name": "Dylan Laube",
+      "team": "LV",
+      "pos": "RB",
+      "rank": 431
+    },
+    {
+      "id": "E-4362748",
+      "espnPlayerId": 4362748,
+      "name": "Tyler Badie",
+      "team": "DEN",
+      "pos": "RB",
+      "rank": 432
+    },
+    {
+      "id": "E-4685526",
+      "espnPlayerId": 4685526,
+      "name": "Adam Randall",
+      "team": "BAL",
+      "pos": "RB",
+      "rank": 434,
+      "referenceSource": "2026 consensus top 300"
+    },
+    {
+      "id": "E-3045147",
+      "espnPlayerId": 3045147,
+      "name": "James Conner",
+      "team": "ARI",
+      "pos": "RB",
+      "rank": 435,
+      "referenceSource": "2026 consensus top 300"
+    },
+    {
+      "id": "E-4693370",
+      "espnPlayerId": 4693370,
+      "name": "Riley Nowakowski",
+      "team": "PIT",
+      "pos": "RB",
+      "rank": 456
+    },
+    {
+      "id": "E-16002",
+      "espnPlayerId": 16002,
+      "name": "Kyle Juszczyk",
+      "team": "SF",
+      "pos": "RB",
+      "rank": 457
+    },
+    {
+      "id": "E-4383396",
+      "espnPlayerId": 4383396,
+      "name": "Hunter Luepke",
+      "team": "DAL",
+      "pos": "RB",
+      "rank": 458
+    },
+    {
+      "id": "E-3917668",
+      "espnPlayerId": 3917668,
+      "name": "Alec Ingold",
+      "team": "LAC",
+      "pos": "RB",
+      "rank": 1162
+    },
+    {
+      "id": "E-3929914",
+      "espnPlayerId": 3929914,
+      "name": "Adam Prentice",
+      "team": "FA",
+      "pos": "RB",
+      "rank": 1207
+    },
+    {
+      "id": "E-4241961",
+      "espnPlayerId": 4241961,
+      "name": "Connor Heyward",
+      "team": "LV",
+      "pos": "RB",
+      "rank": 1209
+    },
+    {
+      "id": "E-2515270",
+      "espnPlayerId": 2515270,
+      "name": "Michael Burton",
+      "team": "CLE",
+      "pos": "RB",
+      "rank": 1211
+    },
+    {
+      "id": "E-4878695",
+      "espnPlayerId": 4878695,
+      "name": "Max Bredeson",
+      "team": "MIN",
+      "pos": "RB",
+      "rank": 1218
+    },
+    {
+      "id": "E-3125107",
+      "espnPlayerId": 3125107,
+      "name": "Andrew Beck",
+      "team": "NYJ",
+      "pos": "RB",
+      "rank": 1256
+    },
+    {
+      "id": "E-4039505",
+      "espnPlayerId": 4039505,
+      "name": "Reggie Gilliam",
+      "team": "NE",
+      "pos": "RB",
+      "rank": 1272
+    },
+    {
+      "id": "E-2975417",
+      "espnPlayerId": 2975417,
+      "name": "Patrick Ricard",
+      "team": "NYG",
+      "pos": "RB",
+      "rank": 1276
+    },
+    {
+      "id": "E-4373273",
+      "espnPlayerId": 4373273,
+      "name": "British Brooks",
+      "team": "HOU",
+      "pos": "RB",
+      "rank": 1323
+    },
+    {
+      "id": "E-4040761",
+      "espnPlayerId": 4040761,
+      "name": "Devin Singletary",
+      "team": "NYG",
+      "pos": "RB",
+      "rank": 1340,
+      "referenceSource": "2026 consensus top 300"
+    },
+    {
+      "id": "E-4682652",
+      "espnPlayerId": 4682652,
+      "name": "Devin Neal",
+      "team": "NO",
+      "pos": "RB",
+      "rank": 1422,
+      "referenceSource": "2026 consensus top 300"
+    },
+    {
+      "id": "E-4362478",
+      "espnPlayerId": 4362478,
+      "name": "Emari Demercado",
+      "team": "DAL",
+      "pos": "RB",
+      "rank": 2218
+    },
+    {
+      "id": "E-4685279",
+      "espnPlayerId": 4685279,
+      "name": "Jaydon Blue",
+      "team": "PHI",
+      "pos": "RB",
+      "rank": 2458,
+      "referenceSource": "2026 consensus top 300"
+    },
+    {
+      "id": "E-4595348",
+      "espnPlayerId": 4595348,
+      "name": "Malik Nabers",
+      "team": "NYG",
+      "pos": "WR",
+      "rank": 33
+    },
+    {
+      "id": "E-4685472",
+      "espnPlayerId": 4685472,
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "pos": "WR",
+      "rank": 36
+    },
+    {
+      "id": "E-4567750",
+      "espnPlayerId": 4567750,
+      "name": "Emeka Egbuka",
+      "team": "TB",
+      "pos": "WR",
+      "rank": 39
+    },
+    {
+      "id": "E-4426388",
+      "espnPlayerId": 4426388,
+      "name": "Jameson Williams",
+      "team": "DET",
+      "pos": "WR",
+      "rank": 55
+    },
+    {
+      "id": "E-4685278",
+      "espnPlayerId": 4685278,
+      "name": "Luther Burden III",
+      "team": "CHI",
+      "pos": "WR",
+      "rank": 66
+    },
+    {
+      "id": "E-4432708",
+      "espnPlayerId": 4432708,
+      "name": "Marvin Harrison Jr.",
+      "team": "ARI",
+      "pos": "WR",
+      "rank": 72
+    },
+    {
+      "id": "E-4047650",
+      "espnPlayerId": 4047650,
+      "name": "DK Metcalf",
+      "team": "PIT",
+      "pos": "WR",
+      "rank": 75
+    },
+    {
+      "id": "E-4432620",
+      "espnPlayerId": 4432620,
+      "name": "Parker Washington",
+      "team": "JAX",
+      "pos": "WR",
+      "rank": 87
+    },
+    {
+      "id": "E-4685415",
+      "espnPlayerId": 4685415,
+      "name": "Travis Hunter",
+      "team": "JAX",
+      "pos": "WR",
+      "rank": 109
+    },
+    {
+      "id": "E-4701936",
+      "espnPlayerId": 4701936,
+      "name": "Matthew Golden",
+      "team": "GB",
+      "pos": "WR",
+      "rank": 117
+    },
+    {
+      "id": "E-4429205",
+      "espnPlayerId": 4429205,
+      "name": "Jordan Addison",
+      "team": "MIN",
+      "pos": "WR",
+      "rank": 119
+    },
+    {
+      "id": "E-4586312",
+      "espnPlayerId": 4586312,
+      "name": "Jaylin Noel",
+      "team": "HOU",
+      "pos": "WR",
+      "rank": 212
+    },
+    {
+      "id": "E-4032473",
+      "espnPlayerId": 4032473,
+      "name": "Rashid Shaheed",
+      "team": "SEA",
+      "pos": "WR",
+      "rank": 214
+    },
+    {
+      "id": "E-4869645",
+      "espnPlayerId": 4869645,
+      "name": "Caleb Douglas",
+      "team": "MIA",
+      "pos": "WR",
+      "rank": 221
+    },
+    {
+      "id": "E-4382466",
+      "espnPlayerId": 4382466,
+      "name": "Jalen Nailor",
+      "team": "LV",
+      "pos": "WR",
+      "rank": 227
+    },
+    {
+      "id": "E-4428850",
+      "espnPlayerId": 4428850,
+      "name": "Dontayvion Wicks",
+      "team": "PHI",
+      "pos": "WR",
+      "rank": 235
+    },
+    {
+      "id": "E-4870847",
+      "espnPlayerId": 4870847,
+      "name": "Ja'Kobi Lane",
+      "team": "BAL",
+      "pos": "WR",
+      "rank": 276
+    },
+    {
+      "id": "E-4682648",
+      "espnPlayerId": 4682648,
+      "name": "Malachi Fields",
+      "team": "NYG",
+      "pos": "WR",
+      "rank": 287
+    },
+    {
+      "id": "E-4685261",
+      "espnPlayerId": 4685261,
+      "name": "Germie Bernard",
+      "team": "PIT",
+      "pos": "WR",
+      "rank": 290
+    },
+    {
+      "id": "E-4686612",
+      "espnPlayerId": 4686612,
+      "name": "Tre' Harris",
+      "team": "LAC",
+      "pos": "WR",
+      "rank": 293
+    },
+    {
+      "id": "E-5083754",
+      "espnPlayerId": 5083754,
+      "name": "Ryan Flournoy",
+      "team": "DAL",
+      "pos": "WR",
+      "rank": 299
+    },
+    {
+      "id": "E-4870612",
+      "espnPlayerId": 4870612,
+      "name": "Zachariah Branch",
+      "team": "ATL",
+      "pos": "WR",
+      "rank": 302
+    },
+    {
+      "id": "E-4723820",
+      "espnPlayerId": 4723820,
+      "name": "Omar Cooper Jr.",
+      "team": "NYJ",
+      "pos": "WR",
+      "rank": 304
+    },
+    {
+      "id": "E-4569603",
+      "espnPlayerId": 4569603,
+      "name": "Malik Washington",
+      "team": "MIA",
+      "pos": "WR",
+      "rank": 322
+    },
+    {
+      "id": "E-2977187",
+      "espnPlayerId": 2977187,
+      "name": "Cooper Kupp",
+      "team": "SEA",
+      "pos": "WR",
+      "rank": 326
+    },
+    {
+      "id": "E-4430034",
+      "espnPlayerId": 4430034,
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "pos": "WR",
+      "rank": 327
+    },
+    {
+      "id": "E-4686422",
+      "espnPlayerId": 4686422,
+      "name": "Xavier Hutchinson",
+      "team": "HOU",
+      "pos": "WR",
+      "rank": 329
+    },
+    {
+      "id": "E-4869961",
+      "espnPlayerId": 4869961,
+      "name": "Chris Bell",
+      "team": "MIA",
+      "pos": "WR",
+      "rank": 331
+    },
+    {
+      "id": "E-4427095",
+      "espnPlayerId": 4427095,
+      "name": "DeMario Douglas",
+      "team": "NE",
+      "pos": "WR",
+      "rank": 332
+    },
+    {
+      "id": "E-5081432",
+      "espnPlayerId": 5081432,
+      "name": "Antonio Williams",
+      "team": "WSH",
+      "pos": "WR",
+      "rank": 357
+    },
+    {
+      "id": "E-4362921",
+      "espnPlayerId": 4362921,
+      "name": "Tyquan Thornton",
+      "team": "KC",
+      "pos": "WR",
+      "rank": 358
+    },
+    {
+      "id": "E-4635008",
+      "espnPlayerId": 4635008,
+      "name": "Keon Coleman",
+      "team": "BUF",
+      "pos": "WR",
+      "rank": 369
+    },
+    {
+      "id": "E-5123663",
+      "espnPlayerId": 5123663,
+      "name": "Isaac TeSlaa",
+      "team": "DET",
+      "pos": "WR",
+      "rank": 370
+    },
+    {
+      "id": "E-4600981",
+      "espnPlayerId": 4600981,
+      "name": "Pat Bryant",
+      "team": "DEN",
+      "pos": "WR",
+      "rank": 371
+    },
+    {
+      "id": "E-4368003",
+      "espnPlayerId": 4368003,
+      "name": "Andrei Iosivas",
+      "team": "CIN",
+      "pos": "WR",
+      "rank": 390
+    },
+    {
+      "id": "E-4685307",
+      "espnPlayerId": 4685307,
+      "name": "Kevin Coleman Jr.",
+      "team": "MIA",
+      "pos": "WR",
+      "rank": 391
+    },
+    {
+      "id": "E-3676833",
+      "espnPlayerId": 3676833,
+      "name": "KaVontae Turpin",
+      "team": "DAL",
+      "pos": "WR",
+      "rank": 392
+    },
+    {
+      "id": "E-4603186",
+      "espnPlayerId": 4603186,
+      "name": "Jack Bech",
+      "team": "LV",
+      "pos": "WR",
+      "rank": 393
+    },
+    {
+      "id": "E-4597703",
+      "espnPlayerId": 4597703,
+      "name": "Tory Horton",
+      "team": "SEA",
+      "pos": "WR",
+      "rank": 395
+    },
+    {
+      "id": "E-5220680",
+      "espnPlayerId": 5220680,
+      "name": "Ted Hurst III",
+      "team": "TB",
+      "pos": "WR",
+      "rank": 406
+    },
+    {
+      "id": "E-2991662",
+      "espnPlayerId": 2991662,
+      "name": "Mack Hollins",
+      "team": "NE",
+      "pos": "WR",
+      "rank": 421
+    },
+    {
+      "id": "E-4912218",
+      "espnPlayerId": 4912218,
+      "name": "Cyrus Allen",
+      "team": "KC",
+      "pos": "WR",
+      "rank": 978
+    },
+    {
+      "id": "E-4613202",
+      "espnPlayerId": 4613202,
+      "name": "Kyle Williams",
+      "team": "NE",
+      "pos": "WR",
+      "rank": 979
+    },
+    {
+      "id": "E-3045523",
+      "espnPlayerId": 3045523,
+      "name": "Kendrick Bourne",
+      "team": "ARI",
+      "pos": "WR",
+      "rank": 982
+    },
+    {
+      "id": "E-5150247",
+      "espnPlayerId": 5150247,
+      "name": "Malik Benson",
+      "team": "LV",
+      "pos": "WR",
+      "rank": 983
+    },
+    {
+      "id": "E-2973405",
+      "espnPlayerId": 2973405,
+      "name": "Kalif Raymond",
+      "team": "CHI",
+      "pos": "WR",
+      "rank": 984
+    },
+    {
+      "id": "E-4361577",
+      "espnPlayerId": 4361577,
+      "name": "Dyami Brown",
+      "team": "WSH",
+      "pos": "WR",
+      "rank": 990
+    },
+    {
+      "id": "E-4567156",
+      "espnPlayerId": 4567156,
+      "name": "Treylon Burks",
+      "team": "WSH",
+      "pos": "WR",
+      "rank": 996
+    },
+    {
+      "id": "E-4696882",
+      "espnPlayerId": 4696882,
+      "name": "Devontez Walker",
+      "team": "BAL",
+      "pos": "WR",
+      "rank": 1000
+    },
+    {
+      "id": "E-4431487",
+      "espnPlayerId": 4431487,
+      "name": "Savion Williams",
+      "team": "GB",
+      "pos": "WR",
+      "rank": 1012
+    },
+    {
+      "id": "E-4431268",
+      "espnPlayerId": 4431268,
+      "name": "Chimere Dike",
+      "team": "TEN",
+      "pos": "WR",
+      "rank": 1017
+    },
+    {
+      "id": "E-4879276",
+      "espnPlayerId": 4879276,
+      "name": "Bryce Lance",
+      "team": "NO",
+      "pos": "WR",
+      "rank": 1019
+    },
+    {
+      "id": "E-4602667",
+      "espnPlayerId": 4602667,
+      "name": "Jaylin Lane",
+      "team": "WSH",
+      "pos": "WR",
+      "rank": 1024
+    },
+    {
+      "id": "E-4869748",
+      "espnPlayerId": 4869748,
+      "name": "Zavion Thomas",
+      "team": "CHI",
+      "pos": "WR",
+      "rank": 1030
+    },
+    {
+      "id": "E-4808839",
+      "espnPlayerId": 4808839,
+      "name": "Isaiah Bond",
+      "team": "CLE",
+      "pos": "WR",
+      "rank": 1041
+    },
+    {
+      "id": "E-4683153",
+      "espnPlayerId": 4683153,
+      "name": "Skyler Bell",
+      "team": "BUF",
+      "pos": "WR",
+      "rank": 1046
+    },
+    {
+      "id": "E-3917914",
+      "espnPlayerId": 3917914,
+      "name": "Olamide Zaccheaus",
+      "team": "ATL",
+      "pos": "WR",
+      "rank": 1050
+    },
+    {
+      "id": "E-4061956",
+      "espnPlayerId": 4061956,
+      "name": "Ashton Dulin",
+      "team": "IND",
+      "pos": "WR",
+      "rank": 1054
+    },
+    {
+      "id": "E-4569371",
+      "espnPlayerId": 4569371,
+      "name": "Isaiah Williams",
+      "team": "NYJ",
+      "pos": "WR",
+      "rank": 1057
+    },
+    {
+      "id": "E-5092508",
+      "espnPlayerId": 5092508,
+      "name": "Colbie Young",
+      "team": "CIN",
+      "pos": "WR",
+      "rank": 1064
+    },
+    {
+      "id": "E-4685553",
+      "espnPlayerId": 4685553,
+      "name": "Brenen Thompson",
+      "team": "LAC",
+      "pos": "WR",
+      "rank": 1079
+    },
+    {
+      "id": "E-5088338",
+      "espnPlayerId": 5088338,
+      "name": "Elijah Sarratt",
+      "team": "BAL",
+      "pos": "WR",
+      "rank": 1095
+    },
+    {
+      "id": "E-16733",
+      "espnPlayerId": 16733,
+      "name": "Odell Beckham Jr.",
+      "team": "NYG",
+      "pos": "WR",
+      "rank": 1102
+    },
+    {
+      "id": "E-4883647",
+      "espnPlayerId": 4883647,
+      "name": "Elic Ayomanor",
+      "team": "TEN",
+      "pos": "WR",
+      "rank": 1103
+    },
+    {
+      "id": "E-4608810",
+      "espnPlayerId": 4608810,
+      "name": "Tez Johnson",
+      "team": "TB",
+      "pos": "WR",
+      "rank": 1119
+    },
+    {
+      "id": "E-4708486",
+      "espnPlayerId": 4708486,
+      "name": "Jimmy Horn Jr.",
+      "team": "CAR",
+      "pos": "WR",
+      "rank": 1120
+    },
+    {
+      "id": "E-4710855",
+      "espnPlayerId": 4710855,
+      "name": "Konata Mumpfield",
+      "team": "LAR",
+      "pos": "WR",
+      "rank": 1134
+    },
+    {
+      "id": "E-5082630",
+      "espnPlayerId": 5082630,
+      "name": "Jalen Royals",
+      "team": "KC",
+      "pos": "WR",
+      "rank": 1142
+    },
+    {
+      "id": "E-4430870",
+      "espnPlayerId": 4430870,
+      "name": "KeAndre Lambert-Smith",
+      "team": "LAC",
+      "pos": "WR",
+      "rank": 1145
+    },
+    {
+      "id": "E-4698597",
+      "espnPlayerId": 4698597,
+      "name": "Barion Brown",
+      "team": "NO",
+      "pos": "WR",
+      "rank": 1153
+    },
+    {
+      "id": "E-3051889",
+      "espnPlayerId": 3051889,
+      "name": "Laquon Treadwell",
+      "team": "IND",
+      "pos": "WR",
+      "rank": 1157
+    },
+    {
+      "id": "E-4259305",
+      "espnPlayerId": 4259305,
+      "name": "Bo Melton",
+      "team": "GB",
+      "pos": "WR",
+      "rank": 1168
+    },
+    {
+      "id": "E-4245144",
+      "espnPlayerId": 4245144,
+      "name": "Tay Martin",
+      "team": "DET",
+      "pos": "WR",
+      "rank": 1185
+    },
+    {
+      "id": "E-4362477",
+      "espnPlayerId": 4362477,
+      "name": "Derius Davis",
+      "team": "LAC",
+      "pos": "WR",
+      "rank": 1193
+    },
+    {
+      "id": "E-4386544",
+      "espnPlayerId": 4386544,
+      "name": "Xavier Smith",
+      "team": "LAR",
+      "pos": "WR",
+      "rank": 1194
+    },
+    {
+      "id": "E-4575665",
+      "espnPlayerId": 4575665,
+      "name": "Jacob Cowing",
+      "team": "SF",
+      "pos": "WR",
+      "rank": 1208
+    },
+    {
+      "id": "E-4384852",
+      "espnPlayerId": 4384852,
+      "name": "Dohnte Meyers",
+      "team": "CIN",
+      "pos": "WR",
+      "rank": 1210
+    },
+    {
+      "id": "E-4695193",
+      "espnPlayerId": 4695193,
+      "name": "Efton Chism III",
+      "team": "NE",
+      "pos": "WR",
+      "rank": 1212
+    },
+    {
+      "id": "E-4565185",
+      "espnPlayerId": 4565185,
+      "name": "Tai Felton",
+      "team": "MIN",
+      "pos": "WR",
+      "rank": 1237
+    },
+    {
+      "id": "E-4879194",
+      "espnPlayerId": 4879194,
+      "name": "Josh Cameron",
+      "team": "JAX",
+      "pos": "WR",
+      "rank": 1238
+    },
+    {
+      "id": "E-5160110",
+      "espnPlayerId": 5160110,
+      "name": "Jahdae Walker",
+      "team": "CHI",
+      "pos": "WR",
+      "rank": 1246
+    },
+    {
+      "id": "E-4715355",
+      "espnPlayerId": 4715355,
+      "name": "Darius Cooper",
+      "team": "PHI",
+      "pos": "WR",
+      "rank": 1254
+    },
+    {
+      "id": "E-4426485",
+      "espnPlayerId": 4426485,
+      "name": "Jonathan Mingo",
+      "team": "DAL",
+      "pos": "WR",
+      "rank": 1257
+    },
+    {
+      "id": "E-4869132",
+      "espnPlayerId": 4869132,
+      "name": "Reggie Virgil",
+      "team": "ARI",
+      "pos": "WR",
+      "rank": 1265
+    },
+    {
+      "id": "E-4360763",
+      "espnPlayerId": 4360763,
+      "name": "Brycen Tremayne",
+      "team": "CAR",
+      "pos": "WR",
+      "rank": 1270
+    },
+    {
+      "id": "E-5081338",
+      "espnPlayerId": 5081338,
+      "name": "Kaden Wetjen",
+      "team": "PIT",
+      "pos": "WR",
+      "rank": 1302
+    },
+    {
+      "id": "E-4035656",
+      "espnPlayerId": 4035656,
+      "name": "Ben Skowronek",
+      "team": "PIT",
+      "pos": "WR",
+      "rank": 1304
+    },
+    {
+      "id": "E-5097554",
+      "espnPlayerId": 5097554,
+      "name": "Kameron Johnson",
+      "team": "TB",
+      "pos": "WR",
+      "rank": 1308
+    },
+    {
+      "id": "E-4429105",
+      "espnPlayerId": 4429105,
+      "name": "Arian Smith",
+      "team": "NYJ",
+      "pos": "WR",
+      "rank": 1311
+    },
+    {
+      "id": "E-3123075",
+      "espnPlayerId": 3123075,
+      "name": "Braxton Berrios",
+      "team": "FA",
+      "pos": "WR",
+      "rank": 1321
+    },
+    {
+      "id": "E-4570738",
+      "espnPlayerId": 4570738,
+      "name": "Ke'Shawn Williams",
+      "team": "CIN",
+      "pos": "WR",
+      "rank": 1325
+    },
+    {
+      "id": "E-4430656",
+      "espnPlayerId": 4430656,
+      "name": "Myles Price",
+      "team": "MIN",
+      "pos": "WR",
+      "rank": 1326
+    },
+    {
+      "id": "E-4690143",
+      "espnPlayerId": 4690143,
+      "name": "LaJohntay Wester",
+      "team": "BAL",
+      "pos": "WR",
+      "rank": 1327
+    },
+    {
+      "id": "E-4039050",
+      "espnPlayerId": 4039050,
+      "name": "Devin Duvernay",
+      "team": "ARI",
+      "pos": "WR",
+      "rank": 1328
+    },
+    {
+      "id": "E-4372716",
+      "espnPlayerId": 4372716,
+      "name": "Nikko Remigio",
+      "team": "KC",
+      "pos": "WR",
+      "rank": 1330
+    },
+    {
+      "id": "E-4430191",
+      "espnPlayerId": 4430191,
+      "name": "Skyy Moore",
+      "team": "GB",
+      "pos": "WR",
+      "rank": 1331
+    },
+    {
+      "id": "E-4401805",
+      "espnPlayerId": 4401805,
+      "name": "Dareke Young",
+      "team": "LV",
+      "pos": "WR",
+      "rank": 1332
+    },
+    {
+      "id": "E-4692835",
+      "espnPlayerId": 4692835,
+      "name": "Jalen Brooks",
+      "team": "ARI",
+      "pos": "WR",
+      "rank": 1333
+    },
+    {
+      "id": "E-15847",
+      "espnPlayerId": 15847,
+      "name": "Travis Kelce",
+      "team": "KC",
+      "pos": "TE",
+      "rank": 131
+    },
+    {
+      "id": "E-3929645",
+      "espnPlayerId": 3929645,
+      "name": "Juwan Johnson",
+      "team": "NO",
+      "pos": "TE",
+      "rank": 191
+    },
+    {
+      "id": "E-5083315",
+      "espnPlayerId": 5083315,
+      "name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "pos": "TE",
+      "rank": 200
+    },
+    {
+      "id": "E-4430539",
+      "espnPlayerId": 4430539,
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "pos": "TE",
+      "rank": 208
+    },
+    {
+      "id": "E-4570037",
+      "espnPlayerId": 4570037,
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "pos": "TE",
+      "rank": 213
+    },
+    {
+      "id": "E-4686728",
+      "espnPlayerId": 4686728,
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "pos": "TE",
+      "rank": 310
+    },
+    {
+      "id": "E-4576297",
+      "espnPlayerId": 4576297,
+      "name": "AJ Barner",
+      "team": "SEA",
+      "pos": "TE",
+      "rank": 312
+    },
+    {
+      "id": "E-4367209",
+      "espnPlayerId": 4367209,
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "pos": "TE",
+      "rank": 365
+    },
+    {
+      "id": "E-2576925",
+      "espnPlayerId": 2576925,
+      "name": "Darren Waller",
+      "team": "CAR",
+      "pos": "TE",
+      "rank": 366
+    },
+    {
+      "id": "E-4595342",
+      "espnPlayerId": 4595342,
+      "name": "Oronde Gadsden",
+      "team": "LAC",
+      "pos": "TE",
+      "rank": 416
+    },
+    {
+      "id": "E-3116164",
+      "espnPlayerId": 3116164,
+      "name": "Mike Gesicki",
+      "team": "CIN",
+      "pos": "TE",
+      "rank": 417
+    },
+    {
+      "id": "E-4429086",
+      "espnPlayerId": 4429086,
+      "name": "Michael Mayer",
+      "team": "LV",
+      "pos": "TE",
+      "rank": 418
+    },
+    {
+      "id": "E-4259147",
+      "espnPlayerId": 4259147,
+      "name": "Jake Tonges",
+      "team": "SF",
+      "pos": "TE",
+      "rank": 441
+    },
+    {
+      "id": "E-4242557",
+      "espnPlayerId": 4242557,
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "pos": "TE",
+      "rank": 442
+    },
+    {
+      "id": "E-4427834",
+      "espnPlayerId": 4427834,
+      "name": "Erick All Jr.",
+      "team": "CIN",
+      "pos": "TE",
+      "rank": 443
+    },
+    {
+      "id": "E-4430802",
+      "espnPlayerId": 4430802,
+      "name": "Darnell Washington",
+      "team": "PIT",
+      "pos": "TE",
+      "rank": 445
+    },
+    {
+      "id": "E-3930086",
+      "espnPlayerId": 3930086,
+      "name": "Dawson Knox",
+      "team": "BUF",
+      "pos": "TE",
+      "rank": 459
+    },
+    {
+      "id": "E-4678006",
+      "espnPlayerId": 4678006,
+      "name": "Elijah Arroyo",
+      "team": "SEA",
+      "pos": "TE",
+      "rank": 460
+    },
+    {
+      "id": "E-4808766",
+      "espnPlayerId": 4808766,
+      "name": "Mason Taylor",
+      "team": "NYJ",
+      "pos": "TE",
+      "rank": 464
+    },
+    {
+      "id": "E-4429148",
+      "espnPlayerId": 4429148,
+      "name": "Theo Johnson",
+      "team": "NYG",
+      "pos": "TE",
+      "rank": 465
+    },
+    {
+      "id": "E-4258595",
+      "espnPlayerId": 4258595,
+      "name": "Cole Kmet",
+      "team": "CHI",
+      "pos": "TE",
+      "rank": 466
+    },
+    {
+      "id": "E-4431588",
+      "espnPlayerId": 4431588,
+      "name": "Ja'Tavion Sanders",
+      "team": "CAR",
+      "pos": "TE",
+      "rank": 467
+    },
+    {
+      "id": "E-4240472",
+      "espnPlayerId": 4240472,
+      "name": "Noah Gray",
+      "team": "KC",
+      "pos": "TE",
+      "rank": 468
+    },
+    {
+      "id": "E-4431574",
+      "espnPlayerId": 4431574,
+      "name": "Eli Stowers",
+      "team": "PHI",
+      "pos": "TE",
+      "rank": 469
+    },
+    {
+      "id": "E-2573401",
+      "espnPlayerId": 2573401,
+      "name": "Tyler Higbee",
+      "team": "LAR",
+      "pos": "TE",
+      "rank": 470
+    },
+    {
+      "id": "E-4833029",
+      "espnPlayerId": 4833029,
+      "name": "Max Klare",
+      "team": "LAR",
+      "pos": "TE",
+      "rank": 471
+    },
+    {
+      "id": "E-4831959",
+      "espnPlayerId": 4831959,
+      "name": "Eli Raridon",
+      "team": "NE",
+      "pos": "TE",
+      "rank": 472
+    },
+    {
+      "id": "E-4372780",
+      "espnPlayerId": 4372780,
+      "name": "Tommy Tremble",
+      "team": "CAR",
+      "pos": "TE",
+      "rank": 473
+    },
+    {
+      "id": "E-3043275",
+      "espnPlayerId": 3043275,
+      "name": "Austin Hooper",
+      "team": "ATL",
+      "pos": "TE",
+      "rank": 1003
+    },
+    {
+      "id": "E-4426844",
+      "espnPlayerId": 4426844,
+      "name": "Elijah Higgins",
+      "team": "ARI",
+      "pos": "TE",
+      "rank": 1008
+    },
+    {
+      "id": "E-4880236",
+      "espnPlayerId": 4880236,
+      "name": "Will Kacmarek",
+      "team": "MIA",
+      "pos": "TE",
+      "rank": 1016
+    },
+    {
+      "id": "E-3054212",
+      "espnPlayerId": 3054212,
+      "name": "Jonnu Smith",
+      "team": "GB",
+      "pos": "TE",
+      "rank": 1020
+    },
+    {
+      "id": "E-3127310",
+      "espnPlayerId": 3127310,
+      "name": "Drew Sample",
+      "team": "CIN",
+      "pos": "TE",
+      "rank": 1021
+    },
+    {
+      "id": "E-3921690",
+      "espnPlayerId": 3921690,
+      "name": "Josh Oliver",
+      "team": "MIN",
+      "pos": "TE",
+      "rank": 1022
+    },
+    {
+      "id": "E-3911853",
+      "espnPlayerId": 3911853,
+      "name": "Adam Trautman",
+      "team": "DEN",
+      "pos": "TE",
+      "rank": 1023
+    },
+    {
+      "id": "E-4241263",
+      "espnPlayerId": 4241263,
+      "name": "Charlie Kolar",
+      "team": "LAC",
+      "pos": "TE",
+      "rank": 1032
+    },
+    {
+      "id": "E-4036131",
+      "espnPlayerId": 4036131,
+      "name": "Noah Fant",
+      "team": "NO",
+      "pos": "TE",
+      "rank": 1034
+    },
+    {
+      "id": "E-4426496",
+      "espnPlayerId": 4426496,
+      "name": "Cade Stover",
+      "team": "HOU",
+      "pos": "TE",
+      "rank": 1044
+    },
+    {
+      "id": "E-4048228",
+      "espnPlayerId": 4048228,
+      "name": "John Bates",
+      "team": "WSH",
+      "pos": "TE",
+      "rank": 1045
+    },
+    {
+      "id": "E-4372096",
+      "espnPlayerId": 4372096,
+      "name": "Luke Schoonmaker",
+      "team": "DAL",
+      "pos": "TE",
+      "rank": 1076
+    },
+    {
+      "id": "E-2998565",
+      "espnPlayerId": 2998565,
+      "name": "Mo Alie-Cox",
+      "team": "IND",
+      "pos": "TE",
+      "rank": 1078
+    },
+    {
+      "id": "E-4573699",
+      "espnPlayerId": 4573699,
+      "name": "Jackson Hawes",
+      "team": "BUF",
+      "pos": "TE",
+      "rank": 1082
+    },
+    {
+      "id": "E-4361516",
+      "espnPlayerId": 4361516,
+      "name": "Daniel Bellinger",
+      "team": "TEN",
+      "pos": "TE",
+      "rank": 1085
+    },
+    {
+      "id": "E-4361372",
+      "espnPlayerId": 4361372,
+      "name": "Jeremy Ruckert",
+      "team": "NYJ",
+      "pos": "TE",
+      "rank": 1094
+    },
+    {
+      "id": "E-3052897",
+      "espnPlayerId": 3052897,
+      "name": "Durham Smythe",
+      "team": "BAL",
+      "pos": "TE",
+      "rank": 1106
+    },
+    {
+      "id": "E-4426553",
+      "espnPlayerId": 4426553,
+      "name": "Davis Allen",
+      "team": "LAR",
+      "pos": "TE",
+      "rank": 1133
+    },
+    {
+      "id": "E-3843945",
+      "espnPlayerId": 3843945,
+      "name": "Foster Moreau",
+      "team": "HOU",
+      "pos": "TE",
+      "rank": 1136
+    },
+    {
+      "id": "E-4383440",
+      "espnPlayerId": 4383440,
+      "name": "Nate Adkins",
+      "team": "DEN",
+      "pos": "TE",
+      "rank": 1138
+    },
+    {
+      "id": "E-4242392",
+      "espnPlayerId": 4242392,
+      "name": "Brock Wright",
+      "team": "DET",
+      "pos": "TE",
+      "rank": 1139
+    },
+    {
+      "id": "E-4686248",
+      "espnPlayerId": 4686248,
+      "name": "Nate Boerkircher",
+      "team": "JAX",
+      "pos": "TE",
+      "rank": 1140
+    },
+    {
+      "id": "E-4372505",
+      "espnPlayerId": 4372505,
+      "name": "Payne Durham",
+      "team": "TB",
+      "pos": "TE",
+      "rank": 1146
+    },
+    {
+      "id": "E-4702559",
+      "espnPlayerId": 4702559,
+      "name": "Oscar Delp",
+      "team": "NO",
+      "pos": "TE",
+      "rank": 1147
+    },
+    {
+      "id": "E-4362018",
+      "espnPlayerId": 4362018,
+      "name": "Blake Whiteheart",
+      "team": "CLE",
+      "pos": "TE",
+      "rank": 1170
+    },
+    {
+      "id": "E-4360967",
+      "espnPlayerId": 4360967,
+      "name": "Brevyn Spann-Ford",
+      "team": "DAL",
+      "pos": "TE",
+      "rank": 1221
+    },
+    {
+      "id": "E-4602788",
+      "espnPlayerId": 4602788,
+      "name": "Jackson Meeks",
+      "team": "DET",
+      "pos": "TE",
+      "rank": 1226
+    },
+    {
+      "id": "E-4917427",
+      "espnPlayerId": 4917427,
+      "name": "Tanner Koziol",
+      "team": "JAX",
+      "pos": "TE",
+      "rank": 1233
+    },
+    {
+      "id": "E-4034779",
+      "espnPlayerId": 4034779,
+      "name": "Ko Kieft",
+      "team": "TB",
+      "pos": "TE",
+      "rank": 1235
+    },
+    {
+      "id": "E-4695705",
+      "espnPlayerId": 4695705,
+      "name": "Marlin Klein",
+      "team": "HOU",
+      "pos": "TE",
+      "rank": 1241
+    },
+    {
+      "id": "E-4360086",
+      "espnPlayerId": 4360086,
+      "name": "Josh Whyle",
+      "team": "GB",
+      "pos": "TE",
+      "rank": 1242
+    },
+    {
+      "id": "E-4040612",
+      "espnPlayerId": 4040612,
+      "name": "Luke Farrell",
+      "team": "SF",
+      "pos": "TE",
+      "rank": 1243
+    },
+    {
+      "id": "E-4722908",
+      "espnPlayerId": 4722908,
+      "name": "Drew Ogletree",
+      "team": "IND",
+      "pos": "TE",
+      "rank": 1244
+    },
+    {
+      "id": "E-4685504",
+      "espnPlayerId": 4685504,
+      "name": "Sam Roush",
+      "team": "CHI",
+      "pos": "TE",
+      "rank": 1245
+    },
+    {
+      "id": "E-4432260",
+      "espnPlayerId": 4432260,
+      "name": "Matthew Hibner",
+      "team": "BAL",
+      "pos": "TE",
+      "rank": 1250
+    },
+    {
+      "id": "E-4876132",
+      "espnPlayerId": 4876132,
+      "name": "Josh Cuevas",
+      "team": "BAL",
+      "pos": "TE",
+      "rank": 1251
+    },
+    {
+      "id": "E-2975863",
+      "espnPlayerId": 2975863,
+      "name": "Eric Saubert",
+      "team": "SEA",
+      "pos": "TE",
+      "rank": 1252
+    },
+    {
+      "id": "E-4239944",
+      "espnPlayerId": 4239944,
+      "name": "Hunter Long",
+      "team": "ARI",
+      "pos": "TE",
+      "rank": 1259
+    },
+    {
+      "id": "E-4045305",
+      "espnPlayerId": 4045305,
+      "name": "Ian Thomas",
+      "team": "LV",
+      "pos": "TE",
+      "rank": 1260
+    },
+    {
+      "id": "E-4035020",
+      "espnPlayerId": 4035020,
+      "name": "Charlie Woerner",
+      "team": "ATL",
+      "pos": "TE",
+      "rank": 1261
+    },
+    {
+      "id": "E-3052096",
+      "espnPlayerId": 3052096,
+      "name": "Johnny Mundt",
+      "team": "PHI",
+      "pos": "TE",
+      "rank": 1263
+    },
+    {
+      "id": "E-4685540",
+      "espnPlayerId": 4685540,
+      "name": "Carsen Ryan",
+      "team": "CLE",
+      "pos": "TE",
+      "rank": 1264
+    },
+    {
+      "id": "E-2531358",
+      "espnPlayerId": 2531358,
+      "name": "Chris Manhertz",
+      "team": "NYG",
+      "pos": "TE",
+      "rank": 1301
+    },
+    {
+      "id": "E-4714379",
+      "espnPlayerId": 4714379,
+      "name": "Seydou Traore",
+      "team": "MIA",
+      "pos": "TE",
+      "rank": 1452
+    },
+    {
+      "id": "E-4574716",
+      "espnPlayerId": 4574716,
+      "name": "Harrison Mevis",
+      "team": "LAR",
+      "pos": "K",
+      "rank": 198
+    },
+    {
+      "id": "E-4034949",
+      "espnPlayerId": 4034949,
+      "name": "Eddy Pineiro",
+      "team": "SF",
+      "pos": "K",
+      "rank": 254
+    },
+    {
+      "id": "E-4686361",
+      "espnPlayerId": 4686361,
+      "name": "Cam Little",
+      "team": "JAX",
+      "pos": "K",
+      "rank": 259
+    },
+    {
+      "id": "E-4689936",
+      "espnPlayerId": 4689936,
+      "name": "Jake Bates",
+      "team": "DET",
+      "pos": "K",
+      "rank": 260
+    },
+    {
+      "id": "E-4567104",
+      "espnPlayerId": 4567104,
+      "name": "Will Reichard",
+      "team": "MIN",
+      "pos": "K",
+      "rank": 269
+    },
+    {
+      "id": "E-10621",
+      "espnPlayerId": 10621,
+      "name": "Nick Folk",
+      "team": "ATL",
+      "pos": "K",
+      "rank": 364
+    },
+    {
+      "id": "E-4869461",
+      "espnPlayerId": 4869461,
+      "name": "Trey Smack",
+      "team": "GB",
+      "pos": "K",
+      "rank": 410
+    },
+    {
+      "id": "E-4571557",
+      "espnPlayerId": 4571557,
+      "name": "Spencer Shrader",
+      "team": "IND",
+      "pos": "K",
+      "rank": 411
+    },
+    {
+      "id": "E-2985659",
+      "espnPlayerId": 2985659,
+      "name": "Wil Lutz",
+      "team": "DEN",
+      "pos": "K",
+      "rank": 490
+    },
+    {
+      "id": "E-5082424",
+      "espnPlayerId": 5082424,
+      "name": "Dominic Zvada",
+      "team": "NYG",
+      "pos": "K",
+      "rank": 492
+    },
+    {
+      "id": "E-5081335",
+      "espnPlayerId": 5081335,
+      "name": "Drew Stevens",
+      "team": "WSH",
+      "pos": "K",
+      "rank": 494
+    },
+    {
+      "id": "E-4569923",
+      "espnPlayerId": 4569923,
+      "name": "Andy Borregales",
+      "team": "NE",
+      "pos": "K",
+      "rank": 495
+    },
+    {
+      "id": "E-4243371",
+      "espnPlayerId": 4243371,
+      "name": "Riley Patterson",
+      "team": "MIA",
+      "pos": "K",
+      "rank": 496
+    },
+    {
+      "id": "E-4568263",
+      "espnPlayerId": 4568263,
+      "name": "Ryan Fitzgerald",
+      "team": "CAR",
+      "pos": "K",
+      "rank": 498
+    },
+    {
+      "id": "E-3124084",
+      "espnPlayerId": 3124084,
+      "name": "Joey Slye",
+      "team": "TEN",
+      "pos": "K",
+      "rank": 500
+    },
+    {
+      "id": "E-4363538",
+      "espnPlayerId": 4363538,
+      "name": "Chad Ryland",
+      "team": "ARI",
+      "pos": "K",
+      "rank": 502
+    },
+    {
+      "id": "E--16007",
+      "espnPlayerId": -16007,
+      "name": "Broncos",
+      "team": "DEN",
+      "pos": "DEF",
+      "rank": 182
+    },
+    {
+      "id": "E--16014",
+      "espnPlayerId": -16014,
+      "name": "Rams",
+      "team": "LAR",
+      "pos": "DEF",
+      "rank": 241
+    },
+    {
+      "id": "E--16017",
+      "espnPlayerId": -16017,
+      "name": "Patriots",
+      "team": "NE",
+      "pos": "DEF",
+      "rank": 248
+    },
+    {
+      "id": "E--16024",
+      "espnPlayerId": -16024,
+      "name": "Chargers",
+      "team": "LAC",
+      "pos": "DEF",
+      "rank": 252
+    },
+    {
+      "id": "E--16011",
+      "espnPlayerId": -16011,
+      "name": "Colts",
+      "team": "IND",
+      "pos": "DEF",
+      "rank": 425
+    },
+    {
+      "id": "E--16019",
+      "espnPlayerId": -16019,
+      "name": "Giants",
+      "team": "NYG",
+      "pos": "DEF",
+      "rank": 505
+    },
+    {
+      "id": "E--16010",
+      "espnPlayerId": -16010,
+      "name": "Titans",
+      "team": "TEN",
+      "pos": "DEF",
+      "rank": 510
+    },
+    {
+      "id": "E--16029",
+      "espnPlayerId": -16029,
+      "name": "Panthers",
+      "team": "CAR",
+      "pos": "DEF",
+      "rank": 511
+    },
+    {
+      "id": "E--16028",
+      "espnPlayerId": -16028,
+      "name": "Commanders",
+      "team": "WSH",
+      "pos": "DEF",
+      "rank": 513
+    },
+    {
+      "id": "E--16001",
+      "espnPlayerId": -16001,
+      "name": "Falcons",
+      "team": "ATL",
+      "pos": "DEF",
+      "rank": 515
+    },
+    {
+      "id": "E--16013",
+      "espnPlayerId": -16013,
+      "name": "Raiders",
+      "team": "LV",
+      "pos": "DEF",
+      "rank": 517
+    },
+    {
+      "id": "E--16022",
+      "espnPlayerId": -16022,
+      "name": "Cardinals",
+      "team": "ARI",
+      "pos": "DEF",
+      "rank": 518
+    }
+  ],
   "players": {
     "QB-0": {
       "espnPlayerId": 3918298,
@@ -17,7 +2374,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
       "pprRank": 26,
       "projectedPoints": 370.5,
-      "adp": 19.6
+      "adp": 19.4
     },
     "QB-1": {
       "espnPlayerId": 3916387,
@@ -27,7 +2384,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
       "pprRank": 49,
       "projectedPoints": 322.5,
-      "adp": 35.4
+      "adp": 35.2
     },
     "QB-2": {
       "espnPlayerId": 4426348,
@@ -37,7 +2394,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426348.png",
       "pprRank": 60,
       "projectedPoints": 317.5,
-      "adp": 52.7
+      "adp": 52.8
     },
     "QB-3": {
       "espnPlayerId": 4040715,
@@ -47,7 +2404,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
       "pprRank": 76,
       "projectedPoints": 319.8,
-      "adp": 54.1
+      "adp": 54.4
     },
     "QB-4": {
       "espnPlayerId": 3915511,
@@ -57,7 +2414,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png",
       "pprRank": 70,
       "projectedPoints": 304.3,
-      "adp": 54.4
+      "adp": 54.2
     },
     "QB-5": {
       "espnPlayerId": 4431452,
@@ -67,7 +2424,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png",
       "pprRank": 62,
       "projectedPoints": 320.2,
-      "adp": 47.4
+      "adp": 47.3
     },
     "QB-6": {
       "espnPlayerId": 3139477,
@@ -77,7 +2434,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
       "pprRank": 132,
       "projectedPoints": 291,
-      "adp": 108
+      "adp": 108.2
     },
     "QB-7": {
       "espnPlayerId": 4432577,
@@ -97,7 +2454,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036378.png",
       "pprRank": 203,
       "projectedPoints": 263.4,
-      "adp": 155.7
+      "adp": 155.6
     },
     "QB-9": {
       "espnPlayerId": 3917315,
@@ -107,7 +2464,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
       "pprRank": 143,
       "projectedPoints": 283.4,
-      "adp": 139.3
+      "adp": 138.7
     },
     "QB-10": {
       "espnPlayerId": 4361741,
@@ -117,7 +2474,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361741.png",
       "pprRank": 124,
       "projectedPoints": 292,
-      "adp": 109.3
+      "adp": 109.8
     },
     "QB-11": {
       "espnPlayerId": 4360310,
@@ -127,7 +2484,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png",
       "pprRank": 120,
       "projectedPoints": 289.5,
-      "adp": 98.5
+      "adp": 99.2
     },
     "QB-12": {
       "espnPlayerId": 14880,
@@ -157,7 +2514,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12483.png",
       "pprRank": 141,
       "projectedPoints": 292.8,
-      "adp": 91.1
+      "adp": 91.8
     },
     "QB-15": {
       "espnPlayerId": 2577417,
@@ -167,7 +2524,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png",
       "pprRank": 80,
       "projectedPoints": 286.1,
-      "adp": 73.8
+      "adp": 73.1
     },
     "QB-16": {
       "espnPlayerId": 4431611,
@@ -177,7 +2534,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431611.png",
       "pprRank": 107,
       "projectedPoints": 281.9,
-      "adp": 91.7
+      "adp": 91.4
     },
     "QB-17": {
       "espnPlayerId": 4038941,
@@ -187,7 +2544,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038941.png",
       "pprRank": 102,
       "projectedPoints": 283.6,
-      "adp": 89.2
+      "adp": 88.2
     },
     "QB-18": {
       "espnPlayerId": 3917792,
@@ -197,7 +2554,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png",
       "pprRank": 177,
       "projectedPoints": 266.6,
-      "adp": 159.5
+      "adp": 159.6
     },
     "QB-19": {
       "espnPlayerId": 8439,
@@ -227,7 +2584,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4689114.png",
       "pprRank": 100,
       "projectedPoints": 299.5,
-      "adp": 82.5
+      "adp": 82.9
     },
     "QB-22": {
       "espnPlayerId": 3052587,
@@ -237,7 +2594,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
       "pprRank": 175,
       "projectedPoints": 264.7,
-      "adp": 146.1
+      "adp": 146
     },
     "QB-23": {
       "espnPlayerId": 15864,
@@ -257,7 +2614,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426338.png",
       "pprRank": 139,
       "projectedPoints": 295.7,
-      "adp": 100.1
+      "adp": 101.1
     },
     "QB-25": {
       "espnPlayerId": 4837248,
@@ -287,7 +2644,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360689.png",
       "pprRank": 158,
       "projectedPoints": 265.6,
-      "adp": 152.9
+      "adp": 152.7
     },
     "QB-28": {
       "espnPlayerId": 3912547,
@@ -331,7 +2688,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429795.png",
       "pprRank": 1,
       "projectedPoints": 365,
-      "adp": 1.4
+      "adp": 1.3
     },
     "RB-1": {
       "espnPlayerId": 4430807,
@@ -351,7 +2708,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242335.png",
       "pprRank": 5,
       "projectedPoints": 316.3,
-      "adp": 6.4
+      "adp": 6.3
     },
     "RB-3": {
       "espnPlayerId": 3117251,
@@ -371,7 +2728,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4379399.png",
       "pprRank": 9,
       "projectedPoints": 280.3,
-      "adp": 10.5
+      "adp": 10.4
     },
     "RB-5": {
       "espnPlayerId": 4429160,
@@ -391,7 +2748,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362238.png",
       "pprRank": 14,
       "projectedPoints": 271.6,
-      "adp": 17.6
+      "adp": 17.4
     },
     "RB-7": {
       "espnPlayerId": 4685382,
@@ -401,7 +2758,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685382.png",
       "pprRank": 13,
       "projectedPoints": 261.7,
-      "adp": 19.6
+      "adp": 19.2
     },
     "RB-8": {
       "espnPlayerId": 3929630,
@@ -411,7 +2768,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
       "pprRank": 15,
       "projectedPoints": 273.3,
-      "adp": 14.2
+      "adp": 14.1
     },
     "RB-9": {
       "espnPlayerId": 4890973,
@@ -421,7 +2778,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4890973.png",
       "pprRank": 18,
       "projectedPoints": 278.9,
-      "adp": 21.4
+      "adp": 21.6
     },
     "RB-10": {
       "espnPlayerId": 3043078,
@@ -431,7 +2788,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
       "pprRank": 16,
       "projectedPoints": 277.8,
-      "adp": 16.9
+      "adp": 16.8
     },
     "RB-11": {
       "espnPlayerId": 4870808,
@@ -441,7 +2798,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870808.png",
       "pprRank": 21,
       "projectedPoints": 276.5,
-      "adp": 25.8
+      "adp": 26
     },
     "RB-12": {
       "espnPlayerId": 4567048,
@@ -451,7 +2808,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4567048.png",
       "pprRank": 25,
       "projectedPoints": 273.1,
-      "adp": 24.8
+      "adp": 25.1
     },
     "RB-13": {
       "espnPlayerId": 4427366,
@@ -461,7 +2818,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4427366.png",
       "pprRank": 30,
       "projectedPoints": 274.5,
-      "adp": 35.8
+      "adp": 35.9
     },
     "RB-14": {
       "espnPlayerId": 4047365,
@@ -471,7 +2828,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047365.png",
       "pprRank": 93,
       "projectedPoints": 164.4,
-      "adp": 57.8
+      "adp": 61.2
     },
     "RB-15": {
       "espnPlayerId": 4361579,
@@ -481,7 +2838,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361579.png",
       "pprRank": 31,
       "projectedPoints": 259.5,
-      "adp": 33.4
+      "adp": 33.3
     },
     "RB-16": {
       "espnPlayerId": 4430737,
@@ -491,7 +2848,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430737.png",
       "pprRank": 32,
       "projectedPoints": 232,
-      "adp": 36.5
+      "adp": 36.2
     },
     "RB-17": {
       "espnPlayerId": 4239996,
@@ -501,7 +2858,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4239996.png",
       "pprRank": 34,
       "projectedPoints": 246.7,
-      "adp": 42
+      "adp": 41.8
     },
     "RB-18": {
       "espnPlayerId": 4685702,
@@ -511,7 +2868,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685702.png",
       "pprRank": 40,
       "projectedPoints": 226.7,
-      "adp": 50
+      "adp": 49.7
     },
     "RB-19": {
       "espnPlayerId": 4696981,
@@ -521,7 +2878,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4696981.png",
       "pprRank": 42,
       "projectedPoints": 227.4,
-      "adp": 45.3
+      "adp": 45.2
     },
     "RB-20": {
       "espnPlayerId": 4259545,
@@ -531,7 +2888,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4259545.png",
       "pprRank": 47,
       "projectedPoints": 210.5,
-      "adp": 54.2
+      "adp": 53.5
     },
     "RB-21": {
       "espnPlayerId": 4882093,
@@ -541,7 +2898,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png",
       "pprRank": 48,
       "projectedPoints": 205.5,
-      "adp": 63.3
+      "adp": 62.7
     },
     "RB-22": {
       "espnPlayerId": 4596448,
@@ -551,7 +2908,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4596448.png",
       "pprRank": 50,
       "projectedPoints": 207.1,
-      "adp": 56.8
+      "adp": 57.1
     },
     "RB-23": {
       "espnPlayerId": 4035538,
@@ -561,7 +2918,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035538.png",
       "pprRank": 51,
       "projectedPoints": 199.7,
-      "adp": 63.2
+      "adp": 62.8
     },
     "RB-24": {
       "espnPlayerId": 4685512,
@@ -571,7 +2928,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685512.png",
       "pprRank": 54,
       "projectedPoints": 194.1,
-      "adp": 69.3
+      "adp": 68.9
     },
     "RB-25": {
       "espnPlayerId": 4432710,
@@ -581,7 +2938,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432710.png",
       "pprRank": 64,
       "projectedPoints": 197.9,
-      "adp": 79.1
+      "adp": 78.9
     },
     "RB-26": {
       "espnPlayerId": 4569173,
@@ -591,7 +2948,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569173.png",
       "pprRank": 69,
       "projectedPoints": 203.3,
-      "adp": 80.2
+      "adp": 79.9
     },
     "RB-27": {
       "espnPlayerId": 3916148,
@@ -601,7 +2958,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916148.png",
       "pprRank": 74,
       "projectedPoints": 185.5,
-      "adp": 91.6
+      "adp": 90.7
     },
     "RB-28": {
       "espnPlayerId": 4569987,
@@ -611,7 +2968,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569987.png",
       "pprRank": 81,
       "projectedPoints": 194,
-      "adp": 89.6
+      "adp": 89
     },
     "RB-29": {
       "espnPlayerId": 4371733,
@@ -621,7 +2978,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4371733.png",
       "pprRank": 88,
       "projectedPoints": 177.9,
-      "adp": 103.7
+      "adp": 102.8
     },
     "RB-30": {
       "espnPlayerId": 4038815,
@@ -631,7 +2988,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038815.png",
       "pprRank": 95,
       "projectedPoints": 188.3,
-      "adp": 96.3
+      "adp": 96
     },
     "RB-31": {
       "espnPlayerId": 4241416,
@@ -641,7 +2998,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241416.png",
       "pprRank": 108,
       "projectedPoints": 175.8,
-      "adp": 109.3
+      "adp": 108.8
     },
     "RB-32": {
       "espnPlayerId": 3042519,
@@ -651,7 +3008,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042519.png",
       "pprRank": 110,
       "projectedPoints": 178,
-      "adp": 116.4
+      "adp": 115.5
     },
     "RB-33": {
       "espnPlayerId": 4678008,
@@ -661,7 +3018,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4678008.png",
       "pprRank": 104,
       "projectedPoints": 184.4,
-      "adp": 106.5
+      "adp": 106
     },
     "RB-34": {
       "espnPlayerId": 4697815,
@@ -671,7 +3028,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4697815.png",
       "pprRank": 121,
       "projectedPoints": 164.3,
-      "adp": 126.3
+      "adp": 125.9
     },
     "RB-35": {
       "espnPlayerId": 4608686,
@@ -691,7 +3048,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241985.png",
       "pprRank": 122,
       "projectedPoints": 174.8,
-      "adp": 112.9
+      "adp": 112.8
     },
     "RB-37": {
       "espnPlayerId": 4568490,
@@ -701,7 +3058,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4568490.png",
       "pprRank": 133,
       "projectedPoints": 149.4,
-      "adp": 127.3
+      "adp": 126.8
     },
     "RB-38": {
       "espnPlayerId": 4429096,
@@ -711,7 +3068,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429096.png",
       "pprRank": 138,
       "projectedPoints": 159.3,
-      "adp": 127.4
+      "adp": 127
     },
     "RB-39": {
       "espnPlayerId": 4428557,
@@ -721,7 +3078,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428557.png",
       "pprRank": 160,
       "projectedPoints": 154.3,
-      "adp": 147.2
+      "adp": 146.8
     },
     "RB-40": {
       "espnPlayerId": 4575131,
@@ -731,7 +3088,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4575131.png",
       "pprRank": 145,
       "projectedPoints": 159,
-      "adp": 135.8
+      "adp": 136.1
     },
     "RB-41": {
       "espnPlayerId": 4373626,
@@ -741,7 +3098,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4373626.png",
       "pprRank": 195,
       "projectedPoints": 92.6,
-      "adp": 162.8
+      "adp": 162.9
     },
     "RB-42": {
       "espnPlayerId": 4596334,
@@ -751,7 +3108,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4596334.png",
       "pprRank": 228,
       "projectedPoints": 93.9,
-      "adp": 169.4
+      "adp": 169.5
     },
     "RB-43": {
       "espnPlayerId": 4702555,
@@ -761,7 +3118,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4702555.png",
       "pprRank": 173,
       "projectedPoints": 74.4,
-      "adp": 168.4
+      "adp": 168.1
     },
     "RB-44": {
       "espnPlayerId": 4429059,
@@ -771,7 +3128,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429059.png",
       "pprRank": 167,
       "projectedPoints": 131.8,
-      "adp": 151.5
+      "adp": 151.8
     },
     "RB-45": {
       "espnPlayerId": 4362619,
@@ -791,7 +3148,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426385.png",
       "pprRank": 165,
       "projectedPoints": 134,
-      "adp": 153.2
+      "adp": 153.1
     },
     "RB-47": {
       "espnPlayerId": 4241474,
@@ -801,7 +3158,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241474.png",
       "pprRank": 207,
       "projectedPoints": 94,
-      "adp": 167.5
+      "adp": 167.7
     },
     "RB-48": {
       "espnPlayerId": 4685555,
@@ -851,7 +3208,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4374302.png",
       "pprRank": 8,
       "projectedPoints": 324.4,
-      "adp": 8.3
+      "adp": 8.4
     },
     "WR-3": {
       "espnPlayerId": 4241389,
@@ -861,7 +3218,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241389.png",
       "pprRank": 11,
       "projectedPoints": 293.6,
-      "adp": 11.7
+      "adp": 11.8
     },
     "WR-4": {
       "espnPlayerId": 4262921,
@@ -871,7 +3228,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4262921.png",
       "pprRank": 12,
       "projectedPoints": 294.7,
-      "adp": 12.6
+      "adp": 12.7
     },
     "WR-5": {
       "espnPlayerId": 4047646,
@@ -881,7 +3238,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047646.png",
       "pprRank": 19,
       "projectedPoints": 249.7,
-      "adp": 21.8
+      "adp": 21.5
     },
     "WR-6": {
       "espnPlayerId": 4426502,
@@ -891,7 +3248,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426502.png",
       "pprRank": 17,
       "projectedPoints": 269.8,
-      "adp": 19.9
+      "adp": 20
     },
     "WR-7": {
       "espnPlayerId": 4258173,
@@ -901,7 +3258,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258173.png",
       "pprRank": 23,
       "projectedPoints": 248.2,
-      "adp": 25.9
+      "adp": 25.8
     },
     "WR-8": {
       "espnPlayerId": 4428331,
@@ -911,7 +3268,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428331.png",
       "pprRank": 27,
       "projectedPoints": 259.3,
-      "adp": 28.3
+      "adp": 28.7
     },
     "WR-9": {
       "espnPlayerId": 4426354,
@@ -921,7 +3278,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426354.png",
       "pprRank": 28,
       "projectedPoints": 239.3,
-      "adp": 28.6
+      "adp": 28.5
     },
     "WR-10": {
       "espnPlayerId": 4361370,
@@ -931,7 +3288,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361370.png",
       "pprRank": 24,
       "projectedPoints": 249.8,
-      "adp": 29.8
+      "adp": 29.7
     },
     "WR-11": {
       "espnPlayerId": 4239993,
@@ -941,7 +3298,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4239993.png",
       "pprRank": 44,
       "projectedPoints": 218.9,
-      "adp": 51.2
+      "adp": 51.1
     },
     "WR-12": {
       "espnPlayerId": 4429615,
@@ -951,7 +3308,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429615.png",
       "pprRank": 38,
       "projectedPoints": 238.5,
-      "adp": 44
+      "adp": 44.2
     },
     "WR-13": {
       "espnPlayerId": 4612826,
@@ -961,7 +3318,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4612826.png",
       "pprRank": 41,
       "projectedPoints": 221,
-      "adp": 46.6
+      "adp": 46.5
     },
     "WR-14": {
       "espnPlayerId": 4241478,
@@ -971,7 +3328,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
       "pprRank": 35,
       "projectedPoints": 239.1,
-      "adp": 37.2
+      "adp": 37.1
     },
     "WR-15": {
       "espnPlayerId": 4372016,
@@ -981,7 +3338,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372016.png",
       "pprRank": 46,
       "projectedPoints": 213.1,
-      "adp": 52.7
+      "adp": 52.5
     },
     "WR-16": {
       "espnPlayerId": 4569618,
@@ -1001,7 +3358,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16737.png",
       "pprRank": 68,
       "projectedPoints": 180.1,
-      "adp": 86.1
+      "adp": 85.6
     },
     "WR-18": {
       "espnPlayerId": 16800,
@@ -1021,7 +3378,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915416.png",
       "pprRank": 53,
       "projectedPoints": 209.7,
-      "adp": 61.9
+      "adp": 61.7
     },
     "WR-20": {
       "espnPlayerId": 15818,
@@ -1031,7 +3388,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15818.png",
       "pprRank": 201,
       "projectedPoints": 124.2,
-      "adp": 165.7
+      "adp": 165.6
     },
     "WR-21": {
       "espnPlayerId": 4035687,
@@ -1058,7 +3415,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976212.png",
       "pprRank": 106,
       "projectedPoints": 173.1,
-      "adp": 105.6
+      "adp": 104.3
     },
     "WR-24": {
       "espnPlayerId": 3121422,
@@ -1068,7 +3425,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121422.png",
       "pprRank": 52,
       "projectedPoints": 218.2,
-      "adp": 61
+      "adp": 61.1
     },
     "WR-25": {
       "espnPlayerId": 4362249,
@@ -1078,7 +3435,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362249.png",
       "pprRank": 150,
       "projectedPoints": 173.7,
-      "adp": 137.9
+      "adp": 138.7
     },
     "WR-26": {
       "espnPlayerId": 3895856,
@@ -1095,7 +3452,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432773.png",
       "pprRank": 114,
       "projectedPoints": 176.6,
-      "adp": 112.9
+      "adp": 113.7
     },
     "WR-28": {
       "espnPlayerId": 3925357,
@@ -1122,7 +3479,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3126486.png",
       "pprRank": 163,
       "projectedPoints": 149.6,
-      "adp": 141.2
+      "adp": 142
     },
     "WR-31": {
       "espnPlayerId": 4360438,
@@ -1149,7 +3506,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128429.png",
       "pprRank": 78,
       "projectedPoints": 204.1,
-      "adp": 81.2
+      "adp": 81.5
     },
     "WR-34": {
       "espnPlayerId": 4373678,
@@ -1159,7 +3516,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4373678.png",
       "pprRank": 130,
       "projectedPoints": 171.3,
-      "adp": 139.3
+      "adp": 140
     },
     "WR-35": {
       "espnPlayerId": 4241372,
@@ -1179,7 +3536,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4683062.png",
       "pprRank": 151,
       "projectedPoints": 173,
-      "adp": 129.3
+      "adp": 129.9
     },
     "WR-37": {
       "espnPlayerId": 4361432,
@@ -1189,7 +3546,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361432.png",
       "pprRank": 154,
       "projectedPoints": 150.6,
-      "adp": 148.1
+      "adp": 148
     },
     "WR-38": {
       "espnPlayerId": 4248528,
@@ -1199,7 +3556,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4248528.png",
       "pprRank": 85,
       "projectedPoints": 188.8,
-      "adp": 90.5
+      "adp": 90.3
     },
     "WR-39": {
       "espnPlayerId": 3116165,
@@ -1209,7 +3566,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116165.png",
       "pprRank": 118,
       "projectedPoints": 157.3,
-      "adp": 125.1
+      "adp": 124
     },
     "WR-40": {
       "espnPlayerId": 4871023,
@@ -1219,7 +3576,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4871023.png",
       "pprRank": 67,
       "projectedPoints": 202.2,
-      "adp": 76.8
+      "adp": 77.1
     },
     "WR-41": {
       "espnPlayerId": 4870795,
@@ -1229,7 +3586,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870795.png",
       "pprRank": 137,
       "projectedPoints": 155.2,
-      "adp": 133
+      "adp": 132.7
     },
     "WR-42": {
       "espnPlayerId": 4710714,
@@ -1239,7 +3596,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4710714.png",
       "pprRank": 152,
       "projectedPoints": 160.2,
-      "adp": 141.5
+      "adp": 140.9
     },
     "WR-43": {
       "espnPlayerId": 4880281,
@@ -1249,7 +3606,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4880281.png",
       "pprRank": 223,
       "projectedPoints": 99.8,
-      "adp": 168
+      "adp": 168.1
     },
     "WR-44": {
       "espnPlayerId": 4870653,
@@ -1259,7 +3616,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870653.png",
       "pprRank": 164,
       "projectedPoints": 156,
-      "adp": 146.6
+      "adp": 146.8
     },
     "WR-45": {
       "espnPlayerId": 4832800,
@@ -1269,7 +3626,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4832800.png",
       "pprRank": 215,
       "projectedPoints": 142.3,
-      "adp": 168.8
+      "adp": 169
     },
     "WR-46": {
       "espnPlayerId": 3916433,
@@ -1279,7 +3636,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
       "pprRank": 112,
       "projectedPoints": 181.9,
-      "adp": 122.1
+      "adp": 122.6
     },
     "WR-47": {
       "espnPlayerId": 4241463,
@@ -1289,7 +3646,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241463.png",
       "pprRank": 216,
       "projectedPoints": 139.8,
-      "adp": 168.3
+      "adp": 168.5
     },
     "WR-48": {
       "espnPlayerId": 4249417,
@@ -1346,7 +3703,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360761.png",
       "pprRank": 97,
       "projectedPoints": 176.4,
-      "adp": 102.2
+      "adp": 102.4
     },
     "WR-54": {
       "espnPlayerId": 4037235,
@@ -1390,7 +3747,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430834.png",
       "pprRank": 171,
       "projectedPoints": 132.9,
-      "adp": 164.9
+      "adp": 164.6
     },
     "WR-59": {
       "espnPlayerId": 4686472,
@@ -1468,7 +3825,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360078.png",
       "pprRank": 111,
       "projectedPoints": 185.4,
-      "adp": 108.1
+      "adp": 108.7
     },
     "WR-68": {
       "espnPlayerId": 4428718,
@@ -1478,7 +3835,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428718.png",
       "pprRank": 226,
       "projectedPoints": 138,
-      "adp": 169.1
+      "adp": 169.2
     },
     "WR-69": {
       "espnPlayerId": 4692022,
@@ -1546,7 +3903,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4695883.png",
       "pprRank": 156,
       "projectedPoints": 147,
-      "adp": 155.6
+      "adp": 155.3
     },
     "WR-77": {
       "espnPlayerId": 2577327,
@@ -1621,7 +3978,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431299.png",
       "pprRank": 58,
       "projectedPoints": 213.6,
-      "adp": 64.9
+      "adp": 65.1
     },
     "WR-86": {
       "espnPlayerId": 4569587,
@@ -1631,7 +3988,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569587.png",
       "pprRank": 91,
       "projectedPoints": 174.8,
-      "adp": 114.8
+      "adp": 114.5
     },
     "WR-87": {
       "espnPlayerId": 3916945,
@@ -1709,7 +4066,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361307.png",
       "pprRank": 20,
       "projectedPoints": 241.7,
-      "adp": 22.4
+      "adp": 22.5
     },
     "TE-2": {
       "espnPlayerId": 4723086,
@@ -1719,7 +4076,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4723086.png",
       "pprRank": 43,
       "projectedPoints": 206.9,
-      "adp": 42.8
+      "adp": 42.7
     },
     "TE-3": {
       "espnPlayerId": 4431459,
@@ -1729,7 +4086,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431459.png",
       "pprRank": 56,
       "projectedPoints": 210.6,
-      "adp": 52
+      "adp": 52.1
     },
     "TE-4": {
       "espnPlayerId": 5083076,
@@ -1739,7 +4096,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5083076.png",
       "pprRank": 77,
       "projectedPoints": 188.9,
-      "adp": 71.3
+      "adp": 71.1
     },
     "TE-5": {
       "espnPlayerId": 4430027,
@@ -1749,7 +4106,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430027.png",
       "pprRank": 92,
       "projectedPoints": 188.9,
-      "adp": 73.1
+      "adp": 73.4
     },
     "TE-6": {
       "espnPlayerId": 4360248,
@@ -1759,7 +4116,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360248.png",
       "pprRank": 79,
       "projectedPoints": 185.1,
-      "adp": 68
+      "adp": 68.2
     },
     "TE-7": {
       "espnPlayerId": 3040151,
@@ -1769,7 +4126,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3040151.png",
       "pprRank": 89,
       "projectedPoints": 193.4,
-      "adp": 77.3
+      "adp": 76.2
     },
     "TE-8": {
       "espnPlayerId": 4572680,
@@ -1779,7 +4136,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4572680.png",
       "pprRank": 126,
       "projectedPoints": 172.3,
-      "adp": 91.1
+      "adp": 91.5
     },
     "TE-9": {
       "espnPlayerId": 4242355,
@@ -1789,7 +4146,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242355.png",
       "pprRank": 140,
       "projectedPoints": 166.6,
-      "adp": 109.5
+      "adp": 109.7
     },
     "TE-10": {
       "espnPlayerId": 3121023,
@@ -1799,7 +4156,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
       "pprRank": 134,
       "projectedPoints": 176.9,
-      "adp": 103.8
+      "adp": 104
     },
     "TE-11": {
       "espnPlayerId": 3116365,
@@ -1809,7 +4166,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116365.png",
       "pprRank": 153,
       "projectedPoints": 169.1,
-      "adp": 125.8
+      "adp": 126.2
     },
     "TE-12": {
       "espnPlayerId": 4385690,
@@ -1849,7 +4206,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png",
       "pprRank": 147,
       "projectedPoints": 155.1,
-      "adp": 123.2
+      "adp": 123.1
     },
     "TE-16": {
       "espnPlayerId": 4361411,
@@ -1879,7 +4236,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036133.png",
       "pprRank": 199,
       "projectedPoints": 158.9,
-      "adp": 148.6
+      "adp": 149.7
     },
     "TE-19": {
       "espnPlayerId": 4428085,
@@ -1896,13 +4253,13 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046439.png",
       "pprRank": 192,
       "projectedPoints": 150.3,
-      "adp": 151.5
+      "adp": 152.1
     },
     "TE-21": {
       "espnPlayerId": 3915486,
       "hasProjection": false,
-      "teamAbbrev": "FA",
-      "teamName": "FA",
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915486.png"
     },
     "TE-22": {
@@ -1913,7 +4270,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4243331.png",
       "pprRank": 368,
       "projectedPoints": 102.1,
-      "adp": 170.4
+      "adp": 170.3
     },
     "TE-23": {
       "espnPlayerId": 4360635,
@@ -1943,7 +4300,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3953687.png",
       "pprRank": 146,
       "projectedPoints": 171.5,
-      "adp": 85.9
+      "adp": 85.6
     },
     "K-1": {
       "espnPlayerId": 3055899,
@@ -1973,7 +4330,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2971573.png",
       "pprRank": 190,
       "projectedPoints": 157.8,
-      "adp": 126
+      "adp": 125.5
     },
     "K-4": {
       "espnPlayerId": 3049899,
@@ -2007,7 +4364,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362081.png",
       "pprRank": 181,
       "projectedPoints": 161.9,
-      "adp": 112.3
+      "adp": 112.5
     },
     "K-8": {
       "espnPlayerId": 3124679,
@@ -2044,7 +4401,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2473037.png",
       "pprRank": 187,
       "projectedPoints": 158.5,
-      "adp": 116.3
+      "adp": 116
     },
     "K-12": {
       "espnPlayerId": 3150744,
@@ -2081,7 +4438,7 @@
       "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17372.png",
       "pprRank": 338,
       "projectedPoints": 142.8,
-      "adp": 164.6
+      "adp": 164.5
     },
     "K-16": {
       "espnPlayerId": 4259619,
@@ -2141,7 +4498,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
       "pprRank": 242,
       "projectedPoints": 120,
-      "adp": 133.9
+      "adp": 133.8
     },
     "DEF-2": {
       "espnPlayerId": -16006,
@@ -2171,7 +4528,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
       "pprRank": 246,
       "projectedPoints": 103.9,
-      "adp": 157.8
+      "adp": 157.9
     },
     "DEF-5": {
       "espnPlayerId": -16002,
@@ -2191,7 +4548,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
       "pprRank": 250,
       "projectedPoints": 100.4,
-      "adp": 165.9
+      "adp": 166
     },
     "DEF-7": {
       "espnPlayerId": -16021,
@@ -2201,7 +4558,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
       "pprRank": 243,
       "projectedPoints": 107.1,
-      "adp": 137.7
+      "adp": 137.8
     },
     "DEF-8": {
       "espnPlayerId": -16015,
@@ -2221,7 +4578,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
       "pprRank": 179,
       "projectedPoints": 129.2,
-      "adp": 91.6
+      "adp": 91.7
     },
     "DEF-10": {
       "espnPlayerId": -16008,
@@ -2231,7 +4588,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
       "pprRank": 249,
       "projectedPoints": 108,
-      "adp": 154.6
+      "adp": 154.7
     },
     "DEF-11": {
       "espnPlayerId": -16023,
@@ -2241,7 +4598,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
       "pprRank": 239,
       "projectedPoints": 123.1,
-      "adp": 121.4
+      "adp": 121.6
     },
     "DEF-12": {
       "espnPlayerId": -16009,
@@ -2261,7 +4618,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
       "pprRank": 240,
       "projectedPoints": 122.2,
-      "adp": 112.1
+      "adp": 112.2
     },
     "DEF-14": {
       "espnPlayerId": -16018,
@@ -2271,7 +4628,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
       "pprRank": 361,
       "projectedPoints": 89,
-      "adp": 170.5
+      "adp": 170.6
     },
     "DEF-15": {
       "espnPlayerId": -16030,
@@ -2281,7 +4638,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
       "pprRank": 359,
       "projectedPoints": 78.5,
-      "adp": 168
+      "adp": 167.9
     },
     "DEF-16": {
       "espnPlayerId": -16027,
@@ -2291,7 +4648,7 @@
       "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
       "pprRank": 336,
       "projectedPoints": 93,
-      "adp": 170.4
+      "adp": 170.5
     },
     "DEF-17": {
       "espnPlayerId": -16016,
@@ -2322,6 +4679,2921 @@
       "pprRank": 427,
       "projectedPoints": 72.4,
       "adp": 169.7
+    },
+    "E-4242512": {
+      "espnPlayerId": 4242512,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242512.png",
+      "pprRank": 222,
+      "projectedPoints": 239.8,
+      "adp": 167.6
+    },
+    "E-2578570": {
+      "espnPlayerId": 2578570,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2578570.png",
+      "pprRank": 317,
+      "projectedPoints": 198.5,
+      "adp": 170
+    },
+    "E-4241479": {
+      "espnPlayerId": 4241479,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241479.png",
+      "pprRank": 422,
+      "projectedPoints": 115.2,
+      "adp": 170.1
+    },
+    "E-4432762": {
+      "espnPlayerId": 4432762,
+      "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432762.png",
+      "pprRank": 429,
+      "projectedPoints": 142.6,
+      "adp": 169.9
+    },
+    "E-4360423": {
+      "espnPlayerId": 4360423,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360423.png",
+      "pprRank": 440,
+      "projectedPoints": 113.2,
+      "adp": 170.1
+    },
+    "E-4433970": {
+      "espnPlayerId": 4433970,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4433970.png",
+      "pprRank": 447,
+      "projectedPoints": 10.1,
+      "adp": 169.9
+    },
+    "E-4430841": {
+      "espnPlayerId": 4430841,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430841.png",
+      "pprRank": 451,
+      "projectedPoints": 29.3,
+      "adp": 170
+    },
+    "E-4362887": {
+      "espnPlayerId": 4362887,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362887.png",
+      "pprRank": 453,
+      "projectedPoints": 10.6,
+      "adp": 170
+    },
+    "E-11252": {
+      "espnPlayerId": 11252,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11252.png",
+      "pprRank": 454,
+      "projectedPoints": 10.5,
+      "adp": 170
+    },
+    "E-4241464": {
+      "espnPlayerId": 4241464,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241464.png",
+      "pprRank": 455,
+      "projectedPoints": 8.6,
+      "adp": 170
+    },
+    "E-4685522": {
+      "espnPlayerId": 4685522,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685522.png",
+      "pprRank": 476,
+      "projectedPoints": 10,
+      "adp": 170
+    },
+    "E-2969939": {
+      "espnPlayerId": 2969939,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2969939.png",
+      "pprRank": 477,
+      "projectedPoints": 8.6,
+      "adp": 170
+    },
+    "E-4596472": {
+      "espnPlayerId": 4596472,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4596472.png",
+      "pprRank": 479,
+      "projectedPoints": 10.5,
+      "adp": 170
+    },
+    "E-3892775": {
+      "espnPlayerId": 3892775,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3892775.png",
+      "pprRank": 480,
+      "projectedPoints": 10.4,
+      "adp": 170
+    },
+    "E-4240391": {
+      "espnPlayerId": 4240391,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4240391.png",
+      "pprRank": 482,
+      "projectedPoints": 10.3,
+      "adp": 170
+    },
+    "E-2576980": {
+      "espnPlayerId": 2576980,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576980.png",
+      "pprRank": 483,
+      "projectedPoints": 10.2,
+      "adp": 170
+    },
+    "E-4434153": {
+      "espnPlayerId": 4434153,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4434153.png",
+      "pprRank": 484,
+      "projectedPoints": 10.1,
+      "adp": 170
+    },
+    "E-4426875": {
+      "espnPlayerId": 4426875,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426875.png",
+      "pprRank": 485,
+      "projectedPoints": 9.5,
+      "adp": 170
+    },
+    "E-4685201": {
+      "espnPlayerId": 4685201,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685201.png",
+      "pprRank": 486,
+      "projectedPoints": 9.5,
+      "adp": 170
+    },
+    "E-4714771": {
+      "espnPlayerId": 4714771,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4714771.png",
+      "pprRank": null,
+      "projectedPoints": 9.5,
+      "adp": 169.9
+    },
+    "E-4383351": {
+      "espnPlayerId": 4383351,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4383351.png",
+      "pprRank": null,
+      "projectedPoints": 9.4,
+      "adp": 170
+    },
+    "E-4683423": {
+      "espnPlayerId": 4683423,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4683423.png",
+      "pprRank": null,
+      "projectedPoints": 9.4,
+      "adp": 170
+    },
+    "E-4889929": {
+      "espnPlayerId": 4889929,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4889929.png",
+      "pprRank": null,
+      "projectedPoints": 9.4,
+      "adp": 170
+    },
+    "E-14163": {
+      "espnPlayerId": 14163,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14163.png",
+      "pprRank": null,
+      "projectedPoints": 9.5,
+      "adp": 170
+    },
+    "E-4240703": {
+      "espnPlayerId": 4240703,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4240703.png",
+      "pprRank": null,
+      "projectedPoints": 9.1,
+      "adp": 170
+    },
+    "E-4426339": {
+      "espnPlayerId": 4426339,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426339.png",
+      "pprRank": null,
+      "projectedPoints": 8.9,
+      "adp": 170
+    },
+    "E-3044720": {
+      "espnPlayerId": 3044720,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3044720.png",
+      "pprRank": null,
+      "projectedPoints": 8.7,
+      "adp": 170
+    },
+    "E-4035671": {
+      "espnPlayerId": 4035671,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035671.png",
+      "pprRank": null,
+      "projectedPoints": 8.6,
+      "adp": 170
+    },
+    "E-4242546": {
+      "espnPlayerId": 4242546,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242546.png",
+      "pprRank": null,
+      "projectedPoints": 8.4,
+      "adp": 170
+    },
+    "E-4685413": {
+      "espnPlayerId": 4685413,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685413.png",
+      "pprRank": null,
+      "projectedPoints": 8.2,
+      "adp": 170
+    },
+    "E-3115293": {
+      "espnPlayerId": 3115293,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115293.png",
+      "pprRank": null,
+      "projectedPoints": 8.1,
+      "adp": 170
+    },
+    "E-4433971": {
+      "espnPlayerId": 4433971,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4433971.png",
+      "pprRank": null,
+      "projectedPoints": 8,
+      "adp": 170
+    },
+    "E-3924327": {
+      "espnPlayerId": 3924327,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3924327.png",
+      "pprRank": null,
+      "projectedPoints": 8,
+      "adp": 170
+    },
+    "E-3039707": {
+      "espnPlayerId": 3039707,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3039707.png",
+      "pprRank": null,
+      "projectedPoints": 7.8,
+      "adp": 170
+    },
+    "E-4038524": {
+      "espnPlayerId": 4038524,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png",
+      "pprRank": null,
+      "projectedPoints": 7.1,
+      "adp": 170
+    },
+    "E-4429023": {
+      "espnPlayerId": 4429023,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429023.png",
+      "pprRank": 90,
+      "projectedPoints": 134.8,
+      "adp": 131.7
+    },
+    "E-4360569": {
+      "espnPlayerId": 4360569,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360569.png",
+      "pprRank": 161,
+      "projectedPoints": 151.7,
+      "adp": 139.4
+    },
+    "E-4361529": {
+      "espnPlayerId": 4361529,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361529.png",
+      "pprRank": 184,
+      "projectedPoints": 101.1,
+      "adp": 158.4
+    },
+    "E-3054850": {
+      "espnPlayerId": 3054850,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3054850.png",
+      "pprRank": 189,
+      "projectedPoints": 113.4,
+      "adp": 160.7
+    },
+    "E-4686658": {
+      "espnPlayerId": 4686658,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686658.png",
+      "pprRank": 229,
+      "projectedPoints": 67.1,
+      "adp": 164.4
+    },
+    "E-4685247": {
+      "espnPlayerId": 4685247,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685247.png",
+      "pprRank": 230,
+      "projectedPoints": 76.8,
+      "adp": 171
+    },
+    "E-4429013": {
+      "espnPlayerId": 4429013,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429013.png",
+      "pprRank": 237,
+      "projectedPoints": 64.1,
+      "adp": 169.7
+    },
+    "E-4429501": {
+      "espnPlayerId": 4429501,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429501.png",
+      "pprRank": 238,
+      "projectedPoints": 38.2,
+      "adp": 171
+    },
+    "E-4241457": {
+      "espnPlayerId": 4241457,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241457.png",
+      "pprRank": 270,
+      "projectedPoints": 78.5,
+      "adp": 170.2
+    },
+    "E-4038441": {
+      "espnPlayerId": 4038441,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038441.png",
+      "pprRank": 273,
+      "projectedPoints": 120.1,
+      "adp": 168.6
+    },
+    "E-4696044": {
+      "espnPlayerId": 4696044,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4696044.png",
+      "pprRank": 306,
+      "projectedPoints": 60.4,
+      "adp": 170.4
+    },
+    "E-4430968": {
+      "espnPlayerId": 4430968,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430968.png",
+      "pprRank": 307,
+      "projectedPoints": 36.4,
+      "adp": 171
+    },
+    "E-4682745": {
+      "espnPlayerId": 4682745,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4682745.png",
+      "pprRank": 308,
+      "projectedPoints": 45.8,
+      "adp": 170.6
+    },
+    "E-4711533": {
+      "espnPlayerId": 4711533,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4711533.png",
+      "pprRank": 319,
+      "projectedPoints": 33.8,
+      "adp": 170.7
+    },
+    "E-3116389": {
+      "espnPlayerId": 3116389,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116389.png",
+      "pprRank": 320,
+      "projectedPoints": 100.3,
+      "adp": 171.2
+    },
+    "E-3915411": {
+      "espnPlayerId": 3915411,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915411.png",
+      "pprRank": 321,
+      "projectedPoints": 84.9,
+      "adp": 170.7
+    },
+    "E-4240603": {
+      "espnPlayerId": 4240603,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4240603.png",
+      "pprRank": 324,
+      "projectedPoints": 57.6,
+      "adp": 170.2
+    },
+    "E-4596602": {
+      "espnPlayerId": 4596602,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4596602.png",
+      "pprRank": 325,
+      "projectedPoints": 59.7,
+      "adp": 170.2
+    },
+    "E-3149687": {
+      "espnPlayerId": 3149687,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3149687.png",
+      "pprRank": 340,
+      "projectedPoints": 70.8,
+      "adp": 170.3
+    },
+    "E-4832955": {
+      "espnPlayerId": 4832955,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4832955.png",
+      "pprRank": 342,
+      "projectedPoints": 53.9,
+      "adp": 169.9
+    },
+    "E-4695404": {
+      "espnPlayerId": 4695404,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4695404.png",
+      "pprRank": 343,
+      "projectedPoints": 51.1,
+      "adp": 170.6
+    },
+    "E-4911851": {
+      "espnPlayerId": 4911851,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4911851.png",
+      "pprRank": 344,
+      "projectedPoints": 46.5,
+      "adp": 170.3
+    },
+    "E-4429835": {
+      "espnPlayerId": 4429835,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429835.png",
+      "pprRank": 345,
+      "projectedPoints": 41.5,
+      "adp": 170.3
+    },
+    "E-4360516": {
+      "espnPlayerId": 4360516,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360516.png",
+      "pprRank": 346,
+      "projectedPoints": 40.9,
+      "adp": 170.3
+    },
+    "E-4430871": {
+      "espnPlayerId": 4430871,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430871.png",
+      "pprRank": 348,
+      "projectedPoints": 36.9,
+      "adp": 170.3
+    },
+    "E-4686468": {
+      "espnPlayerId": 4686468,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686468.png",
+      "pprRank": 350,
+      "projectedPoints": 36.4,
+      "adp": 170.2
+    },
+    "E-4685397": {
+      "espnPlayerId": 4685397,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685397.png",
+      "pprRank": 351,
+      "projectedPoints": 29.1,
+      "adp": 170.9
+    },
+    "E-4431545": {
+      "espnPlayerId": 4431545,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
+      "pprRank": 352,
+      "projectedPoints": 28.2,
+      "adp": 170.1
+    },
+    "E-4383429": {
+      "espnPlayerId": 4383429,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4383429.png",
+      "pprRank": 353,
+      "projectedPoints": 26,
+      "adp": 170
+    },
+    "E-4599739": {
+      "espnPlayerId": 4599739,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4599739.png",
+      "pprRank": 356,
+      "projectedPoints": 18.6,
+      "adp": 170.2
+    },
+    "E-4429299": {
+      "espnPlayerId": 4429299,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429299.png",
+      "pprRank": 376,
+      "projectedPoints": 18.4,
+      "adp": 170.2
+    },
+    "E-4832846": {
+      "espnPlayerId": 4832846,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4832846.png",
+      "pprRank": 378,
+      "projectedPoints": 16.9,
+      "adp": 170.3
+    },
+    "E-4690013": {
+      "espnPlayerId": 4690013,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4690013.png",
+      "pprRank": 396,
+      "projectedPoints": 16.5,
+      "adp": 170.1
+    },
+    "E-4685246": {
+      "espnPlayerId": 4685246,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685246.png",
+      "pprRank": 397,
+      "projectedPoints": 15.7,
+      "adp": 170.4
+    },
+    "E-4874509": {
+      "espnPlayerId": 4874509,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4874509.png",
+      "pprRank": 398,
+      "projectedPoints": 15.5,
+      "adp": 170.1
+    },
+    "E-4887558": {
+      "espnPlayerId": 4887558,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4887558.png",
+      "pprRank": 399,
+      "projectedPoints": 9.9,
+      "adp": 170.2
+    },
+    "E-4819231": {
+      "espnPlayerId": 4819231,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4819231.png",
+      "pprRank": 402,
+      "projectedPoints": 7.9,
+      "adp": 169.9
+    },
+    "E-4035537": {
+      "espnPlayerId": 4035537,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035537.png",
+      "pprRank": 403,
+      "projectedPoints": 2.3,
+      "adp": 170.1
+    },
+    "E-4427728": {
+      "espnPlayerId": 4427728,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4427728.png",
+      "pprRank": 404,
+      "projectedPoints": 0.8,
+      "adp": 170.1
+    },
+    "E-4912274": {
+      "espnPlayerId": 4912274,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4912274.png",
+      "pprRank": 405,
+      "projectedPoints": 0.8,
+      "adp": 170
+    },
+    "E-4366963": {
+      "espnPlayerId": 4366963,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4366963.png",
+      "pprRank": 431,
+      "projectedPoints": 0.7,
+      "adp": 170.1
+    },
+    "E-4362748": {
+      "espnPlayerId": 4362748,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362748.png",
+      "pprRank": 432,
+      "projectedPoints": 0.4,
+      "adp": 170.1
+    },
+    "E-4685526": {
+      "espnPlayerId": 4685526,
+      "hasProjection": false,
+      "teamAbbrev": "BAL",
+      "teamName": "BAL",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685526.png"
+    },
+    "E-3045147": {
+      "espnPlayerId": 3045147,
+      "hasProjection": false,
+      "teamAbbrev": "ARI",
+      "teamName": "ARI",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045147.png"
+    },
+    "E-4693370": {
+      "espnPlayerId": 4693370,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4693370.png",
+      "pprRank": 456,
+      "projectedPoints": 8.1,
+      "adp": 170
+    },
+    "E-16002": {
+      "espnPlayerId": 16002,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16002.png",
+      "pprRank": 457,
+      "projectedPoints": 44.7,
+      "adp": 170
+    },
+    "E-4383396": {
+      "espnPlayerId": 4383396,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4383396.png",
+      "pprRank": 458,
+      "projectedPoints": 25.1,
+      "adp": 170
+    },
+    "E-3917668": {
+      "espnPlayerId": 3917668,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917668.png",
+      "pprRank": null,
+      "projectedPoints": 16.4,
+      "adp": 170
+    },
+    "E-3929914": {
+      "espnPlayerId": 3929914,
+      "hasProjection": true,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3929914.png",
+      "pprRank": null,
+      "projectedPoints": 10.5,
+      "adp": 170
+    },
+    "E-4241961": {
+      "espnPlayerId": 4241961,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241961.png",
+      "pprRank": null,
+      "projectedPoints": 10.3,
+      "adp": 170
+    },
+    "E-2515270": {
+      "espnPlayerId": 2515270,
+      "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2515270.png",
+      "pprRank": null,
+      "projectedPoints": 10.1,
+      "adp": 170
+    },
+    "E-4878695": {
+      "espnPlayerId": 4878695,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4878695.png",
+      "pprRank": null,
+      "projectedPoints": 9.7,
+      "adp": 170
+    },
+    "E-3125107": {
+      "espnPlayerId": 3125107,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3125107.png",
+      "pprRank": null,
+      "projectedPoints": 8.4,
+      "adp": 170
+    },
+    "E-4039505": {
+      "espnPlayerId": 4039505,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4039505.png",
+      "pprRank": null,
+      "projectedPoints": 8,
+      "adp": 170
+    },
+    "E-2975417": {
+      "espnPlayerId": 2975417,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2975417.png",
+      "pprRank": null,
+      "projectedPoints": 7.4,
+      "adp": 170
+    },
+    "E-4373273": {
+      "espnPlayerId": 4373273,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4373273.png",
+      "pprRank": null,
+      "projectedPoints": 2.4,
+      "adp": 170
+    },
+    "E-4040761": {
+      "espnPlayerId": 4040761,
+      "hasProjection": false,
+      "teamAbbrev": "NYG",
+      "teamName": "NYG",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040761.png"
+    },
+    "E-4682652": {
+      "espnPlayerId": 4682652,
+      "hasProjection": false,
+      "teamAbbrev": "NO",
+      "teamName": "NO",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4682652.png"
+    },
+    "E-4362478": {
+      "espnPlayerId": 4362478,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362478.png",
+      "pprRank": null,
+      "projectedPoints": 24.6,
+      "adp": 170.3
+    },
+    "E-4685279": {
+      "espnPlayerId": 4685279,
+      "hasProjection": false,
+      "teamAbbrev": "PHI",
+      "teamName": "PHI",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png"
+    },
+    "E-4595348": {
+      "espnPlayerId": 4595348,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4595348.png",
+      "pprRank": 33,
+      "projectedPoints": 243.9,
+      "adp": 34.7
+    },
+    "E-4685472": {
+      "espnPlayerId": 4685472,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685472.png",
+      "pprRank": 36,
+      "projectedPoints": 236.2,
+      "adp": 42
+    },
+    "E-4567750": {
+      "espnPlayerId": 4567750,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4567750.png",
+      "pprRank": 39,
+      "projectedPoints": 229,
+      "adp": 45.3
+    },
+    "E-4426388": {
+      "espnPlayerId": 4426388,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426388.png",
+      "pprRank": 55,
+      "projectedPoints": 208.6,
+      "adp": 64.7
+    },
+    "E-4685278": {
+      "espnPlayerId": 4685278,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685278.png",
+      "pprRank": 66,
+      "projectedPoints": 206.8,
+      "adp": 76
+    },
+    "E-4432708": {
+      "espnPlayerId": 4432708,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432708.png",
+      "pprRank": 72,
+      "projectedPoints": 193.6,
+      "adp": 79.7
+    },
+    "E-4047650": {
+      "espnPlayerId": 4047650,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047650.png",
+      "pprRank": 75,
+      "projectedPoints": 195.8,
+      "adp": 85.6
+    },
+    "E-4432620": {
+      "espnPlayerId": 4432620,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432620.png",
+      "pprRank": 87,
+      "projectedPoints": 187.2,
+      "adp": 90.5
+    },
+    "E-4685415": {
+      "espnPlayerId": 4685415,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685415.png",
+      "pprRank": 109,
+      "projectedPoints": 103.6,
+      "adp": 118.9
+    },
+    "E-4701936": {
+      "espnPlayerId": 4701936,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4701936.png",
+      "pprRank": 117,
+      "projectedPoints": 188.9,
+      "adp": 111.8
+    },
+    "E-4429205": {
+      "espnPlayerId": 4429205,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429205.png",
+      "pprRank": 119,
+      "projectedPoints": 171.1,
+      "adp": 120.2
+    },
+    "E-4586312": {
+      "espnPlayerId": 4586312,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4586312.png",
+      "pprRank": 212,
+      "projectedPoints": 131.6,
+      "adp": 171.8
+    },
+    "E-4032473": {
+      "espnPlayerId": 4032473,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4032473.png",
+      "pprRank": 214,
+      "projectedPoints": 144.5,
+      "adp": 160.5
+    },
+    "E-4869645": {
+      "espnPlayerId": 4869645,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4869645.png",
+      "pprRank": 221,
+      "projectedPoints": 113.4,
+      "adp": 170.8
+    },
+    "E-4382466": {
+      "espnPlayerId": 4382466,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4382466.png",
+      "pprRank": 227,
+      "projectedPoints": 124.2,
+      "adp": 171.1
+    },
+    "E-4428850": {
+      "espnPlayerId": 4428850,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
+      "pprRank": 235,
+      "projectedPoints": 108.7,
+      "adp": 171
+    },
+    "E-4870847": {
+      "espnPlayerId": 4870847,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870847.png",
+      "pprRank": 276,
+      "projectedPoints": 109.7,
+      "adp": 168.7
+    },
+    "E-4682648": {
+      "espnPlayerId": 4682648,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4682648.png",
+      "pprRank": 287,
+      "projectedPoints": 86.3,
+      "adp": 170.2
+    },
+    "E-4685261": {
+      "espnPlayerId": 4685261,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685261.png",
+      "pprRank": 290,
+      "projectedPoints": 108.7,
+      "adp": 171.3
+    },
+    "E-4686612": {
+      "espnPlayerId": 4686612,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686612.png",
+      "pprRank": 293,
+      "projectedPoints": 89.9,
+      "adp": 171.2
+    },
+    "E-5083754": {
+      "espnPlayerId": 5083754,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5083754.png",
+      "pprRank": 299,
+      "projectedPoints": 89.3,
+      "adp": 171.1
+    },
+    "E-4870612": {
+      "espnPlayerId": 4870612,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4870612.png",
+      "pprRank": 302,
+      "projectedPoints": 82.5,
+      "adp": 170.9
+    },
+    "E-4723820": {
+      "espnPlayerId": 4723820,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4723820.png",
+      "pprRank": 304,
+      "projectedPoints": 87.7,
+      "adp": 171.2
+    },
+    "E-4569603": {
+      "espnPlayerId": 4569603,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569603.png",
+      "pprRank": 322,
+      "projectedPoints": 113.9,
+      "adp": 170.1
+    },
+    "E-2977187": {
+      "espnPlayerId": 2977187,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2977187.png",
+      "pprRank": 326,
+      "projectedPoints": 101.5,
+      "adp": 169.3
+    },
+    "E-4430034": {
+      "espnPlayerId": 4430034,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430034.png",
+      "pprRank": 327,
+      "projectedPoints": 94,
+      "adp": 170.7
+    },
+    "E-4686422": {
+      "espnPlayerId": 4686422,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686422.png",
+      "pprRank": 329,
+      "projectedPoints": 91.1,
+      "adp": 170.1
+    },
+    "E-4869961": {
+      "espnPlayerId": 4869961,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4869961.png",
+      "pprRank": 331,
+      "projectedPoints": 88.4,
+      "adp": 170.5
+    },
+    "E-4427095": {
+      "espnPlayerId": 4427095,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4427095.png",
+      "pprRank": 332,
+      "projectedPoints": 81.5,
+      "adp": 170.5
+    },
+    "E-5081432": {
+      "espnPlayerId": 5081432,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5081432.png",
+      "pprRank": 357,
+      "projectedPoints": 77.7,
+      "adp": 170.5
+    },
+    "E-4362921": {
+      "espnPlayerId": 4362921,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362921.png",
+      "pprRank": 358,
+      "projectedPoints": 77.3,
+      "adp": 170.4
+    },
+    "E-4635008": {
+      "espnPlayerId": 4635008,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4635008.png",
+      "pprRank": 369,
+      "projectedPoints": 75.5,
+      "adp": 170.3
+    },
+    "E-5123663": {
+      "espnPlayerId": 5123663,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5123663.png",
+      "pprRank": 370,
+      "projectedPoints": 72.9,
+      "adp": 170.3
+    },
+    "E-4600981": {
+      "espnPlayerId": 4600981,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4600981.png",
+      "pprRank": 371,
+      "projectedPoints": 72.7,
+      "adp": 170.4
+    },
+    "E-4368003": {
+      "espnPlayerId": 4368003,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4368003.png",
+      "pprRank": 390,
+      "projectedPoints": 67.6,
+      "adp": 170.1
+    },
+    "E-4685307": {
+      "espnPlayerId": 4685307,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685307.png",
+      "pprRank": 391,
+      "projectedPoints": 67,
+      "adp": 170
+    },
+    "E-3676833": {
+      "espnPlayerId": 3676833,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3676833.png",
+      "pprRank": 392,
+      "projectedPoints": 66.4,
+      "adp": 169.8
+    },
+    "E-4603186": {
+      "espnPlayerId": 4603186,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4603186.png",
+      "pprRank": 393,
+      "projectedPoints": 65.9,
+      "adp": 170.2
+    },
+    "E-4597703": {
+      "espnPlayerId": 4597703,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4597703.png",
+      "pprRank": 395,
+      "projectedPoints": 65.5,
+      "adp": 170.2
+    },
+    "E-5220680": {
+      "espnPlayerId": 5220680,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5220680.png",
+      "pprRank": 406,
+      "projectedPoints": 64.9,
+      "adp": 170.2
+    },
+    "E-2991662": {
+      "espnPlayerId": 2991662,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2991662.png",
+      "pprRank": 421,
+      "projectedPoints": 56.7,
+      "adp": 170.1
+    },
+    "E-4912218": {
+      "espnPlayerId": 4912218,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4912218.png",
+      "pprRank": 978,
+      "projectedPoints": 52.8,
+      "adp": 169.8
+    },
+    "E-4613202": {
+      "espnPlayerId": 4613202,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4613202.png",
+      "pprRank": 979,
+      "projectedPoints": 50.8,
+      "adp": 170
+    },
+    "E-3045523": {
+      "espnPlayerId": 3045523,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045523.png",
+      "pprRank": 982,
+      "projectedPoints": 50.2,
+      "adp": 170
+    },
+    "E-5150247": {
+      "espnPlayerId": 5150247,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5150247.png",
+      "pprRank": 983,
+      "projectedPoints": 56.5,
+      "adp": 170
+    },
+    "E-2973405": {
+      "espnPlayerId": 2973405,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2973405.png",
+      "pprRank": 984,
+      "projectedPoints": 48.1,
+      "adp": 170
+    },
+    "E-4361577": {
+      "espnPlayerId": 4361577,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361577.png",
+      "pprRank": 990,
+      "projectedPoints": 46.9,
+      "adp": 170
+    },
+    "E-4567156": {
+      "espnPlayerId": 4567156,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4567156.png",
+      "pprRank": 996,
+      "projectedPoints": 44.9,
+      "adp": 170
+    },
+    "E-4696882": {
+      "espnPlayerId": 4696882,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4696882.png",
+      "pprRank": null,
+      "projectedPoints": 43.9,
+      "adp": 170
+    },
+    "E-4431487": {
+      "espnPlayerId": 4431487,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431487.png",
+      "pprRank": null,
+      "projectedPoints": 41.9,
+      "adp": 170
+    },
+    "E-4431268": {
+      "espnPlayerId": 4431268,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431268.png",
+      "pprRank": null,
+      "projectedPoints": 39.6,
+      "adp": 169.9
+    },
+    "E-4879276": {
+      "espnPlayerId": 4879276,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4879276.png",
+      "pprRank": null,
+      "projectedPoints": 43,
+      "adp": 170
+    },
+    "E-4602667": {
+      "espnPlayerId": 4602667,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4602667.png",
+      "pprRank": null,
+      "projectedPoints": 28.5,
+      "adp": 170
+    },
+    "E-4869748": {
+      "espnPlayerId": 4869748,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4869748.png",
+      "pprRank": null,
+      "projectedPoints": 36.4,
+      "adp": 169.9
+    },
+    "E-4808839": {
+      "espnPlayerId": 4808839,
+      "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4808839.png",
+      "pprRank": null,
+      "projectedPoints": 34.9,
+      "adp": 170
+    },
+    "E-4683153": {
+      "espnPlayerId": 4683153,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4683153.png",
+      "pprRank": null,
+      "projectedPoints": 34.1,
+      "adp": 169.9
+    },
+    "E-3917914": {
+      "espnPlayerId": 3917914,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917914.png",
+      "pprRank": null,
+      "projectedPoints": 32.3,
+      "adp": 170
+    },
+    "E-4061956": {
+      "espnPlayerId": 4061956,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4061956.png",
+      "pprRank": null,
+      "projectedPoints": 31.7,
+      "adp": 170
+    },
+    "E-4569371": {
+      "espnPlayerId": 4569371,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569371.png",
+      "pprRank": null,
+      "projectedPoints": 31.1,
+      "adp": 170
+    },
+    "E-5092508": {
+      "espnPlayerId": 5092508,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5092508.png",
+      "pprRank": null,
+      "projectedPoints": 29.6,
+      "adp": 170
+    },
+    "E-4685553": {
+      "espnPlayerId": 4685553,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685553.png",
+      "pprRank": null,
+      "projectedPoints": 27.5,
+      "adp": 170
+    },
+    "E-5088338": {
+      "espnPlayerId": 5088338,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5088338.png",
+      "pprRank": null,
+      "projectedPoints": 25.1,
+      "adp": 170
+    },
+    "E-16733": {
+      "espnPlayerId": 16733,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16733.png",
+      "pprRank": null,
+      "projectedPoints": 24,
+      "adp": 169.4
+    },
+    "E-4883647": {
+      "espnPlayerId": 4883647,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4883647.png",
+      "pprRank": null,
+      "projectedPoints": 23.9,
+      "adp": 170
+    },
+    "E-4608810": {
+      "espnPlayerId": 4608810,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4608810.png",
+      "pprRank": null,
+      "projectedPoints": 21.6,
+      "adp": 170
+    },
+    "E-4708486": {
+      "espnPlayerId": 4708486,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4708486.png",
+      "pprRank": null,
+      "projectedPoints": 21.2,
+      "adp": 170
+    },
+    "E-4710855": {
+      "espnPlayerId": 4710855,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4710855.png",
+      "pprRank": null,
+      "projectedPoints": 19.5,
+      "adp": 170
+    },
+    "E-5082630": {
+      "espnPlayerId": 5082630,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5082630.png",
+      "pprRank": null,
+      "projectedPoints": 18.3,
+      "adp": 170
+    },
+    "E-4430870": {
+      "espnPlayerId": 4430870,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430870.png",
+      "pprRank": null,
+      "projectedPoints": 18.1,
+      "adp": 170
+    },
+    "E-4698597": {
+      "espnPlayerId": 4698597,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4698597.png",
+      "pprRank": null,
+      "projectedPoints": 20.8,
+      "adp": 170
+    },
+    "E-3051889": {
+      "espnPlayerId": 3051889,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051889.png",
+      "pprRank": null,
+      "projectedPoints": 17.3,
+      "adp": 170
+    },
+    "E-4259305": {
+      "espnPlayerId": 4259305,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4259305.png",
+      "pprRank": null,
+      "projectedPoints": 16.1,
+      "adp": 170
+    },
+    "E-4245144": {
+      "espnPlayerId": 4245144,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4245144.png",
+      "pprRank": null,
+      "projectedPoints": 13.2,
+      "adp": 170
+    },
+    "E-4362477": {
+      "espnPlayerId": 4362477,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362477.png",
+      "pprRank": null,
+      "projectedPoints": 11.7,
+      "adp": 170
+    },
+    "E-4386544": {
+      "espnPlayerId": 4386544,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4386544.png",
+      "pprRank": null,
+      "projectedPoints": 11.6,
+      "adp": 170
+    },
+    "E-4575665": {
+      "espnPlayerId": 4575665,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4575665.png",
+      "pprRank": null,
+      "projectedPoints": 10.4,
+      "adp": 170
+    },
+    "E-4384852": {
+      "espnPlayerId": 4384852,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4384852.png",
+      "pprRank": null,
+      "projectedPoints": 10.2,
+      "adp": 170
+    },
+    "E-4695193": {
+      "espnPlayerId": 4695193,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4695193.png",
+      "pprRank": null,
+      "projectedPoints": 10.1,
+      "adp": 170
+    },
+    "E-4565185": {
+      "espnPlayerId": 4565185,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4565185.png",
+      "pprRank": null,
+      "projectedPoints": 9,
+      "adp": 170
+    },
+    "E-4879194": {
+      "espnPlayerId": 4879194,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4879194.png",
+      "pprRank": null,
+      "projectedPoints": 9,
+      "adp": 170
+    },
+    "E-5160110": {
+      "espnPlayerId": 5160110,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5160110.png",
+      "pprRank": null,
+      "projectedPoints": 8.7,
+      "adp": 170
+    },
+    "E-4715355": {
+      "espnPlayerId": 4715355,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4715355.png",
+      "pprRank": null,
+      "projectedPoints": 8.5,
+      "adp": 170
+    },
+    "E-4426485": {
+      "espnPlayerId": 4426485,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426485.png",
+      "pprRank": null,
+      "projectedPoints": 8.4,
+      "adp": 170
+    },
+    "E-4869132": {
+      "espnPlayerId": 4869132,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4869132.png",
+      "pprRank": null,
+      "projectedPoints": 8.1,
+      "adp": 170
+    },
+    "E-4360763": {
+      "espnPlayerId": 4360763,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360763.png",
+      "pprRank": null,
+      "projectedPoints": 8,
+      "adp": 170
+    },
+    "E-5081338": {
+      "espnPlayerId": 5081338,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5081338.png",
+      "pprRank": null,
+      "projectedPoints": 4.1,
+      "adp": 170
+    },
+    "E-4035656": {
+      "espnPlayerId": 4035656,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035656.png",
+      "pprRank": null,
+      "projectedPoints": 3.9,
+      "adp": 170
+    },
+    "E-5097554": {
+      "espnPlayerId": 5097554,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5097554.png",
+      "pprRank": null,
+      "projectedPoints": 3.7,
+      "adp": 170
+    },
+    "E-4429105": {
+      "espnPlayerId": 4429105,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429105.png",
+      "pprRank": null,
+      "projectedPoints": 3.5,
+      "adp": 170
+    },
+    "E-3123075": {
+      "espnPlayerId": 3123075,
+      "hasProjection": true,
+      "teamAbbrev": "FA",
+      "teamName": "FA",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3123075.png",
+      "pprRank": null,
+      "projectedPoints": 2.5,
+      "adp": 170
+    },
+    "E-4570738": {
+      "espnPlayerId": 4570738,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4570738.png",
+      "pprRank": null,
+      "projectedPoints": 2.1,
+      "adp": 170
+    },
+    "E-4430656": {
+      "espnPlayerId": 4430656,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430656.png",
+      "pprRank": null,
+      "projectedPoints": 1.9,
+      "adp": 170
+    },
+    "E-4690143": {
+      "espnPlayerId": 4690143,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4690143.png",
+      "pprRank": null,
+      "projectedPoints": 1.9,
+      "adp": 170
+    },
+    "E-4039050": {
+      "espnPlayerId": 4039050,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4039050.png",
+      "pprRank": null,
+      "projectedPoints": 1.7,
+      "adp": 170
+    },
+    "E-4372716": {
+      "espnPlayerId": 4372716,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372716.png",
+      "pprRank": null,
+      "projectedPoints": 1.4,
+      "adp": 170
+    },
+    "E-4430191": {
+      "espnPlayerId": 4430191,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430191.png",
+      "pprRank": null,
+      "projectedPoints": 0.4,
+      "adp": 170
+    },
+    "E-4401805": {
+      "espnPlayerId": 4401805,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4401805.png",
+      "pprRank": null,
+      "projectedPoints": 8.2,
+      "adp": 170
+    },
+    "E-4692835": {
+      "espnPlayerId": 4692835,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4692835.png",
+      "pprRank": null,
+      "projectedPoints": 0.3,
+      "adp": 170
+    },
+    "E-15847": {
+      "espnPlayerId": 15847,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15847.png",
+      "pprRank": 131,
+      "projectedPoints": 177.2,
+      "adp": 95.2
+    },
+    "E-3929645": {
+      "espnPlayerId": 3929645,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3929645.png",
+      "pprRank": 191,
+      "projectedPoints": 146.9,
+      "adp": 158.6
+    },
+    "E-5083315": {
+      "espnPlayerId": 5083315,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5083315.png",
+      "pprRank": 200,
+      "projectedPoints": 146.1,
+      "adp": 162.5
+    },
+    "E-4430539": {
+      "espnPlayerId": 4430539,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430539.png",
+      "pprRank": 208,
+      "projectedPoints": 142.6,
+      "adp": 167.5
+    },
+    "E-4570037": {
+      "espnPlayerId": 4570037,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4570037.png",
+      "pprRank": 213,
+      "projectedPoints": 135.7,
+      "adp": 168.6
+    },
+    "E-4686728": {
+      "espnPlayerId": 4686728,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686728.png",
+      "pprRank": 310,
+      "projectedPoints": 126.9,
+      "adp": 170.8
+    },
+    "E-4576297": {
+      "espnPlayerId": 4576297,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4576297.png",
+      "pprRank": 312,
+      "projectedPoints": 113.8,
+      "adp": 169.7
+    },
+    "E-4367209": {
+      "espnPlayerId": 4367209,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4367209.png",
+      "pprRank": 365,
+      "projectedPoints": 119,
+      "adp": 170.5
+    },
+    "E-2576925": {
+      "espnPlayerId": 2576925,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576925.png",
+      "pprRank": 366,
+      "projectedPoints": 114.5,
+      "adp": 170.4
+    },
+    "E-4595342": {
+      "espnPlayerId": 4595342,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4595342.png",
+      "pprRank": 416,
+      "projectedPoints": 77.2,
+      "adp": 170.2
+    },
+    "E-3116164": {
+      "espnPlayerId": 3116164,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116164.png",
+      "pprRank": 417,
+      "projectedPoints": 96.5,
+      "adp": 170.2
+    },
+    "E-4429086": {
+      "espnPlayerId": 4429086,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429086.png",
+      "pprRank": 418,
+      "projectedPoints": 80.9,
+      "adp": 170.2
+    },
+    "E-4259147": {
+      "espnPlayerId": 4259147,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4259147.png",
+      "pprRank": 441,
+      "projectedPoints": 20.3,
+      "adp": 170.2
+    },
+    "E-4242557": {
+      "espnPlayerId": 4242557,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242557.png",
+      "pprRank": 442,
+      "projectedPoints": 75.3,
+      "adp": 170.2
+    },
+    "E-4427834": {
+      "espnPlayerId": 4427834,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4427834.png",
+      "pprRank": 443,
+      "projectedPoints": 70.6,
+      "adp": 170
+    },
+    "E-4430802": {
+      "espnPlayerId": 4430802,
+      "hasProjection": true,
+      "teamAbbrev": "PIT",
+      "teamName": "Pittsburgh Steelers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4430802.png",
+      "pprRank": 445,
+      "projectedPoints": 72.4,
+      "adp": 169.8
+    },
+    "E-3930086": {
+      "espnPlayerId": 3930086,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3930086.png",
+      "pprRank": 459,
+      "projectedPoints": 68.2,
+      "adp": 169.8
+    },
+    "E-4678006": {
+      "espnPlayerId": 4678006,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4678006.png",
+      "pprRank": 460,
+      "projectedPoints": 60.6,
+      "adp": 169.9
+    },
+    "E-4808766": {
+      "espnPlayerId": 4808766,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4808766.png",
+      "pprRank": 464,
+      "projectedPoints": 70.4,
+      "adp": 170
+    },
+    "E-4429148": {
+      "espnPlayerId": 4429148,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4429148.png",
+      "pprRank": 465,
+      "projectedPoints": 61.5,
+      "adp": 170.1
+    },
+    "E-4258595": {
+      "espnPlayerId": 4258595,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258595.png",
+      "pprRank": 466,
+      "projectedPoints": 53.9,
+      "adp": 169.8
+    },
+    "E-4431588": {
+      "espnPlayerId": 4431588,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431588.png",
+      "pprRank": 467,
+      "projectedPoints": 42.3,
+      "adp": 170
+    },
+    "E-4240472": {
+      "espnPlayerId": 4240472,
+      "hasProjection": true,
+      "teamAbbrev": "KC",
+      "teamName": "Kansas City Chiefs",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4240472.png",
+      "pprRank": 468,
+      "projectedPoints": 60.7,
+      "adp": 169.9
+    },
+    "E-4431574": {
+      "espnPlayerId": 4431574,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png",
+      "pprRank": 469,
+      "projectedPoints": 29,
+      "adp": 170
+    },
+    "E-2573401": {
+      "espnPlayerId": 2573401,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2573401.png",
+      "pprRank": 470,
+      "projectedPoints": 38.1,
+      "adp": 169.9
+    },
+    "E-4833029": {
+      "espnPlayerId": 4833029,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4833029.png",
+      "pprRank": 471,
+      "projectedPoints": 9.9,
+      "adp": 170
+    },
+    "E-4831959": {
+      "espnPlayerId": 4831959,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4831959.png",
+      "pprRank": 472,
+      "projectedPoints": 46.5,
+      "adp": 170
+    },
+    "E-4372780": {
+      "espnPlayerId": 4372780,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372780.png",
+      "pprRank": 473,
+      "projectedPoints": 43.6,
+      "adp": 170
+    },
+    "E-3043275": {
+      "espnPlayerId": 3043275,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043275.png",
+      "pprRank": null,
+      "projectedPoints": 43.4,
+      "adp": 170
+    },
+    "E-4426844": {
+      "espnPlayerId": 4426844,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426844.png",
+      "pprRank": null,
+      "projectedPoints": 42.9,
+      "adp": 169.9
+    },
+    "E-4880236": {
+      "espnPlayerId": 4880236,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4880236.png",
+      "pprRank": null,
+      "projectedPoints": 39.8,
+      "adp": 170
+    },
+    "E-3054212": {
+      "espnPlayerId": 3054212,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3054212.png",
+      "pprRank": null,
+      "projectedPoints": 41,
+      "adp": 170
+    },
+    "E-3127310": {
+      "espnPlayerId": 3127310,
+      "hasProjection": true,
+      "teamAbbrev": "CIN",
+      "teamName": "Cincinnati Bengals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3127310.png",
+      "pprRank": null,
+      "projectedPoints": 48.5,
+      "adp": 170
+    },
+    "E-3921690": {
+      "espnPlayerId": 3921690,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3921690.png",
+      "pprRank": null,
+      "projectedPoints": 38.6,
+      "adp": 170
+    },
+    "E-3911853": {
+      "espnPlayerId": 3911853,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3911853.png",
+      "pprRank": null,
+      "projectedPoints": 38.4,
+      "adp": 170
+    },
+    "E-4241263": {
+      "espnPlayerId": 4241263,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241263.png",
+      "pprRank": null,
+      "projectedPoints": 36.2,
+      "adp": 170
+    },
+    "E-4036131": {
+      "espnPlayerId": 4036131,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036131.png",
+      "pprRank": null,
+      "projectedPoints": 39.7,
+      "adp": 170
+    },
+    "E-4426496": {
+      "espnPlayerId": 4426496,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426496.png",
+      "pprRank": null,
+      "projectedPoints": 34.7,
+      "adp": 170
+    },
+    "E-4048228": {
+      "espnPlayerId": 4048228,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4048228.png",
+      "pprRank": null,
+      "projectedPoints": 34.5,
+      "adp": 170
+    },
+    "E-4372096": {
+      "espnPlayerId": 4372096,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372096.png",
+      "pprRank": null,
+      "projectedPoints": 27.7,
+      "adp": 169.9
+    },
+    "E-2998565": {
+      "espnPlayerId": 2998565,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2998565.png",
+      "pprRank": null,
+      "projectedPoints": 27.5,
+      "adp": 170
+    },
+    "E-4573699": {
+      "espnPlayerId": 4573699,
+      "hasProjection": true,
+      "teamAbbrev": "BUF",
+      "teamName": "Buffalo Bills",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4573699.png",
+      "pprRank": null,
+      "projectedPoints": 27.5,
+      "adp": 170
+    },
+    "E-4361516": {
+      "espnPlayerId": 4361516,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361516.png",
+      "pprRank": null,
+      "projectedPoints": 26.7,
+      "adp": 170
+    },
+    "E-4361372": {
+      "espnPlayerId": 4361372,
+      "hasProjection": true,
+      "teamAbbrev": "NYJ",
+      "teamName": "New York Jets",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4361372.png",
+      "pprRank": null,
+      "projectedPoints": 25.4,
+      "adp": 170
+    },
+    "E-3052897": {
+      "espnPlayerId": 3052897,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052897.png",
+      "pprRank": null,
+      "projectedPoints": 23.6,
+      "adp": 170
+    },
+    "E-4426553": {
+      "espnPlayerId": 4426553,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4426553.png",
+      "pprRank": null,
+      "projectedPoints": 19.5,
+      "adp": 170
+    },
+    "E-3843945": {
+      "espnPlayerId": 3843945,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3843945.png",
+      "pprRank": null,
+      "projectedPoints": 19,
+      "adp": 170
+    },
+    "E-4383440": {
+      "espnPlayerId": 4383440,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4383440.png",
+      "pprRank": null,
+      "projectedPoints": 18.7,
+      "adp": 170
+    },
+    "E-4242392": {
+      "espnPlayerId": 4242392,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4242392.png",
+      "pprRank": null,
+      "projectedPoints": 18.6,
+      "adp": 169.9
+    },
+    "E-4686248": {
+      "espnPlayerId": 4686248,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686248.png",
+      "pprRank": null,
+      "projectedPoints": 18.5,
+      "adp": 170
+    },
+    "E-4372505": {
+      "espnPlayerId": 4372505,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4372505.png",
+      "pprRank": null,
+      "projectedPoints": 18.1,
+      "adp": 170
+    },
+    "E-4702559": {
+      "espnPlayerId": 4702559,
+      "hasProjection": true,
+      "teamAbbrev": "NO",
+      "teamName": "New Orleans Saints",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4702559.png",
+      "pprRank": null,
+      "projectedPoints": 18,
+      "adp": 170
+    },
+    "E-4362018": {
+      "espnPlayerId": 4362018,
+      "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4362018.png",
+      "pprRank": null,
+      "projectedPoints": 15.5,
+      "adp": 170
+    },
+    "E-4360967": {
+      "espnPlayerId": 4360967,
+      "hasProjection": true,
+      "teamAbbrev": "DAL",
+      "teamName": "Dallas Cowboys",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360967.png",
+      "pprRank": null,
+      "projectedPoints": 9.5,
+      "adp": 170
+    },
+    "E-4602788": {
+      "espnPlayerId": 4602788,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4602788.png",
+      "pprRank": null,
+      "projectedPoints": 9.4,
+      "adp": 170
+    },
+    "E-4917427": {
+      "espnPlayerId": 4917427,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4917427.png",
+      "pprRank": null,
+      "projectedPoints": 9.2,
+      "adp": 170
+    },
+    "E-4034779": {
+      "espnPlayerId": 4034779,
+      "hasProjection": true,
+      "teamAbbrev": "TB",
+      "teamName": "Tampa Bay Buccaneers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4034779.png",
+      "pprRank": null,
+      "projectedPoints": 9.1,
+      "adp": 170
+    },
+    "E-4695705": {
+      "espnPlayerId": 4695705,
+      "hasProjection": true,
+      "teamAbbrev": "HOU",
+      "teamName": "Houston Texans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4695705.png",
+      "pprRank": null,
+      "projectedPoints": 8.9,
+      "adp": 170
+    },
+    "E-4360086": {
+      "espnPlayerId": 4360086,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4360086.png",
+      "pprRank": null,
+      "projectedPoints": 10,
+      "adp": 170
+    },
+    "E-4040612": {
+      "espnPlayerId": 4040612,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040612.png",
+      "pprRank": null,
+      "projectedPoints": 8.8,
+      "adp": 170
+    },
+    "E-4722908": {
+      "espnPlayerId": 4722908,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4722908.png",
+      "pprRank": null,
+      "projectedPoints": 8.8,
+      "adp": 170
+    },
+    "E-4685504": {
+      "espnPlayerId": 4685504,
+      "hasProjection": true,
+      "teamAbbrev": "CHI",
+      "teamName": "Chicago Bears",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685504.png",
+      "pprRank": null,
+      "projectedPoints": 8.7,
+      "adp": 170
+    },
+    "E-4432260": {
+      "espnPlayerId": 4432260,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4432260.png",
+      "pprRank": null,
+      "projectedPoints": 8.6,
+      "adp": 170
+    },
+    "E-4876132": {
+      "espnPlayerId": 4876132,
+      "hasProjection": true,
+      "teamAbbrev": "BAL",
+      "teamName": "Baltimore Ravens",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4876132.png",
+      "pprRank": null,
+      "projectedPoints": 8.6,
+      "adp": 170
+    },
+    "E-2975863": {
+      "espnPlayerId": 2975863,
+      "hasProjection": true,
+      "teamAbbrev": "SEA",
+      "teamName": "Seattle Seahawks",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2975863.png",
+      "pprRank": null,
+      "projectedPoints": 8.6,
+      "adp": 170
+    },
+    "E-4239944": {
+      "espnPlayerId": 4239944,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4239944.png",
+      "pprRank": null,
+      "projectedPoints": 8.4,
+      "adp": 170
+    },
+    "E-4045305": {
+      "espnPlayerId": 4045305,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4045305.png",
+      "pprRank": null,
+      "projectedPoints": 8.3,
+      "adp": 170
+    },
+    "E-4035020": {
+      "espnPlayerId": 4035020,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035020.png",
+      "pprRank": null,
+      "projectedPoints": 8.2,
+      "adp": 170
+    },
+    "E-3052096": {
+      "espnPlayerId": 3052096,
+      "hasProjection": true,
+      "teamAbbrev": "PHI",
+      "teamName": "Philadelphia Eagles",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052096.png",
+      "pprRank": null,
+      "projectedPoints": 8.2,
+      "adp": 170
+    },
+    "E-4685540": {
+      "espnPlayerId": 4685540,
+      "hasProjection": true,
+      "teamAbbrev": "CLE",
+      "teamName": "Cleveland Browns",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4685540.png",
+      "pprRank": null,
+      "projectedPoints": 8.2,
+      "adp": 170
+    },
+    "E-2531358": {
+      "espnPlayerId": 2531358,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2531358.png",
+      "pprRank": null,
+      "projectedPoints": 4.1,
+      "adp": 170
+    },
+    "E-4714379": {
+      "espnPlayerId": 4714379,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4714379.png",
+      "pprRank": null,
+      "projectedPoints": 15.9,
+      "adp": 170
+    },
+    "E-4574716": {
+      "espnPlayerId": 4574716,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4574716.png",
+      "pprRank": 198,
+      "projectedPoints": 159.4,
+      "adp": 137
+    },
+    "E-4034949": {
+      "espnPlayerId": 4034949,
+      "hasProjection": true,
+      "teamAbbrev": "SF",
+      "teamName": "San Francisco 49ers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4034949.png",
+      "pprRank": 254,
+      "projectedPoints": 155.2,
+      "adp": 141.5
+    },
+    "E-4686361": {
+      "espnPlayerId": 4686361,
+      "hasProjection": true,
+      "teamAbbrev": "JAX",
+      "teamName": "Jacksonville Jaguars",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4686361.png",
+      "pprRank": 259,
+      "projectedPoints": 146.9,
+      "adp": 140.9
+    },
+    "E-4689936": {
+      "espnPlayerId": 4689936,
+      "hasProjection": true,
+      "teamAbbrev": "DET",
+      "teamName": "Detroit Lions",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4689936.png",
+      "pprRank": 260,
+      "projectedPoints": 146.1,
+      "adp": 157.1
+    },
+    "E-4567104": {
+      "espnPlayerId": 4567104,
+      "hasProjection": true,
+      "teamAbbrev": "MIN",
+      "teamName": "Minnesota Vikings",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4567104.png",
+      "pprRank": 269,
+      "projectedPoints": 142.5,
+      "adp": 167.8
+    },
+    "E-10621": {
+      "espnPlayerId": 10621,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/10621.png",
+      "pprRank": 364,
+      "projectedPoints": 141.3,
+      "adp": 170.3
+    },
+    "E-4869461": {
+      "espnPlayerId": 4869461,
+      "hasProjection": true,
+      "teamAbbrev": "GB",
+      "teamName": "Green Bay Packers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4869461.png",
+      "pprRank": 410,
+      "projectedPoints": 144.3,
+      "adp": 168.1
+    },
+    "E-4571557": {
+      "espnPlayerId": 4571557,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4571557.png",
+      "pprRank": 411,
+      "projectedPoints": 139.6,
+      "adp": 169.9
+    },
+    "E-2985659": {
+      "espnPlayerId": 2985659,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2985659.png",
+      "pprRank": 490,
+      "projectedPoints": 135.8,
+      "adp": 169.6
+    },
+    "E-5082424": {
+      "espnPlayerId": 5082424,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5082424.png",
+      "pprRank": 492,
+      "projectedPoints": 133.2,
+      "adp": 169.9
+    },
+    "E-5081335": {
+      "espnPlayerId": 5081335,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5081335.png",
+      "pprRank": 494,
+      "projectedPoints": 133.6,
+      "adp": 170
+    },
+    "E-4569923": {
+      "espnPlayerId": 4569923,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4569923.png",
+      "pprRank": 495,
+      "projectedPoints": 129.3,
+      "adp": 170.1
+    },
+    "E-4243371": {
+      "espnPlayerId": 4243371,
+      "hasProjection": true,
+      "teamAbbrev": "MIA",
+      "teamName": "Miami Dolphins",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4243371.png",
+      "pprRank": 496,
+      "projectedPoints": 127.6,
+      "adp": 169.9
+    },
+    "E-4568263": {
+      "espnPlayerId": 4568263,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4568263.png",
+      "pprRank": 498,
+      "projectedPoints": 124.2,
+      "adp": 169.8
+    },
+    "E-3124084": {
+      "espnPlayerId": 3124084,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3124084.png",
+      "pprRank": 500,
+      "projectedPoints": 123.3,
+      "adp": 169.8
+    },
+    "E-4363538": {
+      "espnPlayerId": 4363538,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "headshotUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4363538.png",
+      "pprRank": 502,
+      "projectedPoints": 121.5,
+      "adp": 169.9
+    },
+    "E--16007": {
+      "espnPlayerId": -16007,
+      "hasProjection": true,
+      "teamAbbrev": "DEN",
+      "teamName": "Denver Broncos",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "pprRank": 182,
+      "projectedPoints": 130.8,
+      "adp": 99
+    },
+    "E--16014": {
+      "espnPlayerId": -16014,
+      "hasProjection": true,
+      "teamAbbrev": "LAR",
+      "teamName": "Los Angeles Rams",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "pprRank": 241,
+      "projectedPoints": 124.4,
+      "adp": 104.4
+    },
+    "E--16017": {
+      "espnPlayerId": -16017,
+      "hasProjection": true,
+      "teamAbbrev": "NE",
+      "teamName": "New England Patriots",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "pprRank": 248,
+      "projectedPoints": 100.5,
+      "adp": 153.3
+    },
+    "E--16024": {
+      "espnPlayerId": -16024,
+      "hasProjection": true,
+      "teamAbbrev": "LAC",
+      "teamName": "Los Angeles Chargers",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "pprRank": 252,
+      "projectedPoints": 94.8,
+      "adp": 165.7
+    },
+    "E--16011": {
+      "espnPlayerId": -16011,
+      "hasProjection": true,
+      "teamAbbrev": "IND",
+      "teamName": "Indianapolis Colts",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "pprRank": 425,
+      "projectedPoints": 76.1,
+      "adp": 170.1
+    },
+    "E--16019": {
+      "espnPlayerId": -16019,
+      "hasProjection": true,
+      "teamAbbrev": "NYG",
+      "teamName": "New York Giants",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "pprRank": 505,
+      "projectedPoints": 79.3,
+      "adp": 169.7
+    },
+    "E--16010": {
+      "espnPlayerId": -16010,
+      "hasProjection": true,
+      "teamAbbrev": "TEN",
+      "teamName": "Tennessee Titans",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "pprRank": 510,
+      "projectedPoints": 68.4,
+      "adp": 169.9
+    },
+    "E--16029": {
+      "espnPlayerId": -16029,
+      "hasProjection": true,
+      "teamAbbrev": "CAR",
+      "teamName": "Carolina Panthers",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "pprRank": 511,
+      "projectedPoints": 73.9,
+      "adp": 169.8
+    },
+    "E--16028": {
+      "espnPlayerId": -16028,
+      "hasProjection": true,
+      "teamAbbrev": "WSH",
+      "teamName": "Washington Commanders",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "pprRank": 513,
+      "projectedPoints": 60.8,
+      "adp": 169.7
+    },
+    "E--16001": {
+      "espnPlayerId": -16001,
+      "hasProjection": true,
+      "teamAbbrev": "ATL",
+      "teamName": "Atlanta Falcons",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "pprRank": 515,
+      "projectedPoints": 58.4,
+      "adp": 170.1
+    },
+    "E--16013": {
+      "espnPlayerId": -16013,
+      "hasProjection": true,
+      "teamAbbrev": "LV",
+      "teamName": "Las Vegas Raiders",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "pprRank": 517,
+      "projectedPoints": 53.9,
+      "adp": 169.8
+    },
+    "E--16022": {
+      "espnPlayerId": -16022,
+      "hasProjection": true,
+      "teamAbbrev": "ARI",
+      "teamName": "Arizona Cardinals",
+      "teamLogoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "pprRank": 518,
+      "projectedPoints": 50.4,
+      "adp": 169.9
     }
   }
 }

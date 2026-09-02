@@ -11,12 +11,17 @@ const RAW = {
   DEF: "49ers|SF,Ravens|BAL,Cowboys|DAL,Jets|NYJ,Browns|CLE,Bills|BUF,Chiefs|KC,Eagles|PHI,Dolphins|MIA,Texans|HOU,Lions|DET,Steelers|PIT,Packers|GB,Seahawks|SEA,Saints|NO,Jaguars|JAX,Buccaneers|TB,Vikings|MIN,Bears|CHI,Bengals|CIN",
 };
 
-const PLAYERS = Object.entries(RAW).flatMap(([pos, str]) =>
+const BASE_PLAYERS = Object.entries(RAW).flatMap(([pos, str]) =>
   str.split(",").map((s, i) => {
     const [name, team] = s.split("|");
     return { id: `${pos}-${i}`, name, team, pos, rank: i + 1 };
   })
 );
+const SUPPLEMENTAL_PLAYERS = (playerProjectionsSnapshot.supplementalPlayers || []).map((player, index) => ({
+  ...player,
+  rank: player.rank || 1000 + index,
+}));
+const PLAYERS = BASE_PLAYERS.concat(SUPPLEMENTAL_PLAYERS);
 
 const POS_COLORS = {
   QB: { bg: "#C8102E", light: "#FCE9EC" },
@@ -62,6 +67,8 @@ const STORE_KEY = "auction-draft-v1";
 const AUTO_BACKUP_KEY = "auction-draft-auto-backups-v1";
 const AUTO_BACKUP_INTERVAL = 5 * 60 * 1000;
 const MAX_AUTO_BACKUPS = 12;
+const DEFAULT_RESULTS_BATCH_SIZE = 40;
+const SEARCH_RESULTS_BATCH_SIZE = 12;
 const BANNER_COLLISION_PASSES = 4;
 const BANNER_ANIMATION_MS = (BANNER_COLLISION_PASSES * 2 - 1) * 1000;
 const SYNC_HELP_PROMPT = "Help me connect Load's Draft-o-matic to Google Sheets. Use the draft-sync.gs file in https://github.com/TheFireSays/draft-board. Walk me through opening Apps Script from my Google Sheet, pasting the code, deploying it as a web app with access set to Anyone, and tell me which web app URL to paste into the app's Sheet sync field.";
@@ -86,7 +93,9 @@ export default function AuctionDraftBoard() {
   const [wide, setWide] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(false);
   const [bannerAnimationFinished, setBannerAnimationFinished] = useState(false);
+  const [visibleResultCount, setVisibleResultCount] = useState(DEFAULT_RESULTS_BATCH_SIZE);
   const searchRef = useRef(null);
+  const loadMoreRef = useRef(null);
   const latestDraftRef = useRef({ picks: [], settings: DEFAULT_SETTINGS, customPlayers: [], targetIds: [], playerNotes: {} });
   const autoBackupsRef = useRef([]);
 
@@ -229,7 +238,7 @@ export default function AuctionDraftBoard() {
   // must keep $1 for every other unfilled slot
   const maxBid = slotsLeft > 0 ? Math.max(0, remaining - (slotsLeft - 1)) : 0;
 
-  const results = useMemo(() => {
+  const filteredResults = useMemo(() => {
     const q = query.trim().toLowerCase();
     const available = ALL.filter(p => {
       if (posFilter === "TARGETS" && !targetIdSet.has(p.id)) return false;
@@ -238,7 +247,7 @@ export default function AuctionDraftBoard() {
       if (!q) return true;
       return p.name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q);
     });
-    if (posFilter === "TARGETS") return available.slice(0, q ? 12 : 40);
+    if (posFilter === "TARGETS") return available;
     return available
       .map((player, originalOrder) => ({ player, originalOrder }))
       .sort((a, b) => {
@@ -249,9 +258,28 @@ export default function AuctionDraftBoard() {
         const targetDifference = Number(targetIdSet.has(b.player.id)) - Number(targetIdSet.has(a.player.id));
         return targetDifference || a.originalOrder - b.originalOrder;
       })
-      .map(({ player }) => player)
-      .slice(0, q ? 12 : 40);
+      .map(({ player }) => player);
   }, [query, posFilter, draftedIds, targetIdSet, ALL]);
+
+  const resultBatchSize = query.trim() ? SEARCH_RESULTS_BATCH_SIZE : DEFAULT_RESULTS_BATCH_SIZE;
+  const results = filteredResults.slice(0, visibleResultCount);
+  const hasMoreResults = visibleResultCount < filteredResults.length;
+  const loadMoreResults = () => {
+    setVisibleResultCount(count => Math.min(count + resultBatchSize, filteredResults.length));
+  };
+
+  useEffect(() => {
+    setVisibleResultCount(resultBatchSize);
+  }, [query, posFilter, resultBatchSize]);
+
+  useEffect(() => {
+    if (!hasMoreResults || !loadMoreRef.current || typeof IntersectionObserver === "undefined") return undefined;
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0]?.isIntersecting) loadMoreResults();
+    }, { rootMargin: "320px 0px" });
+    observer.observe(loadMoreRef.current);
+    return () => observer.disconnect();
+  }, [hasMoreResults, visibleResultCount, resultBatchSize, filteredResults.length]);
 
   const lastPick = picks.length ? picks[picks.length - 1] : null;
   const lastPlayer = lastPick ? findP(lastPick.playerId) : null;
@@ -520,7 +548,7 @@ export default function AuctionDraftBoard() {
               const media = playerProjectionsSnapshot.players?.[p.id];
               const teamLabel = media?.teamName || media?.teamAbbrev || p.team;
               return (
-                <button key={p.id} style={{ ...S.row, padding: wide ? "11px 18px" : "10px 14px", gap: wide ? 14 : 11 }} onClick={() => openPlayer(p)}>
+                <button key={p.id} data-player-id={p.id} style={{ ...S.row, padding: wide ? "11px 18px" : "10px 14px", gap: wide ? 14 : 11 }} onClick={() => openPlayer(p)}>
                   <PlayerAvatar player={p} media={media} size={wide ? 62 : 54} />
                   <span style={{ flex: 1, minWidth: 0 }}>
                     <span style={{ display: "block", fontSize: wide ? 20 : 18, fontWeight: 700, lineHeight: 1.2 }}>{p.name}</span>
@@ -533,6 +561,20 @@ export default function AuctionDraftBoard() {
                 </button>
               );
             })}
+            {hasMoreResults && (
+              <div ref={loadMoreRef} style={{ padding: "18px 16px 24px", textAlign: "center" }}>
+                <button
+                  type="button"
+                  onClick={loadMoreResults}
+                  style={{ border: "2px solid #C8CDC6", background: "#fff", borderRadius: 12, padding: "11px 18px", color: "#41493F", fontSize: 15, fontWeight: 750, cursor: "pointer" }}
+                >
+                  Load more players
+                </button>
+                <div aria-live="polite" style={{ marginTop: 8, color: "#7C857A", fontSize: 13 }}>
+                  Showing {results.length} of {filteredResults.length}
+                </div>
+              </div>
+            )}
             {results.length === 0 && posFilter === "TARGETS" && (
               <div style={{ padding: "34px 20px", textAlign: "center", color: "#5C665B", fontSize: 17, lineHeight: 1.5 }}>
                 No available targets yet. Open any player and tap <b>Add to Targets</b>.

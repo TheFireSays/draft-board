@@ -3,11 +3,24 @@ import { readFile, writeFile } from "node:fs/promises";
 const SOURCE_FILE = new URL("../auction-draft-board.jsx", import.meta.url);
 const OUTPUT_FILE = new URL("../player-projections.json", import.meta.url);
 const ESPN_PAGE_URL = "https://fantasy.espn.com/football/players/projections";
+const ESPN_CHEATSHEET_URL = "https://g.espncdn.com/s/ffldraftkit/26/NFL26_CS_PPR300.pdf?adddata=2026CS_PPR300";
+const ESPN_DST_URL = "https://www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26DST/nfl-fantasy-football-draft-rankings-2026-dst-defense";
+const FANTASYPROS_URL = "https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php";
+const YAHOO_URL = "https://sports.yahoo.com/fantasy/article/fantasy-football-rankings-consensus-top-300-drafts-160643679.html";
 const ESPN_API_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leaguedefaults/3?view=kona_player_info";
 const ESPN_TEAMS_API_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026?view=proTeamSchedules_wl";
 const ESPN_HEADSHOT_ROOT = "https://a.espncdn.com/i/headshots/nfl/players/full";
 const ESPN_TEAM_LOGO_ROOT = "https://a.espncdn.com/i/teamlogos/nfl/500";
 const SEASON = 2026;
+const POSITION_BY_ESPN_ID = { 1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "DEF" };
+const POSITION_ORDER = { QB: 0, RB: 1, WR: 2, TE: 3, K: 4, DEF: 5 };
+const REFERENCE_PLAYER_TEAMS = new Map([
+  ["James Conner", "ARI"],
+  ["Jaydon Blue", "PHI"],
+  ["Adam Randall", "BAL"],
+  ["Devin Singletary", "NYG"],
+  ["Devin Neal", "NO"],
+]);
 
 const NAME_ALIASES = new Map([
   ["marquisebrown", "hollywoodbrown"],
@@ -79,34 +92,65 @@ const source = await readFile(SOURCE_FILE, "utf8");
 const boardPlayers = readPlayers(source);
 const espnPlayers = payload.players.map(entry => entry.player).filter(Boolean);
 const espnByName = new Map(espnPlayers.map(player => [normalizeName(player.fullName), player]));
+const espnById = new Map(espnPlayers.map(player => [String(player.id), player]));
 const teamsById = new Map(proTeams.map(team => [team.id, team]));
 const projections = {};
 let matchedPlayers = 0;
 let projectedPlayers = 0;
 
-for (const boardPlayer of boardPlayers) {
-  const normalized = normalizeName(boardPlayer.name);
-  const espnPlayer = espnByName.get(NAME_ALIASES.get(normalized) || normalized);
-  if (!espnPlayer) {
-    projections[boardPlayer.id] = { hasProjection: false, teamAbbrev: boardPlayer.team };
-    continue;
-  }
+let previousSnapshot = {};
+try {
+  previousSnapshot = JSON.parse(await readFile(OUTPUT_FILE, "utf8"));
+} catch { /* first snapshot */ }
 
-  matchedPlayers += 1;
+const seasonProjectionFor = player => player?.stats?.find(stat =>
+  stat.seasonId === SEASON &&
+  stat.statSourceId === 1 &&
+  stat.statSplitTypeId === 0
+);
+const projectedPointsFor = player => Number(seasonProjectionFor(player)?.appliedTotal || 0);
+const boardNames = new Set(boardPlayers.map(player => {
+  const normalized = normalizeName(player.name);
+  return NAME_ALIASES.get(normalized) || normalized;
+}));
+const currentSupplementalPlayers = espnPlayers
+  .filter(player => POSITION_BY_ESPN_ID[player.defaultPositionId])
+  .filter(player => projectedPointsFor(player) > 0 || REFERENCE_PLAYER_TEAMS.has(player.fullName))
+  .filter(player => !boardNames.has(normalizeName(player.fullName)))
+  .map(player => {
+    const pos = POSITION_BY_ESPN_ID[player.defaultPositionId];
+    const proTeam = teamsById.get(player.proTeamId);
+    const name = pos === "DEF" ? player.fullName.replace(/\s+D\/ST$/i, "") : player.fullName;
+    const referenceTeam = REFERENCE_PLAYER_TEAMS.get(player.fullName);
+    return {
+      id: `E-${player.id}`,
+      espnPlayerId: player.id,
+      name,
+      team: referenceTeam || proTeam?.abbrev || "FA",
+      pos,
+      rank: Number(player.draftRanksByRankType?.PPR?.rank || 0) || 9999,
+      ...(referenceTeam ? { referenceSource: "2026 consensus top 300" } : {}),
+    };
+  });
+const supplementalById = new Map(currentSupplementalPlayers.map(player => [player.id, player]));
+for (const previousPlayer of previousSnapshot.supplementalPlayers || []) {
+  if (!supplementalById.has(previousPlayer.id) && !boardNames.has(normalizeName(previousPlayer.name))) {
+    supplementalById.set(previousPlayer.id, previousPlayer);
+  }
+}
+const supplementalPlayers = [...supplementalById.values()].sort((a, b) =>
+  POSITION_ORDER[a.pos] - POSITION_ORDER[b.pos] || a.rank - b.rank || a.name.localeCompare(b.name)
+);
+
+function projectionFor(boardPlayer, espnPlayer) {
+  if (!espnPlayer) return { hasProjection: false, teamAbbrev: boardPlayer.team };
   const proTeam = teamsById.get(espnPlayer.proTeamId);
-  const teamAbbrev = proTeam?.abbrev || boardPlayer.team;
-  const teamName = proTeam ? `${proTeam.location} ${proTeam.name}`.trim() : teamAbbrev;
-  const seasonProjection = espnPlayer.stats?.find(stat =>
-    stat.seasonId === SEASON &&
-    stat.statSourceId === 1 &&
-    stat.statSplitTypeId === 0
-  );
-  const projectedPoints = Number(seasonProjection?.appliedTotal || 0);
+  const teamAbbrev = boardPlayer.referenceSource ? boardPlayer.team : proTeam?.abbrev || boardPlayer.team;
+  const teamName = boardPlayer.referenceSource ? teamAbbrev : proTeam ? `${proTeam.location} ${proTeam.name}`.trim() : teamAbbrev;
+  const projectedPoints = projectedPointsFor(espnPlayer);
   const hasProjection = projectedPoints > 0;
   const rawPprRank = Number(espnPlayer.draftRanksByRankType?.PPR?.rank || 0);
-  if (hasProjection) projectedPlayers += 1;
-
-  projections[boardPlayer.id] = {
+  return {
     espnPlayerId: espnPlayer.id,
     hasProjection,
     teamAbbrev,
@@ -122,9 +166,34 @@ for (const boardPlayer of boardPlayers) {
   };
 }
 
-const coverage = matchedPlayers / boardPlayers.length;
+for (const boardPlayer of boardPlayers) {
+  const normalized = normalizeName(boardPlayer.name);
+  const espnPlayer = espnByName.get(NAME_ALIASES.get(normalized) || normalized);
+  if (!espnPlayer) {
+    projections[boardPlayer.id] = { hasProjection: false, teamAbbrev: boardPlayer.team };
+    continue;
+  }
+
+  matchedPlayers += 1;
+  projections[boardPlayer.id] = projectionFor(boardPlayer, espnPlayer);
+  if (projections[boardPlayer.id].hasProjection) projectedPlayers += 1;
+}
+
+for (const player of supplementalPlayers) {
+  const espnPlayer = espnById.get(String(player.espnPlayerId));
+  if (espnPlayer) {
+    matchedPlayers += 1;
+    projections[player.id] = projectionFor(player, espnPlayer);
+  } else {
+    projections[player.id] = previousSnapshot.players?.[player.id] || { hasProjection: false, teamAbbrev: player.team };
+  }
+  if (projections[player.id].hasProjection) projectedPlayers += 1;
+}
+
+const checkedPlayers = boardPlayers.length + supplementalPlayers.length;
+const coverage = matchedPlayers / checkedPlayers;
 if (coverage < 0.95 || projectedPlayers < 175) {
-  throw new Error(`ESPN coverage was unexpectedly low (${matchedPlayers}/${boardPlayers.length} matched, ${projectedPlayers} projected); existing snapshot was left unchanged`);
+  throw new Error(`ESPN coverage was unexpectedly low (${matchedPlayers}/${checkedPlayers} matched, ${projectedPlayers} projected); existing snapshot was left unchanged`);
 }
 
 const snapshot = {
@@ -134,11 +203,13 @@ const snapshot = {
   season: SEASON,
   scoringFormat: "PPR",
   sourceUrl: ESPN_PAGE_URL,
-  checkedPlayers: boardPlayers.length,
+  referenceSources: [ESPN_CHEATSHEET_URL, ESPN_DST_URL, FANTASYPROS_URL, YAHOO_URL],
+  checkedPlayers,
   matchedPlayers,
   projectedPlayers,
+  supplementalPlayers,
   players: projections,
 };
 
 await writeFile(OUTPUT_FILE, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
-console.log(`Saved ESPN projections for ${projectedPlayers}/${boardPlayers.length} players (${matchedPlayers} name matches)`);
+console.log(`Saved ESPN projections for ${projectedPlayers}/${checkedPlayers} players (${matchedPlayers} ESPN matches; ${supplementalPlayers.length} supplemental players)`);

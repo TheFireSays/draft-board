@@ -29,6 +29,14 @@ a quick look before you start. You only have to do this once.
 That's it. Drafted players disappear from the list so you never pick someone twice.
 Bid prices accept whole-dollar amounts only and cannot be negative.
 
+Keep scrolling within any position list and more players load automatically until
+every match is shown. A **Load more players** button remains available as a backup.
+The defense list includes all 32 NFL teams, and the built-in player pool includes
+every player with a positive projection in the latest ESPN snapshot. It is also
+cross-checked against ESPN's PPR 300 and D/ST rankings, FantasyPros consensus,
+and Yahoo's top 300 so ranked players missing from ESPN's positive-projection
+pool are still included.
+
 **The green bar at the top always shows:**
 
 - **Left to spend** — your money remaining

@@ -34,6 +34,9 @@ if (!source.includes('(prefers-reduced-motion: reduce)')) failures.push("source 
 if (!source.includes('const BANNER_COLLISION_PASSES = 4')) failures.push("football banner is not capped at four collision passes");
 if (!source.includes('bannerAnimationFinished')) failures.push("football banner does not switch to its final still");
 if (!source.includes('targetDifference') || !source.includes('POSITION_ORDER')) failures.push("Targets are not promoted within position lists");
+if (!source.includes('IntersectionObserver') || !source.includes('Load more players')) failures.push("player lists do not progressively load every result");
+if (source.includes('.slice(0, q ? 12 : 40)')) failures.push("player lists still have the old hard result limit");
+if (!source.includes('supplementalPlayers') || !source.includes('BASE_PLAYERS.concat')) failures.push("ESPN supplemental players are not included in the board");
 if (!source.includes('sanitizeBidAmount') || !source.includes('pattern="[0-9]*"')) failures.push("player bids are not constrained to non-negative whole dollars");
 if (!source.includes('"My Pick Order"') || !source.includes('myPickIndex')) failures.push("My Team draft order is not tracked in the roster and CSV");
 if (!entry.includes("localStorage")) failures.push("entry.jsx does not shim storage onto localStorage");

@@ -110,6 +110,15 @@ Point him at these before proposing anything technical:
   without a positive ESPN season projection explicitly say no projection is
   listed. Do not substitute NFL prospect grades or present ESPN data as the
   user's Max bid.
+- **Complete scrolling lists.** Lists initially render in small batches and use
+  an `IntersectionObserver` sentinel to load more as the user scrolls. The
+  visible fallback button must continue to make all remaining results reachable.
+- **ESPN supplemental pool.** `player-projections.json` includes stable `E-<ESPN
+  player ID>` supplemental players for every ESPN player with a positive 2026
+  projection that is absent from `RAW`, including all 32 defenses. Five
+  additional players cover the union of the supplied ESPN, FantasyPros, and
+  Yahoo top-300 references. Preserve previous supplemental entries during
+  refreshes so saved picks remain valid.
 - **Player identity.** Available-player rows and the bid modal use ESPN's current
   full team name. Individual players use ESPN CDN headshots; defenses use ESPN
   team logos. `PlayerAvatar` hides a failed image and leaves the colored
@@ -140,6 +149,9 @@ near the bottom of the component.
   `"POS-index"`, e.g. `"RB-0"`. **Player IDs are positional — if you reorder or
   delete entries in `RAW`, existing saved drafts will point at the wrong players.**
   Append new players to the end of a position's string rather than inserting.
+- `SUPPLEMENTAL_PLAYERS` — projected ESPN players absent from `RAW`, loaded from
+  `player-projections.json` and appended to `PLAYERS`. Their `E-<ESPN ID>` IDs
+  are stable and must not be replaced with positional IDs.
 - `customPlayers` — user-added players, IDs prefixed `"C-"` plus a timestamp.
 - `ALL` — `PLAYERS` + `customPlayers`; this is what search reads from.
 - `findP(id)` — safe lookup; returns an "Unknown player" placeholder rather than
